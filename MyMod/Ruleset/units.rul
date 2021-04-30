@@ -1,0 +1,895 @@
+﻿units:
+
+  - delete: STR_TANK_CANNON
+ 
+  - delete: STR_TANK_ROCKET_LAUNCHER
+ 
+  - delete: STR_TANK_LASER_CANNON
+
+  - delete: STR_HOVERTANK_PLASMA
+
+  - delete: STR_HOVERTANK_LAUNCHER
+ 
+  - delete: MALE_CIVILIAN
+
+  - delete: FEMALE_CIVILIAN
+ 
+  - delete: STR_SECTOID_SOLDIER
+ 
+  - delete: STR_SECTOID_ENGINEER
+
+  - delete: STR_SECTOID_MEDIC
+ 
+  - delete: STR_SECTOID_NAVIGATOR
+ 
+  - delete: STR_SECTOID_LEADER
+ 
+  - delete: STR_SECTOID_COMMANDER
+ 
+  - delete: STR_CYBERDISC_TERRORIST
+ 
+  - delete: STR_FLOATER_SOLDIER
+ 
+  - delete: STR_FLOATER_ENGINEER
+
+  - delete: STR_FLOATER_NAVIGATOR
+ 
+  - delete: STR_FLOATER_MEDIC
+ 
+  - delete: STR_FLOATER_LEADER
+
+  - delete: STR_FLOATER_COMMANDER
+
+  - delete: STR_REAPER_TERRORIST
+ 
+  - delete: STR_SNAKEMAN_SOLDIER
+ 
+  - delete: STR_SNAKEMAN_NAVIGATOR
+
+  - delete: STR_SNAKEMAN_ENGINEER
+ 
+  - delete: STR_SNAKEMAN_LEADER
+
+  - delete: STR_SNAKEMAN_COMMANDER
+  
+  - delete: STR_CHRYSSALID_TERRORIST
+
+  - delete: STR_MUTON_SOLDIER
+ 
+  - delete: STR_MUTON_NAVIGATOR
+
+  - delete: STR_MUTON_ENGINEER
+
+  - delete: STR_SILACOID_TERRORIST
+
+  - delete: STR_CELATID_TERRORIST
+ 
+  - delete: STR_ETHEREAL_SOLDIER
+ 
+  - delete: STR_ETHEREAL_LEADER
+  
+  - delete: STR_ETHEREAL_COMMANDER
+ 
+  - delete: STR_SECTOPOD_TERRORIST
+
+  - delete: STR_ZOMBIE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  - type: STR_WANDERER_PROPHET
+    race: STR_WANDERER
+    rank: STR_LIVE_WANDERER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_WANDERER_SCIENTIST
+    race: STR_WANDERER
+    rank: STR_LIVE_WANDERER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_WANDERER_SOLDIER
+    race: STR_WANDERER
+    rank: STR_LIVE_WANDERER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_WANDERER_ENGINEER
+    race: STR_WANDERER
+    rank: STR_LIVE_WANDERER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_WANDERER_MEDIC
+    race: STR_WANDERER
+    rank: STR_LIVE_WANDERER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_GHOUL_LOST
+    race: STR_FERAL_GHOUL
+    rank: STR_LIVE_GHOUL_FERAL
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_GHOUL
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_GHOUL_WILD
+    race: STR_FERAL_GHOUL
+    rank: STR_LIVE_GHOUL_FERAL
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_GHOUL
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_GHOUL_FERAL
+    race: STR_FERAL_GHOUL
+    rank: STR_LIVE_GHOUL_FERAL
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_GHOUL
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_MUTANT_LOST
+    race: STR_LOST_MUTANT
+    rank: STR_LIVE_LOST_MUTANT
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_MUTANT
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_MUTANT_ANGRY
+    race: STR_LOST_MUTANT
+    rank: STR_LIVE_LOST_MUTANT
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_MUTANT
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_MUTANT_PROPHET
+    race: STR_LOST_MUTANT
+    rank: STR_LIVE_LOST_MUTANT
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_MUTANT
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_MUTANT_COMMANDER
+    race: STR_MUTANT
+    rank: STR_LIVE_MUTANT
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_MUTANT
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_MUTANT_LEADER
+    race: STR_MUTANT
+    rank: STR_LIVE_MUTANT
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_MUTANT
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_MUTANT_SOLDIER
+    race: STR_MUTANT
+    rank: STR_LIVE_MUTANT
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_MUTANT
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_MUTANT_RECRUIT
+    race: STR_MUTANT
+    rank: STR_LIVE_MUTANT
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_MUTANT
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_GHOUL_RECRUIT
+    race: STR_GHOUL
+    rank: STR_LIVE_GHOUL
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_GHOUL
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_GHOUL_SOLDIER
+    race: STR_GHOUL
+    rank: STR_LIVE_GHOUL
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_GHOUL
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+  
+  - type: STR_GHOUL_COMMANDER
+    race: STR_GHOUL
+    rank: STR_LIVE_GHOUL
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_GHOUL
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_GHOUL_LEADER
+    race: STR_GHOUL
+    rank: STR_LIVE_GHOUL
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_GHOUL
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_CHURCH_BISHOP
+    race: STR_CHURCH
+    rank: STR_LIVE_CHURCH
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_CHURCH_PRIEST
+    race: STR_CHURCH
+    rank: STR_LIVE_CHURCH
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_CHURCH_EXORCIST
+    race: STR_CHURCH
+    rank: STR_LIVE_CHURCH
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_CHURCH_FOLLOWER
+    race: STR_CHURCH
+    rank: STR_LIVE_CHURCH
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_RAIDERS_PUNK
+    race: STR_RAIDERS
+    rank: STR_LIVE_RAIDERS
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_RAIDERS_COMMANDER
+    race: STR_RAIDERS
+    rank: STR_LIVE_RAIDERS
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_RAIDERS_LEADER
+    race: STR_RAIDERS
+    rank: STR_LIVE_RAIDERS
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_RAIDERS_RAIDER
+    race: STR_RAIDERS
+    rank: STR_LIVE_RAIDERS
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_ORDER_COMMANDER
+    race: STR_ORDER
+    rank: STR_LIVE_ORDER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_ORDER_LEADER
+    race: STR_ORDER
+    rank: STR_LIVE_ORDER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_ORDER_RECRUIT
+    race: STR_ORDER
+    rank: STR_LIVE_ORDER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_ORDER_SOLDIER
+    race: STR_ORDER
+    rank: STR_LIVE_ORDER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true

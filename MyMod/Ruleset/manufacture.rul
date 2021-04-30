@@ -1,0 +1,234 @@
+manufacture:
+  - delete: STR_FUSION_BALL_LAUNCHER
+  - delete: STR_LASER_CANNON
+  - delete: STR_PLASMA_BEAM
+  - delete: STR_FUSION_BALL
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_HWP_FUSION_BOMB
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_MEDI_KIT
+  - delete: STR_PSI_AMP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_MIND_PROBE
+  - delete: STR_PERSONAL_ARMOR
+  - delete: STR_POWER_SUIT
+  - delete: STR_FLYING_SUIT
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_FIRESTORM
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+
+  #equipment
+  - name: STR_BANDAGE
+    category: STR_EQUIPMENT
+    requiresBaseFunc: [BIOLAB] 
+    requires:
+      - "STR_BASIC_MEDICINE"     
+    space: 1
+    time: 1
+    cost: 0
+
+  - name: STR_BASIC_STIMULANT
+    category: STR_EQUIPMENT
+    requiresBaseFunc: [BIOLAB]
+    requires:
+      - "STR_BASIC_STIMULANT" 
+    space: 1
+    time: 10
+    cost: 0
+
+  - name: STR_STIMPAK
+    category: STR_EQUIPMENT
+    requiresBaseFunc: [BIOLAB]
+    requires:
+      - "STR_STIMPAK" 
+    space: 1
+    time: 10
+    cost: 0
+
+  #melee weapons
+  - name: STR_SHIV
+    category: STR_MELEE_WEAPONS
+    requiresBaseFunc: [WORKSHOP] 
+    requires:
+      - "STR_BASIC_WEAPONS"      
+    space: 1
+    time: 5
+    cost: 0
+
+  - name: STR_SPEAR
+    category: STR_MELEE_WEAPONS
+    requiresBaseFunc: [WORKSHOP] 
+    requires:
+      - "STR_BASIC_WEAPONS"          
+    space: 1
+    time: 10
+    cost: 0
+
+  - name: STR_WOODEN_CLUB
+    category: STR_MELEE_WEAPONS
+    requiresBaseFunc: [WORKSHOP]
+    requires:
+      - "STR_BASIC_WEAPONS"     
+    space: 1
+    time: 5
+    cost: 0
+
+  - name: STR_STONE_HAMMER
+    category: STR_MELEE_WEAPONS
+    requiresBaseFunc: [WORKSHOP]
+    requires:
+      - "STR_BASIC_WEAPONS"     
+    space: 1
+    time: 10
+    cost: 0
+
+  #bows/crossbows
+  - name: STR_BOW
+    category: STR_BOWS/CROSSBOWS
+    requiresBaseFunc: [WORKSHOP] 
+    requires:
+      - "STR_BASIC_WEAPONS"          
+    space: 1
+    time: 20
+    cost: 0
+
+  - name: STR_CROSSBOW
+    category: STR_BOWS/CROSSBOWS
+    requiresBaseFunc: [WORKSHOP] 
+    requires:
+      - "STR_BASIC_WEAPONS"          
+    space: 1
+    time: 25
+    cost: 0
+
+    #rifles
+  - name: STR_PIPE_RIFLE
+    category: STR_RIFLES
+    requiresBaseFunc: [WORKSHOP]  
+    requires:
+      - "STR_GUNPOWDER"         
+    space: 1
+    time: 30
+    cost: 0
+
+    #ammunition
+  - name: STR_BOW_ARROWS
+    category: STR_AMMUNITION
+    requiresBaseFunc: [WORKSHOP]  
+    requires:
+      - "STR_BASIC_WEAPONS"         
+    space: 1
+    time: 1
+    cost: 0
+
+  - name: STR_CROSSBOW_BELTS
+    category: STR_AMMUNITION
+    requiresBaseFunc: [WORKSHOP]   
+    requires:
+      - "STR_BASIC_WEAPONS"        
+    space: 1
+    time: 1
+    cost: 0
+
+  - name: STR_10MM
+    category: STR_AMMUNITION
+    requiresBaseFunc: [WORKSHOP]  
+    requires:
+      - "STR_GUNPOWDER"         
+    space: 1
+    time: 1
+    cost: 0
+
+    #other
+  - name: STR_EDIBLE_MUSHROOM
+    category: STR_OTHER
+    requiresBaseFunc: [FARM]
+    requires:
+      - "STR_EDIBLE_MUSHROOM"     
+    space: 1
+    time: 5
+    cost: 0
+
+  - name: STR_METAL_SCRAPS
+    category: STR_OTHER
+    requiresBaseFunc: [DRILL]
+    requires:
+      - "STR_DRILL"     
+    space: 1
+    time: 5
+    cost: 0
+
+    #armors
+  - name: STR_WASTELANDER_ARMOR
+    category: STR_ARMORS
+    requiresBaseFunc: [WORKSHOP]
+    requires:
+      - "STR_BASIC_PROTECTION"
+    space: 1
+    time: 100
+    cost: 0
+
+  - name: STR_LEATHER_ARMOR
+    category: STR_ARMORS
+    requiresBaseFunc: [WORKSHOP]
+    requires:
+      - "STR_BASIC_PROTECTION_II" 
+    space: 1
+    time: 100
+    cost: 0
+
+  - name: STR_HAZMAT_ARMOR
+    category: STR_ARMORS
+    requiresBaseFunc: [WORKSHOP]
+    requires:
+      - "STR_SPECIALIZED_ARMOR" 
+    space: 1
+    time: 100
+    cost: 0
+
+  - name: STR_HAZMAT_ACID_ARMOR
+    category: STR_ARMORS
+    requiresBaseFunc: [WORKSHOP]
+    requires:
+      - "STR_SPECIALIZED_ARMOR" 
+    space: 1
+    time: 100
+    cost: 0
+
+    #throwables
+  - name: STR_GUNPOWDER_GRENADE
+    category: STR_THROWABLES
+    requiresBaseFunc: [WORKSHOP]
+    requires:
+      - "STR_BASIC_THROWABLES"
+    space: 1
+    time: 50
+    cost: 0
+
+  - name: STR_MOLOTOV_COCTAIL
+    category: STR_THROWABLES
+    requiresBaseFunc: [WORKSHOP]
+    requires:
+      - "STR_BASIC_THROWABLES"
+    space: 1
+    time: 50
+    cost: 0
+  

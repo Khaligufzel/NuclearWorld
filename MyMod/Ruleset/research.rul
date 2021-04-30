@@ -1,0 +1,727 @@
+﻿research:
+  - delete: STR_LASER_WEAPONS
+
+  - delete: STR_MOTION_SCANNER
+
+  - delete: STR_MEDI_KIT
+
+  - delete: STR_PSI_AMP
+
+
+  - delete: STR_HEAVY_PLASMA
+
+  - delete: STR_HEAVY_PLASMA_CLIP
+
+  - delete: STR_PLASMA_RIFLE
+
+  - delete: STR_PLASMA_RIFLE_CLIP
+
+  - delete: STR_PLASMA_PISTOL
+
+  - delete: STR_PLASMA_PISTOL_CLIP
+
+  - delete: STR_BLASTER_LAUNCHER
+
+  - delete: STR_BLASTER_BOMB
+
+  - delete: STR_SMALL_LAUNCHER
+
+  - delete: STR_STUN_BOMB
+
+  - delete: STR_ALIEN_GRENADE
+
+  - delete: STR_ELERIUM_115
+
+  - delete: STR_MIND_PROBE
+
+  - delete: STR_UFO_POWER_SOURCE
+
+  - delete: STR_UFO_NAVIGATION
+  
+  - delete: STR_UFO_CONSTRUCTION
+
+  - delete: STR_ALIEN_FOOD
+
+  - delete: STR_ALIEN_REPRODUCTION
+
+  - delete: STR_ALIEN_ENTERTAINMENT
+
+  - delete: STR_ALIEN_SURGERY
+
+  - delete: STR_EXAMINATION_ROOM
+
+  - delete: STR_ALIEN_ALLOYS
+
+  - delete: STR_NEW_FIGHTER_CRAFT
+
+  - delete: STR_NEW_FIGHTER_TRANSPORTER
+
+
+  - delete: STR_ULTIMATE_CRAFT
+
+  - delete: STR_LASER_PISTOL
+
+
+  - delete: STR_LASER_RIFLE
+
+  - delete: STR_HEAVY_LASER
+
+  - delete: STR_LASER_CANNON
+
+  - delete: STR_PLASMA_CANNON
+
+  - delete: STR_FUSION_MISSILE
+
+  - delete: STR_LASER_DEFENSE
+
+
+  - delete: STR_PLASMA_DEFENSE
+
+ 
+  - delete: STR_FUSION_DEFENSE
+
+ 
+  - delete: STR_GRAV_SHIELD
+
+ 
+  - delete: STR_MIND_SHIELD
+
+  - delete: STR_PSI_LAB
+
+  - delete: STR_HYPER_WAVE_DECODER
+
+  - delete: STR_LEADER_PLUS
+
+  - delete: STR_COMMANDER_PLUS
+
+  - delete: STR_ZOMBIE_CORPSE
+
+  - delete: STR_SECTOID_CORPSE
+
+  - delete: STR_SNAKEMAN_CORPSE
+
+  - delete: STR_ETHEREAL_CORPSE
+
+  - delete: STR_MUTON_CORPSE
+
+  - delete: STR_FLOATER_CORPSE
+
+  - delete: STR_CELATID_CORPSE
+
+  - delete: STR_SILACOID_CORPSE
+ 
+  - delete: STR_CHRYSSALID_CORPSE
+  
+  - delete: STR_REAPER_CORPSE
+
+  - delete: STR_SECTOPOD_CORPSE
+
+  - delete: STR_CYBERDISC_CORPSE
+
+  - delete: STR_ALIEN_ORIGINS
+ 
+  - delete: STR_THE_MARTIAN_SOLUTION
+ 
+  - delete: STR_CYDONIA_OR_BUST
+
+  - delete: STR_PERSONAL_ARMOR
+
+  - delete: STR_POWER_SUIT
+
+  - delete: STR_FLYING_SUIT
+
+  - delete: STR_SECTOID_COMMANDER
+ 
+  - delete: STR_SECTOID_LEADER
+
+  - delete: STR_SECTOID_ENGINEER
+
+  - delete: STR_SECTOID_MEDIC
+
+  - delete: STR_SECTOID_NAVIGATOR
+
+  - delete: STR_SECTOID_SOLDIER
+
+  - delete: STR_SNAKEMAN_COMMANDER
+
+  - delete: STR_SNAKEMAN_LEADER
+
+  - delete: STR_SNAKEMAN_ENGINEER
+
+  - delete: STR_SNAKEMAN_MEDIC
+
+  - delete: STR_SNAKEMAN_NAVIGATOR
+ 
+  - delete: STR_SNAKEMAN_SOLDIER
+
+  - delete: STR_ETHEREAL_COMMANDER
+
+  - delete: STR_ETHEREAL_LEADER
+
+  - delete: STR_ETHEREAL_ENGINEER
+
+  - delete: STR_ETHEREAL_MEDIC
+
+  - delete: STR_ETHEREAL_NAVIGATOR
+ 
+  - delete: STR_ETHEREAL_SOLDIER
+
+  - delete: STR_MUTON_COMMANDER
+
+  - delete: STR_MUTON_LEADER
+
+  - delete: STR_MUTON_ENGINEER
+
+  - delete: STR_MUTON_MEDIC
+
+  - delete: STR_MUTON_NAVIGATOR
+
+  - delete: STR_MUTON_SOLDIER
+
+  - delete: STR_FLOATER_COMMANDER
+
+  - delete: STR_FLOATER_LEADER
+ 
+  - delete: STR_FLOATER_ENGINEER
+
+  - delete: STR_FLOATER_MEDIC
+
+  - delete: STR_FLOATER_NAVIGATOR
+
+  - delete: STR_FLOATER_SOLDIER
+
+  - delete: STR_CELATID_TERRORIST
+
+  - delete: STR_SILACOID_TERRORIST
+
+  - delete: STR_CHRYSSALID_TERRORIST
+
+
+  - delete: STR_REAPER_TERRORIST
+
+  - delete: STR_SECTOPOD_TERRORIST
+
+  - delete: STR_CYBERDISC_TERRORIST
+
+  - delete: STR_PLASMA_CANNON_DEP1
+ 
+  - delete: STR_PLASMA_CANNON_DEP2
+
+  - delete: STR_SECTOID_AUTOPSY
+
+  - delete: STR_SNAKEMAN_AUTOPSY
+ 
+  - delete: STR_ETHEREAL_AUTOPSY
+  
+  - delete: STR_MUTON_AUTOPSY
+
+  - delete: STR_FLOATER_AUTOPSY
+ 
+  - delete: STR_CELATID_AUTOPSY
+
+  - delete: STR_SILACOID_AUTOPSY
+
+  - delete: STR_CHRYSSALID_AUTOPSY
+ 
+  - delete: STR_REAPER_AUTOPSY
+
+  - delete: STR_SECTOPOD_AUTOPSY
+
+  - delete: STR_CYBERDISC_AUTOPSY
+
+  - delete: STR_SECTOID
+
+  - delete: STR_SNAKEMAN
+  
+  - delete: STR_ETHEREAL
+
+  - delete: STR_MUTON
+
+  - delete: STR_FLOATER
+
+  - delete: STR_CELATID
+ 
+  - delete: STR_SILACOID
+
+  - delete: STR_CHRYSSALID
+
+  - delete: STR_REAPER
+ 
+  - delete: STR_SECTOPOD
+
+  - delete: STR_CYBERDISC
+
+  - delete: STR_ALIEN_RESEARCH
+
+  - delete: STR_ALIEN_HARVEST
+
+  - delete: STR_ALIEN_ABDUCTION
+
+  - delete: STR_ALIEN_INFILTRATION
+
+  - delete: STR_ALIEN_BASE
+
+  - delete: STR_ALIEN_TERROR
+
+  - delete: STR_ALIEN_RETALIATION
+
+  - delete: STR_ALIEN_SUPPLY
+
+  - delete: STR_SMALL_SCOUT
+
+  - delete: STR_MEDIUM_SCOUT
+
+  - delete: STR_LARGE_SCOUT
+
+  - delete: STR_HARVESTER
+
+  - delete: STR_ABDUCTOR
+
+  - delete: STR_TERROR_SHIP
+
+  - delete: STR_BATTLESHIP
+
+  - delete: STR_SUPPLY_SHIP
+
+  #main topics
+  - name: STR_OUTSIDE
+    cost: 10
+    points: 50
+
+  - name: STR_WHAT_HAPPENED
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_OUTSIDE
+
+  - name: STR_SETTLERS
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_OUTSIDE
+
+  - name: STR_PREPPERS
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_SETTLERS
+
+  - name: STR_CITIZENS
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_SETTLERS
+
+  - name: STR_RECRUITABLE_WORKERS
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_SETTLERS
+
+  - name: STR_ALLY_OR_ENEMY
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_SETTLERS
+
+  - name: STR_FACTION_CHURCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_ALLY_OR_ENEMY
+    disables: [STR_FACTION_RAIDERS, STR_FACTION_ORDER]
+    unlocks:
+      - STR_WHAT_NOW
+
+  - name: STR_FACTION_RAIDERS
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_ALLY_OR_ENEMY
+    disables: [STR_FACTION_CHURCH, STR_FACTION_ORDER]
+    unlocks:
+      - STR_WHAT_NOW
+
+  - name: STR_FACTION_ORDER
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_ALLY_OR_ENEMY
+    disables: [STR_FACTION_RAIDERS, STR_FACTION_CHURCH]
+    unlocks:
+      - STR_WHAT_NOW
+
+  - name: STR_WANDERER_SOLDIER
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+
+  - name: STR_WANDERER_ENGINEER
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+
+  - name: STR_WANDERER_MEDIC
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+
+  - name: STR_WANDERER_PROPHET
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+
+  - name: STR_WANDERER_SCIENTIST
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+
+  - name: STR_MUTANT_LOST
+    cost: 10
+    points: 50
+    unlocks:
+      - "STR_FACTION_MUTANTS"
+    needItem: true
+    destroyItem: true
+
+  - name: STR_MUTANT_ANGRY
+    cost: 10
+    points: 50
+    unlocks:
+      - "STR_FACTION_MUTANTS"
+    needItem: true
+    destroyItem: true
+
+  - name: STR_MUTANT_PROPHET
+    cost: 10
+    points: 50
+    unlocks:
+      - "STR_FACTION_MUTANTS"
+    needItem: true
+    destroyItem: true
+
+  - name: STR_FACTION_MUTANTS
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_MUTANT_LOST"
+      - "STR_MUTANT_ANGRY"
+      - "STR_MUTANT_PROPHET"
+
+  - name: STR_ALLY_MUTANTS
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_FACTION_MUTANTS
+    disables: [STR_ENEMY_MUTANTS]
+
+  - name: STR_ENEMY_MUTANTS
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_FACTION_MUTANTS
+    disables: [STR_ALLY_MUTANTS]
+
+  - name: STR_GHOUL_LOST
+    cost: 10
+    points: 50
+    unlocks:
+      - STR_FACTION_GHOULS
+    needItem: true
+    destroyItem: true
+
+  - name: STR_GHOUL_FERAL
+    cost: 10
+    points: 50
+    unlocks:
+      - STR_FACTION_GHOULS
+    needItem: true
+    destroyItem: true
+
+  - name: STR_GHOUL_WILD
+    cost: 10
+    points: 50
+    unlocks:
+      - STR_FACTION_GHOULS
+    needItem: true
+    destroyItem: true
+
+  - name: STR_FACTION_GHOULS
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_GHOUL_LOST"
+      - "STR_GHOUL_WILD"
+      - "STR_GHOUL_FERAL"
+
+  - name: STR_ALLY_GHOULS
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_FACTION_GHOULS
+    disables: [STR_ENEMY_GHOULS]
+
+  - name: STR_ENEMY_GHOULS
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_FACTION_GHOULS
+    disables: [STR_ALLY_GHOULS]
+
+  - name: STR_WHAT_NOW
+    cost: 10
+    points: 50
+
+  - name: STR_SKINNING
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_WHAT_NOW"
+
+  - name: STR_BOUNTY_HUNTING
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_WHAT_NOW"
+
+
+  #facilities
+  - name: STR_WORKSHOP
+    cost: 10
+    points: 50
+
+  - name: STR_BIOLAB
+    cost: 10
+    points: 50
+
+  - name: STR_DRILL
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_WORKSHOP"
+
+  #equipment
+  - name: STR_BASIC_MEDICINE
+    cost: 5
+    points: 50
+    dependencies:
+      - "STR_BIOLAB"
+
+  - name: STR_BASIC_STIMULANT
+    cost: 5
+    points: 50
+    dependencies:
+      - "STR_STIMULANT_HERB"
+
+  - name: STR_STIMPAK
+    cost: 5
+    points: 50
+    dependencies:
+      - "STR_HEALING_HERB"
+
+  - name: STR_BANDAGE
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+
+  #other
+  - name: STR_EDIBLE_MUSHROOM
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+
+  - name: STR_STIMULANT_HERB
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_EDIBLE_MUSHROOM
+      - STR_BASIC_MEDICINE
+
+  - name: STR_HEALING_HERB
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_EDIBLE_MUSHROOM
+      - STR_BASIC_MEDICINE
+
+  #corpses
+  - name: STR_MUTANT_CORPSE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+
+  - name: STR_GHOUL_CORPSE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+
+  - name: STR_HUMAN_RAIDER
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true   
+    
+  #weapons
+  - name: STR_BASIC_WEAPONS
+    cost: 10
+    points: 50
+    requiresBaseFunc: [WORKSHOP]
+    dependencies:
+      - "STR_WORKSHOP"
+
+  - name: STR_SHIV
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+
+
+  - name: STR_SPEAR
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+
+
+  - name: STR_STONE_HAMMER
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false    
+
+
+  - name: STR_BOW
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - "STR_BOW_ARROWS"
+
+
+  - name: STR_CROSSBOW
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - "STR_CROSSBOW_BELTS"
+
+
+  - name: STR_PIPE_RIFLE
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - "STR_10MM"
+
+
+  - name: STR_WOODEN_CLUB
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+
+  - name: STR_GUNPOWDER
+    cost: 5
+    points: 50
+    dependencies:
+      - "STR_BASIC_WEAPONS"
+      - "STR_WHAT_NOW"
+
+  - name: STR_BASIC_THROWABLES
+    cost: 5
+    points: 50
+    dependencies:
+      - "STR_GUNPOWDER"
+
+  - name: STR_GUNPOWDER_GRENADE
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+
+  - name: STR_MOLOTOV_COCTAIL
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+
+    #ammunition
+  - name: STR_10MM
+    cost: 0
+    points: 0
+    dependencies:
+      - "STR_PIPE_RIFLE"
+      
+  - name: STR_BOW_ARROWS
+    cost: 0
+    points: 0
+    dependencies:
+      - "STR_BOW"
+
+  - name: STR_CROSSBOW_BELTS
+    cost: 0
+    points: 0
+    dependencies:
+      - "STR_CROSSBOW"
+
+    #armors
+  - name: STR_BASIC_PROTECTION
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_WORKSHOP"
+
+  - name: STR_BASIC_PROTECTION_II
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_BASIC_PROTECTION"
+      - "STR_WHAT_NOW"
+
+  - name: STR_SPECIALIZED_ARMOR
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_BASIC_PROTECTION"
+      - "STR_WHAT_NOW"
+
+  - name: STR_WASTELANDER_ARMOR
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_BASIC_PROTECTION"
+
+   
+  - name: STR_LEATHER_ARMOR
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_BASIC_PROTECTION_II"
+
+
+  - name: STR_HAZMAT_ARMOR
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_SPECIALIZED_ARMOR"
+
+
+  - name: STR_HAZMAT_ACID_ARMOR
+    cost: 10
+    points: 50
+    dependencies:
+      - "STR_SPECIALIZED_ARMOR"
+
+

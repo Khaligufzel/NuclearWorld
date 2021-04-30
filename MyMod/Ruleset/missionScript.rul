@@ -1,0 +1,497 @@
+﻿missionScripts:
+  - delete: recon
+  - delete: invasion
+  - delete: researchRetaliation
+  - delete: beginnerRetaliation
+  - delete: experiencedRetaliation
+  - delete: veteranRetaliation
+  - delete: geniusRetaliation
+  - delete: superhumanRetaliation
+  - delete: recurringTerror
+
+  # - type: testing
+  #   missionWeights:
+  #     # 0 is just for safety
+  #     0:
+  #       STR_TESTING: 100
+  #   regionWeights:
+  #     0:
+  #       TESTING_SITES: 100
+  #   firstMonth: 0
+  #   executionOdds: 100
+  #   startDelay: 0
+
+  - type: wanderer
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_WANDERER: 33
+        STR_FERAL_GHOUL: 33
+        STR_LOST_MUTANT: 34
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+
+  - type: mutantPatrol
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_PATROL_MUTANT: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+     STR_ENEMY_MUTANTS: true
+
+  - type: mutantCaravan
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CARAVAN_MUTANT: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+     STR_ENEMY_MUTANTS: true
+
+  - type: mutantRaid
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_RAID_MUTANT: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+     STR_ENEMY_MUTANTS: true
+
+  - type: ghoulPatrol
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_PATROL_MUTANT: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+     STR_ENEMY_GHOULS: true
+
+  - type: ghoulCaravan
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CARAVAN_MUTANT: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+     STR_ENEMY_GHOULS: true
+
+  - type: ghoulRaid
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_RAID_MUTANT: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_ENEMY_GHOULS: true
+
+  - type: churchCaravan1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CARAVAN_CHURCH: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_RAIDERS: true
+
+  - type: churchCaravan2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CARAVAN_CHURCH: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_ORDER: true
+
+  - type: churchSmallPatrol1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_SMALL_PATROL_CHURCH: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_ORDER: true
+
+  - type: churchSmallPatrol2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_SMALL_PATROL_CHURCH: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_RAIDERS: true
+
+  - type: churchMediumPatrol1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_MEDIUM_PATROL_CHURCH: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_RAIDERS: true
+
+  - type: churchMediumPatrol2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_MEDIUM_PATROL_CHURCH: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_ORDER: true
+
+  - type: churchTerror1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_TERROR_CHURCH: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_ORDER: true
+
+  - type: churchTerror2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_TERROR_CHURCH: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_RAIDERS: true
+
+  - type: raidersCaravan1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CARAVAN_RAIDERS: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_CHURCH: true
+
+  - type: raidersCaravan2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CARAVAN_RAIDERS: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_ORDER: true
+
+  - type: raidersSmallPatrol1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_SMALL_PATROL_RAIDERS: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_ORDER: true
+
+  - type: raidersSmallPatrol2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_SMALL_PATROL_RAIDERS: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_CHURCH: true
+
+  - type: raidersMediumPatrol1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_MEDIUM_PATROL_RAIDERS: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_CHURCH: true
+
+  - type: raidersMediumPatrol2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_MEDIUM_PATROL_RAIDERS: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_ORDER: true
+
+  - type: raidersTerror1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_TERROR_RAIDERS: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_ORDER: true
+
+  - type: raidersTerror2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_TERROR_RAIDERS: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_CHURCH: true
+
+  - type: orderCaravan1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CARAVAN_ORDER: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_CHURCH: true
+
+  - type: orderCaravan2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CARAVAN_ORDER: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_RAIDERS: true
+
+  - type: orderSmallPatrol1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_SMALL_PATROL_ORDER: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_RAIDERS: true
+
+  - type: orderSmallPatrol2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_SMALL_PATROL_ORDER: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_CHURCH: true
+
+  - type: orderMediumPatrol1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_MEDIUM_PATROL_ORDER: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_CHURCH: true
+
+  - type: orderMediumPatrol2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_MEDIUM_PATROL_ORDER: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_RAIDERS: true
+
+  - type: orderTerror1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_TERROR_ORDER: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_RAIDERS: true
+
+
+  - type: orderTerror2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_TERROR_ORDER: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_CHURCH: true
+
+  # - type: feralGhoul
+  #   missionWeights:
+  #     # 0 is just for safety
+  #     0:
+  #       STR_FERAL_GHOUL: 100
+  #   regionWeights:
+  #     0:
+  #       TESTING_SITES: 100
+  #   firstMonth: 0
+  #   executionOdds: 100
+  #   startDelay: 60
+
+
+
+
+  - type: startResearch
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 100
+    lastMonth: -1
+    targetBaseOdds: 100
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    startDelay: 30
+    randomDelay: 30
+
+
+
+  - type: gameStart
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 100
+    lastMonth: 0
+    targetBaseOdds: 100
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    startDelay: 120

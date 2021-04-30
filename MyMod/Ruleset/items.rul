@@ -1,0 +1,839 @@
+items:
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_MIND_PROBE
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_PSI_AMP
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_STINGRAY_LAUNCHER
+
+  - delete: STR_STINGRAY_MISSILES
+
+  - delete: STR_AVALANCHE_LAUNCHER
+
+  - delete: STR_AVALANCHE_MISSILES
+
+  - delete: STR_CANNON
+
+  - delete: STR_CANNON_ROUNDS_X50
+
+  - delete: STR_FUSION_BALL_LAUNCHER
+
+  - delete: STR_FUSION_BALL
+
+  - delete: STR_LASER_CANNON
+
+  - delete: STR_PLASMA_BEAM
+
+  - delete: STR_TANK_CANNON
+
+  - delete: STR_HWP_CANNON_SHELLS
+
+  - delete: STR_TANK_ROCKET_LAUNCHER
+
+  - delete: STR_HWP_ROCKETS
+
+  - delete: STR_TANK_LASER_CANNON
+
+  - delete: STR_HOVERTANK_PLASMA
+
+  - delete: STR_HOVERTANK_LAUNCHER
+
+  - delete: STR_HWP_FUSION_BOMB
+
+  - delete: STR_PISTOL
+
+  - delete: STR_PISTOL_CLIP
+
+  - delete: STR_RIFLE
+
+  - delete: STR_RIFLE_CLIP
+
+  - delete: STR_HEAVY_CANNON
+
+  - delete: STR_HC_AP_AMMO
+
+  - delete: STR_HC_HE_AMMO
+
+  - delete: STR_HC_I_AMMO
+
+  - delete: STR_AUTO_CANNON
+
+  - delete: STR_AC_AP_AMMO
+
+  - delete: STR_AC_HE_AMMO
+
+  - delete: STR_AC_I_AMMO
+
+  - delete: STR_ROCKET_LAUNCHER
+
+  - delete: STR_SMALL_ROCKET
+
+  - delete: STR_LARGE_ROCKET
+
+  - delete: STR_INCENDIARY_ROCKET
+
+  - delete: STR_LASER_PISTOL
+
+  - delete: STR_LASER_RIFLE
+
+  - delete: STR_HEAVY_LASER
+
+  - delete: STR_GRENADE
+
+  - delete: STR_SMOKE_GRENADE
+
+  - delete: STR_PROXIMITY_GRENADE
+
+  - delete: STR_HIGH_EXPLOSIVE
+
+  - delete: STR_MOTION_SCANNER
+
+  - delete: STR_MEDI_KIT
+
+  - delete: STR_PSI_AMP
+
+  - delete: STR_STUN_ROD
+
+  - delete: STR_ELECTRO_FLARE
+
+  #- delete: STR_CORPSE
+
+  #- delete: STR_CORPSE_ARMOR
+
+  - delete: STR_CORPSE_SUIT
+
+  - delete: STR_HEAVY_PLASMA
+
+  - delete: STR_HEAVY_PLASMA_CLIP
+
+  - delete: STR_PLASMA_RIFLE
+
+  - delete: STR_PLASMA_RIFLE_CLIP
+
+  - delete: STR_PLASMA_PISTOL
+
+  - delete: STR_PLASMA_PISTOL_CLIP
+
+  - delete: STR_BLASTER_LAUNCHER
+
+  - delete: STR_BLASTER_BOMB
+
+  - delete: STR_SMALL_LAUNCHER
+
+  - delete: STR_STUN_BOMB
+
+  - delete: STR_ALIEN_GRENADE
+
+  - delete: STR_ELERIUM_115
+
+  - delete: STR_MIND_PROBE
+
+  - delete: STR_SECTOID_CORPSE
+
+  - delete: STR_SNAKEMAN_CORPSE
+
+  - delete: STR_ETHEREAL_CORPSE
+
+  - delete: STR_MUTON_CORPSE
+
+  - delete: STR_FLOATER_CORPSE
+
+  - delete: STR_CELATID_CORPSE
+
+  - delete: STR_SILACOID_CORPSE
+
+  - delete: STR_CHRYSSALID_CORPSE
+
+  - delete: STR_REAPER_CORPSE
+
+  - delete: REAPER_CORPSE_1
+
+  - delete: REAPER_CORPSE_2
+
+  - delete: REAPER_CORPSE_3
+
+  - delete: REAPER_CORPSE_4
+
+  - delete: STR_SECTOPOD_CORPSE
+
+  - delete: SECTOPOD_CORPSE_1
+
+  - delete: SECTOPOD_CORPSE_2
+
+  - delete: SECTOPOD_CORPSE_3
+
+  - delete: SECTOPOD_CORPSE_4
+
+  - delete: STR_CYBERDISC_CORPSE
+
+  - delete: CYBERDISC_CORPSE_1
+
+  - delete: CYBERDISC_CORPSE_2
+
+  - delete: CYBERDISC_CORPSE_3
+
+  - delete: CYBERDISC_CORPSE_4
+
+  - delete: HOVERTANK_CORPSE_1
+
+  - delete: HOVERTANK_CORPSE_2
+
+  - delete: HOVERTANK_CORPSE_3
+
+  - delete: HOVERTANK_CORPSE_4
+
+  - delete: TANK_CORPSE_1
+
+  - delete: TANK_CORPSE_2
+
+  - delete: TANK_CORPSE_3
+
+  - delete: TANK_CORPSE_4
+
+  #- delete: CIVM_CORPSE
+
+  - delete: CIVF_CORPSE
+
+  - delete: STR_UFO_POWER_SOURCE
+
+  - delete: STR_UFO_NAVIGATION
+
+  - delete: STR_UFO_CONSTRUCTION
+
+  - delete: STR_ALIEN_FOOD
+
+  - delete: STR_ALIEN_REPRODUCTION
+
+  - delete: STR_ALIEN_ENTERTAINMENT
+
+  - delete: STR_ALIEN_SURGERY
+
+  - delete: STR_EXAMINATION_ROOM
+
+  #- delete: STR_ALIEN_ALLOYS
+
+  - delete: STR_ALIEN_HABITAT
+
+  - delete: STR_PERSONAL_ARMOR
+
+  - delete: STR_POWER_SUIT
+
+  - delete: STR_FLYING_SUIT
+
+  - delete: CYBERDISC_WEAPON
+
+  - delete: REAPER_WEAPON
+
+  - delete: CHRYSSALID_WEAPON
+
+  - delete: CELATID_WEAPON
+
+  - delete: SILACOID_WEAPON
+
+  - delete: SECTOPOD_WEAPON
+  - delete: ZOMBIE_WEAPON
+
+  - delete: STR_SECTOID_COMMANDER
+
+  - delete: STR_SECTOID_LEADER
+
+  - delete: STR_SECTOID_ENGINEER
+
+  - delete: STR_SECTOID_MEDIC
+
+  - delete: STR_SECTOID_NAVIGATOR
+
+  - delete: STR_SECTOID_SOLDIER
+
+  - delete: STR_SNAKEMAN_COMMANDER
+
+  - delete: STR_SNAKEMAN_LEADER
+
+  - delete: STR_SNAKEMAN_ENGINEER
+
+  - delete: STR_SNAKEMAN_NAVIGATOR
+
+  - delete: STR_SNAKEMAN_SOLDIER
+
+  - delete: STR_ETHEREAL_COMMANDER
+
+  - delete: STR_ETHEREAL_LEADER
+
+  - delete: STR_ETHEREAL_SOLDIER
+
+  - delete: STR_MUTON_ENGINEER
+
+  - delete: STR_MUTON_NAVIGATOR
+
+  - delete: STR_MUTON_SOLDIER
+
+  - delete: STR_FLOATER_COMMANDER
+
+  - delete: STR_FLOATER_LEADER
+
+  - delete: STR_FLOATER_ENGINEER
+
+  - delete: STR_FLOATER_MEDIC
+
+  - delete: STR_FLOATER_NAVIGATOR
+
+  - delete: STR_FLOATER_SOLDIER
+
+  - delete: STR_CELATID_TERRORIST
+
+  - delete: STR_SILACOID_TERRORIST
+
+  - delete: STR_CHRYSSALID_TERRORIST
+
+  - delete: STR_REAPER_TERRORIST
+
+  - delete: STR_SECTOPOD_TERRORIST
+
+  - delete: STR_CYBERDISC_TERRORIST
+
+  #other
+  - type: STR_EDIBLE_MUSHROOM
+    size: 0.1
+    costSell: 500
+    transferTime: 48
+
+  - type: STR_STIMULANT_HERB
+    size: 0.1
+    costSell: 250
+    transferTime: 48
+
+  - type: STR_METAL_SCRAPS
+    size: 0.1
+    costSell: 250
+    transferTime: 48
+
+    #equipment
+  - type: STR_BANDAGE
+    size: 0.1
+    costBuy: 1000
+    costSell: 500
+    transferTime: 48
+    requiresBuy: [STR_SETTLERS]
+    weight: 5
+    bigSprite: 24
+    floorSprite: 24
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    painKiller: 0
+    heal: 1
+    stimulant: 0
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    tuUse: 10
+    flatRate: true
+
+  - type: STR_STIMPAK
+    size: 0.1
+    costSell: 500
+    transferTime: 48
+    weight: 5
+    bigSprite: 24
+    floorSprite: 24
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    painKiller: 0
+    heal: 2
+    stimulant: 0
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    tuUse: 10
+    flatRate: true
+
+  - type: STR_BASIC_STIMULANT
+    size: 0.1
+    costSell: 500
+    transferTime: 48
+    weight: 5
+    bigSprite: 24
+    floorSprite: 24
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    painKiller: 1
+    heal: 0
+    stimulant: 1
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    tuUse: 10
+    flatRate: true
+
+    #corpses
+  - type: STR_MUTANT_CORPSE
+    size: 0.4
+    costSell: 2000
+    weight: 40
+    bigSprite: 50
+    floorSprite: 46
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+  - type: STR_GHOUL_CORPSE
+    size: 0.4
+    costSell: 2000
+    weight: 40
+    bigSprite: 50
+    floorSprite: 46
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+    #live enemies
+  - type: STR_RAIDERS_RAIDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_RAIDERS_PUNK
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_RAIDERS_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_RAIDERS_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_CHURCH_FOLLOWER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_CHURCH_PRIEST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_CHURCH_EXORCIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_CHURCH_BISHOP
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_ORDER_RECRUIT
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_ORDER_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_ORDER_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_ORDER_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_PREPPER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_CITIZEN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+
+  - type: STR_GHOUL_FERAL
+    size: 0.0
+    recover: true
+    liveAlien: true
+    recoverCorpse: true
+    costSell: 10000
+
+  - type: STR_GHOUL_LOST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    recoverCorpse: true
+    costSell: 10000
+
+  - type: STR_GHOUL_WILD
+    size: 0.0
+    recover: true
+    liveAlien: true
+    recoverCorpse: true
+    costSell: 10000
+
+  - type: STR_GHOUL_RECRUIT
+    size: 0.0
+    recover: true
+    liveAlien: true
+    recoverCorpse: true
+    costSell: 10000
+
+  - type: STR_GHOUL_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    recoverCorpse: true
+    costSell: 10000
+
+  - type: STR_GHOUL_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    recoverCorpse: true
+    costSell: 10000
+
+  - type: STR_GHOUL_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    recoverCorpse: true
+    costSell: 10000
+
+  - type: STR_MUTANT_LOST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    recoverCorpse: true
+    costSell: 10000
+
+  - type: STR_MUTANT_ANGRY
+    size: 0.0
+    recover: true
+    liveAlien: true
+    recoverCorpse: true
+    costSell: 10000
+
+  - type: STR_MUTANT_PROPHET
+    size: 0.0
+    recover: true
+    liveAlien: true
+    recoverCorpse: true
+    costSell: 10000
+
+  - type: STR_LOST_MUTANT
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+    #melee weapons
+  - type: STR_SHIV
+    size: 0.1
+    costBuy: 1260
+    costSell: 945
+    weight: 6
+    bigSprite: 602
+    floorSprite: 602
+    handSprite: 602
+    meleeSound: 54
+    power: 30
+    damageType: 7
+    accuracyMelee: 130
+    tuMelee: 30
+    battleType: 3
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    skillApplied: true
+    clipSize: -1
+    requiresBuy: [STR_SETTLERS]
+
+  - type: STR_WOODEN_CLUB
+    size: 0.1
+    costBuy: 1260
+    costSell: 945
+    weight: 6
+    bigSprite: 630
+    floorSprite: 630
+    handSprite: 630
+    meleeSound: 54
+    power: 30
+    damageType: 6
+    accuracyMelee: 130
+    tuMelee: 30
+    battleType: 3
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    skillApplied: true
+    clipSize: -1
+    requiresBuy: [STR_SETTLERS]
+
+  - type: STR_STONE_HAMMER
+    size: 0.1
+    costBuy: 1260
+    costSell: 945
+    weight: 6
+    bigSprite: 610
+    floorSprite: 610
+    handSprite: 610
+    meleeSound: 54
+    power: 40
+    damageType: 6
+    accuracyMelee: 130
+    tuMelee: 30
+    battleType: 3
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    skillApplied: true
+    clipSize: -1
+    requiresBuy: [STR_SETTLERS]
+
+  - type: STR_SPEAR
+    size: 0.1
+    costBuy: 1260
+    costSell: 945
+    weight: 6
+    bigSprite: 620
+    floorSprite: 620
+    handSprite: 620
+    meleeSound: 54
+    power: 40
+    damageType: 7
+    accuracyMelee: 130
+    tuMelee: 30
+    battleType: 3
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    skillApplied: true
+    clipSize: -1
+    requiresBuy: [STR_SETTLERS]
+
+    #throwables
+  - type: STR_GUNPOWDER_GRENADE
+    size: 0.1
+    costSell: 240
+    weight: 3
+    bigSprite: 19
+    floorSprite: 19
+    power: 50
+    damageType: 3
+    battleType: 4
+    blastRadius: 5
+    fuseType: -2
+
+  - type: STR_MOLOTOV_COCTAIL
+    size: 0.1
+    costSell: 240
+    weight: 3
+    bigSprite: 19
+    floorSprite: 19
+    power: 50
+    damageType: 2
+    battleType: 4
+    blastRadius: 5
+    fuseType: -2
+
+    #ranged weapons
+
+    #bows/crossbows
+  - type: STR_BOW
+    size: 0.2
+    costBuy: 3000
+    costSell: 2250
+    weight: 8
+    bigSprite: 640
+    floorSprite: 640
+    handSprite: 640
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_BOW_ARROWS
+    accuracySnap: 50
+    accuracyAimed: 90
+    tuAuto: 0
+    tuSnap: 40
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    requiresBuy: [STR_SETTLERS]
+
+  - type: STR_CROSSBOW
+    size: 0.2
+    costBuy: 3000
+    costSell: 2250
+    weight: 8
+    bigSprite: 650
+    floorSprite: 650
+    handSprite: 650
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_CROSSBOW_BELTS
+    accuracySnap: 70
+    accuracyAimed: 100
+    tuSnap: 50
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    requiresBuy: [STR_SETTLERS]
+
+    #rifles
+  - type: STR_PIPE_RIFLE
+    size: 0.2
+    #costBuy: 3000
+    costSell: 2250
+    weight: 8
+    bigSprite: 660
+    floorSprite: 660
+    handSprite: 660
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_10MM
+    accuracySnap: 60
+    accuracyAimed: 110
+    tuSnap: 60
+    tuAimed: 90
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    #requiresBuy: [STR_SETTLERS]
+
+    #rifles
+  - type: STR_MAKESHIFT_PISTOL
+    size: 0.2
+    #costBuy: 3000
+    costSell: 5000
+    weight: 4
+    bigSprite: 670
+    floorSprite: 670
+    handSprite: 670
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_10MM
+    accuracySnap: 40
+    accuracyAimed: 80
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    #requiresBuy: [STR_SETTLERS]
+
+    #ammunition
+  - type: STR_BOW_ARROWS
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 6
+    bigSprite: 2
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+    requiresBuy: [STR_SETTLERS]
+
+  - type: STR_CROSSBOW_BELTS
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 6
+    bigSprite: 2
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 40
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+    requiresBuy: [STR_SETTLERS]
+
+  - type: STR_10MM
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 3
+    bigSprite: 2
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    requiresBuy: [STR_SETTLERS]
+
+    #armors
+  - type: STR_WASTELANDER_ARMOR
+    categories: [STR_ARMORS]
+    size: 0.5
+    costSell: 80000
+    requires:
+      - STR_WASTELANDER_ARMOR
+
+  - type: STR_LEATHER_ARMOR
+    categories: [STR_ARMORS]
+    size: 0.5
+    costSell: 80000
+
+  - type: STR_HAZMAT_ARMOR
+    categories: [STR_ARMORS]
+    size: 0.5
+    costSell: 80000
+
+  - type: STR_HAZMAT_ACID_ARMOR
+    categories: [STR_ARMORS]
+    size: 0.5
+    costSell: 80000

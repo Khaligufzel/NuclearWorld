@@ -1,0 +1,25 @@
+﻿# events:
+#   - name: STR_TEST_EVENT1
+#     description: STR_TEST_DESCRIPTION1
+#     background: BACK13.SCR
+#     regionList: [STR_NORTH_AMERICA, STR_EUROPE]
+#     city: true
+#     points: 2000
+#     funds: 100000000
+#     itemList: [STR_LASER_PISTOL, STR_SOMETHING_ELSE]
+#     randomItem: false        # false = all items from the list are given, true = only one item is given (randomly)
+#     researchList: [STR_LASER_PISTOL]
+#     interruptResearch: STR_LASER_PISTOL
+#     timer: 1700
+#     timerRandom: 60
+#   - name: STR_TEST_EVENT2
+#     description: STR_TEST_DESCRIPTION2
+#     background: BACK01.SCR
+# #    regionList: []
+# #    city: false
+#     points: 2000
+#     funds: 100000000
+# #    itemList: [YYY]
+# #    interruptResearch: XXX
+#     timer: 2700
+#     timerRandom: 150

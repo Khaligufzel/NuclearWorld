@@ -1,0 +1,62 @@
+﻿alienRaces:
+  - id: STR_WANDERER
+    members:
+      - STR_WANDERER_PROPHET
+      - STR_WANDERER_SCIENTIST
+      - STR_WANDERER_SOLDIER
+      - STR_WANDERER_ENGINEER
+      - STR_WANDERER_MEDIC
+
+  - id: STR_FERAL_GHOUL
+    members:
+      - STR_GHOUL_FERAL
+      - STR_GHOUL_WILD
+      - STR_GHOUL_LOST
+
+  - id: STR_LOST_MUTANT
+    members:
+      - STR_MUTANT_PROPHET
+      - STR_MUTANT_ANGRY
+      - STR_MUTANT_LOST
+
+  - id: STR_MUTANT
+    members:
+      - STR_MUTANT_COMMANDER
+      - STR_MUTANT_LEADER
+      - STR_MUTANT_SOLDIER
+      - STR_MUTANT_SOLDIER
+      - STR_MUTANT_RECRUIT
+      - STR_MUTANT_RECRUIT
+
+  - id: STR_GHOUL
+    members:
+      - STR_GHOUL_COMMANDER
+      - STR_GHOUL_LEADER
+      - STR_GHOUL_SOLDIER
+      - STR_GHOUL_SOLDIER
+      - STR_GHOUL_RECRUIT
+
+  - id: STR_CHURCH
+    members:
+      - STR_CHURCH_BISHOP
+      - STR_CHURCH_EXORCIST
+      - STR_CHURCH_PRIEST
+      - STR_CHURCH_PRIEST
+      - STR_CHURCH_FOLLOWER
+
+  - id: STR_RAIDERS
+    members:
+      - STR_RAIDERS_COMMANDER
+      - STR_RAIDERS_LEADER
+      - STR_RAIDERS_PUNK
+      - STR_RAIDERS_PUNK
+      - STR_RAIDERS_RAIDER
+
+  - id: STR_ORDER
+    members:
+      - STR_ORDER_COMMANDER
+      - STR_ORDER_LEADER
+      - STR_ORDER_SOLDIER
+      - STR_ORDER_SOLDIER
+      - STR_ORDER_RECRUIT
+

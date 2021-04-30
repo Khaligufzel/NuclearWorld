@@ -1,0 +1,51 @@
+﻿startingBase:
+  facilities:
+    - type: STR_ACCESS_LIFT
+      x: 2
+      y: 2
+    - type: STR_HANGAR
+      x: 2
+      y: 0
+    - type: STR_HANGAR
+      x: 4
+      y: 0
+    - type: STR_HANGAR
+      x: 0
+      y: 0
+    - type: STR_LIVING_QUARTERS
+      x: 3
+      y: 2
+    - type: STR_GENERAL_STORES
+      x: 2
+      y: 3
+    - type: STR_LABORATORY
+      x: 3
+      y: 3
+    - type: STR_ALIEN_CONTAINMENT
+      x: 5
+      y: 5
+
+  crafts:
+    - type: STR_CARAVAN
+      id: 1
+      fuel: 9999
+      damage: 0   
+      status: STR_READY  
+
+  randomSoldiers: 10
+  scientists: 1
+  engineers: 1
+
+  items:
+    # STR_EDIBLE_MUSHROOM: 1
+    # STR_MUTANT_CORPSE: 1
+    # STR_GHOUL_CORPSE: 1
+    # STR_WASTELANDER_ARMOR: 1
+    # STR_MUTANT: 1
+    # STR_GHOUL: 1
+    STR_SHIV: 4
+    STR_STONE_HAMMER: 4
+    STR_SPEAR: 4
+    STR_WOODEN_CLUB: 4
+    STR_BOW: 4
+    STR_BOW_ARROWS: 16

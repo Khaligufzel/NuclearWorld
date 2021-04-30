@@ -1,0 +1,121 @@
+﻿facilities:
+
+  - delete: STR_SMALL_RADAR_SYSTEM
+  - delete: STR_LARGE_RADAR_SYSTEM
+
+  - type: STR_ACCESS_LIFT
+    spriteShape: 2
+    spriteFacility: 17
+    lift: true
+    buildCost: 300000
+    buildTime: 1
+    monthlyCost: 0
+    mapName: XBASE_00
+  - type: STR_LIVING_QUARTERS
+    spriteShape: 1
+    spriteFacility: 18
+    buildCost: 400000
+    buildTime: 16
+    monthlyCost: 200000
+    personnel: 15
+    mapName: XBASE_01
+  - type: STR_LABORATORY
+    spriteShape: 1
+    spriteFacility: 19
+    buildCost: 750000
+    buildTime: 26
+    monthlyCost: 350000
+    labs: 5
+    mapName: XBASE_02
+  - type: STR_WORKSHOP
+    requires:
+      - STR_WORKSHOP
+    provideBaseFunc: [WORKSHOP]
+    spriteShape: 1
+    spriteFacility: 20
+    buildCost: 500000
+    buildTime: 1
+    monthlyCost: 250000
+    workshops: 5
+    mapName: XBASE_03
+  - type: STR_GENERAL_STORES
+    spriteShape: 1
+    spriteFacility: 24
+    buildCost: 300000
+    buildTime: 10
+    monthlyCost: 150000
+    storage: 50
+    mapName: XBASE_07
+  - type: STR_ALIEN_CONTAINMENT
+    spriteShape: 1
+    spriteFacility: 25
+    buildCost: 400000
+    buildTime: 18
+    monthlyCost: 200000
+    aliens: 10
+    mapName: XBASE_08
+  - type: STR_PSIONIC_LABORATORY
+    requires:
+      - STR_PSI_LAB
+    spriteShape: 1
+    spriteFacility: 31
+    buildCost: 750000
+    buildTime: 24
+    monthlyCost: 350000
+    psiLabs: 10
+    mapName: XBASE_14
+  - type: STR_HANGAR
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 200000
+    buildTime: 25
+    monthlyCost: 100000
+    crafts: 1
+    storage: 5 #OXCE bonus because of change in handling craft storage
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBASE_16
+    
+  # - type: STR_TEST
+  #   spriteShape: 1
+  #   spriteFacility: 601
+  #   buildCost: 75000
+  #   buildTime: 1
+  #   monthlyCost: 2000
+  #   radarRange: 2000
+  #   radarChance: 100
+  #   mapName: XBASS_24
+
+  - type: STR_BIOLAB
+    requires:
+      - STR_BIOLAB
+    provideBaseFunc: [BIOLAB]
+    spriteShape: 1
+    spriteFacility: 601
+    buildCost: 750000
+    buildTime: 1
+    monthlyCost: 350000
+    mapName: XBASS_24
+    labs: 2
+
+  - type: STR_FARM
+    requires:
+      - STR_EDIBLE_MUSHROOM
+    provideBaseFunc: [FARM]
+    spriteShape: 1
+    spriteFacility: 601
+    buildCost: 75000
+    buildTime: 1
+    monthlyCost: 2000
+    mapName: XBASS_24
+
+  - type: STR_DRILL
+    requires:
+      - STR_DRILL
+    provideBaseFunc: [DRILL]
+    spriteShape: 1
+    spriteFacility: 601
+    buildCost: 500000
+    buildTime: 1
+    monthlyCost: 250000
+    mapName: XBASS_24

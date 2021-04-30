@@ -1,0 +1,244 @@
+﻿ 
+armors:
+  #- delete: STR_NONE_UC
+
+  - delete: STR_PERSONAL_ARMOR_UC
+
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
+
+  - delete: SECTOID_ARMOR0
+
+  - delete: FLOATER_ARMOR0
+
+  - delete: FLOATER_ARMOR1
+
+  - delete: FLOATER_ARMOR2
+
+  - delete: CYBERDISC_ARMOR
+
+  - delete: REAPER_ARMOR
+
+  - delete: SECTOPOD_ARMOR
+
+  - delete: TANK_ARMOR
+
+  - delete: HOVERTANK_ARMOR
+
+  #- delete: CIVM_ARMOR
+
+  - delete: CIVF_ARMOR
+
+  - delete: SNAKEMAN_ARMOR0
+
+  - delete: SNAKEMAN_ARMOR1
+
+  - delete: SNAKEMAN_ARMOR2
+
+  - delete: MUTON_ARMOR0
+
+  - delete: MUTON_ARMOR1
+
+  - delete: MUTON_ARMOR2
+
+  - delete: ETHEREAL_ARMOR0
+
+  - delete: ETHEREAL_ARMOR1
+
+  - delete: ETHEREAL_ARMOR2
+
+  - delete: CHRYSSALID_ARMOR
+
+  - delete: ZOMBIE_ARMOR
+
+  - delete: SILACOID_ARMOR
+
+  - delete: CELATID_ARMOR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #player soldiers
+  - type: STR_WASTELANDER_ARMOR
+    spriteSheet: XCOM_1.PCK
+    spriteInv: MAN_1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_ARMOR
+    storeItem: STR_WASTELANDER_ARMOR
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 30
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+
+  - type: STR_LEATHER_ARMOR
+    spriteSheet: XCOM_1.PCK
+    spriteInv: MAN_1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_ARMOR
+    storeItem: STR_LEATHER_ARMOR
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 30
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+
+  - type: STR_HAZMAT_ARMOR
+    spriteSheet: XCOM_1.PCK
+    spriteInv: MAN_1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_ARMOR
+    storeItem: STR_HAZMAT_ARMOR
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 30
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+
+  - type: STR_HAZMAT_ACID_ARMOR
+    spriteSheet: XCOM_1.PCK
+    spriteInv: MAN_1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_ARMOR
+    storeItem: STR_HAZMAT_ACID_ARMOR
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 30
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+
+  - type: STR_MUTANT
+    spriteSheet: MUTANT.PCK
+    spriteInv: MAN_1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_MUTANT_CORPSE
+    #storeItem: STR_HAZMAT_ACID_ARMOR
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 30
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+
+  - type: STR_GHOUL
+    spriteSheet: MUTANT.PCK
+    spriteInv: MAN_1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_GHOUL_CORPSE
+    #storeItem: STR_HAZMAT_ACID_ARMOR
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 30
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]

@@ -1,0 +1,35 @@
+﻿crafts:
+
+    - delete: STR_SKYRANGER
+    - delete: STR_LIGHTNING
+    - delete: STR_AVENGER
+    - delete: STR_INTERCEPTOR
+    - delete: STR_FIRESTORM
+
+    - type: STR_CARAVAN
+      radarRange: 100
+      radarChance: 0
+      sightRange: 2000
+      sprite: 0
+      fuelMax: 9999
+      damageMax: 150
+      speedMax: 100
+      accel: 1
+      soldiers: 2
+      pilots: 1
+      vehicles: 0
+      costBuy: 10000
+      costRent: 0
+      forceShowInMonthlyCosts: true
+      refuelRate: 9999
+      transferTime: 12
+      score: 10
+      battlescapeTerrainData:
+        name: PLANE
+        mapDataSets:
+          - BLANKS
+          - PLANE
+        mapBlocks:
+          - name: CARAVAN1
+            width: 10
+            length: 20

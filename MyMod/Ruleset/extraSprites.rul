@@ -1,0 +1,50 @@
+﻿extraSprites:
+  - type: BASEBITS.PCK
+    files:
+      601: Resources/Facilities/Placeholder.png
+
+  - type: BIGOBS.PCK
+    files:
+      602: Resources/Weapons/Melee/bigob_Shiv.png
+      610: Resources/Weapons/Melee/bigob_Hammer.png
+      620: Resources/Weapons/Melee/bigob_Spear.png
+      630: Resources/Weapons/Melee/bigob_WoodenClub.png
+      640: Resources/Weapons/Ranged/bigob_Bow.png
+      650: Resources/Weapons/Ranged/bigob_Crossbow.png
+      660: Resources/Weapons/Ranged/bigob_PipeRifle.png
+      670: Resources/Weapons/Ranged/bigob_MakeshiftPistol.png
+
+
+  - type: FLOOROB.PCK
+    files:
+      602: Resources/Weapons/Melee/floorob_Shiv.png
+      610: Resources/Weapons/Melee/floorob_Hammer.png
+      620: Resources/Weapons/Melee/floorob_Spear.png
+      630: Resources/Weapons/Melee/floorob_WoodenClub.png
+      640: Resources/Weapons/Ranged/floorob_Bow.png
+      650: Resources/Weapons/Ranged/floorob_Crossbow.png
+      660: Resources/Weapons/Ranged/floorob_PipeRifle.png
+      670: Resources/Weapons/Ranged/floorob_MakeshiftPistol.png
+
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      602: Resources/Weapons/Melee/handob_Shiv.png
+      610: Resources/Weapons/Melee/handob_Hammer.png
+      620: Resources/Weapons/Melee/handob_Spear.png
+      630: Resources/Weapons/Melee/handob_WoodenClub.png
+      640: Resources/Weapons/Ranged/handob_Bow.png
+      650: Resources/Weapons/Ranged/handob_Crossbow.png
+      660: Resources/Weapons/Ranged/handob_PipeRifle.png
+      670: Resources/Weapons/Ranged/handob_MakeshiftPistol.png
+
+  - type: MUTANT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Races/MUTANT.png

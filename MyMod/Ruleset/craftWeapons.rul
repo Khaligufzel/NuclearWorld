@@ -1,0 +1,12 @@
+craftWeapons:
+  - delete: STR_STINGRAY
+
+  - delete: STR_AVALANCHE
+
+  - delete: STR_CANNON_UC
+
+  - delete: STR_FUSION_BALL_UC
+
+  - delete: STR_LASER_CANNON_UC
+
+  - delete: STR_PLASMA_BEAM_UC

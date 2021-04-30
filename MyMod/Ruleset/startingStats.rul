@@ -1,0 +1,16 @@
+﻿startingTime:
+  second: 0
+  minute: 0
+  hour: 12
+  weekday: 1
+  day: 1
+  month: 1
+  year: 2150
+initialFunding: 500
+performanceBonusFactor: 0
+newBaseUnlockResearch: STR_NOT_POSSIBLE
+hireEngineersUnlockResearch: STR_RECRUITABLE_WORKERS
+hireScientistsUnlockResearch: STR_NOT_POSSIBLE
+enableNewResearchSorting: true
+surrenderMode: 2
+startingDifficulty: 4

@@ -1,0 +1,22 @@
+﻿# eventScripts:
+#   - type: STR_TEST_EVENT_SCRIPT
+#     eventWeights:
+#       0:
+#         STR_TEST_EVENT1: 90
+#         STR_TEST_EVENT2: 10
+#       6:
+#         STR_TEST_EVENT1: 100
+#     firstMonth: 0
+#     lastMonth: 1
+#     executionOdds: 100
+#     minDifficulty: 0
+#     maxDifficulty: 4
+#   - type: STR_TEST_EVENT_SCRIPT2
+#     eventWeights:
+#       0:
+#         STR_TEST_EVENT2: 100
+#     firstMonth: 0
+#     lastMonth: 12
+#     executionOdds: 100
+#     minDifficulty: 0
+#     maxDifficulty: 4

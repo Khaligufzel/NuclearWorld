@@ -1,0 +1,358 @@
+﻿alienMissions:
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_SUPPLY
+
+  # - type: STR_TESTING
+  #   points: 0
+  #   objective: 3
+  #   spawnZone: 0 #Mission zone for terror missions
+  #   raceWeights:
+  #     0:
+  #       STR_SECTOID: 100
+  #   waves:
+  #     - ufo: STR_TESTING_SITE # spawn this site directly
+  #       count: 1
+  #       trajectory: P10
+  #       timer: 0
+  #       objective: true
+
+  - type: STR_WANDERER
+    points: 50
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_WANDERER: 100
+    waves:
+      - ufo: STR_WANDERER_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_FERAL_GHOUL
+    points: 50
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_FERAL_GHOUL: 100
+    waves:
+      - ufo: STR_FERAL_GHOUL_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_LOST_MUTANT
+    points: 50
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_LOST_MUTANT: 100
+    waves:
+      - ufo: STR_LOST_MUTANT_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+
+  - type: STR_PATROL_MUTANT
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_MUTANT: 100
+    waves:
+      - ufo: STR_LOST_MUTANT_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_CARAVAN_MUTANT
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_MUTANT: 100
+    waves:
+      - ufo: STR_CARAVAN_MUTANT_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_RAID_MUTANT
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_MUTANT: 100
+    waves:
+      - ufo: STR_RAID_MUTANT_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_PATROL_GHOUL
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_MUTANT: 100
+    waves:
+      - ufo: STR_LOST_GHOUL_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_CARAVAN_GHOUL
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_MUTANT: 100
+    waves:
+      - ufo: STR_CARAVAN_GHOUL_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_RAID_GHOUL
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_MUTANT: 100
+    waves:
+      - ufo: STR_RAID_GHOUL_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_CARAVAN_CHURCH
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_CHURCH: 100
+    waves:
+      - ufo: STR_CARAVAN_CHURCH_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_SMALL_PATROL_CHURCH
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_CHURCH: 100
+    waves:
+      - ufo: STR_SMALL_PATROL_CHURCH_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_MEDIUM_PATROL_CHURCH
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_CHURCH: 100
+    waves:
+      - ufo: STR_MEDIUM_PATROL_CHURCH_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_TERROR_CHURCH
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_CHURCH: 100
+    waves:
+      - ufo: STR_TERROR_CHURCH_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_CARAVAN_RAIDERS
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_RAIDERS: 100
+    waves:
+      - ufo: STR_CARAVAN_RAIDERS_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_SMALL_PATROL_RAIDERS
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_RAIDERS: 100
+    waves:
+      - ufo: STR_SMALL_PATROL_RAIDERS_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_MEDIUM_PATROL_RAIDERS
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_RAIDERS: 100
+    waves:
+      - ufo: STR_MEDIUM_PATROL_RAIDERS_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_TERROR_RAIDERS
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_RAIDERS: 100
+    waves:
+      - ufo: STR_TERROR_RAIDERS_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_CARAVAN_ORDER
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_RAIDERS: 100
+    waves:
+      - ufo: STR_CARAVAN_ORDER_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_SMALL_PATROL_ORDER
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_RAIDERS: 100
+    waves:
+      - ufo: STR_SMALL_PATROL_ORDER_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_MEDIUM_PATROL_ORDER
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_RAIDERS: 100
+    waves:
+      - ufo: STR_MEDIUM_PATROL_ORDER_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_TERROR_ORDER
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_RAIDERS: 100
+    waves:
+      - ufo: STR_TERROR_ORDER_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_ALIEN_RESEARCH
+    points: 0
+    raceWeights:
+      0:
+        STR_SECTOID: 70
+        STR_SNAKEMAN: 10
+        STR_FLOATER: 20
+      1:
+        STR_SECTOID: 60
+        STR_SNAKEMAN: 10
+        STR_FLOATER: 30
+      3:
+        STR_SECTOID: 30
+        STR_SNAKEMAN: 10
+        STR_MUTON: 30
+        STR_FLOATER: 30
+      6:
+        STR_SECTOID: 20
+        STR_SNAKEMAN: 10
+        STR_MUTON: 40
+        STR_FLOATER: 30
+      9:
+        STR_SECTOID: 30
+        STR_SNAKEMAN: 10
+        STR_MUTON: 30
+        STR_FLOATER: 30
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 9000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_LARGE_SCOUT
+        count: 2
+        trajectory: P4
+        timer: 9000

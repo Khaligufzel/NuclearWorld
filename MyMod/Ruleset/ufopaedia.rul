@@ -1,0 +1,475 @@
+ufopaedia:
+  - delete: STR_SKYRANGER
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+  - delete: STR_INTERCEPTOR
+  - delete: STR_FIRESTORM
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+  - delete: STR_FUSION_BALL_UC
+  - delete: STR_LASER_CANNON_UC
+  - delete: STR_PLASMA_BEAM_UC
+  - delete: STR_TANK_CANNON
+  - delete: STR_TANK_ROCKET_LAUNCHER
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_GRENADE
+  - delete: STR_SMOKE_GRENADE
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_MEDI_KIT
+  - delete: STR_PSI_AMP
+  - delete: STR_STUN_ROD
+  - delete: STR_ELECTRO_FLARE
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_ELERIUM_115
+  - delete: STR_MIND_PROBE
+  - delete: STR_ACCESS_LIFT
+  - delete: STR_LIVING_QUARTERS
+  - delete: STR_LABORATORY
+  - delete: STR_WORKSHOP
+  - delete: STR_SMALL_RADAR_SYSTEM
+  - delete: STR_LARGE_RADAR_SYSTEM
+  - delete: STR_MISSILE_DEFENSES
+  - delete: STR_GENERAL_STORES
+  - delete: STR_ALIEN_CONTAINMENT
+  - delete: STR_LASER_DEFENSES
+  - delete: STR_PLASMA_DEFENSES
+  - delete: STR_FUSION_BALL_DEFENSES
+  - delete: STR_GRAV_SHIELD
+  - delete: STR_MIND_SHIELD
+  - delete: STR_PSIONIC_LABORATORY
+  - delete: STR_HYPER_WAVE_DECODER
+  - delete: STR_HANGAR
+  - delete: STR_SECTOID
+  - delete: STR_SECTOID_AUTOPSY
+  - delete: STR_SNAKEMAN
+  - delete: STR_SNAKEMAN_AUTOPSY
+  - delete: STR_ETHEREAL
+  - delete: STR_ETHEREAL_AUTOPSY
+  - delete: STR_MUTON
+  - delete: STR_MUTON_AUTOPSY
+  - delete: STR_FLOATER
+  - delete: STR_FLOATER_AUTOPSY
+  - delete: STR_CELATID
+  - delete: STR_CELATID_AUTOPSY
+  - delete: STR_SILACOID
+  - delete: STR_SILACOID_AUTOPSY
+  - delete: STR_CHRYSSALID
+  - delete: STR_CHRYSSALID_AUTOPSY
+  - delete: STR_REAPER
+  - delete: STR_REAPER_AUTOPSY
+  - delete: STR_SECTOPOD
+  - delete: STR_SECTOPOD_AUTOPSY
+  - delete: STR_CYBERDISC
+  - delete: STR_CYBERDISC_AUTOPSY
+  - delete: STR_ALIEN_ORIGINS
+  - delete: STR_THE_MARTIAN_SOLUTION
+  - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_SUPPLY
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_UFO_CONSTRUCTION
+  - delete: STR_ALIEN_FOOD
+  - delete: STR_ALIEN_REPRODUCTION
+  - delete: STR_ALIEN_ENTERTAINMENT
+  - delete: STR_ALIEN_SURGERY
+  - delete: STR_EXAMINATION_ROOM
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
+  #research
+  - id: STR_OUTSIDE
+    type_id: 8
+    #image_id: MEDAL_CARREER_KILLS_CPAL
+    text: STR_OUTSIDE_UFOPAEDIA
+    #text_width: 0
+    requires:
+      - STR_OUTSIDE
+    #listOrder: 360110
+
+  - id: STR_WHAT_HAPPENED
+    type_id: 8
+    text: STR_WHAT_HAPPENED_UFOPAEDIA
+    requires:
+      - STR_WHAT_HAPPENED
+
+  - id: STR_SETTLERS
+    type_id: 8
+    text: STR_SETTLERS_UFOPAEDIA
+    requires:
+      - STR_SETTLERS
+
+  - id: STR_PREPPERS
+    type_id: 8
+    text: STR_PREPPERS_UFOPAEDIA
+    requires:
+      - STR_PREPPERS
+
+  - id: STR_CITIZENS
+    type_id: 8
+    text: STR_CITIZENS_UFOPAEDIA
+    requires:
+      - STR_CITIZENS
+
+  - id: STR_RECRUITABLE_WORKERS
+    type_id: 8
+    text: STR_RECRUITABLE_WORKERS_UFOPAEDIA
+    requires:
+      - STR_RECRUITABLE_WORKERS
+
+  - id: STR_ALLY_OR_ENEMY
+    type_id: 8
+    text: STR_ALLY_OR_ENEMY_UFOPAEDIA
+    requires:
+      - STR_ALLY_OR_ENEMY
+
+  - id: STR_FACTION_CHURCH
+    type_id: 8
+    text: STR_FACTION_CHURCH_UFOPAEDIA
+    requires:
+      - STR_FACTION_CHURCH
+
+  - id: STR_FACTION_RAIDERS
+    type_id: 8
+    text: STR_FACTION_RAIDERS_UFOPAEDIA
+    requires:
+      - STR_FACTION_RAIDERS
+
+  - id: STR_FACTION_ORDER
+    type_id: 8
+    text: STR_FACTION_ORDER_UFOPAEDIA
+    requires:
+      - STR_FACTION_ORDER
+
+  - id: STR_FACTION_MUTANTS
+    type_id: 8
+    text: STR_FACTION_MUTANT_UFOPAEDIA
+    requires:
+      - STR_FACTION_MUTANTS
+
+  - id: STR_ALLY_MUTANTS
+    type_id: 8
+    text: STR_ALLY_MUTANTS_UFOPAEDIA
+    requires:
+      - STR_ALLY_MUTANTS
+
+  - id: STR_ENEMY_MUTANTS
+    type_id: 8
+    text: STR_ENEMY_MUTANTS_UFOPAEDIA
+    requires:
+      - STR_ENEMY_MUTANTS
+
+  - id: STR_FACTION_GHOULS
+    type_id: 8
+    text: STR_FACTION_GHOUL_UFOPAEDIA
+    requires:
+      - STR_FACTION_GHOULS
+
+  - id: STR_ALLY_GHOULS
+    type_id: 8
+    text: STR_ALLY_GHOULS_UFOPAEDIA
+    requires:
+      - STR_ALLY_GHOULS
+
+  - id: STR_ENEMY_GHOULS
+    type_id: 8
+    text: STR_ENEMY_GHOULS_UFOPAEDIA
+    requires:
+      - STR_ENEMY_GHOULS
+
+  - id: STR_WHAT_NOW
+    type_id: 8
+    text: STR_WHAT_NOW_UFOPAEDIA
+    requires:
+      - STR_WHAT_NOW
+
+  - id: STR_SKINNING
+    type_id: 8
+    text: STR_SKINNING_UFOPAEDIA
+    requires:
+      - STR_SKINNING
+
+  - id: STR_BOUNTY_HUNTING
+    type_id: 8
+    text: STR_BOUNTY_HUNTING_UFOPAEDIA
+    requires:
+      - STR_BOUNTY_HUNTING
+
+  - id: STR_BASIC_MEDICINE
+    type_id: 8
+    text: STR_BASIC_MEDICINE_UFOPAEDIA
+    requires:
+      - STR_BASIC_MEDICINE
+
+  - id: STR_BASIC_STIMULANT
+    type_id: 8
+    text: STR_BASIC_STIMULANT_UFOPAEDIA
+    requires:
+      - STR_BASIC_STIMULANT
+
+  - id: STR_EDIBLE_MUSHROOM
+    type_id: 8
+    text: STR_EDIBLEMUSHROOM_UFOPAEDIA
+    requires:
+      - STR_EDIBLE_MUSHROOM
+
+  - id: STR_STIMULANT_HERB
+    type_id: 8
+    text: STR_STIMULANT_HERB_UFOPAEDIA
+    requires:
+      - STR_STIMULANT_HERB
+
+  - id: STR_HEALING_HERB
+    type_id: 8
+    text: STR_HEALING_HERB_UFOPAEDIA
+    requires:
+      - STR_HEALING_HERB
+
+  - id: STR_BASIC_WEAPONS
+    type_id: 8
+    text: STR_BASIC_WEAPONS_UFOPAEDIA
+    requires:
+      - STR_BASIC_WEAPONS
+
+  - id: STR_GUNPOWDER
+    type_id: 8
+    text: STR_GUNPOWDER_UFOPAEDIA
+    requires:
+      - STR_GUNPOWDER
+
+  - id: STR_BASIC_THROWABLES
+    type_id: 8
+    text: STR_BASIC_THROWABLES_UFOPAEDIA
+    requires:
+      - STR_BASIC_THROWABLES
+
+  - id: STR_BASIC_PROTECTION
+    type_id: 8
+    text: STR_BASIC_PROTECTION_UFOPAEDIA
+    requires:
+      - STR_BASIC_PROTECTION
+
+  - id: STR_BASIC_PROTECTION_II
+    type_id: 8
+    text: STR_BASIC_PROTECTION_II_UFOPAEDIA
+    requires:
+    - STR_BASIC_PROTECTION_II
+
+  - id: STR_SPECIALIZED_ARMOR
+    type_id: 8
+    text: STR_SPECIALIZED_ARMOR_UFOPAEDIA
+    requires:
+      - STR_SPECIALIZED_ARMOR
+
+
+  
+
+
+  #Facilities
+  - id: STR_WORKSHOP
+    type_id: 6
+    text: STR_WORKSHOP_UFOPAEDIA
+    requires:
+      - STR_WORKSHOP
+
+  - id: STR_BIOLAB
+    type_id: 6
+    text: STR_BIOLAB_UFOPAEDIA
+    requires:
+      - STR_BIOLAB
+
+  - id: STR_DRILL
+    type_id: 6
+    text: STR_DRILL_UFOPAEDIA
+    requires:
+      - STR_DRILL
+
+  #Equipment
+  - id: STR_STIMPAK
+    type_id: 4
+    text: STR_STIMPAK_UFOPAEDIA
+    requires:
+      - STR_STIMPAK
+
+  - id: STR_SHIV
+    type_id: 4
+    text: STR_SHIV_UFOPAEDIA
+    requires:
+      - STR_SHIV
+
+  - id: STR_SPEAR
+    type_id: 4
+    text: STR_SPEAR_UFOPAEDIA
+    requires:
+      - STR_SPEAR
+
+  - id: STR_STONE_HAMMER
+    type_id: 4
+    text: STR_STONE_HAMMER_UFOPAEDIA
+    requires:
+      - STR_STONE_HAMMER
+
+  - id: STR_BOW
+    type_id: 4
+    text: STR_BOW_UFOPAEDIA
+    requires:
+      - STR_BOW
+
+  - id: STR_CROSSBOW
+    type_id: 4
+    text: STR_CROSSBOW_UFOPAEDIA
+    requires:
+      - STR_CROSSBOW
+
+  - id: STR_PIPE_RIFLE
+    type_id: 4
+    text: STR_PIPE_RIFLE_UFOPAEDIA
+    requires:
+      - STR_PIPE_RIFLE
+
+  - id: STR_WOODEN_CLUB
+    type_id: 4
+    text: STR_WOODEN_CLUB_UFOPAEDIA
+    requires:
+      - STR_WOODEN_CLUB
+
+  - id: STR_GUNPOWDER_GRENADE
+    type_id: 4
+    text: STR_GUNPOWDER_GRENADE_UFOPAEDIA
+    requires:
+      - STR_GUNPOWDER_GRENADE
+
+  - id: STR_MOLOTOV_COCTAIL
+    type_id: 4
+    text: STR_MOLOTOV_COCTAIL_UFOPAEDIA
+    requires:
+      - STR_MOLOTOV_COCTAIL
+
+
+  #Corpses
+  - id: STR_MUTANT_CORPSE
+    type_id: 8
+    text: STR_MUTANT_CORPSE_UFOPAEDIA
+    requires:
+      - STR_MUTANT_CORPSE
+
+  - id: STR_GHOUL_CORPSE
+    type_id: 8
+    text: STR_GHOUL_CORPSE_UFOPAEDIA
+    requires:
+      - STR_GHOUL_CORPSE
+
+  #Live enemies
+  - id: STR_HUMAN_RAIDER
+    type_id: 8
+    text: STR_HUMAN_RAIDER_UFOPAEDIA
+    requires:
+      - STR_HUMAN_RAIDER
+
+  - id: STR_GHOUL
+    type_id: 8
+    text: STR_GHOUL_UFOPAEDIA
+    requires:
+      - STR_GHOUL
+
+  - id: STR_MUTANT
+    type_id: 8
+    text: STR_MUTANT_UFOPAEDIA
+    requires:
+      - STR_MUTANT
+
+
+  #Armor
+  - id: STR_WASTELANDER_ARMOR
+    type_id: 5
+    text: STR_WASTELANDER_ARMOR_UFOPAEDIA
+    requires:
+      - STR_WASTELANDER_ARMOR
+
+  - id: STR_LEATHER_ARMOR
+    type_id: 5
+    text: STR_LEATHER_ARMOR_UFOPAEDIA
+    requires:
+      - STR_LEATHER_ARMOR
+
+  - id: STR_HAZMAT_ARMOR
+    type_id: 5
+    text: STR_HAZMAT_ARMOR_UFOPAEDIA
+    requires:
+      - STR_HAZMAT_ARMOR
+
+  - id: STR_HAZMAT_ACID_ARMOR
+    type_id: 5
+    text: STR_HAZMAT_ACID_ARMOR_UFOPAEDIA
+    requires:
+      - STR_HAZMAT_ACID_ARMOR
+
+    #Ammunition
+  - id: STR_10MM
+    type_id: 4
+    text: STR_10MM_UFOPAEDIA
+    requires:
+      - STR_10MM
+
+  - id: STR_BOW_ARROWS
+    type_id: 4
+    text: STR_BOW_ARROWS_UFOPAEDIA
+    requires:
+      - STR_BOW_ARROWS
+
+  - id: STR_CROSSBOW_BELTS
+    type_id: 4
+    text: STR_CROSSBOW_BELTS_UFOPAEDIA
+    requires:
+      - STR_CROSSBOW_BELTS
+
+    

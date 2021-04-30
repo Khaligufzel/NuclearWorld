@@ -1,0 +1,10 @@
+﻿itemCategories:
+  - type: STR_MELEE_WEAPONS
+  - type: STR_BOWS/CROSSBOWS
+  - type: STR_RIFLES
+  - type: STR_EQUIPMENT
+  - type: STR_AMMUNITION
+  - type: STR_ARMORS
+  - type: STR_OTHER
+  - type: STR_THROWABLES
+
