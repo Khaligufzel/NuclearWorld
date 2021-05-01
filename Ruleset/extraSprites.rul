@@ -17,6 +17,7 @@
       690: Resources/Weapons/Ammunition/bigob_10MMClip.png
       700: Resources/Weapons/Ranged/bigob_PrewarSMG.png
       710: Resources/Weapons/Throwables/bigob_Molotov.png
+      720: Resources/Weapons/Throwables/bigob_GunpowderGrenade.png
 
 
   - type: FLOOROB.PCK
@@ -33,6 +34,7 @@
       690: Resources/Weapons/Ammunition/floorob_10MMClip.png
       700: Resources/Weapons/Ranged/floorob_PrewarSMG.png
       710: Resources/Weapons/Throwables/floorob_Molotov.png
+      720: Resources/Weapons/Throwables/floorob_GunpowderGrenade.png
 
   - type: HANDOB.PCK
     height: 40
@@ -50,6 +52,7 @@
       670: Resources/Weapons/Ranged/handob_MakeshiftPistol.png
       700: Resources/Weapons/Ranged/handob_PrewarSMG.png
       710: Resources/Weapons/Throwables/handob_Molotov.png
+      720: Resources/Weapons/Throwables/handob_GunpowderGrenade.png
 
   - type: MUTANT.PCK
     width: 512
