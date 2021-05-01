@@ -148,13 +148,22 @@ manufacture:
     time: 1
     cost: 0
 
+  - name: STR_STONES
+    category: STR_AMMUNITION
+    requiresBaseFunc: [WORKSHOP]  
+    requires:
+      - "STR_BASIC_WEAPONS"         
+    space: 1
+    time: 1
+    cost: 0
+
   - name: STR_10MM
     category: STR_AMMUNITION
     requiresBaseFunc: [WORKSHOP]  
     requires:
       - "STR_GUNPOWDER"         
     space: 1
-    time: 1
+    time: 2
     cost: 0
 
     #other
@@ -220,7 +229,7 @@ manufacture:
     requires:
       - "STR_BASIC_THROWABLES"
     space: 1
-    time: 50
+    time: 25
     cost: 0
 
   - name: STR_MOLOTOV_COCTAIL
@@ -229,6 +238,48 @@ manufacture:
     requires:
       - "STR_BASIC_THROWABLES"
     space: 1
-    time: 50
+    time: 25
     cost: 0
+
+    #mission rewards
+
+  - name: STR_CARAVAN_CRATE
+    category: STR_OTHER    
+    space: 1
+    time: 1
+    cost: 0
+    requiredItems:
+       STR_CARAVAN_CRATE: 1
+    randomProducedItems:
+      -
+        - 20
+        - STR_IRON_SCRAPS: 20
+          STR_EDIBLE_MUSHROOM: 20
+          STR_PIPE_RIFLE: 4
+          STR_10MM: 20
+      -       
+        - 20
+        - STR_IRON_SCRAPS: 20
+          STR_EDIBLE_MUSHROOM: 20
+          STR_MAKESHIFT_PISTOL: 4
+          STR_10MM: 20
+      -
+        - 20
+        - STR_IRON_SCRAPS: 20
+          STR_EDIBLE_MUSHROOM: 20
+          STR_PREWAR_SMG: 2
+          STR_10MM_SMG: 4
+      -
+        - 20
+        - STR_IRON_SCRAPS: 20
+          STR_EDIBLE_MUSHROOM: 20
+          STR_BAG_OF_MONEY: 10
+      -
+        - 20
+        - STR_IRON_SCRAPS: 20
+          STR_EDIBLE_MUSHROOM: 20
+          STR_POUCH_OF_MONEY: 10
+          STR_BANDAGE: 10
+    
+
   

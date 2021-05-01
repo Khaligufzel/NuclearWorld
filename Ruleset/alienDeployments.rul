@@ -47,10 +47,13 @@
         itemSets:
           -
             - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_FERAL_GHOUL_SITE
     alert: STR_FERAL_GHOUL
@@ -72,8 +75,10 @@
         itemSets:          
           - 
             - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_LOST_MUTANT_SITE
     alert: STR_LOST_MUTANT
@@ -95,10 +100,13 @@
         itemSets:
           -
             - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_PATROL_MUTANT_SITE
     alert: STR_PATROL_MUTANT
@@ -120,12 +128,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_CARAVAN_MUTANT_SITE
     alert: STR_CARAVAN_MUTANT
@@ -147,12 +158,18 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
 
   - type: STR_RAID_MUTANT_SITE
     alert: STR_RAID_MUTANT
@@ -175,12 +192,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_PATROL_GHOUL_SITE
     alert: STR_PATROL_GHOUL
@@ -202,12 +222,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_CARAVAN_GHOUL_SITE
     alert: STR_CARAVAN_GHOUL
@@ -229,12 +252,18 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
 
   - type: STR_RAID_GHOUL_SITE
     alert: STR_RAID_GHOUL
@@ -257,12 +286,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS     
+            - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM    
 
   - type: STR_CARAVAN_CHURCH_SITE
     alert: STR_CARAVAN_CHURCH
@@ -285,12 +317,18 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
 
   - type: STR_SMALL_PATROL_CHURCH_SITE
     alert: STR_SMALL_PATROL_CHURCH
@@ -313,12 +351,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS   
+            - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM  
 
   - type: STR_MEDIUM_PATROL_CHURCH_SITE
     alert: STR_MEDIUM_PATROL_CHURCH
@@ -341,12 +382,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS   
+            - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM  
 
   - type: STR_TERROR_CHURCH_SITE
     alert: STR_TERROR_CHURCH
@@ -369,12 +413,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_CARAVAN_RAIDERS_SITE
     alert: STR_CARAVAN_RAIDERS
@@ -397,12 +444,18 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
 
   - type: STR_SMALL_PATROL_RAIDERS_SITE
     alert: STR_SMALL_PATROL_RAIDERS
@@ -425,12 +478,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_MEDIUM_PATROL_RAIDERS_SITE
     alert: STR_MEDIUM_PATROL_RAIDERS
@@ -453,12 +509,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_TERROR_RAIDERS_SITE
     alert: STR_TERROR_RAIDERS
@@ -481,12 +540,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_CARAVAN_ORDER_SITE
     alert: STR_CARAVAN_ORDER
@@ -509,12 +571,18 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM
+            - STR_CARAVAN_CRATE
 
   - type: STR_SMALL_PATROL_ORDER_SITE
     alert: STR_SMALL_PATROL_ORDER
@@ -537,12 +605,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_MEDIUM_PATROL_ORDER_SITE
     alert: STR_MEDIUM_PATROL_ORDER
@@ -565,12 +636,15 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM
 
   - type: STR_TERROR_ORDER_SITE
     alert: STR_TERROR_ORDER
@@ -593,11 +667,14 @@
         itemSets:
           -
             - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
           -
             - STR_BOW
             - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM
         
     
