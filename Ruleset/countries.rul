@@ -64,8 +64,8 @@
 
   - type: STR_CHINA
     fundingBase: 100
-    labelLon: 104.13
-    labelLat: 35.85
+    labelLon: 108.99
+    labelLat: -32.96
     areas:
       - [33, 36, 102, 104]
 
