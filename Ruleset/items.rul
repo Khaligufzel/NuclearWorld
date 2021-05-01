@@ -769,8 +769,8 @@ items:
 
   - type: STR_SLINGSHOT
     size: 0.2
-    costBuy: 3000
-    costSell: 2250
+    costBuy: 100
+    costSell: 50
     weight: 2
     bigSprite: 650
     floorSprite: 650
@@ -788,6 +788,35 @@ items:
     invWidth: 1
     invHeight: 2
     requiresBuy: [STR_SETTLERS]
+
+    #shotguns
+  - type: STR_PREWAR_SHOTGUN
+    size: 0.2
+    costSell: 5000
+    weight: 8
+    bigSprite: 660
+    floorSprite: 660
+    handSprite: 660
+    bulletSprite: 3
+    fireSound: 63
+    compatibleAmmo:
+      - STR_PREWAR_SHOTGUN_SHELLS
+    accuracyCloseQuarters: 100
+    accuracySnap: 110
+    accuracyAimed: 160
+    tuSnap: 32
+    tuAimed: 60
+    aimRange: 12
+    snapRange: 8
+    dropoff: 6
+    shotgunChoke: 70
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+
+
+
 
     #rifles
   - type: STR_PIPE_RIFLE
@@ -882,6 +911,22 @@ items:
     #requiresBuy: [STR_SETTLERS]
 
     #ammunition
+  - type: STR_PREWAR_SHOTGUN_SHELLS
+    size: 0.05
+    costSell: 30
+    weight: 3
+    bigSprite: 690
+    floorSprite: 690
+    hitSound: 13
+    hitAnimation: 26
+    power: 15
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    shotgunBehavior: 1
+    shotgunSpread: 25
+    shotgunPellets: 5
+    
   - type: STR_BOW_ARROWS
     size: 0.1
     costBuy: 200
