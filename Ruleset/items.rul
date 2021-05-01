@@ -299,7 +299,7 @@ items:
 
   - delete: STR_CYBERDISC_TERRORIST
 
-  #other
+  #rewards, resources and other
   - type: STR_EDIBLE_MUSHROOM
     size: 0.1
     costSell: 500
@@ -344,6 +344,12 @@ items:
     size: 0.2
     costSell: 10000
     transferTime: 48
+
+  - type: STR_AMMUNITION_CRATE
+    size: 0.2
+    costSell: 10000
+    transferTime: 48
+
 
   
 
@@ -798,7 +804,7 @@ items:
     floorSprite: 660
     handSprite: 660
     bulletSprite: 3
-    fireSound: 63
+    fireSound: 4
     compatibleAmmo:
       - STR_PREWAR_SHOTGUN_SHELLS
     accuracyCloseQuarters: 100

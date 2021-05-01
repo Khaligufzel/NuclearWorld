@@ -229,10 +229,10 @@ armors:
     corpseBattle:
       - STR_GHOUL_CORPSE
     #storeItem: STR_HAZMAT_ACID_ARMOR
-    frontArmor: 20
-    sideArmor: 15
-    rearArmor: 10
-    underArmor: 10
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 5
+    underArmor: 5
     damageModifier:
       - 1.0
       - 1.0
