@@ -1,6 +1,6 @@
 ﻿ 
 armors:
-  #- delete: STR_NONE_UC
+  - delete: STR_NONE_UC
 
   - delete: STR_PERSONAL_ARMOR_UC
 
@@ -56,29 +56,32 @@ armors:
   - delete: CELATID_ARMOR
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - type: STR_NONE_UC
+    spriteSheet: XCOM_1.PCK
+    spriteInv: MAN_1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_ARMOR
+    storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 10
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
 
   #player soldiers
   - type: STR_WASTELANDER_ARMOR
@@ -91,10 +94,10 @@ armors:
     corpseBattle:
       - STR_CORPSE_ARMOR
     storeItem: STR_WASTELANDER_ARMOR
-    frontArmor: 50
-    sideArmor: 40
-    rearArmor: 30
-    underArmor: 30
+    frontArmor: 40
+    sideArmor: 35
+    rearArmor: 25
+    underArmor: 25
     damageModifier:
       - 1.0
       - 1.0
@@ -118,10 +121,10 @@ armors:
     corpseBattle:
       - STR_CORPSE_ARMOR
     storeItem: STR_LEATHER_ARMOR
-    frontArmor: 50
-    sideArmor: 40
-    rearArmor: 30
-    underArmor: 30
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 15
+    underArmor: 15
     damageModifier:
       - 1.0
       - 1.0
@@ -145,10 +148,10 @@ armors:
     corpseBattle:
       - STR_CORPSE_ARMOR
     storeItem: STR_HAZMAT_ARMOR
-    frontArmor: 50
-    sideArmor: 40
-    rearArmor: 30
-    underArmor: 30
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 10
     damageModifier:
       - 1.0
       - 1.0
@@ -172,10 +175,10 @@ armors:
     corpseBattle:
       - STR_CORPSE_ARMOR
     storeItem: STR_HAZMAT_ACID_ARMOR
-    frontArmor: 50
-    sideArmor: 40
-    rearArmor: 30
-    underArmor: 30
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 10
     damageModifier:
       - 1.0
       - 1.0
@@ -199,10 +202,10 @@ armors:
     corpseBattle:
       - STR_MUTANT_CORPSE
     #storeItem: STR_HAZMAT_ACID_ARMOR
-    frontArmor: 50
-    sideArmor: 40
-    rearArmor: 30
-    underArmor: 30
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 10
     damageModifier:
       - 1.0
       - 1.0
@@ -226,10 +229,10 @@ armors:
     corpseBattle:
       - STR_GHOUL_CORPSE
     #storeItem: STR_HAZMAT_ACID_ARMOR
-    frontArmor: 50
-    sideArmor: 40
-    rearArmor: 30
-    underArmor: 30
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 10
     damageModifier:
       - 1.0
       - 1.0
