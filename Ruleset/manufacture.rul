@@ -167,7 +167,7 @@ manufacture:
     time: 5
     cost: 0
 
-  - name: STR_METAL_SCRAPS
+  - name: STR_IRON_SCRAPS
     category: STR_OTHER
     requiresBaseFunc: [DRILL]
     requires:

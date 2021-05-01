@@ -305,6 +305,11 @@ items:
     costSell: 500
     transferTime: 48
 
+  - type: STR_ANIMAL_SKIN
+    size: 0.1
+    costSell: 1000
+    transferTime: 48
+
   - type: STR_STIMULANT_HERB
     size: 0.1
     costSell: 250
@@ -684,13 +689,16 @@ items:
     size: 0.1
     costSell: 240
     weight: 3
-    bigSprite: 19
-    floorSprite: 19
+    bigSprite: 710
+    handSprite: 710
+    floorSprite: 710
     power: 50
     damageType: 2
     battleType: 4
     blastRadius: 5
     fuseType: -2
+    invWidth: 1
+    invHeight: 2
 
     #ranged weapons
 
