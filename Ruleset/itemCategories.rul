@@ -7,4 +7,5 @@
   - type: STR_ARMORS
   - type: STR_OTHER
   - type: STR_THROWABLES
+  - type: STR_UNPACKING
 

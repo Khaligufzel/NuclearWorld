@@ -242,14 +242,14 @@ manufacture:
     cost: 0
 
     #mission rewards
-
   - name: STR_CARAVAN_CRATE
-    category: STR_OTHER    
+    category: STR_UNPACKING   
     space: 1
     time: 1
-    cost: 0
+    cost: 1000
+    producedItems: {} # empty
     requiredItems:
-       STR_CARAVAN_CRATE: 1
+        STR_CARAVAN_CRATE: 1
     randomProducedItems:
       -
         - 20
