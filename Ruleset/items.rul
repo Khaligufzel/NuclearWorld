@@ -310,10 +310,27 @@ items:
     costSell: 250
     transferTime: 48
 
-  - type: STR_METAL_SCRAPS
+  - type: STR_IRON_SCRAPS
     size: 0.1
     costSell: 250
     transferTime: 48
+
+  - type: STR_BAG_OF_MONEY
+    size: 0.1
+    costSell: 50000
+    transferTime: 48
+
+  - type: STR_POUCH_OF_MONEY
+    size: 0.1
+    costSell: 15000
+    transferTime: 48
+
+  - type: STR_GOLD_INGOT
+    size: 0.1
+    costSell: 100000
+    transferTime: 48
+
+  
 
     #equipment
   - type: STR_BANDAGE
