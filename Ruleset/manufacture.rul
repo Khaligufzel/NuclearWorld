@@ -246,40 +246,69 @@ manufacture:
     category: STR_UNPACKING   
     space: 1
     time: 1
-    cost: 1000
+    cost: 0
     producedItems: {} # empty
     requiredItems:
         STR_CARAVAN_CRATE: 1
     randomProducedItems:
       -
         - 20
-        - STR_IRON_SCRAPS: 20
-          STR_EDIBLE_MUSHROOM: 20
+        - STR_IRON_SCRAPS: 5
+          STR_EDIBLE_MUSHROOM: 5
           STR_PIPE_RIFLE: 4
           STR_10MM: 20
       -       
         - 20
-        - STR_IRON_SCRAPS: 20
-          STR_EDIBLE_MUSHROOM: 20
+        - STR_IRON_SCRAPS: 5
+          STR_EDIBLE_MUSHROOM: 5
           STR_MAKESHIFT_PISTOL: 4
           STR_10MM: 20
       -
         - 20
-        - STR_IRON_SCRAPS: 20
-          STR_EDIBLE_MUSHROOM: 20
+        - STR_IRON_SCRAPS: 5
+          STR_EDIBLE_MUSHROOM: 5
           STR_PREWAR_SMG: 2
           STR_10MM_SMG: 4
+          STR_ANIMAL_SKIN: 5
       -
         - 20
-        - STR_IRON_SCRAPS: 20
-          STR_EDIBLE_MUSHROOM: 20
+        - STR_IRON_SCRAPS: 5
+          STR_EDIBLE_MUSHROOM: 5
           STR_BAG_OF_MONEY: 10
       -
         - 20
-        - STR_IRON_SCRAPS: 20
-          STR_EDIBLE_MUSHROOM: 20
+        - STR_IRON_SCRAPS: 5
+          STR_EDIBLE_MUSHROOM: 5
           STR_POUCH_OF_MONEY: 10
           STR_BANDAGE: 10
+
+  - name: STR_WEAPON_CRATE
+    category: STR_UNPACKING   
+    space: 1
+    time: 1
+    cost: 0
+    producedItems: {} # empty
+    requiredItems:
+        STR_WEAPON_CRATE: 1
+    randomProducedItems:
+      -
+        - 20
+        - STR_PIPE_RIFLE: 4
+          STR_10MM: 20
+      -       
+        - 20
+        - STR_MAKESHIFT_PISTOL: 4
+          STR_10MM: 20
+      -
+        - 20
+        - STR_PREWAR_SMG: 2
+          STR_10MM_SMG: 4
+      -
+        - 20
+        - STR_BOW: 4
+          STR_BOW_ARROWS: 8
+          STR_CROSSBOW: 4
+          STR_CROSSBOW_BELTS: 8
     
 
   
