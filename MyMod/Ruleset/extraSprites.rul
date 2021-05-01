@@ -13,6 +13,9 @@
       650: Resources/Weapons/Ranged/bigob_Crossbow.png
       660: Resources/Weapons/Ranged/bigob_PipeRifle.png
       670: Resources/Weapons/Ranged/bigob_MakeshiftPistol.png
+      680: Resources/Weapons/Ammunition/bigob_Quiver.png
+      690: Resources/Weapons/Ammunition/bigob_10MMClip.png
+      700: Resources/Weapons/Ranged/bigob_PrewarSMG.png
 
 
   - type: FLOOROB.PCK
@@ -25,6 +28,9 @@
       650: Resources/Weapons/Ranged/floorob_Crossbow.png
       660: Resources/Weapons/Ranged/floorob_PipeRifle.png
       670: Resources/Weapons/Ranged/floorob_MakeshiftPistol.png
+      680: Resources/Weapons/Ammunition/floorob_Quiver.png
+      690: Resources/Weapons/Ammunition/floorob_10MMClip.png
+      700: Resources/Weapons/Ranged/floorob_PrewarSMG.png
 
   - type: HANDOB.PCK
     height: 40
@@ -40,6 +46,7 @@
       650: Resources/Weapons/Ranged/handob_Crossbow.png
       660: Resources/Weapons/Ranged/handob_PipeRifle.png
       670: Resources/Weapons/Ranged/handob_MakeshiftPistol.png
+      700: Resources/Weapons/Ranged/handob_PrewarSMG.png
 
   - type: MUTANT.PCK
     width: 512

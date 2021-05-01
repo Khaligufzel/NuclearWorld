@@ -719,7 +719,7 @@ items:
     tuAimed: 80
     battleType: 1
     twoHanded: true
-    invWidth: 2
+    invWidth: 1
     invHeight: 3
     requiresBuy: [STR_SETTLERS]
 
@@ -746,7 +746,7 @@ items:
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
 
-    #rifles
+    #pistols
   - type: STR_MAKESHIFT_PISTOL
     size: 0.2
     #costBuy: 3000
@@ -769,20 +769,46 @@ items:
     invHeight: 2
     #requiresBuy: [STR_SETTLERS]
 
+  - type: STR_PREWAR_SMG
+    size: 0.2
+    #costBuy: 3000
+    costSell: 5000
+    weight: 4
+    bigSprite: 700
+    floorSprite: 700
+    handSprite: 700
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_10MM_SMG
+    accuracyAuto: 25
+    accuracySnap: 30
+    accuracyAimed: 60
+    tuAuto: 45
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    #requiresBuy: [STR_SETTLERS]
+
     #ammunition
   - type: STR_BOW_ARROWS
     size: 0.1
     costBuy: 200
     costSell: 150
     weight: 6
-    bigSprite: 2
-    floorSprite: 2
+    bigSprite: 680
+    floorSprite: 680
     hitSound: 22
     hitAnimation: 26
     power: 30
     damageType: 1
     clipSize: 6
     battleType: 2
+    invWidth: 1
+    invHeight: 2
     requiresBuy: [STR_SETTLERS]
 
   - type: STR_CROSSBOW_BELTS
@@ -790,17 +816,34 @@ items:
     costBuy: 200
     costSell: 150
     weight: 6
-    bigSprite: 2
-    floorSprite: 2
+    bigSprite: 680
+    floorSprite: 680
     hitSound: 22
     hitAnimation: 26
     power: 40
     damageType: 1
     clipSize: 6
     battleType: 2
+    invWidth: 1
+    invHeight: 2
     requiresBuy: [STR_SETTLERS]
 
   - type: STR_10MM
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 3
+    bigSprite: 690
+    floorSprite: 690
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    requiresBuy: [STR_SETTLERS]
+
+  - type: STR_10MM_SMG
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -811,9 +854,9 @@ items:
     hitAnimation: 26
     power: 30
     damageType: 1
-    clipSize: 8
+    clipSize: 30
     battleType: 2
-    requiresBuy: [STR_SETTLERS]
+    #requiresBuy: [STR_SETTLERS]
 
     #armors
   - type: STR_WASTELANDER_ARMOR
