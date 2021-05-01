@@ -67,7 +67,7 @@
     labelLon: 108.99
     labelLat: -32.96
     areas:
-      - [33, 36, 102, 104]
+      - [107, 109, -31, -32]
 
   - type: STR_INDIA
     fundingBase: 100
