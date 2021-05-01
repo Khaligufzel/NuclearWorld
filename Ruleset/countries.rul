@@ -71,10 +71,10 @@
 
   - type: STR_INDIA
     fundingBase: 100
-    labelLon: 82.77
-    labelLat: 21.12
+    labelLon: 79.50
+    labelLat: -22.98
     areas:
-      - [80, 85, 19, 23]
+      - [79, 80, -22, -23]
 
   - type: STR_IRAQ
     fundingBase: 100
