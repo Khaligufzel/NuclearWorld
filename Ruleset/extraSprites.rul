@@ -25,6 +25,8 @@
       770: Resources/Equipment/bigob_Stimpak.png
       780: Resources/Equipment/bigob_MegaStimpak.png
       790: Resources/Equipment/bigob_InhaledStimulant.png
+      800: Resources/Weapons/Ammunition/bigob_308RifleClip.png
+      810: Resources/Weapons/Ammunition/bigob_PrewarShotgunShells.png
 
   - type: FLOOROB.PCK
     files:
@@ -48,6 +50,8 @@
       770: Resources/Equipment/floorob_Stimpak.png
       780: Resources/Equipment/floorob_MegaStimpak.png
       790: Resources/Equipment/floorob_InhaledStimulant.png
+      800: Resources/Weapons/Ammunition/floorob_308RifleClip.png
+      810: Resources/Weapons/Ammunition/floorob_PrewarShotgunShells.png
 
   - type: HANDOB.PCK
     height: 40

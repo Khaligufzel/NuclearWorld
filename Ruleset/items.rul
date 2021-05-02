@@ -1067,8 +1067,8 @@ items:
     size: 0.05
     costSell: 30
     weight: 3
-    bigSprite: 690
-    floorSprite: 690
+    bigSprite: 810
+    floorSprite: 810
     hitSound: 13
     hitAnimation: 26
     power: 15
@@ -1150,8 +1150,8 @@ items:
     costBuy: 200
     costSell: 150
     weight: 3
-    bigSprite: 690
-    floorSprite: 690
+    bigSprite: 800
+    floorSprite: 800
     hitSound: 22
     hitAnimation: 26
     power: 32
