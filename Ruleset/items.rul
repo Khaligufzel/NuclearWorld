@@ -314,14 +314,20 @@ items:
     costSell: 500
     transferTime: 48
 
-  - type: STR_ANIMAL_SKIN
+  - type: STR_HEALING_HERB
     size: 0.1
-    costSell: 1000
+    costSell: 250
     transferTime: 48
 
   - type: STR_STIMULANT_HERB
     size: 0.1
     costSell: 250
+    transferTime: 48
+
+
+  - type: STR_ANIMAL_SKIN
+    size: 0.1
+    costSell: 1000
     transferTime: 48
 
   - type: STR_IRON_SCRAPS

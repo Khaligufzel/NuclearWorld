@@ -58,7 +58,9 @@ manufacture:
     category: STR_EQUIPMENT
     requiresBaseFunc: [BIOLAB]
     requires:
-      - "STR_BASIC_STIMULANT" 
+      - "STR_BASIC_STIMULANT"
+    requiredItems:
+        STR_STIMULANT_HERB: 1 
     space: 1
     time: 10
     cost: 0
@@ -68,9 +70,13 @@ manufacture:
     requiresBaseFunc: [BIOLAB]
     requires:
       - "STR_STIMPAK" 
+    requiredItems:
+        STR_HEALING_HERB: 1
     space: 1
     time: 10
     cost: 0
+
+    
 
 
 #   ___ ___    ___  _        ___    ___ 
@@ -234,6 +240,24 @@ manufacture:
     requiresBaseFunc: [FARM]
     requires:
       - "STR_EDIBLE_MUSHROOM"     
+    space: 1
+    time: 5
+    cost: 0
+
+  - name: STR_STIMULANT_HERB
+    category: STR_OTHER
+    requiresBaseFunc: [FARM]
+    requires:
+      - "STR_STIMULANT_HERB"     
+    space: 1
+    time: 5
+    cost: 0
+
+  - name: STR_HEALING_HERB
+    category: STR_OTHER
+    requiresBaseFunc: [FARM]
+    requires:
+      - "STR_HEALING_HERB"     
     space: 1
     time: 5
     cost: 0
