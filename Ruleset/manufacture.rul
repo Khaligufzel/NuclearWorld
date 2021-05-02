@@ -430,6 +430,13 @@ manufacture:
         - 20
         - STR_PREWAR_SHOTGUN: 1
           STR_PREWAR_SHOTGUN_SHELLS: 2
+      -
+        - 20
+        - STR_GUNPOWDER_GRENADE: 2
+      -
+        - 20
+        - STR_MOLOTOV_COCTAIL: 2
+
 
   - name: STR_AMMUNITION_CRATE
     category: STR_UNPACKING   

@@ -108,6 +108,7 @@
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
 
+
   - type: STR_PATROL_MUTANT_SITE
     alert: STR_PATROL_MUTANT
     width: 50
@@ -129,14 +130,17 @@
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
 
   - type: STR_CARAVAN_MUTANT_SITE
     alert: STR_CARAVAN_MUTANT
@@ -193,14 +197,17 @@
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
             - STR_EDIBLE_MUSHROOM
+            - STR_AMMUNITION_CRATE
 
   - type: STR_PATROL_GHOUL_SITE
     alert: STR_PATROL_GHOUL
@@ -223,14 +230,17 @@
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
             - STR_EDIBLE_MUSHROOM
+            - STR_AMMUNITION_CRATE
 
   - type: STR_CARAVAN_GHOUL_SITE
     alert: STR_CARAVAN_GHOUL
@@ -260,8 +270,9 @@
             - STR_EDIBLE_MUSHROOM
             - STR_CARAVAN_CRATE
           - 
-            - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
             - STR_CARAVAN_CRATE
 
@@ -287,14 +298,18 @@
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
-            - STR_EDIBLE_MUSHROOM    
+            - STR_EDIBLE_MUSHROOM
+            - STR_AMMUNITION_CRATE    
 
   - type: STR_CARAVAN_CHURCH_SITE
     alert: STR_CARAVAN_CHURCH
@@ -352,14 +367,18 @@
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_PREWAR_SHOTGUN_SHELLS
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
-            - STR_EDIBLE_MUSHROOM  
+            - STR_EDIBLE_MUSHROOM
+            - STR_AMMUNITION_CRATE  
 
   - type: STR_MEDIUM_PATROL_CHURCH_SITE
     alert: STR_MEDIUM_PATROL_CHURCH
@@ -374,8 +393,8 @@
     duration: [4, 10]
     data:
       - alienRank: 4
-        lowQty: 3
-        highQty: 3
+        lowQty: 6
+        highQty: 9
         dQty: 3
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -383,14 +402,21 @@
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
+            - STR_AMMUNITION_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
-            - STR_EDIBLE_MUSHROOM  
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          -
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_WEAPON_CRATE  
 
   - type: STR_TERROR_CHURCH_SITE
     alert: STR_TERROR_CHURCH
@@ -405,23 +431,32 @@
     duration: [4, 10]
     data:
       - alienRank: 4
-        lowQty: 3
-        highQty: 3
-        dQty: 3
+        lowQty: 6
+        highQty: 9
+        dQty: 5
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           - 
-            - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS 
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG 
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+
 
   - type: STR_CARAVAN_RAIDERS_SITE
     alert: STR_CARAVAN_RAIDERS
@@ -477,16 +512,19 @@
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
-            - STR_EDIBLE_MUSHROOM
+            - STR_SLINGSHOT
+            - STR_STONES
+            - STR_WEAPON_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
 
   - type: STR_MEDIUM_PATROL_RAIDERS_SITE
     alert: STR_MEDIUM_PATROL_RAIDERS
@@ -501,8 +539,8 @@
     duration: [4, 10]
     data:
       - alienRank: 4
-        lowQty: 3
-        highQty: 3
+        lowQty: 6
+        highQty: 6
         dQty: 3
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -510,14 +548,18 @@
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+            - STR_STIMPAK
           -
             - STR_BOW
             - STR_BOW_ARROWS
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
 
   - type: STR_TERROR_RAIDERS_SITE
     alert: STR_TERROR_RAIDERS
@@ -532,8 +574,8 @@
     duration: [4, 10]
     data:
       - alienRank: 4
-        lowQty: 3
-        highQty: 3
+        lowQty: 6
+        highQty: 9
         dQty: 3
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -541,14 +583,19 @@
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+            - STR_GUNPOWDER_GRENADE
           -
             - STR_BOW
             - STR_BOW_ARROWS
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+            - STR_GUNPOWDER_GRENADE
           - 
-            - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS 
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP 
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
 
   - type: STR_CARAVAN_ORDER_SITE
     alert: STR_CARAVAN_ORDER
@@ -565,12 +612,12 @@
       - alienRank: 4
         lowQty: 3
         highQty: 3
-        dQty: 3
+        dQty: 6
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
+            - STR_SPEAR
             - STR_EDIBLE_MUSHROOM
             - STR_CARAVAN_CRATE
           -
@@ -579,8 +626,8 @@
             - STR_EDIBLE_MUSHROOM
             - STR_CARAVAN_CRATE
           - 
-            - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS 
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS 
             - STR_EDIBLE_MUSHROOM
             - STR_CARAVAN_CRATE
 
@@ -606,14 +653,17 @@
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
 
   - type: STR_MEDIUM_PATROL_ORDER_SITE
     alert: STR_MEDIUM_PATROL_ORDER
@@ -630,20 +680,21 @@
       - alienRank: 4
         lowQty: 3
         highQty: 3
-        dQty: 3
+        dQty: 6
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
+            - STR_PIPE_RIFLE
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
             - STR_EDIBLE_MUSHROOM
           - 
-            - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS 
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS 
             - STR_EDIBLE_MUSHROOM
 
   - type: STR_TERROR_ORDER_SITE
@@ -659,9 +710,9 @@
     duration: [4, 10]
     data:
       - alienRank: 4
-        lowQty: 3
-        highQty: 3
-        dQty: 3
+        lowQty: 6
+        highQty: 9
+        dQty: 6
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
