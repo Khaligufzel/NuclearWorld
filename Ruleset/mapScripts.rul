@@ -1,0 +1,21 @@
+﻿mapScripts:
+   - type: TEST
+     commands:
+     - type: addCraft
+     - type: addUFO
+    #  - type: addLine
+    #    label: 1
+    #    direction: horizontal
+    #    executionChances: 33
+    #  - type: addLine
+    #    label: 2
+    #    direction: vertical
+    #    conditionals: -1
+    #    executionChances: 50
+    #  - type: addLine
+    #    conditionals: [-1, -2]
+    #    direction: both
+     - type: addBlock
+       size: 2
+       executions: 3
+     - type: fillArea

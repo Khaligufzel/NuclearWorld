@@ -19,7 +19,8 @@
       710: Resources/Weapons/Throwables/bigob_Molotov.png
       720: Resources/Weapons/Throwables/bigob_GunpowderGrenade.png
       730: Resources/Weapons/Ranged/bigob_Slingshot.png
-
+      740: Resources/Weapons/Ranged/bigob_PrewarShotgun.png
+      750: Resources/Weapons/Ranged/bigob_HuntingRifle.png
 
   - type: FLOOROB.PCK
     files:
@@ -37,6 +38,8 @@
       710: Resources/Weapons/Throwables/floorob_Molotov.png
       720: Resources/Weapons/Throwables/floorob_GunpowderGrenade.png
       730: Resources/Weapons/Ranged/floorob_Slingshot.png
+      740: Resources/Weapons/Ranged/floorob_PrewarShotgun.png
+      750: Resources/Weapons/Ranged/floorob_HuntingRifle.png
 
   - type: HANDOB.PCK
     height: 40
@@ -56,6 +59,8 @@
       710: Resources/Weapons/Throwables/handob_Molotov.png
       720: Resources/Weapons/Throwables/handob_GunpowderGrenade.png
       730: Resources/Weapons/Ranged/handob_Slingshot.png
+      740: Resources/Weapons/Ranged/handob_PrewarShotgun.png
+      750: Resources/Weapons/Ranged/handob_HuntingRifle.png
 
   - type: MUTANT.PCK
     width: 512

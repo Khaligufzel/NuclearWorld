@@ -902,9 +902,9 @@ items:
     size: 0.2
     costSell: 5000
     weight: 8
-    bigSprite: 660
-    floorSprite: 660
-    handSprite: 660
+    bigSprite: 740
+    floorSprite: 740
+    handSprite: 740
     bulletSprite: 3
     fireSound: 4
     compatibleAmmo:
@@ -960,9 +960,9 @@ items:
     #costBuy: 3000
     costSell: 5000
     weight: 8
-    bigSprite: 660
-    floorSprite: 660
-    handSprite: 660
+    bigSprite: 750
+    floorSprite: 750
+    handSprite: 750
     bulletSprite: 2
     fireSound: 4
     compatibleAmmo:
