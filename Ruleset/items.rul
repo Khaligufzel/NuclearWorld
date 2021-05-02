@@ -337,7 +337,7 @@ items:
 
   - type: STR_BAG_OF_MONEY
     size: 0.1
-    costSell: 50000
+    costSell: 40000
     transferTime: 48
 
   - type: STR_POUCH_OF_MONEY
@@ -361,6 +361,11 @@ items:
     transferTime: 48
 
   - type: STR_AMMUNITION_CRATE
+    size: 0.2
+    costSell: 10000
+    transferTime: 48
+
+  - type: STR_VALUABLES_CRATE
     size: 0.2
     costSell: 10000
     transferTime: 48

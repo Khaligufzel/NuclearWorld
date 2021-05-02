@@ -467,4 +467,23 @@ manufacture:
         - 20
         - STR_PREWAR_SHOTGUN_SHELLS: 4   
 
+  - name: STR_VALUABLES_CRATE
+    category: STR_UNPACKING   
+    space: 1
+    time: 1
+    cost: 0
+    producedItems: {} # empty
+    requiredItems:
+        STR_VALUABLES_CRATE: 1
+    randomProducedItems:
+      -
+        - 20
+        - STR_POUCH_OF_MONEY: 1
+      -       
+        - 20
+        - STR_BAG_OF_MONEY: 1
+      -
+        - 20
+        - STR_GOLD_INGOT: 1
+
   
