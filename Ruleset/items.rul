@@ -198,9 +198,9 @@ items:
 
   - delete: TANK_CORPSE_4
 
-  #- delete: CIVM_CORPSE
+  # - delete: CIVM_CORPSE
 
-  - delete: CIVF_CORPSE
+  #- delete: CIVF_CORPSE
 
   - delete: STR_UFO_POWER_SOURCE
 
