@@ -565,3 +565,6 @@ terrains:
       - name: MBASE02
         width: 10
         length: 10
+      - name: MBASE03
+        width: 20
+        length: 20

@@ -387,9 +387,9 @@ items:
     costSell: 250
     transferTime: 48
     requiresBuy: [STR_SETTLERS]
-    weight: 5
-    bigSprite: 24
-    floorSprite: 24
+    weight: 1
+    bigSprite: 760
+    floorSprite: 760
     battleType: 6
     invWidth: 1
     invHeight: 1
@@ -407,17 +407,37 @@ items:
     size: 0.1
     costSell: 500
     transferTime: 48
-    weight: 5
-    bigSprite: 24
-    floorSprite: 24
+    weight: 3
+    bigSprite: 770
+    floorSprite: 770
     battleType: 6
     invWidth: 1
     invHeight: 1
     painKiller: 0
-    heal: 2
+    heal: 1
     stimulant: 0
-    woundRecovery: 1
-    healthRecovery: 3
+    woundRecovery: 2
+    healthRecovery: 6
+    stunRecovery: 4
+    energyRecovery: 10
+    tuUse: 10
+    flatRate: true
+
+  - type: STR_MEGA_STIMPAK
+    size: 0.1
+    costSell: 2000
+    transferTime: 48
+    weight: 5
+    bigSprite: 780
+    floorSprite: 780
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    painKiller: 0
+    heal: 1
+    stimulant: 0
+    woundRecovery: 3
+    healthRecovery: 9
     stunRecovery: 4
     energyRecovery: 10
     tuUse: 10
@@ -428,18 +448,18 @@ items:
     costSell: 500
     transferTime: 48
     weight: 5
-    bigSprite: 24
-    floorSprite: 24
+    bigSprite: 790
+    floorSprite: 790
     battleType: 6
     invWidth: 1
     invHeight: 1
-    painKiller: 1
+    painKiller: 0
     heal: 0
     stimulant: 1
     woundRecovery: 1
     healthRecovery: 3
-    stunRecovery: 4
-    energyRecovery: 10
+    stunRecovery: 10
+    energyRecovery: 20
     tuUse: 10
     flatRate: true
 
@@ -1047,8 +1067,8 @@ items:
     size: 0.05
     costSell: 30
     weight: 3
-    bigSprite: 690
-    floorSprite: 690
+    bigSprite: 810
+    floorSprite: 810
     hitSound: 13
     hitAnimation: 26
     power: 15
@@ -1130,8 +1150,8 @@ items:
     costBuy: 200
     costSell: 150
     weight: 3
-    bigSprite: 690
-    floorSprite: 690
+    bigSprite: 800
+    floorSprite: 800
     hitSound: 22
     hitAnimation: 26
     power: 32
