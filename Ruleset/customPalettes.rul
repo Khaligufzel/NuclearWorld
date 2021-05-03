@@ -1,0 +1,4 @@
+customPalettes:
+  - type: PAL_GEO_NEW
+    target: PAL_GEOSCAPE
+    file: Resources/Pals/geoscape.pal
