@@ -16,6 +16,6 @@
     #    conditionals: [-1, -2]
     #    direction: both
      - type: addBlock
-       size: 2
-       executions: 3
+       size: 3
+       executions: 1
      - type: fillArea

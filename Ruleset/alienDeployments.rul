@@ -29,11 +29,11 @@
 
   - type: STR_WANDERER_SITE
     alert: STR_WANDERER
-    width: 50
-    length: 50
+    width: 40
+    length: 40
     height: 4
     terrains:
-      - TEST
+      - TESTLAB
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
