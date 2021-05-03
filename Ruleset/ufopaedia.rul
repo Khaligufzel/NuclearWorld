@@ -581,6 +581,11 @@ ufopaedia:
     requires:
       - STR_308_RIFLE_CLIP
 
+  - id: STR_10MM_SMG
+    type_id: 4
+    text: STR_10MM_SMG_UFOPAEDIA
+    requires:
+      - STR_10MM_SMG
 
 
     
