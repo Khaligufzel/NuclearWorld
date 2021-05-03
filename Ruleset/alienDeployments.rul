@@ -29,8 +29,8 @@
 
   - type: STR_WANDERER_SITE
     alert: STR_WANDERER
-    width: 100
-    length: 100
+    width: 50
+    length: 50
     height: 4
     terrains:
       - TEST
