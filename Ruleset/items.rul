@@ -1011,7 +1011,7 @@ items:
     fireSound: 4
     compatibleAmmo:
       - STR_7.62MM_MINIGUN
-    accuracyAuto: 30
+    accuracyAuto: 20
     bulletSpeed: 150
     tuAuto: 60
     autoShots: 20
