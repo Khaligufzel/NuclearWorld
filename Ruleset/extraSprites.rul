@@ -81,3 +81,11 @@
     subY: 40
     files:
       0: Resources/Races/MUTANT.png
+
+  - type: TEXTURE.DAT
+    width: 577
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/Globe/nuclear_world_palette.gif
