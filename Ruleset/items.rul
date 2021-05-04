@@ -998,6 +998,33 @@ items:
     #requiresBuy: [STR_SETTLERS]
 
 
+    #heavy weapons
+
+  - type: STR_MINIGUN
+    size: 0.2
+    costSell: 20000
+    weight: 30
+    bigSprite: 820
+    floorSprite: 820
+    handSprite: 820
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_7.62MM_MINIGUN
+    accuracyAuto: 30
+    bulletSpeed: 150
+    tuAuto: 60
+    autoShots: 20
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+
+
+
+
+
+
 #   ____ ____ _____ ______   ___   _     _____
 #  |    \    / ___/|      | /   \ | |   / ___/
 #  |  o  )  (   \_ |      ||     || |  (   \_ 
@@ -1062,6 +1089,22 @@ items:
 #  |  |  ||   |   ||   |   ||     |
 #  |__|__||___|___||___|___| \___/ 
 #                                  
+
+
+
+  - type: STR_7.62MM_MINIGUN
+    size: 1
+    costSell: 2000
+    weight: 15
+    bigSprite: 690
+    floorSprite: 690
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 120
+    battleType: 2
+
 
   - type: STR_PREWAR_SHOTGUN_SHELLS
     size: 0.05
