@@ -3,17 +3,17 @@ globe:
   oceanShading: false
   oceanPalette: 10
   textures:
-    - id: 13
+    - id: 12 # Artic Border
       fakeUnderwater: true
-    - id: 14
+    - id: 13 # Ordinary Sea
       fakeUnderwater: true
-    - id: 15
+    - id: 14 # Agitated Waters
       fakeUnderwater: true
-    - id: 16
+    - id: 15 # Deep Sea
       fakeUnderwater: true
-    - id: 17
-      fakeUnderwater: true
-    - id: 18
+    - id: 16 # Toxic Waters
+      fakeUnderwater: false
+    - id: 17 # Wild Sea
       fakeUnderwater: true
   polygons:
     - - 13
