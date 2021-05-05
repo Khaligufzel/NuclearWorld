@@ -593,3 +593,60 @@ terrains:
       - name: LAB02
         width: 10
         length: 10
+
+
+  - name: PREPPERSSHELTER
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBAN
+      - XBASE1
+    script: TEST
+    mapBlocks:
+      - name: SHELTER01
+        width: 10
+        length: 10
+      - name: SHELTER02
+        width: 10
+        length: 10
+      - name: SHELTER03
+        width: 10
+        length: 10
+      - name: SHELTER04
+        width: 20
+        length: 20
+      - name: SHELTER05
+        width: 20
+        length: 20
+      - name: SHELTER06
+        width: 10
+        length: 10
+      - name: SHELTER07
+        width: 10
+        length: 10
+
+  - name: VILLAGE
+    mapDataSets:
+      - BLANKS
+      - BARN
+      - CULTIVAT
+      - FRNITURE
+      - URBITS
+      - URBAN
+    script: TEST
+    mapBlocks:
+      - name: VILL01
+        width: 10
+        length: 10
+      - name: VILL02
+        width: 10
+        length: 10
+      - name: VILL03
+        width: 10
+        length: 10
+      - name: VILL04
+        width: 10
+        length: 10
+      - name: VILL05
+        width: 10
+        length: 10
