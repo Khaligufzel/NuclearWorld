@@ -27,7 +27,7 @@
       790: Resources/Equipment/bigob_InhaledStimulant.png
       800: Resources/Weapons/Ammunition/bigob_308RifleClip.png
       810: Resources/Weapons/Ammunition/bigob_PrewarShotgunShells.png
-
+      820: Resources/Weapons/Ranged/bigob_Minigun.png
   - type: FLOOROB.PCK
     files:
       602: Resources/Weapons/Melee/floorob_Shiv.png
@@ -52,6 +52,7 @@
       790: Resources/Equipment/floorob_InhaledStimulant.png
       800: Resources/Weapons/Ammunition/floorob_308RifleClip.png
       810: Resources/Weapons/Ammunition/floorob_PrewarShotgunShells.png
+      820: Resources/Weapons/Ranged/floorob_Minigun.png
 
   - type: HANDOB.PCK
     height: 40
@@ -73,6 +74,7 @@
       730: Resources/Weapons/Ranged/handob_Slingshot.png
       740: Resources/Weapons/Ranged/handob_PrewarShotgun.png
       750: Resources/Weapons/Ranged/handob_HuntingRifle.png
+      820: Resources/Weapons/Ranged/handob_Minigun.png
 
   - type: MUTANT.PCK
     width: 512
@@ -81,3 +83,11 @@
     subY: 40
     files:
       0: Resources/Races/MUTANT.png
+
+  - type: TEXTURE.DAT
+    width: 577
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/Globe/nuclear_world_palette.gif

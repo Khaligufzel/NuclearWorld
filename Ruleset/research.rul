@@ -489,6 +489,21 @@
     dependencies:
       - "STR_WHAT_NOW"
 
+  - name: "STR_ADVANCED_MEDICINE"
+    cost: 5
+    points: 50
+    dependencies:
+      - "STR_HEALING_HERB"
+      - "STR_STIMULANT_HERB"
+      - "STR_LAB_EQUIPMENT"
+
+  - name: "STR_LAB_EQUIPMENT"
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+
+
 
   #facilities
   - name: STR_WORKSHOP
@@ -524,6 +539,12 @@
     dependencies:
       - "STR_HEALING_HERB"
 
+  - name: STR_MEGA_STIMPAK
+    cost: 5
+    points: 50
+    dependencies:
+      - "STR_ADVANCED_MEDICINE"
+
   - name: STR_BANDAGE
     cost: 5
     points: 50
@@ -550,6 +571,65 @@
     dependencies:
       - STR_EDIBLE_MUSHROOM
       - STR_BASIC_MEDICINE
+
+  - name: STR_ANIMAL_SKIN
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+
+  - name: STR_IRON_SCRAPS
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+
+  - name: STR_BAG_OF_MONEY
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: false
+
+
+  - name: STR_POUCH_OF_MONEY
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: false
+
+
+  - name: STR_GOLD_INGOT
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: false
+
+  - name: STR_CARAVAN_CRATE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: false
+
+
+  - name: STR_WEAPON_CRATE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: false
+
+  - name: STR_AMMUNITION_CRATE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: false
+
+  - name: STR_VALUABLES_CRATE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: false
+    
+
 
   #corpses
   - name: STR_MUTANT_CORPSE
@@ -584,7 +664,6 @@
     needItem: true
     destroyItem: false
 
-
   - name: STR_SPEAR
     cost: 5
     points: 50
@@ -607,6 +686,13 @@
     unlocks:
       - "STR_BOW_ARROWS"
 
+  - name: STR_PREWAR_SHOTGUN
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - "STR_PREWAR_SHOTGUN_SHELLS"
 
   - name: STR_CROSSBOW
     cost: 5
@@ -615,6 +701,14 @@
     destroyItem: false
     unlocks:
       - "STR_CROSSBOW_BELTS"
+
+  - name: STR_SLINGSHOT
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - "STR_STONES"
 
 
   - name: STR_PIPE_RIFLE
@@ -625,6 +719,29 @@
     unlocks:
       - "STR_10MM"
 
+  - name: STR_HUNTING_RIFLE
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - "STR_308_RIFLE_CLIP"
+
+  - name: STR_MAKESHIFT_PISTOL
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - "STR_10MM"
+
+  - name: STR_PREWAR_SMG
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - "STR_10MM_SMG"
 
   - name: STR_WOODEN_CLUB
     cost: 5
@@ -663,6 +780,12 @@
     points: 0
     dependencies:
       - "STR_PIPE_RIFLE"
+
+  - name: STR_10MM_SMG
+    cost: 0
+    points: 0
+    dependencies:
+      - "STR_PREWAR_SMG"      
       
   - name: STR_BOW_ARROWS
     cost: 0
@@ -675,6 +798,24 @@
     points: 0
     dependencies:
       - "STR_CROSSBOW"
+
+  - name: STR_PREWAR_SHOTGUN_SHELLS
+    cost: 0
+    points: 0
+    dependencies:
+      - "STR_PREWAR_SHOTGUN"
+
+  - name: STR_STONES
+    cost: 0
+    points: 0
+    dependencies:
+      - "STR_SLINGSHOT"
+
+  - name: STR_308_RIFLE_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - "STR_HUNTING_RIFLE"
 
     #armors
   - name: STR_BASIC_PROTECTION

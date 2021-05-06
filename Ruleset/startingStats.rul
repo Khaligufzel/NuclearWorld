@@ -8,9 +8,9 @@
   year: 2150
 initialFunding: 500
 performanceBonusFactor: 0
-newBaseUnlockResearch: STR_NOT_POSSIBLE
+newBaseUnlockResearch: STR_NOT_POSSIBLE_NOW
 hireEngineersUnlockResearch: STR_RECRUITABLE_WORKERS
-hireScientistsUnlockResearch: STR_NOT_POSSIBLE
+hireScientistsUnlockResearch: STR_NOT_POSSIBLE_NOW
 enableNewResearchSorting: true
 surrenderMode: 2
 startingDifficulty: 4

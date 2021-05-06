@@ -310,8 +310,63 @@ ufopaedia:
     requires:
       - STR_SPECIALIZED_ARMOR
 
+  - id: STR_ANIMAL_SKIN
+    type_id: 8
+    text: STR_ANIMAL_SKIN_UFOPAEDIA
+    requires:
+      - STR_ANIMAL_SKIN
 
-  
+  - id: STR_IRON_SCRAPS
+    type_id: 8
+    text: STR_IRON_SCRAPS_UFOPAEDIA
+    requires:
+      - STR_IRON_SCRAPS
+
+  - id: STR_BAG_OF_MONEY
+    type_id: 8
+    text: STR_BAG_OF_MONEY_UFOPAEDIA
+    requires:
+      - STR_BAG_OF_MONEY
+
+  - id: STR_POUCH_OF_MONEY
+    type_id: 8
+    text: STR_POUCH_OF_MONEY_UFOPAEDIA
+    requires:
+      - STR_POUCH_OF_MONEY
+
+  - id: STR_GOLD_INGOT
+    type_id: 8
+    text: STR_GOLD_INGOT_UFOPAEDIA
+    requires:
+      - STR_GOLD_INGOT
+
+  - id: STR_CARAVAN_CRATE
+    type_id: 8
+    text: STR_CARAVAN_CRATE_UFOPAEDIA
+    requires:
+      - STR_CARAVAN_CRATE
+
+  - id: STR_WEAPON_CRATE
+    type_id: 8
+    text: STR_WEAPON_CRATE_UFOPAEDIA
+    requires:
+      - STR_WEAPON_CRATE
+
+  - id: STR_AMMUNITION_CRATE
+    type_id: 8
+    text: STR_AMMUNITION_CRATE_UFOPAEDIA
+    requires:
+      - STR_AMMUNITION_CRATE
+
+  - id: STR_VALUABLES_CRATE
+    type_id: 8
+    text: STR_VALUABLES_CRATE_UFOPAEDIA
+    requires:
+      - STR_VALUABLES_CRATE
+
+
+
+
 
 
   #Facilities
@@ -339,6 +394,12 @@ ufopaedia:
     text: STR_STIMPAK_UFOPAEDIA
     requires:
       - STR_STIMPAK
+
+  - id: STR_MEGA_STIMPAK
+    type_id: 4
+    text: STR_MEGA_STIMPAK_UFOPAEDIA
+    requires:
+      - STR_MEGA_STIMPAK
 
   - id: STR_SHIV
     type_id: 4
@@ -370,11 +431,41 @@ ufopaedia:
     requires:
       - STR_CROSSBOW
 
+  - id: STR_SLINGSHOT
+    type_id: 4
+    text: STR_SLINGSHOT_UFOPAEDIA
+    requires:
+      - STR_SLINGSHOT
+
+  - id: STR_PREWAR_SHOTGUN
+    type_id: 4
+    text: STR_PREWAR_SHOTGUN_UFOPAEDIA
+    requires:
+      - STR_PREWAR_SHOTGUN
+
+  - id: STR_PREWAR_SMG
+    type_id: 4
+    text: STR_PREWAR_SMG_UFOPAEDIA
+    requires:
+      - STR_PREWAR_SMG
+
+  - id: STR_MAKESHIFT_PISTOL
+    type_id: 4
+    text: STR_MAKESHIFT_PISTOL_UFOPAEDIA
+    requires:
+      - STR_MAKESHIFT_PISTOL
+
   - id: STR_PIPE_RIFLE
     type_id: 4
     text: STR_PIPE_RIFLE_UFOPAEDIA
     requires:
       - STR_PIPE_RIFLE
+
+  - id: STR_HUNTING_RIFLE
+    type_id: 4
+    text: STR_HUNTING_RIFLE_UFOPAEDIA
+    requires:
+      - STR_HUNTING_RIFLE
 
   - id: STR_WOODEN_CLUB
     type_id: 4
@@ -471,5 +562,30 @@ ufopaedia:
     text: STR_CROSSBOW_BELTS_UFOPAEDIA
     requires:
       - STR_CROSSBOW_BELTS
+
+  - id: STR_PREWAR_SHOTGUN_SHELLS
+    type_id: 4
+    text: STR_PREWAR_SHOTGUN_SHELLS_UFOPAEDIA
+    requires:
+      - STR_PREWAR_SHOTGUN_SHELLS
+
+  - id: STR_STONES
+    type_id: 4
+    text: STR_STONES_UFOPAEDIA
+    requires:
+      - STR_STONES
+
+  - id: STR_308_RIFLE_CLIP
+    type_id: 4
+    text: STR_308_RIFLE_CLIP_UFOPAEDIA
+    requires:
+      - STR_308_RIFLE_CLIP
+
+  - id: STR_10MM_SMG
+    type_id: 4
+    text: STR_10MM_SMG_UFOPAEDIA
+    requires:
+      - STR_10MM_SMG
+
 
     

@@ -27,7 +27,7 @@ armors:
 
   #- delete: CIVM_ARMOR
 
-  - delete: CIVF_ARMOR
+  # delete: CIVF_ARMOR
 
   - delete: SNAKEMAN_ARMOR0
 

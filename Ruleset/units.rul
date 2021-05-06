@@ -10,9 +10,9 @@
 
   - delete: STR_HOVERTANK_LAUNCHER
  
-  - delete: MALE_CIVILIAN
+  # delete: MALE_CIVILIAN
 
-  - delete: FEMALE_CIVILIAN
+  # delete: FEMALE_CIVILIAN
  
   - delete: STR_SECTOID_SOLDIER
  

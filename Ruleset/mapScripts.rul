@@ -2,7 +2,7 @@
    - type: TEST
      commands:
      - type: addCraft
-     - type: addUFO
+    # - type: addUFO
     #  - type: addLine
     #    label: 1
     #    direction: horizontal
@@ -16,6 +16,9 @@
     #    conditionals: [-1, -2]
     #    direction: both
      - type: addBlock
-       size: 2
+       size: 1
+       executions: 7
+     - type: addBlock
+       size: 1
        executions: 3
      - type: fillArea
