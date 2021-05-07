@@ -180,17 +180,16 @@
     width: 50
     length: 50
     height: 4
-    civilians: 4
     terrains:
-      - URBAN
+      - VILLAGE
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     data:
       - alienRank: 4
         lowQty: 3
-        highQty: 3
-        dQty: 3
+        highQty: 6
+        dQty: 5
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -281,17 +280,16 @@
     width: 50
     length: 50
     height: 4
-    civilians: 4
     terrains:
-      - URBAN
+      - VILLAGE
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     data:
       - alienRank: 4
         lowQty: 3
-        highQty: 3
-        dQty: 3
+        highQty: 6
+        dQty: 5
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -727,5 +725,105 @@
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
             - STR_EDIBLE_MUSHROOM
+
+
+  - type: STR_MILLITARY_BASE_SITE
+    alert: STR_MILLITARY_BASE
+    width: 50
+    length: 50
+    height: 4
+    terrains:
+      - MILLITARYBASE
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    data:
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 9
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_MINIGUN
+            - STR_7.62MM_MINIGUN
+            - STR_AMMUNITION_CRATE
+
+  - type: STR_LAB_SITE
+    alert: STR_LAB
+    width: 40
+    length: 40
+    height: 4
+    terrains:
+      - LAB
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    data:
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 9
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_MINIGUN
+            - STR_7.62MM_MINIGUN
+            - STR_AMMUNITION_CRATE
+
+  - type: STR_PREPPERSSHELTER_SITE
+    alert: STR_PREPPERSSHELTER
+    width: 50
+    length: 50
+    height: 2
+    terrains:
+      - PREPPERSSHELTER
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    data:
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 9
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_MINIGUN
+            - STR_7.62MM_MINIGUN
+            - STR_AMMUNITION_CRATE
         
     

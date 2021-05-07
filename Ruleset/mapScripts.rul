@@ -16,9 +16,84 @@
     #    conditionals: [-1, -2]
     #    direction: both
      - type: addBlock
-       size: 1
-       executions: 7
+       size: 2
+       executions: 1
+ 
      - type: addBlock
        size: 1
-       executions: 3
+       executions: 7
+
+     - type: fillArea
+
+   - type: MILLITARYBASE
+     commands:
+     - type: addCraft
+    # - type: addUFO
+    #  - type: addLine
+    #    label: 1
+    #    direction: horizontal
+    #    executionChances: 33
+    #  - type: addLine
+    #    label: 2
+    #    direction: vertical
+    #    conditionals: -1
+    #    executionChances: 50
+    #  - type: addLine
+    #    conditionals: [-1, -2]
+    #    direction: both
+     - type: addBlock
+       size: 2
+       executions: 3  
+     - type: addBlock
+       size: 1
+       executions: 7
+
+     - type: fillArea
+
+   - type: LAB
+     commands:
+     - type: addCraft
+    # - type: addUFO
+    #  - type: addLine
+    #    label: 1
+    #    direction: horizontal
+    #    executionChances: 33
+    #  - type: addLine
+    #    label: 2
+    #    direction: vertical
+    #    conditionals: -1
+    #    executionChances: 50
+    #  - type: addLine
+    #    conditionals: [-1, -2]
+    #    direction: both
+     - type: addBlock
+       size: 3
+       executions: 1  
+    #  - type: addBlock
+    #    size: 1
+    #    executions: 7
+     - type: fillArea
+
+   - type: PREPPERSSHELTER
+     commands:
+     #- type: addCraft
+    # - type: addUFO
+    #  - type: addLine
+    #    label: 1
+    #    direction: horizontal
+    #    executionChances: 33
+    #  - type: addLine
+    #    label: 2
+    #    direction: vertical
+    #    conditionals: -1
+    #    executionChances: 50
+    #  - type: addLine
+    #    conditionals: [-1, -2]
+    #    direction: both
+     - type: addBlock
+       size: 2
+       executions: 4  
+     - type: addBlock
+       size: 1
+       executions: 7
      - type: fillArea

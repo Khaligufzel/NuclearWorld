@@ -28,6 +28,7 @@
       800: Resources/Weapons/Ammunition/bigob_308RifleClip.png
       810: Resources/Weapons/Ammunition/bigob_PrewarShotgunShells.png
       820: Resources/Weapons/Ranged/bigob_Minigun.png
+      
   - type: FLOOROB.PCK
     files:
       602: Resources/Weapons/Melee/floorob_Shiv.png

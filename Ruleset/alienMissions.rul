@@ -317,6 +317,35 @@
         timer: 0
         objective: true
 
+  - type: STR_MILLITARY_BASE
+    points: 500
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_PREPPER: 100
+    waves:
+      - ufo: STR_MILLITARY_BASE_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_LAB
+    points: 500
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_PREPPER: 100
+    waves:
+      - ufo: STR_LAB_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+
   - type: STR_ALIEN_RESEARCH
     points: 0
     raceWeights:

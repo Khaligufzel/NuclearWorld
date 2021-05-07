@@ -469,6 +469,35 @@
   #   startDelay: 60
 
 
+  - type: millitaryBase
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_MILLITARY_BASE: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+     STR_ENEMY_MUTANTS: true
+
+  - type: lab
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_LAB: 100
+    regionWeights:
+      0:
+        TESTING_SITES: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+     STR_ENEMY_MUTANTS: true
+
+
 
 
   - type: startResearch

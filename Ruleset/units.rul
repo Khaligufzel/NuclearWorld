@@ -893,3 +893,114 @@
     sniper: 75
     spotter: 2
     canSurrender: true
+
+      # - STR_PREPPER_COMMANDER
+      # - STR_PREPPER_LEADER
+      # - STR_PREPPER_SOLDIER
+      # - STR_PREPPER_SOLDIER
+      # - STR_PREPPER_RECRUIT
+      # - STR_PREPPER_RECRUIT
+
+  - type: STR_PREPPER_COMMANDER
+    race: STR_PREPPER
+    rank: STR_LIVE_PREPPER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_PREPPER_LEADER
+    race: STR_PREPPER
+    rank: STR_LIVE_PREPPER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_PREPPER_SOLDIER
+    race: STR_PREPPER
+    rank: STR_LIVE_PREPPER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+  - type: STR_PREPPER_RECRUIT
+    race: STR_PREPPER
+    rank: STR_LIVE_PREPPER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: CIVM_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true

@@ -555,7 +555,7 @@ terrains:
       - URBITS
       - URBAN
       - FRNITURE
-    script: TEST
+    script: MILLITARYBASE
     mapBlocks:
       - name: MBASE01
         width: 20
@@ -575,6 +575,12 @@ terrains:
       - name: MBASE06
         width: 10
         length: 10
+      - name: MBASE07
+        width: 10
+        length: 10
+      - name: MBASE08
+        width: 10
+        length: 10
 
   - name: LAB
     mapDataSets:
@@ -583,12 +589,15 @@ terrains:
       - URBITS
       - XBASE1
       - XBASE2
-    script: TEST
+    script: LAB
     mapBlocks:
       - name: LAB01
         width: 30
         length: 30
       - name: LAB02
+        width: 10
+        length: 10
+      - name: LAB03
         width: 10
         length: 10
 
@@ -599,7 +608,7 @@ terrains:
       - ROADS
       - URBAN
       - XBASE1
-    script: TEST
+    script: PREPPERSSHELTER
     mapBlocks:
       - name: SHELTER01
         width: 10
@@ -622,6 +631,9 @@ terrains:
       - name: SHELTER07
         width: 10
         length: 10
+      - name: SHELTER08
+        width: 20
+        length: 20
 
   - name: VILLAGE
     mapDataSets:
@@ -648,3 +660,6 @@ terrains:
       - name: VILL05
         width: 10
         length: 10
+      - name: VILL06
+        width: 20
+        length: 20
