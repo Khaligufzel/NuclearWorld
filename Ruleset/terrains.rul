@@ -471,9 +471,7 @@ terrains:
       - name: URBAN18
         width: 10
         length: 10
-      - name: URBANTEST01
-        width: 20
-        length: 20
+
   - name: XBASE
     mapDataSets:
       - BLANKS
@@ -550,7 +548,7 @@ terrains:
 
 
 
-  - name: TEST
+  - name: MILLITARYBASE
     mapDataSets:
       - BLANKS
       - ROADS
@@ -578,7 +576,7 @@ terrains:
         width: 10
         length: 10
 
-  - name: TESTLAB
+  - name: LAB
     mapDataSets:
       - BLANKS
       - ROADS
@@ -633,7 +631,7 @@ terrains:
       - FRNITURE
       - URBITS
       - URBAN
-    script: TEST
+    script: VILLAGE
     mapBlocks:
       - name: VILL01
         width: 10
