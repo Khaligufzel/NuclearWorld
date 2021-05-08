@@ -28,6 +28,13 @@
       800: Resources/Weapons/Ammunition/bigob_308RifleClip.png
       810: Resources/Weapons/Ammunition/bigob_PrewarShotgunShells.png
       820: Resources/Weapons/Ranged/bigob_Minigun.png
+      830: Resources/Weapons/Ammunition/bigob_MinigunAmmoBelt.png
+      840: Resources/Weapons/Ranged/bigob_PulseRifle.png
+      850: Resources/Weapons/Ammunition/bigob_PulseRifleMag.png
+      860: Resources/Weapons/Ammunition/bigob_RevolverClip.png
+      870: Resources/Weapons/Ranged/bigob_Revolver.png
+
+ 
       
   - type: FLOOROB.PCK
     files:
@@ -54,6 +61,11 @@
       800: Resources/Weapons/Ammunition/floorob_308RifleClip.png
       810: Resources/Weapons/Ammunition/floorob_PrewarShotgunShells.png
       820: Resources/Weapons/Ranged/floorob_Minigun.png
+      830: Resources/Weapons/Ammunition/floorob_MinigunAmmoBelt.png
+      840: Resources/Weapons/Ranged/floorob_PulseRifle.png
+      850: Resources/Weapons/Ammunition/floorob_PulseRifleMag.png
+      860: Resources/Weapons/Ammunition/floorob_RevolverClip.png
+      870: Resources/Weapons/Ranged/floorob_Revolver.png
 
   - type: HANDOB.PCK
     height: 40
@@ -76,6 +88,8 @@
       740: Resources/Weapons/Ranged/handob_PrewarShotgun.png
       750: Resources/Weapons/Ranged/handob_HuntingRifle.png
       820: Resources/Weapons/Ranged/handob_Minigun.png
+      840: Resources/Weapons/Ranged/handob_PulseRifle.png
+      870: Resources/Weapons/Ranged/handob_Revolver.png
 
   - type: MUTANT.PCK
     width: 512

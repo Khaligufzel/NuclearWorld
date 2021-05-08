@@ -998,6 +998,29 @@ items:
     #requiresBuy: [STR_SETTLERS]
 
 
+  - type: STR_PULSE_RIFLE
+    size: 0.2
+    #costBuy: 3000
+    costSell: 2250
+    weight: 8
+    bigSprite: 840
+    floorSprite: 840
+    handSprite: 840
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_CELL_PULSE_RIFLE
+    accuracySnap: 60
+    accuracyAimed: 110
+    tuSnap: 60
+    tuAimed: 90
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    #requiresBuy: [STR_SETTLERS]
+
+
     #heavy weapons
 
   - type: STR_MINIGUN
@@ -1056,6 +1079,28 @@ items:
     invHeight: 2
     #requiresBuy: [STR_SETTLERS]
 
+  - type: STR_REVOLVER
+    size: 0.2
+    #costBuy: 3000
+    costSell: 5000
+    weight: 5
+    bigSprite: 870
+    floorSprite: 870
+    handSprite: 870
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_REVOLVER_CLIP
+    accuracySnap: 40
+    accuracyAimed: 80
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    #requiresBuy: [STR_SETTLERS]
+
   - type: STR_PREWAR_SMG
     size: 0.2
     #costBuy: 3000
@@ -1090,20 +1135,35 @@ items:
 #  |__|__||___|___||___|___| \___/ 
 #                                  
 
-
+  - type: STR_CELL_PULSE_RIFLE
+    size: 1
+    costSell: 2000
+    weight: 3
+    bigSprite: 850
+    floorSprite: 850
+    hitSound: 22
+    hitAnimation: 26
+    power: 50
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
 
   - type: STR_7.62MM_MINIGUN
     size: 1
     costSell: 2000
     weight: 15
-    bigSprite: 690
-    floorSprite: 690
+    bigSprite: 830
+    floorSprite: 830
     hitSound: 22
     hitAnimation: 26
     power: 30
     damageType: 1
     clipSize: 120
     battleType: 2
+    invWidth: 2
+    invHeight: 1
 
 
   - type: STR_PREWAR_SHOTGUN_SHELLS
@@ -1187,6 +1247,20 @@ items:
     clipSize: 8
     battleType: 2
     requiresBuy: [STR_SETTLERS]
+
+  - type: STR_REVOLVER_CLIP
+    size: 0.1
+    costSell: 150
+    weight: 3
+    bigSprite: 860
+    floorSprite: 860
+    hitSound: 22
+    hitAnimation: 26
+    power: 35
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+
 
   - type: STR_308_RIFLE_CLIP
     size: 0.1
