@@ -245,3 +245,28 @@ armors:
       - 1.1
       - 1.0
     loftempsSet: [ 3 ]
+
+
+  - type: STR_POWER_ARMOR
+    spriteSheet: POWERARMOR.PCK
+    spriteInv: POWERARMOR_INV.PCK
+    corpseBattle:
+      - STR_POWER_ARMOR_CORPSE
+    storeItem: STR_POWER_ARMOR
+    frontArmor: 70
+    sideArmor: 60
+    rearArmor: 50
+    underArmor: 50
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1

@@ -497,6 +497,19 @@ items:
     battleType: 11
     armor: 26
 
+  - type: STR_POWER_ARMOR_CORPSE
+    size: 0.4
+    costSell: 2000
+    weight: 50
+    bigSprite: 880
+    floorSprite: 880
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+
 
 #   _      ____  __ __    ___                       
 #  | |    |    ||  |  |  /  _]                      
@@ -1323,3 +1336,8 @@ items:
     categories: [STR_ARMORS]
     size: 0.5
     costSell: 80000
+
+  - type: STR_POWER_ARMOR
+    categories: [STR_ARMORS]
+    size: 0.5
+    costSell: 300000
