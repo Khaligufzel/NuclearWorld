@@ -663,3 +663,19 @@ terrains:
       - name: VILL06
         width: 20
         length: 20
+
+
+  - name: POLICE
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - POLICE2
+    script: TEST
+    mapBlocks:
+      - name: POLICE01
+        width: 30
+        length: 30
+

@@ -826,4 +826,36 @@
             - STR_7.62MM_MINIGUN
             - STR_AMMUNITION_CRATE
         
+  - type: STR_TEST_SITE
+    alert: STR_TEST
+    width: 30
+    length: 30
+    height: 4
+    terrains:
+      - POLICE
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    data:
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_MINIGUN
+            - STR_7.62MM_MINIGUN
+            - STR_AMMUNITION_CRATE
     

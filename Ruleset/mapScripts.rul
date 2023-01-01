@@ -97,3 +97,24 @@
        size: 1
        executions: 7
      - type: fillArea
+
+   - type: TEST
+     commands:
+     #- type: addCraft
+    # - type: addUFO
+    #  - type: addLine
+    #    label: 1
+    #    direction: horizontal
+    #    executionChances: 33
+    #  - type: addLine
+    #    label: 2
+    #    direction: vertical
+    #    conditionals: -1
+    #    executionChances: 50
+    #  - type: addLine
+    #    conditionals: [-1, -2]
+    #    direction: both
+     - type: addBlock
+       size: 3
+       executions: 1  
+     - type: fillArea
