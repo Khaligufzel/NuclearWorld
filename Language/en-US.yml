@@ -1089,6 +1089,14 @@ en-US:
   ZOMBIE_WEAPON: "Zombie Weapon"
   ALIEN_PSI_WEAPON: "Alien Psi Weapon"
 
+######################################
+##### N U C L E A R W O R L D #######
+####################################
+
+  STR_OPENXCOM: "NuclearWorld: A Post Nuclear Strategy Game "
+  STR_NEW_GAME: "Brave New World"
+  STR_NEW_BATTLE: "Random Encounters"
+  STR_MISSION_GENERATOR: "RANDOM ENCOUNTERS"
 
   STR_OUTSIDE: "Outside world"
   STR_WHAT_HAPPENED: "What happened?"
