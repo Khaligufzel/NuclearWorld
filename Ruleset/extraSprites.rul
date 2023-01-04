@@ -93,6 +93,10 @@
       840: Resources/Weapons/Ranged/handob_PulseRifle.png
       870: Resources/Weapons/Ranged/handob_Revolver.png
 
+##########################################
+############ UNIT SPRITES ################
+##########################################
+
   - type: MUTANT.PCK
     width: 512
     height: 720
