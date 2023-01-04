@@ -33,7 +33,7 @@
       850: Resources/Weapons/Ammunition/bigob_PulseRifleMag.png
       860: Resources/Weapons/Ammunition/bigob_RevolverClip.png
       870: Resources/Weapons/Ranged/bigob_Revolver.png
-      880: Resources/Armors/bigob_PowerArmor.png
+      880: Resources/Armors/Power_Armor/bigob_PowerArmor.png
 
  
       
@@ -67,7 +67,7 @@
       850: Resources/Weapons/Ammunition/floorob_PulseRifleMag.png
       860: Resources/Weapons/Ammunition/floorob_RevolverClip.png
       870: Resources/Weapons/Ranged/floorob_Revolver.png
-      880: Resources/Armors/floorob_PowerArmor.png
+      880: Resources/Armors/Power_Armor/floorob_PowerArmor.png
 
   - type: HANDOB.PCK
     height: 40
@@ -111,14 +111,14 @@
     subX: 32
     subY: 40
     files:
-      0: Resources/Armors/PowerArmor.png
+      0: Resources/Armors/Power_Armor/PowerArmor.png
 
   - type: POWERARMOR_INV.PCK
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Armors/inventory_PowerArmor.png
+      0: Resources/Armors/Power_Armor/inventory_PowerArmor.png
 
   - type: TEXTURE.DAT
     width: 577
