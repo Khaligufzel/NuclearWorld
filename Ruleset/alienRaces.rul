@@ -1,6 +1,6 @@
 ﻿alienRaces:
-  - delete: STR_SECTOID
-  - delete: STR_FLOATER
+  #- delete: STR_SECTOID
+  #- delete: STR_FLOATER
   - delete: STR_SNAKEMAN
   - delete: STR_MUTON
   - delete: STR_ETHEREAL
