@@ -1,4 +1,18 @@
 ﻿alienRaces:
+  - delete: STR_SECTOID
+  - delete: STR_FLOATER
+  - delete: STR_SNAKEMAN
+  - delete: STR_MUTON
+  - delete: STR_ETHEREAL
+
+  - id: STR_MIXED
+    members:
+      - STR_MUTANT_COMMANDER
+      - STR_MUTANT_SOLDIER
+      - STR_GHOUL_SOLDIER
+      - STR_WANDERER_ENGINEER
+      - STR_GHOUL_RECRUIT
+
   - id: STR_WANDERER
     members:
       - STR_WANDERER_PROPHET
