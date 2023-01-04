@@ -1,6 +1,12 @@
-name: "MyMod"
-version: "0.01"
+name: "NuclearWorld: A Post Nuclear Strategy Game"
+version: "0.1"
 author: "Khaligufzel"
 description: "For testing"
-id: my-mod
+id: NuclearWorld
 master: xcom1
+isMaster: true
+reservedSpace: 5
+requiredExtendedVersion: "7.5.3"
+resourceConfig: transparency.rul
+loadResources:
+  - UFO
