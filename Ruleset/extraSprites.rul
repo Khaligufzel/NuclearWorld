@@ -61,8 +61,23 @@ extraSprites:
       1670: Resources/Races/Raiders/Raider_Raider/bigob_RAIDER.png
       1680: Resources/Races/Raiders/Raider_Punk/bigob_RAIDER_PUNK.png
       1690: Resources/Races/Raiders/Raider_Leader/bigob_RAIDER_LEADER.png
-      1700: Resources/Races/Raiders/Raider_Raider/bigob_RAIDER.png
-      
+      #1700: Resources/Races/Raiders/Raider_Raider/bigob_RAIDER.png
+
+      1710: Resources/Races/Church/Church_Follower/bigob_CHURCH_FOLLOWER.png
+      #1720: Resources/Races/Church/Church_Follower/bigob_CHURCH_EXORCIST.png
+      1730: Resources/Races/Church/Church_PRIEST/bigob_CHURCH_PRIEST.png
+      #1740: Resources/Races/Church/Church_Follower/bigob_CHURCH_BISHOP.png
+
+      1750: Resources/Races/Order/Order_Recruit/bigob_ORDER_RECRUIT.png
+      1760: Resources/Races/Order/Order_Soldier/bigob_ORDER_SOLDIER.png
+      #1770: Resources/Races/Order/Order_Recruit/bigob_ORDER_LEADER.png
+      #1780: Resources/Races/Order/Order_Soldier/bigob_ORDER_SOLDIER.png
+
+      1759: Resources/Races/Preppers/Prepper_Recruit/bigob_PREPPER_RECRUIT.png
+      1800: Resources/Races/Preppers/Prepper_Soldier/bigob_PREPPER_SOLDIER.png
+      1810: Resources/Races/Preppers/Prepper_Leader/bigob_PREPPER_LEADER.png
+      #1780: Resources/Races/Prepper/Order_Soldier/bigob_ORDER_SOLDIER.png
+
   - type: FLOOROB.PCK
     files:
       602: Resources/Weapons/Melee/floorob_Shiv.png
