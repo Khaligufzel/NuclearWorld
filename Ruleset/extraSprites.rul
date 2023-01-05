@@ -196,14 +196,6 @@ extraSprites:
 ##### SPRITESHEETS #######
 #########################
 
-  - type: MUTANT.PCK
-    width: 512
-    height: 720
-    subX: 32
-    subY: 40
-    files:
-      0: Resources/Races/MUTANT.png
-
   - type: POWERARMOR.PCK
     width: 256
     height: 1440
@@ -211,7 +203,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Armors/Power_Armor/PowerArmor.png
-
   - type: JUMPSUIT.PCK
     subX: 32
     subY: 40
@@ -219,7 +210,6 @@ extraSprites:
     height: 720
     files:
       0: Resources/Armors/Jumpsuit//JUMPSUIT.png
-
   - type: LEATHER_SUIT.PCK
     subX: 32
     subY: 40
@@ -227,7 +217,6 @@ extraSprites:
     height: 720
     files:
       0: Resources/Armors/Leather_Suit/LEATHER_SUIT.png
-
   - type: WASTELANDER_ARMOR.PCK
     subX: 32
     subY: 40
@@ -235,7 +224,6 @@ extraSprites:
     height: 720
     files:
       0: Resources/Armors/Wastelander_Armor/WASTELANDER_ARMOR.png
-
   - type: ENFORCER.PCK
     subX: 32
     subY: 40
@@ -243,7 +231,6 @@ extraSprites:
     height: 720
     files:
       0: Resources/Armors/Prototype_Power_Armor/ENFORCER.png
-
   - type: HAZMAT_ARMOR.PCK
     subX: 32
     subY: 40
@@ -281,6 +268,86 @@ extraSprites:
     height: 1360
     files:
       0: Resources/Races/Ghouls/Ghoul_Feral/GHOUL_FERAL.png
+  - type: GHOUL_LOST.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Lost/GHOUL_LOST.png
+  - type: GHOUL_WILD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Wild/GHOUL_WILD.png
+
+  - type: RAIDER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Races/Raiders/Raider_Raider/RAIDER.png
+  - type: RAIDER_PUNK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Races/Raiders/Raider_Punk/RAIDER_PUNK.png
+  - type: RAIDER_LEADER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/Races/Raiders/Raider_Leader/RAIDER_LEADER.png
+
+  - type: MUTANT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Races/MUTANT.png
+  - type: MUTANT_RECRUIT.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Races/Mutants/Mutant_Recruit/MUTANT_RECRUIT.png
+  - type: MUTANT_STRONG.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Races/Mutants/Mutant_Strong/MUTANT_STRONG.png
+  - type: MUTANT_LOST.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1400
+    files:
+      0: Resources/Races/Mutants/Mutant_Lost/MUTANT_LOST.png
+
+  - type: ORDER_RECRUIT.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Races/Order/Order_Recruit/ORDER_RECRUIT.png
+  - type: ORDER_SOLDIER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Races/Order/Order_Soldier/ORDER_SOLDIER.png
 
   - type: CHURCH_FOLLOWER.PCK
     subX: 32
@@ -289,7 +356,6 @@ extraSprites:
     height: 680
     files:
       0: Resources/Races/Church/Church_Follower/CHURCH_FOLLOWER.png
-
   - type: CHURCH_PRIEST.PCK
     subX: 32
     subY: 40
@@ -297,6 +363,28 @@ extraSprites:
     height: 200
     files:
       0: Resources/Races/Church/Church_PRIEST/CHURCH_PRIEST.png
+
+  - type: PREPPER_RECRUIT.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1480
+    files:
+      0: Resources/Races/Preppers/Prepper_Recruit/PREPPER_RECRUIT.PNG
+  - type: PREPPER_SOLDIER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Races/Preppers/Prepper_Soldier//PREPPER_SOLDIER.png
+  - type: PREPPER_LEADER.PCK
+    width: 256
+    height: 1480
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Races/Preppers/Prepper_Leader//PREPPER_LEADER.png
 
 ############################
 ###### INVENTORIES ########
