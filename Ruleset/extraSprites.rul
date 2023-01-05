@@ -1,4 +1,4 @@
-﻿extraSprites:
+extraSprites:
   - type: BASEBITS.PCK
     files:
       601: Resources/Facilities/Placeholder.png
@@ -33,9 +33,35 @@
       850: Resources/Weapons/Ammunition/bigob_PulseRifleMag.png
       860: Resources/Weapons/Ammunition/bigob_RevolverClip.png
       870: Resources/Weapons/Ranged/bigob_Revolver.png
+
+#################
+#### ARMORS ####
+###############
+      
       880: Resources/Armors/Power_Armor/bigob_PowerArmor.png
 
- 
+#################
+##### UNITS ####
+###############
+
+#Wanderers - 1500/1550
+
+      1560: Resources/Races/Ghouls/Ghoul_Recruit/bigob_GHOUL_RECRUIT.png
+      1570: Resources/Races/Ghouls/Ghoul_Soldier/bigob_GHOUL_SOLDIER.png
+      1580: Resources/Races/Ghouls/Ghoul_Leader/bigob_GHOUL_LEADER.png
+      1590: Resources/Races/Ghouls/Ghoul_Feral/bigob_GHOUL_FERAL.png
+      1600: Resources/Races/Ghouls/Ghoul_Wild/bigob_GHOUL_WILD.png
+      1610: Resources/Races/Ghouls/Ghoul_Lost/bigob_GHOUL_LOST.png
+
+      1620: Resources/Races/Mutants/Mutant_Recruit/bigob_MUTANT_RECRUIT.png
+      #1630: Resources/Races/Mutants/Mutant_Regular/bigob_MUTANT_REGULAR.png     
+      1640: Resources/Races/Mutants/Mutant_Strong/bigob_MUTANT_STRONG.png
+      1650: Resources/Races/Mutants/Mutant_Lost/bigob_MUTANT_LOST.png
+
+      1670: Resources/Races/Raiders/Raider_Raider/bigob_RAIDER.png
+      1680: Resources/Races/Raiders/Raider_Punk/bigob_RAIDER_PUNK.png
+      1690: Resources/Races/Raiders/Raider_Leader/bigob_RAIDER_LEADER.png
+      1700: Resources/Races/Raiders/Raider_Raider/bigob_RAIDER.png
       
   - type: FLOOROB.PCK
     files:
@@ -67,7 +93,13 @@
       850: Resources/Weapons/Ammunition/floorob_PulseRifleMag.png
       860: Resources/Weapons/Ammunition/floorob_RevolverClip.png
       870: Resources/Weapons/Ranged/floorob_Revolver.png
+
+#################
+#### ARMORS ####
+###############
+      
       880: Resources/Armors/Power_Armor/floorob_PowerArmor.png
+
 
   - type: HANDOB.PCK
     height: 40
