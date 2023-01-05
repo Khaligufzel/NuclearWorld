@@ -25,12 +25,34 @@
     missionWeights:
       # 0 is just for safety
       0:
-        STR_WANDERER: 33
-        STR_FERAL_GHOUL: 33
-        STR_LOST_MUTANT: 34
+        STR_WANDERER: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_WANDERER_SITE_REGION: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+
+  - type: feralGhoul
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_FERAL_GHOUL: 100
+    regionWeights:
+      0:
+        STR_FERAL_GHOUL_SITE_REGION: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+
+  - type: lostMutant
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_LOST_MUTANT: 100
+    regionWeights:
+      0:
+        STR_LOST_MUTANT_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -42,7 +64,7 @@
         STR_PATROL_MUTANT: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_PATROL_MUTANT_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -56,7 +78,7 @@
         STR_CARAVAN_MUTANT: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_CARAVAN_MUTANT_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -70,7 +92,7 @@
         STR_RAID_MUTANT: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_RAID_MUTANT_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -81,10 +103,10 @@
     missionWeights:
       # 0 is just for safety
       0:
-        STR_PATROL_MUTANT: 100
+        STR_PATROL_GHOUL: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_PATROL_GHOUL_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -95,7 +117,7 @@
     missionWeights:
       # 0 is just for safety
       0:
-        STR_CARAVAN_MUTANT: 100
+        STR_CARAVAN_GHOUL_SITE_REGION: 100
     regionWeights:
       0:
         TESTING_SITES: 100
@@ -109,10 +131,10 @@
     missionWeights:
       # 0 is just for safety
       0:
-        STR_RAID_MUTANT: 100
+        STR_RAID_GHOUL: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_RAID_GHOUL_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -126,7 +148,7 @@
         STR_CARAVAN_CHURCH: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_CARAVAN_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -140,7 +162,7 @@
         STR_CARAVAN_CHURCH: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_CARAVAN_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -154,7 +176,7 @@
         STR_SMALL_PATROL_CHURCH: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_SMALL_PATROL_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -168,7 +190,7 @@
         STR_SMALL_PATROL_CHURCH: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_SMALL_PATROL_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -182,7 +204,7 @@
         STR_MEDIUM_PATROL_CHURCH: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_MEDIUM_PATROL_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -196,7 +218,7 @@
         STR_MEDIUM_PATROL_CHURCH: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_MEDIUM_PATROL_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -210,7 +232,7 @@
         STR_TERROR_CHURCH: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_TERROR_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -224,7 +246,7 @@
         STR_TERROR_CHURCH: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_TERROR_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -238,7 +260,7 @@
         STR_CARAVAN_RAIDERS: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_CARAVAN_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -252,7 +274,7 @@
         STR_CARAVAN_RAIDERS: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_CARAVAN_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -266,7 +288,7 @@
         STR_SMALL_PATROL_RAIDERS: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_SMALL_PATROL_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -280,7 +302,7 @@
         STR_SMALL_PATROL_RAIDERS: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_SMALL_PATROL_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -294,7 +316,7 @@
         STR_MEDIUM_PATROL_RAIDERS: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_MEDIUM_PATROL_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -308,7 +330,7 @@
         STR_MEDIUM_PATROL_RAIDERS: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_MEDIUM_PATROL_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -322,7 +344,7 @@
         STR_TERROR_RAIDERS: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_TERROR_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -336,7 +358,7 @@
         STR_TERROR_RAIDERS: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_TERROR_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -350,7 +372,7 @@
         STR_CARAVAN_ORDER: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_CARAVAN_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -364,7 +386,7 @@
         STR_CARAVAN_ORDER: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_CARAVAN_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -378,7 +400,7 @@
         STR_SMALL_PATROL_ORDER: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_SMALL_PATROL_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -392,7 +414,7 @@
         STR_SMALL_PATROL_ORDER: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_SMALL_PATROL_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -406,7 +428,7 @@
         STR_MEDIUM_PATROL_ORDER: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_MEDIUM_PATROL_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -420,7 +442,7 @@
         STR_MEDIUM_PATROL_ORDER: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_MEDIUM_PATROL_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -434,7 +456,7 @@
         STR_TERROR_ORDER: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_TERROR_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -449,7 +471,7 @@
         STR_TERROR_ORDER: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_TERROR_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -476,7 +498,7 @@
         STR_MILLITARY_BASE: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_MILLITARY_BASE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0
@@ -490,7 +512,7 @@
         STR_LAB: 100
     regionWeights:
       0:
-        TESTING_SITES: 100
+        STR_MILLITARY_BASE_REGION: 100
     firstMonth: 0
     executionOdds: 100
     startDelay: 0

@@ -113,7 +113,7 @@
     spawnZone: 0 #Mission zone for terror missions
     raceWeights:
       0:
-        STR_MUTANT: 100
+        STR_GHOUL: 100
     waves:
       - ufo: STR_LOST_GHOUL_SITE # spawn this site directly
         count: 1
@@ -127,7 +127,7 @@
     spawnZone: 0 #Mission zone for terror missions
     raceWeights:
       0:
-        STR_MUTANT: 100
+        STR_GHOUL: 100
     waves:
       - ufo: STR_CARAVAN_GHOUL_SITE # spawn this site directly
         count: 1
@@ -141,7 +141,7 @@
     spawnZone: 0 #Mission zone for terror missions
     raceWeights:
       0:
-        STR_MUTANT: 100
+        STR_GHOUL: 100
     waves:
       - ufo: STR_RAID_GHOUL_SITE # spawn this site directly
         count: 1

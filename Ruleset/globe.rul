@@ -88,6 +88,77 @@ globe:
       fakeUnderwater: true
 ##################################
 
+    - id: -1 
+      deployments:
+         STR_WANDERER_SITE: 100
+    - id: -2 
+      deployments:
+         STR_FERAL_GHOUL_SITE: 100
+    - id: -3 
+      deployments:
+         STR_LOST_MUTANT_SITE: 100
+    - id: -4
+      deployments:
+         STR_PATROL_MUTANT_SITE: 100
+    - id: -5 
+      deployments:
+         STR_CARAVAN_MUTANT_SITE: 100
+    - id: -6 
+      deployments:
+         STR_RAID_MUTANT_SITE: 100
+    - id: -7 
+      deployments:
+         STR_PATROL_GHOUL_SITE: 100
+    - id: -8 
+      deployments:
+         STR_CARAVAN_GHOUL_SITE: 100
+    - id: -9 
+      deployments:
+         STR_RAID_GHOUL_SITE: 100
+    - id: -11 
+      deployments:
+         STR_CARAVAN_CHURCH_SITE: 100
+    - id: -12 
+      deployments:
+         STR_SMALL_PATROL_CHURCH_SITE: 100
+    - id: -13 
+      deployments:
+         STR_MEDIUM_PATROL_CHURCH_SITE: 100
+    - id: -14
+      deployments:
+         STR_TERROR_CHURCH_SITE: 100
+    - id: -15 
+      deployments:
+         STR_CARAVAN_RAIDERS_SITE: 100
+    - id: -16 
+      deployments:
+         STR_SMALL_PATROL_RAIDERS_SITE: 100
+    - id: -17 
+      deployments:
+         STR_MEDIUM_PATROL_RAIDERS_SITE: 100
+    - id: -18 
+      deployments:
+         STR_TERROR_RAIDERS_SITE: 100
+    - id: -19 
+      deployments:
+         STR_CARAVAN_ORDER_SITE: 100
+    - id: -21 
+      deployments:
+         STR_SMALL_PATROL_ORDER_SITE: 100
+    - id: -22 
+      deployments:
+         STR_MEDIUM_PATROL_ORDER_SITE: 100
+    - id: -23 
+      deployments:
+         STR_TERROR_ORDER_SITE: 100
+    - id: -24
+      deployments:
+         STR_MILLITARY_BASE: 100
+    - id: -25 
+      deployments:
+         STR_LAB: 100
+
+##################################
   polygons:
     - - 13
       - 180.4
