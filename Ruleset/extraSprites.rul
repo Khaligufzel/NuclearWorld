@@ -39,6 +39,11 @@ extraSprites:
 ###############
       
       880: Resources/Armors/Power_Armor/bigob_PowerArmor.png
+      1000: Resources/Armors/Jumpsuit/bigob_JUMPSUIT.png
+      1010: Resources/Armors/Leather_Suit/bigob_LEATHER_SUIT.png
+      1020: Resources/Armors/Wastelander_Armor/bigob_WASTELANDER_ARMOR.png
+      1030: Resources/Armors/Prototype_Power_Armor/bigob_ENFORCER.png
+      1040: Resources/Armors/Hazmat_Armor/bigob_HAZMAT_ARMOR.png
 
 #################
 ##### UNITS ####
@@ -114,6 +119,49 @@ extraSprites:
 ###############
       
       880: Resources/Armors/Power_Armor/floorob_PowerArmor.png
+      1000: Resources/Armors/Jumpsuit/floorob_JUMPSUIT.png
+      1010: Resources/Armors/Leather_Suit/floorob_LEATHER_SUIT.png
+      1020: Resources/Armors/Wastelander_Armor/floorob_WASTELANDER_ARMOR.png
+      1030: Resources/Armors/Prototype_Power_Armor/floorob_ENFORCER.png
+      1040: Resources/Armors/Hazmat_Armor/floorob_HAZMAT_ARMOR.png
+
+#################
+##### UNITS ####
+###############
+
+#Wanderers - 1500/1550
+
+      1560: Resources/Races/Ghouls/Ghoul_Recruit/floorob_GHOUL_RECRUIT.png
+      1570: Resources/Races/Ghouls/Ghoul_Soldier/floorob_GHOUL_SOLDIER.png
+      1580: Resources/Races/Ghouls/Ghoul_Leader/floorob_GHOUL_LEADER.png
+      1590: Resources/Races/Ghouls/Ghoul_Feral/floorob_GHOUL_FERAL.png
+      1600: Resources/Races/Ghouls/Ghoul_Wild/floorob_GHOUL_WILD.png
+      1610: Resources/Races/Ghouls/Ghoul_Lost/floorob_GHOUL_LOST.png
+
+      1620: Resources/Races/Mutants/Mutant_Recruit/floorob_MUTANT_RECRUIT.png
+      #1630: Resources/Races/Mutants/Mutant_Regular/floorob_MUTANT_REGULAR.png     
+      1640: Resources/Races/Mutants/Mutant_Strong/floorob_MUTANT_STRONG.png
+      1650: Resources/Races/Mutants/Mutant_Lost/floorob_MUTANT_LOST.png
+
+      1670: Resources/Races/Raiders/Raider_Raider/floorob_RAIDER.png
+      1680: Resources/Races/Raiders/Raider_Punk/floorob_RAIDER_PUNK.png
+      1690: Resources/Races/Raiders/Raider_Leader/floorob_RAIDER_LEADER.png
+      #1700: Resources/Races/Raiders/Raider_Raider/floorob_RAIDER.png
+
+      1710: Resources/Races/Church/Church_Follower/floorob_CHURCH_FOLLOWER.png
+      #1720: Resources/Races/Church/Church_Follower/floorob_CHURCH_EXORCIST.png
+      1730: Resources/Races/Church/Church_PRIEST/floorob_CHURCH_PRIEST.png
+      #1740: Resources/Races/Church/Church_Follower/floorob_CHURCH_BISHOP.png
+
+      1750: Resources/Races/Order/Order_Recruit/floorob_ORDER_RECRUIT.png
+      1760: Resources/Races/Order/Order_Soldier/floorob_ORDER_SOLDIER.png
+      #1770: Resources/Races/Order/Order_Recruit/floorob_ORDER_LEADER.png
+      #1780: Resources/Races/Order/Order_Soldier/floorob_ORDER_SOLDIER.png
+
+      1759: Resources/Races/Preppers/Prepper_Recruit/floorob_PREPPER_RECRUIT.png
+      1800: Resources/Races/Preppers/Prepper_Soldier/floorob_PREPPER_SOLDIER.png
+      1810: Resources/Races/Preppers/Prepper_Leader/floorob_PREPPER_LEADER.png
+      #1780: Resources/Races/Prepper/Order_Soldier/floorob_ORDER_SOLDIER.png
 
 
   - type: HANDOB.PCK
@@ -144,6 +192,10 @@ extraSprites:
 ############ UNIT SPRITES ################
 ##########################################
 
+##########################
+##### SPRITESHEETS #######
+#########################
+
   - type: MUTANT.PCK
     width: 512
     height: 720
@@ -159,6 +211,96 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Armors/Power_Armor/PowerArmor.png
+
+  - type: JUMPSUIT.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Armors/Jumpsuit//JUMPSUIT.png
+
+  - type: LEATHER_SUIT.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Armors/Leather_Suit/LEATHER_SUIT.png
+
+  - type: WASTELANDER_ARMOR.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Armors/Wastelander_Armor/WASTELANDER_ARMOR.png
+
+  - type: ENFORCER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Armors/Prototype_Power_Armor/ENFORCER.png
+
+  - type: HAZMAT_ARMOR.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Armors/Hazmat_Armor/HAZMAT_ARMOR.png
+
+
+  - type: GHOUL_WARRIOR.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Recruit/GHOUL_WARRIOR.png
+  - type: GHOUL_SOLDIER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Soldier/GHOUL_SOLDIER.png
+  - type: GHOUL_LEADER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Leader/GHOUL_LEADER.png
+  - type: GHOUL_FERAL.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Feral/GHOUL_FERAL.png
+
+  - type: CHURCH_FOLLOWER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/Races/Church/Church_Follower/CHURCH_FOLLOWER.png
+
+  - type: CHURCH_PRIEST.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/Races/Church/Church_PRIEST/CHURCH_PRIEST.png
+
+############################
+###### INVENTORIES ########
+##########################
 
   - type: POWERARMOR_INV.PCK
     width: 320
