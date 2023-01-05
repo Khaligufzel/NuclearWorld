@@ -3,6 +3,77 @@ globe:
   oceanShading: false
   oceanPalette: 10
   textures:
+    - id: 0
+      terrain:
+        - name: NUKEZONE #(Fallout style world)
+          weight: 70
+        - name: NUKECITY_B #(Fallout style world)
+          weight: 15
+    - id: 1
+      terrain:
+         - name: NUKECITY #(Fallout style world)
+           weight: 100
+    - id: 2
+      terrain:
+        - name: FOREST_TRENCH # 
+          weight: 50
+        - name: CULTA # 
+          weight: 10
+        - name: FOREST # 
+          weight: 40
+    - id: 3
+      terrain:
+        - name: FOREST_TRENCH # 
+          weight: 20
+        - name: NUKEZONE #(Fallout style world)
+          weight: 60
+        - name: FOREST # 
+          weight: 10
+    - id: 4
+      terrain:
+        - name: NUKEZONE #(Fallout style world)
+          weight: 70
+        - name: NUKECITY #(Fallout style world)
+          weight: 15
+        - name: NUKECITY_B #(Fallout style world)
+          weight: 15
+    - id: 5
+      terrain:
+        - name: MOUNT
+    - id: 6
+      terrain:
+        - name: NUKEZONE #(Fallout style world)
+          weight: 70
+        # - name: NUKECITY #(Fallout style world)
+        #   weight: 15
+        - name: NUKECITY_B #(Fallout style world)
+          weight: 15
+        # - name: OXC_SLAVES # Liberation mission map
+        #   weight: 20
+    - id: 7
+      terrain:
+        - name: DESERT
+    - id: 8
+      terrain:
+        - name: DESERT
+    - id: 9
+      terrain:
+        - name: POLAR
+    - id: 10
+      terrain:
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+        - name: FOREST
+          area: [0, 360, -90, 0]
+    - id: 11
+      terrain:
+        - name: FOREST
+          area: [0, 360, -90, 0]
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+    - id: 12
+      terrain:
+        - name: POLAR
     - id: 12 # Artic Border
       fakeUnderwater: true
     - id: 13 # Ordinary Sea
@@ -15,6 +86,8 @@ globe:
       fakeUnderwater: true
     - id: 17 # Wild Sea
       fakeUnderwater: true
+##################################
+
   polygons:
     - - 13
       - 180.4

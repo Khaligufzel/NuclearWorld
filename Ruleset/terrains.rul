@@ -679,3 +679,250 @@ terrains:
         width: 30
         length: 30
 
+#################################
+##### NUKE MAPS BY LUKE83 ######
+###############################
+
+  - name: NUKEZONE
+    script: NUKE
+    # enviroEffects: STR_LAND
+    # startingCondition: STR_TOXIC
+    # music:
+    #   - NUKE
+    mapDataSets:
+      - BLANKS
+      - Nuke1
+      - Nuke2
+      - Nuke3
+      - Nuke_WATER_2
+    mapBlocks:
+      - name: NUKE00
+        width: 10
+        length: 10
+        groups: 2 # landing zone
+      - name: NUKE01
+        width: 10
+        length: 10
+        groups: 3  # Buildings
+      - name: NUKE02
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE03
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE04
+        width: 10
+        length: 10
+        groups: 2
+      - name: NUKE05
+        width: 10
+        length: 10
+        groups: 2
+      - name: NUKE06
+        width: 10
+        length: 10
+        groups: 2
+      - name: NUKE07
+        width: 10
+        length: 10
+        groups: 1
+      - name: NUKE08
+        width: 10
+        length: 10
+        groups: 2
+      - name: NUKE09
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE10
+        width: 10
+        length: 10
+        groups: 3  # Buildings
+      - name: NUKE11
+        width: 10
+        length: 10
+        groups: 1
+      - name: NUKE12
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE13
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE14
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE15
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE16
+        width: 10
+        length: 10
+        groups: 3  # Buildings
+      - name: NUKE17
+        width: 10
+        length: 10
+        groups: 3  # Buildings
+      - name: NUKE18
+        width: 10
+        length: 10
+        groups: 3  # Buildings
+  - name: NUKECITY
+    script: NUKECITY
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - Nuke1
+      - Nuke2
+      - Nuke3
+      - NUKE_WATER_2
+      - NUKE_UNDERGROUND
+      - NUKE_CITY
+      - NUKE_CITY_2
+    mapBlocks:
+      # - name: NUKECITY00 # this map was created just to see concept - do not bring in game, its too large :)
+      #   width: 40
+      #   length: 40
+      #   # groups: 6
+      - name: NUKECITY01
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY02
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY03
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY04
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY05
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY06
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY07
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY08
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY09
+        width: 30
+        length: 30
+        groups: 4
+  - name: NUKECITY_B
+    script: NUKECITY_B
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - Nuke1
+      - Nuke2
+      - Nuke3
+      - NUKE_WATER_2
+      - NUKE_UNDERGROUND
+      - NUKE_CITY
+      - NUKE_CITY_2
+    mapBlocks:
+      # - name: NUKECITY00 # this map was created just to see concept - do not bring in game, its too large :)
+      #   width: 40
+      #   length: 40
+      #   # groups: 6
+      - name: NUKECITY01
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY02
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY03
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY04
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY05
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY06
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY07
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY08
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY09
+        width: 30
+        length: 30
+        groups: 4
+
+###################################
+##### MAPS BY EFRENESPARTANO #####
+#################################
+
+  - name: FOREST_TRENCH
+    mapDataSets:
+      - BLANKS
+      - TRENCHFOREST
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20

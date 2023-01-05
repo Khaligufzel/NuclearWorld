@@ -44,6 +44,10 @@
     height: 3
     terrains:
       - VILLAGE
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -72,6 +76,10 @@
     height: 4
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -97,6 +105,10 @@
     height: 4
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -126,6 +138,10 @@
     height: 4
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -159,6 +175,10 @@
     height: 4
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -192,6 +212,10 @@
     height: 4
     terrains:
       - VILLAGE
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -225,6 +249,10 @@
     height: 4
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -258,6 +286,10 @@
     height: 4
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -292,6 +324,10 @@
     height: 4
     terrains:
       - VILLAGE
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -327,6 +363,10 @@
     civilians: 0
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -361,6 +401,10 @@
     civilians: 0
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -396,6 +440,10 @@
     civilians: 0
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -434,6 +482,10 @@
     civilians: 15
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -474,6 +526,10 @@
     civilians: 15
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -508,6 +564,10 @@
     civilians: 15
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -542,6 +602,10 @@
     civilians: 15
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -577,6 +641,10 @@
     civilians: 15
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -613,6 +681,10 @@
     civilians: 15
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -647,6 +719,10 @@
     civilians: 15
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -681,6 +757,10 @@
     civilians: 15
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
@@ -713,6 +793,10 @@
     civilians: 15
     terrains:
       - URBAN
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [4, 10]
