@@ -44,6 +44,7 @@ extraSprites:
       1020: Resources/Armors/Wastelander_Armor/bigob_WASTELANDER_ARMOR.png
       1030: Resources/Armors/Prototype_Power_Armor/bigob_ENFORCER.png
       1040: Resources/Armors/Hazmat_Armor/bigob_HAZMAT_ARMOR.png
+      1050: Resources/Armors/Handcrafted_Power_Armor/bigobs_MK1_POWER_ARMOR.png      
 
 #################
 ##### UNITS ####
@@ -78,10 +79,10 @@ extraSprites:
       #1770: Resources/Races/Order/Order_Recruit/bigob_ORDER_LEADER.png
       #1780: Resources/Races/Order/Order_Soldier/bigob_ORDER_SOLDIER.png
 
-      1759: Resources/Races/Preppers/Prepper_Recruit/bigob_PREPPER_RECRUIT.png
+      1790: Resources/Races/Preppers/Prepper_Recruit/bigob_PREPPER_RECRUIT.png
       1800: Resources/Races/Preppers/Prepper_Soldier/bigob_PREPPER_SOLDIER.png
       1810: Resources/Races/Preppers/Prepper_Leader/bigob_PREPPER_LEADER.png
-      #1780: Resources/Races/Prepper/Order_Soldier/bigob_ORDER_SOLDIER.png
+      #1780: Resources/Races/Preppers/Order_Soldier/bigob_ORDER_SOLDIER.png
 
   - type: FLOOROB.PCK
     files:
@@ -124,6 +125,7 @@ extraSprites:
       1020: Resources/Armors/Wastelander_Armor/floorob_WASTELANDER_ARMOR.png
       1030: Resources/Armors/Prototype_Power_Armor/floorob_ENFORCER.png
       1040: Resources/Armors/Hazmat_Armor/floorob_HAZMAT_ARMOR.png
+      1050: Resources/Armors/Handcrafted_Power_Armor/floorob_MK1_POWER_ARMOR.png
 
 #################
 ##### UNITS ####
@@ -131,7 +133,7 @@ extraSprites:
 
 #Wanderers - 1500/1550
 
-      1560: Resources/Races/Ghouls/Ghoul_Recruit/floorob_GHOUL_RECRUIT.png
+      1560: Resources/Races/Ghouls/Ghoul_Recruit/floorob_GHOUL_WARRIOR.png
       1570: Resources/Races/Ghouls/Ghoul_Soldier/floorob_GHOUL_SOLDIER.png
       1580: Resources/Races/Ghouls/Ghoul_Leader/floorob_GHOUL_LEADER.png
       1590: Resources/Races/Ghouls/Ghoul_Feral/floorob_GHOUL_FERAL.png
@@ -158,10 +160,10 @@ extraSprites:
       #1770: Resources/Races/Order/Order_Recruit/floorob_ORDER_LEADER.png
       #1780: Resources/Races/Order/Order_Soldier/floorob_ORDER_SOLDIER.png
 
-      1759: Resources/Races/Preppers/Prepper_Recruit/floorob_PREPPER_RECRUIT.png
+      1790: Resources/Races/Preppers/Prepper_Recruit/floorob_PREPPER_RECRUIT.png
       1800: Resources/Races/Preppers/Prepper_Soldier/floorob_PREPPER_SOLDIER.png
       1810: Resources/Races/Preppers/Prepper_Leader/floorob_PREPPER_LEADER.png
-      #1780: Resources/Races/Prepper/Order_Soldier/floorob_ORDER_SOLDIER.png
+      #1780: Resources/Races/Preppers/Order_Soldier/floorob_ORDER_SOLDIER.png
 
 
   - type: HANDOB.PCK
@@ -209,7 +211,7 @@ extraSprites:
     width: 512
     height: 720
     files:
-      0: Resources/Armors/Jumpsuit//JUMPSUIT.png
+      0: Resources/Armors/Jumpsuit/JUMPSUIT.png
   - type: LEATHER_SUIT.PCK
     subX: 32
     subY: 40
@@ -238,7 +240,13 @@ extraSprites:
     height: 720
     files:
       0: Resources/Armors/Hazmat_Armor/HAZMAT_ARMOR.png
-
+  - type: MK1_POWER_ARMOR.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Armors/Handcrafted_Power_Armor/MK1_POWER_ARMOR.png
 
   - type: GHOUL_WARRIOR.PCK
     subX: 32
@@ -377,25 +385,300 @@ extraSprites:
     width: 512
     height: 720
     files:
-      0: Resources/Races/Preppers/Prepper_Soldier//PREPPER_SOLDIER.png
+      0: Resources/Races/Preppers/Prepper_Soldier/PREPPER_SOLDIER.png
   - type: PREPPER_LEADER.PCK
     width: 256
     height: 1480
     subX: 32
     subY: 40
     files:
-      0: Resources/Races/Preppers/Prepper_Leader//PREPPER_LEADER.png
+      0: Resources/Races/Preppers/Prepper_Leader/PREPPER_LEADER.png
 
 ############################
 ###### INVENTORIES ########
 ##########################
 
-  - type: POWERARMOR_INV.PCK
+  - type: MAN_5F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Jumpsuit/MAN_5F0.png
+  - type: MAN_5F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Jumpsuit/MAN_5F1.png
+  - type: MAN_5F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Jumpsuit/MAN_5F2.png
+  - type: MAN_5F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Jumpsuit/MAN_5F3.png
+  - type: MAN_5M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Jumpsuit/MAN_5M0.png
+  - type: MAN_5M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Jumpsuit/MAN_5M1.png
+  - type: MAN_5M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Jumpsuit/MAN_5M2.png
+  - type: MAN_5M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Jumpsuit/MAN_5M3.png
+
+  - type: inventory_LEATHER_SUITM0.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Leather_Suit/inventory_MALE_LEATHER_SUIT.png
+  - type: inventory_LEATHER_SUITM1.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Leather_Suit/inventory_MALE_LEATHER_SUIT.png
+  - type: inventory_LEATHER_SUITM2.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Leather_Suit/inventory_MALE_LEATHER_SUIT.png
+  - type: inventory_LEATHER_SUITM3.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Leather_Suit/inventory_MALE_LEATHER_SUIT.png
+  - type: inventory_LEATHER_SUITF0.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Leather_Suit/inventory_FEMALE_LEATHER_SUIT.png
+  - type: inventory_LEATHER_SUITF1.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Leather_Suit/inventory_FEMALE_LEATHER_SUIT.png
+  - type: inventory_LEATHER_SUITF2.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Leather_Suit/inventory_FEMALE_LEATHER_SUIT.png
+  - type: inventory_LEATHER_SUITF3.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Leather_Suit/inventory_FEMALE_LEATHER_SUIT.png
+
+  - type: inventory_WASTELANDER_ARMORM0.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Wastelander_Armor/inventory_MALE_WASTELANDER_ARMOR.png
+  - type: inventory_WASTELANDER_ARMORM1.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Wastelander_Armor/inventory_MALE_WASTELANDER_ARMOR.png
+  - type: inventory_WASTELANDER_ARMORM2.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Wastelander_Armor/inventory_MALE_WASTELANDER_ARMOR.png
+  - type: inventory_WASTELANDER_ARMORM3.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Wastelander_Armor/inventory_MALE_WASTELANDER_ARMOR.png
+  - type: inventory_WASTELANDER_ARMORF0.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Wastelander_Armor/inventory_FEMALE_WASTELANDER_ARMOR.png
+  - type: inventory_WASTELANDER_ARMORF1.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Wastelander_Armor/inventory_FEMALE_WASTELANDER_ARMOR.png
+  - type: inventory_WASTELANDER_ARMORF2.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Wastelander_Armor/inventory_FEMALE_WASTELANDER_ARMOR.png
+  - type: inventory_WASTELANDER_ARMORF3.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Wastelander_Armor/inventory_FEMALE_WASTELANDER_ARMOR.png 
+
+  - type: inventory_HAZMAT_ARMOR.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Hazmat_Armor/inventory_HAZMAT_ARMOR.png
+
+  - type: POWERARMOR_INV.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/Armors/Power_Armor/inventory_PowerArmor.png
+
+  - type: inventory_ENFORCER.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Prototype_Power_Armor/inventory_ENFORCER.png
+
+  - type: inventory_MK1_POWER_ARMOR.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armors/Handcrafted_Power_Armor/inventory_MK1_POWER_ARMOR.png
+###############################
+
+  - type: inventory_GHOUL_WARRIOR.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Recruit/inventory_GHOUL_WARRIOR.png
+  - type: inventory_GHOUL_SOLDIER.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Soldier/inventory_GHOUL_SOLDIER.png
+  - type: inventory_GHOUL_LEADER.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Leader/inventory_GHOUL_LEADER.png
+  - type: inventory_GHOUL_FERAL.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Feral/inventory_GHOUL_FERAL.png
+  - type: inventory_GHOUL_WILD.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Wild/inventory_GHOUL_WILD.png
+  - type: inventory_GHOUL_LOST.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Ghouls/Ghoul_Lost/inventory_GHOUL_LOST.png
+
+  - type: inventory_MUTANT_RECRUIT.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Mutants/Mutant_Recruit/inventory_MUTANT_RECRUIT.png
+  - type: inventory_MUTANT_STRONG.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Mutants/Mutant_Strong/inventory_MUTANT_STRONG.png
+  - type: inventory_MUTANT_LOST.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Mutants/Mutant_Lost/inventory_MUTANT_LOST.png
+
+  - type: inventory_ORDER_RECRUIT.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Order/Order_Recruit/inventory_ORDER_RECRUIT.png
+  - type: inventory_ORDER_SOLDIER.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Order/Order_Soldier/inventory_ORDER_SOLDIER.png
+
+  - type: inventory_CHURCH_FOLLOWER.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Church/Church_Follower/inventory_CHURCH_FOLLOWER.png
+  - type: inventory_CHURCH_PRIEST.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Church/Church_PRIEST/inventory_CHURCH_PRIEST.png
+
+  - type: inventory_RAIDER.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Raiders/Raider_Raider/inventory_RAIDER.png
+  - type: inventory_RAIDER_PUNK.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Raiders/Raider_Punk/inventory_RAIDER_PUNK.png
+  - type: inventory_RAIDER_LEADER.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Raiders/Raider_Leader/inventory_RAIDER_LEADER.png
+
+  - type: inventory_PREPPER_RECRUIT.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Preppers/Prepper_Recruit/inventory_PREPPER_RECRUIT.png
+  - type: inventory_PREPPER_SOLDIER.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Preppers/Prepper_Soldier/inventory_PREPPER_SOLDIER.png
+  - type: inventory_PREPPER_LEADER.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races/Preppers/Prepper_Leader/inventory_PREPPER_LEADER.png
+###############################
+
 
   - type: TEXTURE.DAT
     width: 577
@@ -486,3 +769,17 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BACK17.PNG
+
+
+
+##############################
+###### BULLETSPRITES ########
+############################
+
+  - type: Projectiles
+    width: 105
+    height: 9
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/BulletSprites/Arrow_bullet.png #11

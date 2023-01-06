@@ -38,7 +38,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 120
-    armor: STR_NONE_UC
+    armor: STR_JUMPSUIT_UC
     standHeight: 22
     kneelHeight: 14
     femaleFrequency: 25
@@ -88,7 +88,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 120
-    armor: STR_MUTANT
+    armor: STR_MUTANT_STRONG_ARMOR
     standHeight: 22
     kneelHeight: 14
     femaleFrequency: 25
@@ -138,7 +138,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 120
-    armor: STR_GHOUL
+    armor: STR_GHOUL_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
     femaleFrequency: 25

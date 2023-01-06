@@ -234,7 +234,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_GHOUL
+    armor: STR_GHOUL_LOST_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -260,7 +260,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_GHOUL
+    armor: STR_GHOUL_WILD_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -286,7 +286,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_GHOUL
+    armor: STR_GHOUL_FERAL_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -312,7 +312,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_MUTANT
+    armor: STR_MUTANT_LOST_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -338,7 +338,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_MUTANT
+    armor: STR_MUTANT_STRONG_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -364,7 +364,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_MUTANT
+    armor: STR_MUTANT_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -390,7 +390,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_MUTANT
+    armor: STR_MUTANT_STRONG_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -416,7 +416,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_MUTANT
+    armor: STR_MUTANT_STRONG_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -442,7 +442,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_MUTANT
+    armor: STR_MUTANT_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -468,7 +468,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_MUTANT
+    armor: STR_MUTANT_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -494,7 +494,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_GHOUL
+    armor: STR_GHOUL_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -520,7 +520,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_GHOUL
+    armor: STR_GHOUL_SOLDIER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -546,7 +546,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_GHOUL
+    armor: STR_GHOUL_LEADER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -572,7 +572,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_GHOUL
+    armor: STR_GHOUL_LEADER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -598,7 +598,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_CHURCH_PRIEST_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -624,7 +624,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_CHURCH_PRIEST_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -650,7 +650,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_CHURCH_FOLLOWER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -676,7 +676,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_CHURCH_FOLLOWER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -702,7 +702,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_RAIDER_PUNK_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -728,7 +728,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_HANDCRAFTED_POWER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -754,7 +754,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_RAIDER_LEADER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -780,7 +780,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_RAIDER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -806,7 +806,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_POWER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -832,7 +832,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_PREPPER_LEADER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -858,7 +858,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_ORDER_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -884,7 +884,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_ORDER_SOLDIER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -917,7 +917,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_PREPPER_LEADER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -943,7 +943,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_PREPPER_LEADER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -969,7 +969,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_PREPPER_SOLDIER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
@@ -995,7 +995,7 @@
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: CIVM_ARMOR
+    armor: STR_PREPPER_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60

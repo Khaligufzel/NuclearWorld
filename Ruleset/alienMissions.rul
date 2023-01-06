@@ -351,36 +351,15 @@
     raceWeights:
       0:
         STR_SECTOID: 70
-        STR_SNAKEMAN: 10
-        STR_FLOATER: 20
       1:
         STR_SECTOID: 60
-        STR_SNAKEMAN: 10
-        STR_FLOATER: 30
       3:
         STR_SECTOID: 30
-        STR_SNAKEMAN: 10
-        STR_MUTON: 30
-        STR_FLOATER: 30
       6:
         STR_SECTOID: 20
-        STR_SNAKEMAN: 10
-        STR_MUTON: 40
-        STR_FLOATER: 30
       9:
         STR_SECTOID: 30
-        STR_SNAKEMAN: 10
-        STR_MUTON: 30
-        STR_FLOATER: 30
     waves:
-      - ufo: STR_SMALL_SCOUT
-        count: 1
-        trajectory: P0
-        timer: 9000
-      - ufo: STR_MEDIUM_SCOUT
-        count: 1
-        trajectory: P2
-        timer: 7800
       - ufo: STR_LARGE_SCOUT
         count: 2
         trajectory: P4

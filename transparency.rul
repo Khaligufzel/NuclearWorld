@@ -1,0 +1,20 @@
+transparencyLUTs:
+  - colors:
+# Red, Green, Blue, Alpha/Opacity
+      - [  8,  8, 12, 2 ] # "white" 0
+      - [ 16,  8,  0, 2 ] # orange 1
+      - [  0, 12, 12, 2 ] # cyan 2
+      - [  4, 16,  4, 2 ] # green 3
+      - [  0,  1, 16, 3 ] # bright blue 4
+      - [  0,  2,  8, 2 ] # blue 5
+      - [  8,  0,  8, 2 ] # light purple 6
+      - [ 14,  0, 16, 4 ] # bright Purple 7
+      - [  0,  0,  0, 10 ] # Black 8
+      - [ 16,  0,  0, 2 ] # bright red 9
+      - [  8,  0,  0, 8 ] # dark red 10
+      - [ 16, 16, 16, 3 ] # bright white 11
+      - [ 10,  6,  0, 3 ] # yellow 12
+      - [  2,  2,  0, 7 ] # dark orange 13
+      - [  0,  4, 0,  6 ] # light green 14
+      - [  0,  2,  0, 9 ] # dark green 15
+      - [  0,  0, 16, 13 ] # dark blue 16

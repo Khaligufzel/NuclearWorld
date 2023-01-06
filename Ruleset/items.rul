@@ -1204,6 +1204,7 @@ items:
     floorSprite: 680
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 11
     power: 30
     damageType: 1
     clipSize: 6
@@ -1221,6 +1222,7 @@ items:
     floorSprite: 680
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 11
     power: 40
     damageType: 1
     clipSize: 6
@@ -1315,6 +1317,21 @@ items:
 #  |__|__||__|\_||___|___| \___/ |__|\_|  \___|
 #                                              
 
+##############################
+###### PLAYER'S ARMORS ######
+############################
+
+  - type: STR_CORPSE_JUMPSUIT
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 1000
+    floorSprite: 1000
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
   - type: STR_WASTELANDER_ARMOR
     categories: [STR_ARMORS]
     size: 0.5
@@ -1322,22 +1339,324 @@ items:
     requires:
       - STR_WASTELANDER_ARMOR
 
+  - type: STR_CORPSE_WASTELANDER_ARMOR
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 1020
+    floorSprite: 1020
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+
   - type: STR_LEATHER_ARMOR
     categories: [STR_ARMORS]
     size: 0.5
     costSell: 80000
+
+  - type: STR_CORPSE_LEATHER_ARMOR
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 1010
+    floorSprite: 1010
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
 
   - type: STR_HAZMAT_ARMOR
     categories: [STR_ARMORS]
     size: 0.5
     costSell: 80000
 
+  - type: STR_CORPSE_HAZMAT_ARMOR
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 1040
+    floorSprite: 1040
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+
   - type: STR_HAZMAT_ACID_ARMOR
     categories: [STR_ARMORS]
     size: 0.5
     costSell: 80000
 
+  - type: STR_CORPSE_HAZMAT_ACID_ARMOR
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 1040
+    floorSprite: 1040
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+
   - type: STR_POWER_ARMOR
     categories: [STR_ARMORS]
     size: 0.5
     costSell: 300000
+
+  - type: STR_CORPSE_POWER_ARMOR
+    name: STR_CORPSE
+    battleType: 11
+    weight: 80
+    bigSprite: 880
+    floorSprite: 880
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+
+  - type: STR_PROTOTYPE_POWER_ARMOR
+    categories: [STR_ARMORS]
+    size: 0.5
+    costSell: 300000
+
+  - type: STR_CORPSE_PROTOTYPE_POWER_ARMOR
+    name: STR_CORPSE
+    battleType: 11
+    weight: 70
+    bigSprite: 1030
+    floorSprite: 1030
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+
+  - type: STR_HANDCRAFTED_POWER_ARMOR
+    categories: [STR_ARMORS]
+    size: 0.5
+    costSell: 300000
+
+  - type: STR_CORPSE_HANDCRAFTED_POWER_ARMOR
+    name: STR_CORPSE
+    battleType: 11
+    weight: 50
+    bigSprite: 1050
+    floorSprite: 1050
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+
+##############################
+###### ENEMY'S ARMORS #######
+############################
+
+  - type: STR_GHOUL_RECRUIT_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1560
+    floorSprite: 1560
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_GHOUL_SOLDIER_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1570
+    floorSprite: 1570
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_GHOUL_LEADER_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1580
+    floorSprite: 1580
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_GHOUL_FERAL_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1590
+    floorSprite: 1590
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_GHOUL_WILD_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1600
+    floorSprite: 1600
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_GHOUL_LOST_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1610
+    floorSprite: 1610
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_MUTANT_RECRUIT_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1620
+    floorSprite: 1620
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_MUTANT_STRONG_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1640
+    floorSprite: 1640
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_MUTANT_LOST_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1650
+    floorSprite: 1650
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_RAIDER_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1670
+    floorSprite: 1670
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_RAIDER_PUNK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1680
+    floorSprite: 1680
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_RAIDER_LEADER_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1690
+    floorSprite: 1690
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_CHURCH_FOLLOWER_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1710
+    floorSprite: 1710
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_CHURCH_PRIEST_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1730
+    floorSprite: 1730
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_ORDER_RECRUIT_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1750
+    floorSprite: 1750
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_ORDER_SOLDIER_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1760
+    floorSprite: 1760
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_PREPPER_RECRUIT_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1790
+    floorSprite: 1790
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_PREPPER_SOLDIER_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1800
+    floorSprite: 1800
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_PREPPER_LEADER_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    costSell: 3000
+    weight: 30
+    bigSprite: 1810
+    floorSprite: 1810
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+
