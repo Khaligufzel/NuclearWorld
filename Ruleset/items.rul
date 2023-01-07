@@ -501,8 +501,8 @@ items:
     size: 0.4
     costSell: 2000
     weight: 50
-    bigSprite: 880
-    floorSprite: 880
+    bigSprite: 1060
+    floorSprite: 1060
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
@@ -1010,6 +1010,55 @@ items:
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
 
+  - type: STR_BASTARD
+    size: 0.2
+    #costBuy: 3000
+    costSell: 5000
+    weight: 6
+    bigSprite: 900
+    floorSprite: 900
+    handSprite: 900
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_556MM_RIFLE_CLIP
+    accuracyAuto: 20
+    accuracySnap: 25
+    accuracyAimed: 40
+    tuAuto: 25
+    tuSnap: 15
+    tuAimed: 30
+    autoShots: 5
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    #requiresBuy: [STR_SETTLERS]
+
+  - type: STR_PREWAR_SERVICE_RIFLE
+    size: 0.2
+    #costBuy: 3000
+    costSell: 5000
+    weight: 7
+    bigSprite: 880
+    floorSprite: 880
+    handSprite: 880
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_762MM_RIFLE_MAG
+    accuracyAuto: 45
+    accuracySnap: 65
+    accuracyAimed: 80
+    tuAuto: 35
+    tuSnap: 20
+    tuAimed: 40
+    #autoShots: 5
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    #requiresBuy: [STR_SETTLERS]
 
   - type: STR_PULSE_RIFLE
     size: 0.2
@@ -1019,7 +1068,7 @@ items:
     bigSprite: 840
     floorSprite: 840
     handSprite: 840
-    bulletSprite: 2
+    bulletSprite: 5
     fireSound: 4
     compatibleAmmo:
       - STR_CELL_PULSE_RIFLE
@@ -1033,6 +1082,31 @@ items:
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
 
+  - type: STR_LASER_RIFLE
+    size: 0.2
+    #costBuy: 3000
+    costSell: 12250
+    weight: 4
+    bigSprite: 920
+    floorSprite: 920
+    handSprite: 920
+    bulletSprite: 7
+    fireSound: 4
+    compatibleAmmo:
+      - STR_MICROFUSION_CELLS
+    accuracySnap: 70
+    accuracyAimed: 110
+    confAimed:
+      spendPerShot: 3 # 10x battery consumption for 2x power
+    confSnap:
+      spendPerShot: 3
+    tuSnap: 40
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    #requiresBuy: [STR_SETTLERS]
 
     #heavy weapons
 
@@ -1049,6 +1123,8 @@ items:
       - STR_7.62MM_MINIGUN
     accuracyAuto: 20
     bulletSpeed: 150
+    confAuto:
+      followProjectiles: false
     tuAuto: 60
     autoShots: 20
     battleType: 1
@@ -1139,6 +1215,7 @@ items:
     #requiresBuy: [STR_SETTLERS]
 
 
+
 #    ____  ___ ___  ___ ___   ___  
 #   /    ||   |   ||   |   | /   \ 
 #  |  o  || _   _ || _   _ ||     |
@@ -1156,12 +1233,15 @@ items:
     floorSprite: 850
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 15
     power: 50
-    damageType: 1
+    damageType: 4
     clipSize: 8
     battleType: 2
     invWidth: 1
     invHeight: 1
+    vaporColorSurface: 12
+    vaporDensitySurface: 5
 
   - type: STR_7.62MM_MINIGUN
     size: 1
@@ -1171,6 +1251,7 @@ items:
     floorSprite: 830
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 14
     power: 30
     damageType: 1
     clipSize: 120
@@ -1255,6 +1336,7 @@ items:
     weight: 3
     bigSprite: 690
     floorSprite: 690
+    bulletSpeed: 8
     hitSound: 22
     hitAnimation: 26
     power: 30
@@ -1269,6 +1351,7 @@ items:
     weight: 3
     bigSprite: 860
     floorSprite: 860
+    bulletSpeed: 8
     hitSound: 22
     hitAnimation: 26
     power: 35
@@ -1286,6 +1369,7 @@ items:
     floorSprite: 800
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 10
     power: 32
     damageType: 1
     clipSize: 5
@@ -1301,12 +1385,66 @@ items:
     floorSprite: 2
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 8
     power: 30
     damageType: 1
     clipSize: 30
     battleType: 2
     #requiresBuy: [STR_SETTLERS]
 
+  - type: STR_556MM_RIFLE_CLIP
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 6
+    bigSprite: 910
+    floorSprite: 910
+    hitSound: 22
+    hitAnimation: 26
+    bulletSpeed: 10
+    power: 45
+    damageType: 1
+    clipSize: 30
+    battleType: 2
+    #requiresBuy: [STR_SETTLERS]
+
+  - type: STR_762MM_RIFLE_MAG
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 6
+    bigSprite: 890
+    floorSprite: 890
+    hitSound: 22
+    hitAnimation: 26
+    bulletSpeed: 10
+    power: 52
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    #requiresBuy: [STR_SETTLERS]
+
+  - type: STR_MICROFUSION_CELLS
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 6
+    bigSprite: 930
+    floorSprite: 930
+    hitSound: 22
+    hitAnimation: 26
+    bulletSpeed: 15
+    power: 40
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: false
+      ToArmorPre: 0.4
+    damageType: 4
+    clipSize: 100
+    battleType: 2
+    #requiresBuy: [STR_SETTLERS]
+    vaporColorSurface: 9
+    vaporDensitySurface: 5
 
 #    ____  ____   ___ ___   ___   ____    _____
 #   /    ||    \ |   |   | /   \ |    \  / ___/
@@ -1407,8 +1545,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 80
-    bigSprite: 880
-    floorSprite: 880
+    bigSprite: 1060
+    floorSprite: 1060
     invWidth: 2
     invHeight: 3
     armor: 30

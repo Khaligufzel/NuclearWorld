@@ -485,6 +485,23 @@ ufopaedia:
     requires:
       - STR_MOLOTOV_COCTAIL
 
+  - id: STR_PREWAR_SERVICE_RIFLE
+    type_id: 4
+    text: STR_PREWAR_SERVICE_RIFLE_UFOPAEDIA
+    requires:
+      - STR_PREWAR_SERVICE_RIFLE
+
+  - id: STR_BASTARD
+    type_id: 4
+    text: STR_BASTARD_UFOPAEDIA
+    requires:
+      - STR_BASTARD
+
+  - id: STR_LASER_RIFLE
+    type_id: 4
+    text: STR_LASER_RIFLE_UFOPAEDIA
+    requires:
+      - STR_LASER_RIFLE
 
   #Corpses
   - id: STR_MUTANT_CORPSE
@@ -520,17 +537,22 @@ ufopaedia:
 
 
   #Armor
-  - id: STR_WASTELANDER_ARMOR
+
+  - id: STR_JUMPSUIT_UC
     type_id: 5
-    text: STR_WASTELANDER_ARMOR_UFOPAEDIA
-    requires:
-      - STR_WASTELANDER_ARMOR
+    text: STR_JUMPSUIT_UC_UFOPAEDIA
 
   - id: STR_LEATHER_ARMOR
     type_id: 5
     text: STR_LEATHER_ARMOR_UFOPAEDIA
     requires:
       - STR_LEATHER_ARMOR
+
+  - id: STR_WASTELANDER_ARMOR
+    type_id: 5
+    text: STR_WASTELANDER_ARMOR_UFOPAEDIA
+    requires:
+      - STR_WASTELANDER_ARMOR
 
   - id: STR_HAZMAT_ARMOR
     type_id: 5
@@ -543,6 +565,24 @@ ufopaedia:
     text: STR_HAZMAT_ACID_ARMOR_UFOPAEDIA
     requires:
       - STR_HAZMAT_ACID_ARMOR
+
+  - id: STR_POWER_ARMOR
+    type_id: 5
+    text: STR_POWER_ARMOR_UFOPAEDIA
+    requires:
+      - STR_POWER_ARMOR
+
+  - id: STR_PROTOTYPE_POWER_ARMOR
+    type_id: 5
+    text: STR_PROTOTYPE_POWER_ARMOR_UFOPAEDIA
+    requires:
+      - STR_PROTOTYPE_POWER_ARMOR
+  
+  - id: STR_HANDCRAFTED_POWER_ARMOR
+    type_id: 5
+    text: STR_HANDCRAFTED_POWER_ARMOR_UFOPAEDIA
+    requires:
+      - STR_HANDCRAFTED_POWER_ARMOR
 
     #Ammunition
   - id: STR_10MM

@@ -139,6 +139,13 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
     forcedTorso: 1
+    stats:
+      stamina: 10
+      reactions: -8
+      firing: -3
+      throwing: -7
+      strength: -5
+      bravery: 15    
 
   - type: STR_HAZMAT_ARMOR
     spriteSheet: HAZMAT_ARMOR.PCK
@@ -207,6 +214,8 @@ armors:
     sideArmor: 40
     rearArmor: 40
     underArmor: 50
+    drawingRoutine: 0
+    movementType: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -220,6 +229,13 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
     forcedTorso: 1
+    stats:
+       stamina: 15
+       reactions: -5
+       firing: -5
+       strength: 30
+       bravery: 30
+    
 
   - type: STR_POWER_ARMOR
     spriteSheet: POWERARMOR.PCK
@@ -227,8 +243,8 @@ armors:
     corpseBattle:
       - STR_POWER_ARMOR_CORPSE
     storeItem: STR_POWER_ARMOR
-    frontArmor: 70
-    sideArmor: 60
+    frontArmor: 80
+    sideArmor: 70
     rearArmor: 50
     underArmor: 50
     damageModifier:
@@ -244,6 +260,12 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
     forcedTorso: 1
+    stats:
+       stamina: 10
+       reactions: -10
+       firing: -5
+       strength: 50
+       bravery: 40 
 
   - type: STR_HANDCRAFTED_POWER_ARMOR
     spriteSheet: MK1_POWER_ARMOR.PCK
@@ -268,6 +290,12 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
     forcedTorso: 1
+    stats:
+       stamina: -5
+       reactions: -10
+       firing: -15
+       strength: 40
+       bravery: 25
 ###########################
 
 
