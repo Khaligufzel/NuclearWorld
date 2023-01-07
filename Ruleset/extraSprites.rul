@@ -33,18 +33,25 @@ extraSprites:
       850: Resources/Weapons/Ammunition/bigob_PulseRifleMag.png
       860: Resources/Weapons/Ammunition/bigob_RevolverClip.png
       870: Resources/Weapons/Ranged/bigob_Revolver.png
+      880: Resources/Weapons/Ranged/bigob_FNFAL.png
+      890: Resources/Weapons/Ammunition/bigob_762mmRifleMag.png
+      900: Resources/Weapons/Ranged/bigob_Bastard.png
+      910: Resources/Weapons/Ammunition/bigob_556mmRifleClip.png
+      920: Resources/Weapons/Ranged/bigob_LaserRifle.png
+      930: Resources/Weapons/Ammunition/bigob_MicrofusionCell.png
 
 #################
 #### ARMORS ####
 ###############
       
-      880: Resources/Armors/Power_Armor/bigob_PowerArmor.png
+      
       1000: Resources/Armors/Jumpsuit/bigob_JUMPSUIT.png
       1010: Resources/Armors/Leather_Suit/bigob_LEATHER_SUIT.png
       1020: Resources/Armors/Wastelander_Armor/bigob_WASTELANDER_ARMOR.png
       1030: Resources/Armors/Prototype_Power_Armor/bigob_ENFORCER.png
       1040: Resources/Armors/Hazmat_Armor/bigob_HAZMAT_ARMOR.png
-      1050: Resources/Armors/Handcrafted_Power_Armor/bigobs_MK1_POWER_ARMOR.png      
+      1050: Resources/Armors/Handcrafted_Power_Armor/bigobs_MK1_POWER_ARMOR.png  
+      1060: Resources/Armors/Power_Armor/bigob_PowerArmor.png    
 
 #################
 ##### UNITS ####
@@ -114,18 +121,25 @@ extraSprites:
       850: Resources/Weapons/Ammunition/floorob_PulseRifleMag.png
       860: Resources/Weapons/Ammunition/floorob_RevolverClip.png
       870: Resources/Weapons/Ranged/floorob_Revolver.png
+      880: Resources/Weapons/Ranged/floorob_FNFAL.png
+      890: Resources/Weapons/Ammunition/floorob_762mmRifleMag.png
+      900: Resources/Weapons/Ranged/floorob_Bastard.png
+      910: Resources/Weapons/Ammunition/floorob_556mmRifleClip.png
+      920: Resources/Weapons/Ranged/floorob_LaserRifle.png
+      930: Resources/Weapons/Ammunition/floorob_MicrofusionCell.png
 
 #################
 #### ARMORS ####
 ###############
       
-      880: Resources/Armors/Power_Armor/floorob_PowerArmor.png
+      
       1000: Resources/Armors/Jumpsuit/floorob_JUMPSUIT.png
       1010: Resources/Armors/Leather_Suit/floorob_LEATHER_SUIT.png
       1020: Resources/Armors/Wastelander_Armor/floorob_WASTELANDER_ARMOR.png
       1030: Resources/Armors/Prototype_Power_Armor/floorob_ENFORCER.png
       1040: Resources/Armors/Hazmat_Armor/floorob_HAZMAT_ARMOR.png
       1050: Resources/Armors/Handcrafted_Power_Armor/floorob_MK1_POWER_ARMOR.png
+      1060: Resources/Armors/Power_Armor/floorob_PowerArmor.png
 
 #################
 ##### UNITS ####
@@ -189,6 +203,10 @@ extraSprites:
       820: Resources/Weapons/Ranged/handob_Minigun.png
       840: Resources/Weapons/Ranged/handob_PulseRifle.png
       870: Resources/Weapons/Ranged/handob_Revolver.png
+      880: Resources/Weapons/Ranged/handob_FNFAL.png
+      900: Resources/Weapons/Ranged/handob_Bastard.png
+      920: Resources/Weapons/Ranged/handob_LaserRifle.png
+
 
 ##########################################
 ############ UNIT SPRITES ################
@@ -783,3 +801,107 @@ extraSprites:
     subY: 3
     files:
       385: Resources/BulletSprites/Arrow_bullet.png #11
+
+##########################################
+########### USER INTERFACE ###############
+##########################################
+
+  - type: InvCopy
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invcopy.png
+  - type: InvCopyActive
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invcopy_active.png
+  - type: InvPaste
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invpaste.png
+  - type: InvPasteEmpty
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invpaste_empty.png
+  - type: TAC01.SCR
+    singleImage: true
+    files:
+      0: Resources/UI/TAC01.png
+  - type: ICONS.PCK
+    singleImage: true
+    files:
+      0: Resources/UI/ui.png
+  - type: KneelButton
+    width: 32
+    height: 32
+    subX: 32
+    subY: 16
+    files:
+      0: Resources/UI/kneelButton.png
+#  - type: SCANBORD.PCK
+#    singleImage: true
+#    files:
+#      0: Resources/UI/SCANBORD.png
+  - type: BigBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: BigStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: BigWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: BigShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png
+  - type: FloorBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: FloorStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: FloorWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: FloorShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png
+
+  - type: BASEBITS.PCK
+    files:
+      133: Resources/Vehicles/Motorcycle_Basebits.png
+      134: Resources/Vehicles/Humvee_Basebits.png
+  - type: INTICON.PCK
+    files:
+      100: Resources/Vehicles/Motorcycle_Minimised.png
+      111: Resources/Vehicles/Motorcycle_Dogfight.png
+      101: Resources/Vehicles/Humvee_minimised.png
+      112: Resources/Vehicles/Humvee_dogfight.png
+
+  - type: MOTORCYCLE_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/MOTORCYCLE_UFOPEDIA.png
+  - type: HUMVEE_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/HUMVEE_UFOPEDIA.PNG
