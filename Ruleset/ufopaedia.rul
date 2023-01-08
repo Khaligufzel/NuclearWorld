@@ -139,228 +139,266 @@ ufopaedia:
   - id: STR_WHAT_HAPPENED
     type_id: 8
     text: STR_WHAT_HAPPENED_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_WHAT_HAPPENED
 
   - id: STR_SETTLERS
     type_id: 8
     text: STR_SETTLERS_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_SETTLERS
 
   - id: STR_PREPPERS
     type_id: 8
     text: STR_PREPPERS_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_PREPPERS
 
   - id: STR_CITIZENS
     type_id: 8
     text: STR_CITIZENS_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_CITIZENS
 
   - id: STR_RECRUITABLE_WORKERS
     type_id: 8
     text: STR_RECRUITABLE_WORKERS_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_RECRUITABLE_WORKERS
 
   - id: STR_ALLY_OR_ENEMY
     type_id: 8
     text: STR_ALLY_OR_ENEMY_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_ALLY_OR_ENEMY
 
   - id: STR_FACTION_CHURCH
     type_id: 8
     text: STR_FACTION_CHURCH_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_FACTION_CHURCH
 
   - id: STR_FACTION_RAIDERS
     type_id: 8
     text: STR_FACTION_RAIDERS_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_FACTION_RAIDERS
 
   - id: STR_FACTION_ORDER
     type_id: 8
     text: STR_FACTION_ORDER_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_FACTION_ORDER
 
   - id: STR_FACTION_MUTANTS
     type_id: 8
     text: STR_FACTION_MUTANT_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_FACTION_MUTANTS
 
   - id: STR_ALLY_MUTANTS
     type_id: 8
     text: STR_ALLY_MUTANTS_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_ALLY_MUTANTS
 
   - id: STR_ENEMY_MUTANTS
     type_id: 8
     text: STR_ENEMY_MUTANTS_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_ENEMY_MUTANTS
 
   - id: STR_FACTION_GHOULS
     type_id: 8
     text: STR_FACTION_GHOUL_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_FACTION_GHOULS
 
   - id: STR_ALLY_GHOULS
     type_id: 8
     text: STR_ALLY_GHOULS_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_ALLY_GHOULS
 
   - id: STR_ENEMY_GHOULS
     type_id: 8
     text: STR_ENEMY_GHOULS_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_ENEMY_GHOULS
 
   - id: STR_WHAT_NOW
     type_id: 8
     text: STR_WHAT_NOW_UFOPAEDIA
+    section: STR_JOURNAL
     requires:
       - STR_WHAT_NOW
 
   - id: STR_SKINNING
     type_id: 8
     text: STR_SKINNING_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_SKINNING
 
   - id: STR_BOUNTY_HUNTING
     type_id: 8
     text: STR_BOUNTY_HUNTING_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_BOUNTY_HUNTING
 
   - id: STR_BASIC_MEDICINE
     type_id: 8
     text: STR_BASIC_MEDICINE_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_BASIC_MEDICINE
 
   - id: STR_BASIC_STIMULANT
     type_id: 8
     text: STR_BASIC_STIMULANT_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_BASIC_STIMULANT
 
   - id: STR_EDIBLE_MUSHROOM
     type_id: 8
     text: STR_EDIBLEMUSHROOM_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_EDIBLE_MUSHROOM
 
   - id: STR_STIMULANT_HERB
     type_id: 8
     text: STR_STIMULANT_HERB_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_STIMULANT_HERB
 
   - id: STR_HEALING_HERB
     type_id: 8
     text: STR_HEALING_HERB_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_HEALING_HERB
 
   - id: STR_BASIC_WEAPONS
     type_id: 8
     text: STR_BASIC_WEAPONS_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_BASIC_WEAPONS
 
   - id: STR_GUNPOWDER
     type_id: 8
     text: STR_GUNPOWDER_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_GUNPOWDER
 
   - id: STR_BASIC_THROWABLES
     type_id: 8
     text: STR_BASIC_THROWABLES_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_BASIC_THROWABLES
 
   - id: STR_BASIC_PROTECTION
     type_id: 8
     text: STR_BASIC_PROTECTION_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_BASIC_PROTECTION
 
   - id: STR_BASIC_PROTECTION_II
     type_id: 8
     text: STR_BASIC_PROTECTION_II_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
     - STR_BASIC_PROTECTION_II
 
   - id: STR_SPECIALIZED_ARMOR
     type_id: 8
     text: STR_SPECIALIZED_ARMOR_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_SPECIALIZED_ARMOR
 
   - id: STR_ANIMAL_SKIN
     type_id: 8
     text: STR_ANIMAL_SKIN_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_ANIMAL_SKIN
 
   - id: STR_IRON_SCRAPS
     type_id: 8
     text: STR_IRON_SCRAPS_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_IRON_SCRAPS
 
   - id: STR_BAG_OF_MONEY
     type_id: 8
     text: STR_BAG_OF_MONEY_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_BAG_OF_MONEY
 
   - id: STR_POUCH_OF_MONEY
     type_id: 8
     text: STR_POUCH_OF_MONEY_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_POUCH_OF_MONEY
 
   - id: STR_GOLD_INGOT
     type_id: 8
     text: STR_GOLD_INGOT_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_GOLD_INGOT
 
   - id: STR_CARAVAN_CRATE
     type_id: 8
     text: STR_CARAVAN_CRATE_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_CARAVAN_CRATE
 
   - id: STR_WEAPON_CRATE
     type_id: 8
     text: STR_WEAPON_CRATE_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_WEAPON_CRATE
 
-  - id: STR_AMMUNITION_CRATE
+  - id: STR_AMMUNITION_UC_CRATE
     type_id: 8
-    text: STR_AMMUNITION_CRATE_UFOPAEDIA
+    text: STR_AMMUNITION_UC_CRATE_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
-      - STR_AMMUNITION_CRATE
+      - STR_AMMUNITION_UC_CRATE
 
   - id: STR_VALUABLES_CRATE
     type_id: 8
     text: STR_VALUABLES_CRATE_UFOPAEDIA
+    section: STR_KNOWLEDGE
     requires:
       - STR_VALUABLES_CRATE
 
@@ -373,18 +411,21 @@ ufopaedia:
   - id: STR_WORKSHOP
     type_id: 6
     text: STR_WORKSHOP_UFOPAEDIA
+    section: STR_SHELTER_FACILITIES
     requires:
       - STR_WORKSHOP
 
   - id: STR_BIOLAB
     type_id: 6
     text: STR_BIOLAB_UFOPAEDIA
+    section: STR_SHELTER_FACILITIES
     requires:
       - STR_BIOLAB
 
   - id: STR_DRILL
     type_id: 6
     text: STR_DRILL_UFOPAEDIA
+    section: STR_SHELTER_FACILITIES
     requires:
       - STR_DRILL
 
@@ -392,116 +433,142 @@ ufopaedia:
   - id: STR_STIMPAK
     type_id: 4
     text: STR_STIMPAK_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_STIMPAK
 
   - id: STR_MEGA_STIMPAK
     type_id: 4
     text: STR_MEGA_STIMPAK_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_MEGA_STIMPAK
 
   - id: STR_SHIV
     type_id: 4
     text: STR_SHIV_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_SHIV
 
   - id: STR_SPEAR
     type_id: 4
     text: STR_SPEAR_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_SPEAR
 
   - id: STR_STONE_HAMMER
     type_id: 4
     text: STR_STONE_HAMMER_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_STONE_HAMMER
 
   - id: STR_BOW
     type_id: 4
     text: STR_BOW_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_BOW
 
   - id: STR_CROSSBOW
     type_id: 4
     text: STR_CROSSBOW_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_CROSSBOW
 
   - id: STR_SLINGSHOT
     type_id: 4
     text: STR_SLINGSHOT_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_SLINGSHOT
 
   - id: STR_PREWAR_SHOTGUN
     type_id: 4
     text: STR_PREWAR_SHOTGUN_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_PREWAR_SHOTGUN
 
   - id: STR_PREWAR_SMG
     type_id: 4
     text: STR_PREWAR_SMG_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_PREWAR_SMG
 
   - id: STR_MAKESHIFT_PISTOL
     type_id: 4
     text: STR_MAKESHIFT_PISTOL_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_MAKESHIFT_PISTOL
 
   - id: STR_PIPE_RIFLE
     type_id: 4
     text: STR_PIPE_RIFLE_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_PIPE_RIFLE
 
   - id: STR_HUNTING_RIFLE
     type_id: 4
     text: STR_HUNTING_RIFLE_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_HUNTING_RIFLE
 
   - id: STR_WOODEN_CLUB
     type_id: 4
     text: STR_WOODEN_CLUB_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_WOODEN_CLUB
 
   - id: STR_GUNPOWDER_GRENADE
     type_id: 4
     text: STR_GUNPOWDER_GRENADE_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_GUNPOWDER_GRENADE
 
   - id: STR_MOLOTOV_COCTAIL
     type_id: 4
     text: STR_MOLOTOV_COCTAIL_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_MOLOTOV_COCTAIL
 
   - id: STR_PREWAR_SERVICE_RIFLE
     type_id: 4
     text: STR_PREWAR_SERVICE_RIFLE_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_PREWAR_SERVICE_RIFLE
 
   - id: STR_BASTARD
     type_id: 4
     text: STR_BASTARD_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_BASTARD
 
   - id: STR_LASER_RIFLE
     type_id: 4
     text: STR_LASER_RIFLE_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
     requires:
       - STR_LASER_RIFLE
+
+  - id: STR_PULSE_RIFLE
+    type_id: 4
+    text: STR_PULSE_RIFLE_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
+    requires:
+      - STR_PULSE_RIFLE
 
   #Corpses
   - id: STR_MUTANT_CORPSE
@@ -520,18 +587,21 @@ ufopaedia:
   - id: STR_HUMAN_RAIDER
     type_id: 8
     text: STR_HUMAN_RAIDER_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
     requires:
       - STR_HUMAN_RAIDER
 
   - id: STR_GHOUL
     type_id: 8
     text: STR_GHOUL_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
     requires:
       - STR_GHOUL
 
   - id: STR_MUTANT
     type_id: 8
     text: STR_MUTANT_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
     requires:
       - STR_MUTANT
 
@@ -540,47 +610,55 @@ ufopaedia:
 
   - id: STR_JUMPSUIT_UC
     type_id: 5
+    section: STR_OUTFITS
     text: STR_JUMPSUIT_UC_UFOPAEDIA
 
   - id: STR_LEATHER_ARMOR
     type_id: 5
     text: STR_LEATHER_ARMOR_UFOPAEDIA
+    section: STR_OUTFITS
     requires:
       - STR_LEATHER_ARMOR
 
   - id: STR_WASTELANDER_ARMOR
     type_id: 5
     text: STR_WASTELANDER_ARMOR_UFOPAEDIA
+    section: STR_OUTFITS
     requires:
       - STR_WASTELANDER_ARMOR
 
   - id: STR_HAZMAT_ARMOR
     type_id: 5
     text: STR_HAZMAT_ARMOR_UFOPAEDIA
+    section: STR_OUTFITS
     requires:
       - STR_HAZMAT_ARMOR
 
   - id: STR_HAZMAT_ACID_ARMOR
     type_id: 5
     text: STR_HAZMAT_ACID_ARMOR_UFOPAEDIA
+    section: STR_OUTFITS
     requires:
       - STR_HAZMAT_ACID_ARMOR
 
   - id: STR_POWER_ARMOR
     type_id: 5
     text: STR_POWER_ARMOR_UFOPAEDIA
+    section: STR_OUTFITS
     requires:
       - STR_POWER_ARMOR
 
   - id: STR_PROTOTYPE_POWER_ARMOR
     type_id: 5
     text: STR_PROTOTYPE_POWER_ARMOR_UFOPAEDIA
+    section: STR_OUTFITS
     requires:
       - STR_PROTOTYPE_POWER_ARMOR
   
   - id: STR_HANDCRAFTED_POWER_ARMOR
     type_id: 5
     text: STR_HANDCRAFTED_POWER_ARMOR_UFOPAEDIA
+    section: STR_OUTFITS
     requires:
       - STR_HANDCRAFTED_POWER_ARMOR
 
@@ -588,44 +666,107 @@ ufopaedia:
   - id: STR_10MM
     type_id: 4
     text: STR_10MM_UFOPAEDIA
+    section: STR_AMMUNITION_UC
     requires:
       - STR_10MM
 
   - id: STR_BOW_ARROWS
     type_id: 4
     text: STR_BOW_ARROWS_UFOPAEDIA
+    section: STR_AMMUNITION_UC
     requires:
       - STR_BOW_ARROWS
 
   - id: STR_CROSSBOW_BELTS
     type_id: 4
     text: STR_CROSSBOW_BELTS_UFOPAEDIA
+    section: STR_AMMUNITION_UC
     requires:
       - STR_CROSSBOW_BELTS
 
   - id: STR_PREWAR_SHOTGUN_SHELLS
     type_id: 4
     text: STR_PREWAR_SHOTGUN_SHELLS_UFOPAEDIA
+    section: STR_AMMUNITION_UC
     requires:
       - STR_PREWAR_SHOTGUN_SHELLS
 
   - id: STR_STONES
     type_id: 4
     text: STR_STONES_UFOPAEDIA
+    section: STR_AMMUNITION_UC
     requires:
       - STR_STONES
 
   - id: STR_308_RIFLE_CLIP
     type_id: 4
     text: STR_308_RIFLE_CLIP_UFOPAEDIA
+    section: STR_AMMUNITION_UC
     requires:
       - STR_308_RIFLE_CLIP
 
   - id: STR_10MM_SMG
     type_id: 4
     text: STR_10MM_SMG_UFOPAEDIA
+    section: STR_AMMUNITION_UC
     requires:
       - STR_10MM_SMG
 
+  - id: STR_556MM_RIFLE_CLIP
+    type_id: 4
+    text: STR_556MM_RIFLE_CLIP_UFOPAEDIA
+    section: STR_AMMUNITION_UC
+    requires:
+      - STR_556MM_RIFLE_CLIP
+
+  - id: STR_762MM_RIFLE_MAG
+    type_id: 4
+    text: STR_762MM_RIFLE_MAG_UFOPAEDIA
+    section: STR_AMMUNITION_UC
+    requires:
+      - STR_762MM_RIFLE_MAG
+
+  - id: STR_MICROFUSION_CELLS
+    type_id: 4
+    text: STR_MICROFUSION_CELLS_UFOPAEDIA
+    section: STR_AMMUNITION_UC
+    requires:
+      - STR_MICROFUSION_CELLS
+
+##############################
+######### VEHICLES ##########
+############################
+  - id: STR_CARAVAN
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_CARAVAN_UFOPEDIA
+    #listOrder: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: MOTORCYCLE_UFOPEDIA
+  - id: STR_LARGE_CARAVAN
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_LARGE_CARAVAN_UFOPEDIA
+    #listOrder: 2
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: HUMVEE_UFOPEDIA
 
     

@@ -472,6 +472,69 @@ terrains:
         width: 10
         length: 10
 
+  - name: URBAN_RUINS
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS_RUINS
+      - URBAN_RUINS_FULL
+      - FRNITURE
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: URBAN
+    mapBlocks:
+      - name: RUINS_URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: RUINS_URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: RUINS_URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: RUINS_URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: RUINS_URBAN04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: RUINS_URBAN05
+        width: 20
+        length: 20
+      - name: RUINS_URBAN06
+        width: 20
+        length: 20
+      - name: RUINS_URBAN07
+        width: 20
+        length: 20
+      - name: RUINS_URBAN08
+        width: 20
+        length: 20
+      - name: RUINS_URBAN09
+        width: 20
+        length: 20
+      - name: RUINS_URBAN14
+        width: 10
+        length: 10
+      - name: RUINS_URBAN15
+        width: 10
+        length: 10
+      - name: RUINS_URBAN16
+        width: 10
+        length: 10
+      - name: RUINS_URBAN17
+        width: 10
+        length: 10
+      - name: RUINS_URBAN18
+        width: 10
+        length: 10
+
   - name: XBASE
     mapDataSets:
       - BLANKS

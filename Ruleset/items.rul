@@ -1426,8 +1426,8 @@ items:
 
   - type: STR_MICROFUSION_CELLS
     size: 0.1
-    costBuy: 200
-    costSell: 150
+    costBuy: 10000
+    costSell: 8050
     weight: 6
     bigSprite: 930
     floorSprite: 930
