@@ -23,13 +23,19 @@
 
   - id: STR_FERAL_GHOUL
     members:
+      - STR_GHOUL_LOST
+      - STR_GHOUL_LOST
+      - STR_GHOUL_LOST
       - STR_GHOUL_FERAL
       - STR_GHOUL_WILD
-      - STR_GHOUL_LOST
+      - STR_GHOUL_FERAL
 
   - id: STR_LOST_MUTANT
     members:
       - STR_MUTANT_PROPHET
+      - STR_MUTANT_ANGRY
+      - STR_MUTANT_LOST
+      - STR_MUTANT_ANGRY
       - STR_MUTANT_ANGRY
       - STR_MUTANT_LOST
 
@@ -49,12 +55,14 @@
       - STR_GHOUL_SOLDIER
       - STR_GHOUL_SOLDIER
       - STR_GHOUL_RECRUIT
+      - STR_GHOUL_RECRUIT
 
   - id: STR_CHURCH
     members:
       - STR_CHURCH_BISHOP
       - STR_CHURCH_EXORCIST
       - STR_CHURCH_PRIEST
+      - STR_CHURCH_EXORCIST
       - STR_CHURCH_PRIEST
       - STR_CHURCH_FOLLOWER
 
@@ -65,6 +73,7 @@
       - STR_RAIDERS_PUNK
       - STR_RAIDERS_PUNK
       - STR_RAIDERS_RAIDER
+      - STR_RAIDERS_RAIDER
 
   - id: STR_ORDER
     members:
@@ -72,6 +81,7 @@
       - STR_ORDER_LEADER
       - STR_ORDER_SOLDIER
       - STR_ORDER_SOLDIER
+      - STR_ORDER_RECRUIT
       - STR_ORDER_RECRUIT
 
 

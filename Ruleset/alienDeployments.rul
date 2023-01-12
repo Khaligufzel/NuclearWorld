@@ -13,7 +13,7 @@
 #     alert: STR_TESTING
 #     alertBackground: BACK03.SCR
 #     markerName: STR_TERROR_SITE
-#     duration: [4, 10]
+#     duration: [24, 240]
 #     data:
 #       - alienRank: 5
 #         lowQty: 4
@@ -49,8 +49,234 @@
       - NUKECITY
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    markerName: STR_WANDERER_SITE_MARKER_NAME
+    duration: [8, 36]
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+
+  - type: STR_FERAL_GHOUL_SITE
+    alert: STR_FERAL_GHOUL_SITE_MARKER_NAME
+    width: 50
+    length: 50
+    height: 4
+    terrains:
+      - URBAN
+      - URBAN_RUINS
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
+    alertBackground: BACK03.SCR
+    markerName: STR_FERAL_GHOUL_SITE_MARKER_NAME
+    duration: [24, 240]
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+
+  - type: STR_LOST_MUTANT_SITE
+    alert: STR_LOST_MUTANT_SITE_MARKER_NAME
+    width: 50
+    length: 50
+    height: 4
+    terrains:
+      - URBAN
+      - URBAN_RUINS
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
+    alertBackground: BACK03.SCR
+    markerName: STR_LOST_MUTANT_SITE_MARKER_NAME
+    duration: [24, 240]
     data:
       - alienRank: 0
         lowQty: 1
@@ -68,56 +294,25 @@
           - 
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
-
-  - type: STR_FERAL_GHOUL_SITE
-    alert: STR_FERAL_GHOUL
-    width: 50
-    length: 50
-    height: 4
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
-    alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    data:
       - alienRank: 2
-        lowQty: 1
-        highQty: 1
+        lowQty: 3
+        highQty: 6
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
-        itemSets:          
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
           - 
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
-          - 
-            - STR_STONE_HAMMER
-            - STR_EDIBLE_MUSHROOM
-
-  - type: STR_LOST_MUTANT_SITE
-    alert: STR_LOST_MUTANT
-    width: 50
-    length: 50
-    height: 4
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
-    alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    data:
-      - alienRank: 2
-        lowQty: 1
-        highQty: 1
+      - alienRank: 5
+        lowQty: 5
+        highQty: 8
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -132,9 +327,8 @@
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
 
-
   - type: STR_PATROL_MUTANT_SITE
-    alert: STR_PATROL_MUTANT
+    alert: STR_PATROL_MUTANT_SITE_MARKER_NAME
     width: 50
     length: 50
     height: 4
@@ -146,13 +340,56 @@
       - NUKECITY
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    markerName: STR_PATROL_MUTANT_SITE_MARKER_NAME
+    duration: [24, 240]
     data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+            - STR_WEAPON_CRATE
       - alienRank: 4
         lowQty: 3
         highQty: 3
         dQty: 3
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          -
+            - STR_BOW
+            - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          - 
+            - STR_CROSSBOW
+            - STR_CROSSBOW_BELTS
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -185,9 +422,31 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
-      - alienRank: 4
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_WEAPON_CRATE
+            - STR_WEAPON_CRATE
+      - alienRank: 3
         lowQty: 3
         highQty: 3
         dQty: 3
@@ -195,19 +454,43 @@
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
+            - STR_PIPE_RIFLE
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_WEAPON_CRATE
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_EDIBLE_MUSHROOM
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_EDIBLE_MUSHROOM
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_BOW
+            - STR_BOW_ARROWS
+            - STR_WEAPON_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
             - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
             - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_WEAPON_CRATE
 
   - type: STR_RAID_MUTANT_SITE
     alert: STR_RAID_MUTANT
@@ -222,18 +505,66 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
-      - alienRank: 4
-        lowQty: 3
-        highQty: 6
-        dQty: 5
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
             - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          -
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_WEAPON_CRATE
+            - STR_WEAPON_CRATE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 3
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_EDIBLE_MUSHROOM
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          - 
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_EDIBLE_MUSHROOM
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_BOW
+            - STR_BOW_ARROWS
             - STR_WEAPON_CRATE
           -
             - STR_BOW
@@ -244,7 +575,7 @@
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
             - STR_EDIBLE_MUSHROOM
-            - STR_AMMUNITION_CRATE
+            - STR_WEAPON_CRATE
 
   - type: STR_PATROL_GHOUL_SITE
     alert: STR_PATROL_GHOUL
@@ -260,8 +591,30 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+            - STR_WEAPON_CRATE
       - alienRank: 4
         lowQty: 3
         highQty: 3
@@ -282,7 +635,28 @@
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
             - STR_EDIBLE_MUSHROOM
-            - STR_AMMUNITION_CRATE
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          -
+            - STR_BOW
+            - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          - 
+            - STR_CROSSBOW
+            - STR_CROSSBOW_BELTS
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
 
   - type: STR_CARAVAN_GHOUL_SITE
     alert: STR_CARAVAN_GHOUL
@@ -298,7 +672,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -336,7 +710,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -376,7 +750,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -415,7 +789,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -455,7 +829,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 6
@@ -498,7 +872,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 6
@@ -543,7 +917,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -582,7 +956,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -621,7 +995,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 6
@@ -661,7 +1035,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 6
@@ -702,7 +1076,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -741,7 +1115,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -780,7 +1154,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -817,7 +1191,7 @@
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 6
@@ -848,7 +1222,7 @@
       - MILLITARYBASE
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -881,7 +1255,7 @@
       - LAB
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -914,7 +1288,7 @@
       - PREPPERSSHELTER
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 3
@@ -947,7 +1321,7 @@
       - POLICE
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [24, 240]
     data:
       - alienRank: 4
         lowQty: 1
