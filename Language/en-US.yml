@@ -1258,7 +1258,7 @@ en-US:
   STR_CROSSBOW_BELTS_UFOPAEDIA: "Bigger than bow arrows. But still- just a bunch of pointed sticks with feathers."
   STR_556MM_RIFLE_CLIP_UFOPAEDIA: "A bunch of 5.56mm intermediate ammo, stacked together in a crude, open clip. Used only by the Makeshift Automatic Gun. It's easier to count the bullets when you can see them! The downside is that dirt and other unwanted stuff gets in the chamber, increasing the chance of jamming the weapon."
   STR_762MM_RIFLE_MAG_UFOPAEDIA: "Quite powerful ammo, the full rifle caliber is able to rip through flesh and bones with ease... light armor, with some luck maybe. This round does some nasty wounds, that's for sure. The magazine can hold relatively few bullets, so make them count."
-  STR_MICROFUSION_CELL_UFOPAEDIA: "A technology miracle made right before the War. The power of a whole nuclear plant, in a nice hand-sized battery. You could power a city block with just one! Production was just starting when the War began (at least that's what the elders say), so their numbers are limited. Used in Laser weapons and certain armors."
+  STR_MICROFUSION_CELL: "A technology miracle made right before the War. The power of a whole nuclear plant, in a nice hand-sized battery. You could power a city block with just one! Production was just starting when the War began (at least that's what the elders say), so their numbers are limited. Used in Laser weapons and certain armors."
   STR_BANDAGE_UFOPAEDIA: "The most important and basic of all medicine items- a bandage. Very easy to make, very effective and important in every's soldier inventory."
 
   STR_ANIMAL_SKIN_UFOPAEDIA: "A hard piece of animal skin. Very useful and valuable."
@@ -1285,6 +1285,9 @@ en-US:
   STR_BASTARD_UFOPAEDIA: "Nicknamed 'frankengun' and 'bastard', this rifle? SMG? is a mix of several spare parts and scrap. Really easy to manufacture, it fires 5.56mm FMJ rounds from a somewhat unsafe, side-loaded ammo clip. The accuracy is mediocre at best, but its compensated by having a vicious rate of fire."
   STR_PULSE_RIFLE_UFOPAEDIA: "The Y2K energy gun discharges an electric pulse able to fry mechanical and organic targets with ease. Also, it looks like something taken from a pulp magazine! There are so few models around, so people often demise its existence as a myth."
   STR_CELL_PULSE_RIFLE_UFOPEDIA: "A custom made Microfusion Cell, modified to release a large amount of energy at once. The major downside was the increased production costs and certain 'incidents' which exploding Cells after receiving hits on the ground or even body parts... with disastrous consequences, it seems. "
+  STR_10MM_PISTOL_UFOPAEDIA: "Very rugged, very durable, somewhat cumbersome and kinda ugly, this handgun was widely praised before the War due its cheap production costs and great physical resistance to damage. Very popular among the wastelanders for those features."
+  STR_SHAMBLER_UFOPAEDIA: "Semiautomatic, revolver shotgun. The shells are manually loaded in the rotating external magazine. The rate of fire is surprisingly fast, but the reload is slow and tedious."
+  STR_DMR_UFOPAEDIA: "Civilian version of an old battle rifle, it was well liked by law enforcement forces and paramilitary units due its easy maintenance. Accurate and fast. "
   
   STR_WANDERER_SITE: "Wanderer Activity"
   STR_WANDERER_SITE_BRIEFING: "Local Settlers told us about a group of fried-brains causing troubles near their village, and asked us to take care of the matter. Proceed swift and shortly to dispose of the poor lads."
@@ -1364,7 +1367,6 @@ en-US:
   STR_WANDERER_ENGINEER: "Wanderer Engineer "
   STR_WANDERER_MEDIC: "Wanderer Medic"
   
-  STR_FERAL_GHOUL: "Feral Ghouls"
   STR_GHOUL_LOST: "Lost Ghoul"
   STR_GHOUL_WILD: "Wild Ghoul"
   STR_GHOUL_FERAL: "Feral Ghoul"
@@ -1386,12 +1388,11 @@ en-US:
   STR_GHOUL_WILD_CORPSE: "Wild Ghoul Corpse"
   STR_GHOUL_LOST_CORPSE: "Lost Ghoul Corpse"
   
-  STR_LOST_MUTANT: "Lost Mutants"
   STR_MUTANT_LOST: "Lost Mutant"
   STR_MUTANT_ANGRY: "Insane Mutant"
   STR_MUTANT_PROPHET: "Chosen Mutant"
   STR_MUTANT_COMMANDER: "Mutant Chieftain"
-  STR_MUTANT_LEADER: "Mutant Pack Leader"
+  STR_MUTANT_LEADER: "Mutant Pack Leader "
   STR_MUTANT_SOLDIER: "Experienced Mutant Warrior"
   STR_MUTANT_RECRUIT: "Novice Mutant Warrior"
   STR_MUTANT_LOST_ARMOR: "Putrid Mutant Skin"

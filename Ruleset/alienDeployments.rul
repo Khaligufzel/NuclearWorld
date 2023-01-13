@@ -1,4 +1,4 @@
-﻿alienDeployments:
+alienDeployments:
   - delete: STR_SMALL_SCOUT
   - delete: STR_MEDIUM_SCOUT
 #  - delete: STR_LARGE_SCOUT
@@ -409,7 +409,9 @@
             - STR_WEAPON_CRATE
 
   - type: STR_CARAVAN_MUTANT_SITE
-    alert: STR_CARAVAN_MUTANT
+    alert: STR_CARAVAN_MUTANT_SITE_MARKER_NAME
+    missionBountyItem: STR_CARAVAN_CRATE
+    missionBountyItemCount: 3
     width: 50
     length: 50
     height: 4
@@ -421,7 +423,7 @@
       - NUKECITY
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_CARAVAN_MUTANT_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -461,13 +463,14 @@
           -
             - STR_PIPE_RIFLE
             - STR_10MM
-            - STR_EDIBLE_MUSHROOM
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
           - 
             - STR_PIPE_RIFLE
             - STR_10MM
-            - STR_EDIBLE_MUSHROOM
+            - STR_10MM
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
       - alienRank: 5
@@ -674,7 +677,29 @@
     markerName: STR_TERROR_SITE
     duration: [24, 240]
     data:
-      - alienRank: 4
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          -
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_WEAPON_CRATE
+            - STR_WEAPON_CRATE
+      - alienRank: 3
         lowQty: 3
         highQty: 3
         dQty: 3
@@ -682,20 +707,43 @@
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_WEAPON_CRATE
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
-            - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
-          - 
             - STR_PIPE_RIFLE
             - STR_10MM
             - STR_10MM
             - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_10MM_SMG
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_BOW
+            - STR_BOW_ARROWS
+            - STR_WEAPON_CRATE
+          -
+            - STR_BOW
+            - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          - 
+            - STR_CROSSBOW
+            - STR_CROSSBOW_BELTS
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
 
   - type: STR_RAID_GHOUL_SITE
     alert: STR_RAID_GHOUL
@@ -712,15 +760,63 @@
     markerName: STR_TERROR_SITE
     duration: [24, 240]
     data:
-      - alienRank: 4
-        lowQty: 3
-        highQty: 6
-        dQty: 5
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_10MM_SMG
+            - STR_HEALING_HERB
+            - STR_VALUABLES_CRATE
+          -
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_556MM_RIFLE_CLIP
+            - STR_HEALING_HERB
+            - STR_VALUABLES_CRATE
+          - 
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_HEALING_HERB
+            - STR_VALUABLES_CRATE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_EDIBLE_MUSHROOM
+            - STR_VALUABLES_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_VALUABLES_CRATE
+          - 
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_WEAPON_CRATE
+            - STR_VALUABLES_CRATE
+            
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
           -
@@ -730,13 +826,61 @@
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
           - 
-            - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS 
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_10MM_SMG
             - STR_EDIBLE_MUSHROOM
-            - STR_AMMUNITION_CRATE    
+            - STR_WEAPON_CRATE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 3
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_10MM
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_10MM_SMG
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE            
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_BOW
+            - STR_BOW_ARROWS
+            - STR_WEAPON_CRATE
+          -
+            - STR_BOW
+            - STR_BOW_ARROWS
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          - 
+            - STR_CROSSBOW
+            - STR_CROSSBOW_BELTS
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE    
 
   - type: STR_CARAVAN_CHURCH_SITE
     alert: STR_CARAVAN_CHURCH
+    missionBountyItem: STR_CARAVAN_CRATE
+    missionBountyItemCount: 3
     width: 50
     length: 50
     height: 4
@@ -752,27 +896,69 @@
     markerName: STR_TERROR_SITE
     duration: [24, 240]
     data:
-      - alienRank: 4
-        lowQty: 3
-        highQty: 3
-        dQty: 3
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
-            - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_HEALING_HERB
+            - STR_VALUABLES_CRATE
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
-            - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_VALUABLES_CRATE
           - 
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_WEAPON_CRATE
+            - STR_VALUABLES_CRATE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
             - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS 
-            - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_CROSSBOW_BELTS
+            - STR_WEAPON_CRATE
+          -
+            - STR_CROSSBOW
+            - STR_CROSSBOW_BELTS
+            - STR_CROSSBOW_BELTS
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_10MM
+            - STR_WEAPON_CRATE
 
   - type: STR_SMALL_PATROL_CHURCH_SITE
     alert: STR_SMALL_PATROL_CHURCH
@@ -792,20 +978,21 @@
     duration: [24, 240]
     data:
       - alienRank: 4
-        lowQty: 3
+        lowQty: 2
         highQty: 3
-        dQty: 3
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
+            - STR_CROSSBOW
+            - STR_CROSSBOW_BELTS 
             - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
+            - STR_AMMUNITION_CRATE
           -
-            - STR_PREWAR_SHOTGUN
-            - STR_PREWAR_SHOTGUN_SHELLS
-            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
           - 
@@ -813,6 +1000,28 @@
             - STR_CROSSBOW_BELTS 
             - STR_EDIBLE_MUSHROOM
             - STR_AMMUNITION_CRATE  
+      - alienRank: 5
+        lowQty: 3
+        highQty: 3
+        dQty: 3
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
+            - STR_WEAPON_CRATE
+          -
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          - 
+            - STR_CROSSBOW
+            - STR_CROSSBOW_BELTS 
+            - STR_EDIBLE_MUSHROOM
+            - STR_AMMUNITION_CRATE
 
   - type: STR_MEDIUM_PATROL_CHURCH_SITE
     alert: STR_MEDIUM_PATROL_CHURCH
@@ -832,30 +1041,48 @@
     duration: [24, 240]
     data:
       - alienRank: 4
-        lowQty: 6
-        highQty: 9
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_AMMUNITION_CRATE
+          -
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_EDIBLE_MUSHROOM
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_PREWAR_SHOTGUN_SHELLS 
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
         dQty: 3
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
-            - STR_EDIBLE_MUSHROOM
-            - STR_AMMUNITION_CRATE
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
+            - STR_WEAPON_CRATE
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS 
             - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
-          -
-            - STR_PREWAR_SHOTGUN
-            - STR_PREWAR_SHOTGUN_SHELLS
-            - STR_WEAPON_CRATE  
+            - STR_AMMUNITION_CRATE  
 
   - type: STR_TERROR_CHURCH_SITE
     alert: STR_TERROR_CHURCH
@@ -874,36 +1101,75 @@
     markerName: STR_TERROR_SITE
     duration: [24, 240]
     data:
-      - alienRank: 4
-        lowQty: 6
-        highQty: 9
-        dQty: 5
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
-            - STR_EDIBLE_MUSHROOM
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_STIMPAK
             - STR_WEAPON_CRATE
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
-            - STR_EDIBLE_MUSHROOM
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_STIMPAK
             - STR_WEAPON_CRATE
           - 
-            - STR_PREWAR_SMG
-            - STR_10MM_SMG 
-            - STR_EDIBLE_MUSHROOM
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
             - STR_WEAPON_CRATE
           - 
-            - STR_PREWAR_SHOTGUN
-            - STR_PREWAR_SHOTGUN_SHELLS
-            - STR_EDIBLE_MUSHROOM
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_WEAPON_CRATE
+          -
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_GUNPOWDER_GRENADE
+            - STR_WEAPON_CRATE
+          - 
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_MOLOTOV_COCTAIL
             - STR_WEAPON_CRATE
 
 
   - type: STR_CARAVAN_RAIDERS_SITE
     alert: STR_CARAVAN_RAIDERS
+    missionBountyItem: STR_CARAVAN_CRATE
+    missionBountyItemCount: 3
     width: 50
     length: 50
     height: 4
@@ -919,27 +1185,70 @@
     markerName: STR_TERROR_SITE
     duration: [24, 240]
     data:
-      - alienRank: 4
-        lowQty: 3
-        highQty: 3
-        dQty: 3
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
-            - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_HEALING_HERB
+            - STR_VALUABLES_CRATE
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
-            - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_STIMULANT_HERB
+            - STR_VALUABLES_CRATE
           - 
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_WEAPON_CRATE
+            - STR_VALUABLES_CRATE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_STIMULANT_HERB
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_STIMULANT_HERB
+          - 
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_STIMULANT_HERB
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
+            - STR_WEAPON_CRATE
+          -
             - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS 
-            - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_CROSSBOW_BELTS
+            - STR_CROSSBOW_BELTS
+            - STR_WEAPON_CRATE
+          - 
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_556MM_RIFLE_CLIP
+            - STR_WEAPON_CRATE
 
   - type: STR_SMALL_PATROL_RAIDERS_SITE
     alert: STR_SMALL_PATROL_RAIDERS
@@ -979,6 +1288,26 @@
             - STR_CROSSBOW_BELTS 
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 3
+        highQty: 3
+        dQty: 3
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_STIMULANT_HERB
+            - STR_WEAPON_CRATE
+          -
+            - STR_STONE_HAMMER
+            - STR_STIMULANT_HERB
+            - STR_WEAPON_CRATE
+          - 
+            - STR_CROSSBOW
+            - STR_CROSSBOW_BELTS 
+            - STR_STIMULANT_HERB
+            - STR_AMMUNITION_CRATE
 
   - type: STR_MEDIUM_PATROL_RAIDERS_SITE
     alert: STR_MEDIUM_PATROL_RAIDERS
@@ -998,7 +1327,7 @@
     duration: [24, 240]
     data:
       - alienRank: 4
-        lowQty: 6
+        lowQty: 3
         highQty: 6
         dQty: 3
         extraQty: 0        
@@ -1019,6 +1348,29 @@
             - STR_CROSSBOW_BELTS 
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 3
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_STIMULANT_HERB
+            - STR_WEAPON_CRATE
+          -
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_STIMULANT_HERB
+            - STR_WEAPON_CRATE
+          - 
+            - STR_CROSSBOW
+            - STR_CROSSBOW_BELTS 
+            - STR_STIMULANT_HERB
+            - STR_AMMUNITION_CRATE
+
 
   - type: STR_TERROR_RAIDERS_SITE
     alert: STR_TERROR_RAIDERS
@@ -1037,28 +1389,68 @@
     markerName: STR_TERROR_SITE
     duration: [24, 240]
     data:
-      - alienRank: 4
-        lowQty: 6
-        highQty: 9
-        dQty: 3
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
-            - STR_EDIBLE_MUSHROOM
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_STIMPAK
             - STR_WEAPON_CRATE
-            - STR_GUNPOWDER_GRENADE
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
-            - STR_EDIBLE_MUSHROOM
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_STIMPAK
             - STR_WEAPON_CRATE
-            - STR_GUNPOWDER_GRENADE
+          - 
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_556MM_RIFLE_CLIP
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
           - 
             - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP 
-            - STR_EDIBLE_MUSHROOM
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_WEAPON_CRATE
+          -
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_GUNPOWDER_GRENADE
+            - STR_WEAPON_CRATE
+          - 
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_MOLOTOV_COCTAIL
             - STR_WEAPON_CRATE
 
   - type: STR_CARAVAN_ORDER_SITE
@@ -1078,27 +1470,71 @@
     markerName: STR_TERROR_SITE
     duration: [24, 240]
     data:
-      - alienRank: 4
-        lowQty: 3
-        highQty: 3
-        dQty: 6
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_SPEAR
-            - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_BANDAGE
+            - STR_VALUABLES_CRATE
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
-            - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_BANDAGE
+            - STR_VALUABLES_CRATE
           - 
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_BANDAGE
+            - STR_WEAPON_CRATE
+            - STR_VALUABLES_CRATE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_STIMULANT_HERB
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_STIMULANT_HERB
+          - 
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_STIMULANT_HERB
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PREWAR_SMG
+            - STR_10MM
+            - STR_10MM
+            - STR_WEAPON_CRATE
+          -
             - STR_PREWAR_SHOTGUN
-            - STR_PREWAR_SHOTGUN_SHELLS 
-            - STR_EDIBLE_MUSHROOM
-            - STR_CARAVAN_CRATE
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_WEAPON_CRATE
+          - 
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_556MM_RIFLE_CLIP
+            - STR_WEAPON_CRATE
 
   - type: STR_SMALL_PATROL_ORDER_SITE
     alert: STR_SMALL_PATROL_ORDER
@@ -1125,18 +1561,19 @@
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
-            - STR_EDIBLE_MUSHROOM
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_BANDAGE
             - STR_WEAPON_CRATE
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
-            - STR_EDIBLE_MUSHROOM
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_BANDAGE
             - STR_WEAPON_CRATE
           - 
-            - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS 
-            - STR_EDIBLE_MUSHROOM
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_BANDAGE
             - STR_WEAPON_CRATE
 
   - type: STR_MEDIUM_PATROL_ORDER_SITE
@@ -1159,22 +1596,44 @@
       - alienRank: 4
         lowQty: 3
         highQty: 3
-        dQty: 6
+        dQty: 3
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_PIPE_RIFLE
-            - STR_10MM
-            - STR_EDIBLE_MUSHROOM
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_BANDAGE
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_BANDAGE
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_BANDAGE
+            - STR_WEAPON_CRATE    
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 3
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_BANDAGE
           -
             - STR_PREWAR_SMG
             - STR_10MM_SMG
-            - STR_EDIBLE_MUSHROOM
+            - STR_BANDAGE
           - 
             - STR_PREWAR_SHOTGUN
             - STR_PREWAR_SHOTGUN_SHELLS 
-            - STR_EDIBLE_MUSHROOM
+            - STR_BANDAGE
 
   - type: STR_TERROR_ORDER_SITE
     alert: STR_TERROR_ORDER
@@ -1193,24 +1652,68 @@
     markerName: STR_TERROR_SITE
     duration: [24, 240]
     data:
-      - alienRank: 4
-        lowQty: 6
-        highQty: 9
-        dQty: 6
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_STONE_HAMMER
-            - STR_EDIBLE_MUSHROOM
-          -
-            - STR_BOW
-            - STR_BOW_ARROWS
-            - STR_EDIBLE_MUSHROOM
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
           - 
-            - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS 
-            - STR_EDIBLE_MUSHROOM
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          -
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE            
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_WEAPON_CRATE
+          -
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_WEAPON_CRATE
+          -
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_MOLOTOV_COCTAIL
+            - STR_WEAPON_CRATE
 
 
   - type: STR_MILLITARY_BASE_SITE
