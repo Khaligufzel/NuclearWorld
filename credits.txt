@@ -3,10 +3,11 @@ FilipH321- weapon sprites
 Luke83- Nuclear Terrain, maps and code; Hybrid globe design
 efrenespartano- compilation of assets for units, armor sprite creator, backgrounds, code support
 wolwerin- Hazmat Armor, arrow bulletSprite sprites
-_Brain322- Enforcer Prototype Armor sprites
+_Brain322-  Prototype Armor, Pre-War Pistol sprites
 Solarius Scorch- template for most enemy units spritesheets and inventories
 Ryskeliini- gasmask sprite used by Player armors
 aarond707- OST music
 XOps- Muton Berzerker sprite (used to make Mutants)
+neike60: UI original sprites, adapted to OXC format
 
 Feel free to add yourself here!

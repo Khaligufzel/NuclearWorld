@@ -1,4 +1,4 @@
-﻿research:
+research:
   - delete: STR_LASER_WEAPONS
 
   - delete: STR_MOTION_SCANNER
@@ -838,19 +838,17 @@
       - "STR_BASIC_PROTECTION"
       - "STR_WHAT_NOW"
 
-  - name: STR_WASTELANDER_ARMOR
+  - name: STR_LEATHER_ARMOR
     cost: 10
     points: 50
     dependencies:
       - "STR_BASIC_PROTECTION"
 
-   
-  - name: STR_LEATHER_ARMOR
+  - name: STR_WASTELANDER_ARMOR
     cost: 10
     points: 50
     dependencies:
       - "STR_BASIC_PROTECTION_II"
-
 
   - name: STR_HAZMAT_ARMOR
     cost: 10
@@ -865,4 +863,18 @@
     dependencies:
       - "STR_SPECIALIZED_ARMOR"
 
+  - name: STR_POWER_ARMOR
+    cost: 100
+    points: 100
+    needItem: true
+
+  - name: STR_PROTOTYPE_POWER_ARMOR
+    cost: 80
+    points: 100
+    needItem: true
+
+  - name: STR_HANDCRAFTED_POWER_ARMOR
+    cost: 50
+    points: 50
+    needItem: true
 

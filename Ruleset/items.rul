@@ -1492,6 +1492,8 @@ items:
     categories: [STR_ARMORS]
     size: 0.5
     costSell: 80000
+    requires:
+      - STR_LEATHER_ARMOR
 
   - type: STR_CORPSE_LEATHER_ARMOR
     name: STR_CORPSE

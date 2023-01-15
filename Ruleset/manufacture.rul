@@ -486,4 +486,100 @@ manufacture:
         - 20
         - STR_GOLD_INGOT: 1
 
-  
+# Armor Repair 
+
+  - name: STR_REPAIR_CORPSE_WASTELANDER_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_WASTELANDER_ARMOR
+    space: 5
+    time: 50
+    cost: 500
+    requiredItems:
+      STR_CORPSE_WASTELANDER_ARMOR: 1
+      STR_ANIMAL_SKIN: 3
+      STR_IRON_SCRAPS: 4
+    producedItems:
+      STR_WASTELANDER_ARMOR: 1
+      
+  - name: STR_REPAIR_CORPSE_LEATHER_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_LEATHER_ARMOR
+    space: 5
+    time: 50
+    cost: 500
+    requiredItems:
+      STR_CORPSE_LEATHER_ARMOR: 1
+      STR_ANIMAL_SKIN: 2
+      STR_IRON_SCRAPS: 1
+    producedItems:
+      STR_LEATHER_ARMOR: 1
+      
+  - name: STR_REPAIR_CORPSE_HAZMAT_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_HAZMAT_ARMOR
+    space: 5
+    time: 50
+    cost: 500
+    requiredItems:
+      STR_CORPSE_HAZMAT_ARMOR: 1
+      STR_ANIMAL_SKIN: 7
+      STR_IRON_SCRAPS: 2
+    producedItems:
+      STR_HAZMAT_ARMOR: 1
+      
+  - name: STR_REPAIR_CORPSE_HAZMAT_ACID_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_HAZMAT_ACID_ARMOR
+    space: 5
+    time: 50
+    cost: 500
+    requiredItems:
+      STR_CORPSE_HAZMAT_ACID_ARMOR: 1
+      STR_ANIMAL_SKIN: 9
+      STR_IRON_SCRAPS: 3
+    producedItems:
+      STR_HAZMAT_ACID_ARMOR: 1
+      
+  - name: STR_REPAIR_CORPSE_POWER_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_POWER_ARMOR
+    space: 5
+    time: 50
+    cost: 500
+    requiredItems:
+      STR_CORPSE_POWER_ARMOR: 1
+      STR_IRON_SCRAPS: 30
+    producedItems:
+      STR_POWER_ARMOR: 1
+ 
+  - name: STR_REPAIR_CORPSE_HANDCRAFTED_POWER_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_HANDCRAFTED_POWER_ARMOR
+    space: 5
+    time: 50
+    cost: 500
+    requiredItems:
+      STR_CORPSE_HANDCRAFTED_POWER_ARMOR: 1
+      STR_ANIMAL_SKIN: 5
+      STR_IRON_SCRAPS: 15
+    producedItems:
+      STR_HANDCRAFTED_POWER_ARMOR: 1
+      
+  - name: STR_REPAIR_CORPSE_PROTOTYPE_POWER_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_PROTOTYPE_POWER_ARMOR
+    space: 5
+    time: 50
+    cost: 500
+    requiredItems:
+      STR_CORPSE_PROTOTYPE_POWER_ARMOR: 1
+      STR_IRON_SCRAPS: 20
+    producedItems:
+      STR_PROTOTYPE_POWER_ARMOR: 1
