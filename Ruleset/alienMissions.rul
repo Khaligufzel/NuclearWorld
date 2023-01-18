@@ -1,4 +1,4 @@
-﻿alienMissions:
+alienMissions:
   - delete: STR_ALIEN_RESEARCH
   - delete: STR_ALIEN_HARVEST
   - delete: STR_ALIEN_ABDUCTION
@@ -205,6 +205,34 @@
         timer: 0
         objective: true
 
+  - type: STR_CHURCH_VS_ORDER_BATTLE
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_ORDER: 100
+    waves:
+      - ufo: STR_CHURCH_VS_RAIDERS_BATTLE_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_CHURCH_VS_RAIDERS_BATTLE
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_RAIDERS: 100
+    waves:
+      - ufo: STR_CHURCH_VS_RAIDERS_BATTLE_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
   - type: STR_CARAVAN_RAIDERS
     points: 100
     objective: 3
@@ -261,6 +289,34 @@
         timer: 0
         objective: true
 
+  - type: STR_RAIDERS_VS_CHURCH_BATTLE
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_CHURCH: 100
+    waves:
+      - ufo: STR_RAIDERS_VS_CHURCH_BATTLE_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_RAIDERS_VS_ORDER_BATTLE
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_ORDER: 100
+    waves:
+      - ufo: STR_RAIDERS_VS_ORDER_BATTLE_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
   - type: STR_CARAVAN_ORDER
     points: 100
     objective: 3
@@ -312,6 +368,34 @@
         STR_RAIDERS: 100
     waves:
       - ufo: STR_TERROR_ORDER_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_ORDER_VS_CHURCH_BATTLE
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_CHURCH: 100
+    waves:
+      - ufo: STR_ORDER_VS_CHURCH_BATTLE_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_ORDER_VS_RAIDERS_BATTLE
+    points: 100
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_RAIDERS: 100
+    waves:
+      - ufo: STR_ORDER_VS_RAIDERS_BATTLE_SITE # spawn this site directly
         count: 1
         trajectory: P10
         timer: 0

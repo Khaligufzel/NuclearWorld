@@ -43,10 +43,12 @@ alienDeployments:
     length: 50
     height: 3
     terrains:
-      - VILLAGE
+      - VILLAGE 
+      - CULTA 
+      - FOREST 
+      - MOUNTAIN 
+      - DESERT
       - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_WANDERER_SITE_MARKER_NAME
@@ -274,6 +276,7 @@ alienDeployments:
       - NUKECITY_B
       - NUKECITY
       - FOREST_TRENCH
+      - CULTA 
     alertBackground: BACK03.SCR
     markerName: STR_LOST_MUTANT_SITE_MARKER_NAME
     duration: [24, 240]
@@ -332,13 +335,17 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    terrains:
+    terrains: &PatrolTerrains
       - URBAN
       - URBAN_RUINS
       - NUKEZONE
       - NUKECITY_B
       - NUKECITY
       - FOREST_TRENCH
+      - FOREST 
+      - CULTA
+      - MOUNTAIN 
+      - DESERT
     alertBackground: BACK03.SCR
     markerName: STR_PATROL_MUTANT_SITE_MARKER_NAME
     duration: [24, 240]
@@ -398,13 +405,11 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
           -
-            - STR_BOW
-            - STR_BOW_ARROWS
+            - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
           - 
-            - STR_CROSSBOW
-            - STR_CROSSBOW_BELTS
+            - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
 
@@ -415,13 +420,12 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    terrains:
-      - URBAN
-      - URBAN_RUINS
+    terrains: &CaravanTerrains
       - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
       - FOREST_TRENCH
+      - FOREST 
+      - MOUNTAIN 
+      - DESERT
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_MUTANT_SITE_MARKER_NAME
     duration: [24, 240]
@@ -500,12 +504,9 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    terrains:
-      - VILLAGE
-      - NUKEZONE
+    terrains: &RaidTerrains
       - NUKECITY_B
       - NUKECITY
-      - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -585,13 +586,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -666,13 +661,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -750,12 +739,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    terrains:
-      - VILLAGE
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    terrains: *RaidTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -885,13 +869,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -966,13 +944,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -1029,13 +1001,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -1090,13 +1056,12 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 15
-    terrains:
+    terrains: &TerrorTerrains
+      - VILLAGE
       - URBAN
       - URBAN_RUINS
-      - NUKEZONE
       - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+      - CULTA
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -1165,6 +1130,162 @@ alienDeployments:
             - STR_MOLOTOV_COCTAIL
             - STR_WEAPON_CRATE
 
+  - type: STR_CHURCH_VS_RAIDERS_BATTLE_SITE
+    alert: STR_TERROR_RAIDERS
+    width: 50
+    length: 50
+    height: 4
+    civilians: 8
+    terrains: &BattleTerrains
+      - URBAN
+      - URBAN_RUINS
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
+      - CULTA 
+      - FOREST
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [24, 240]
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          -
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          - 
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_556MM_RIFLE_CLIP
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_WEAPON_CRATE
+          -
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_GUNPOWDER_GRENADE
+            - STR_WEAPON_CRATE
+          - 
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_MOLOTOV_COCTAIL
+            - STR_WEAPON_CRATE
+
+  - type: STR_CHURCH_VS_ORDER_BATTLE_SITE
+    alert: STR_TERROR_ORDER
+    width: 50
+    length: 50
+    height: 4
+    civilians: 8
+    terrains: *BattleTerrains
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [24, 240]
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          -
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE            
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_WEAPON_CRATE
+          -
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_WEAPON_CRATE
+          -
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_MOLOTOV_COCTAIL
+            - STR_WEAPON_CRATE
 
   - type: STR_CARAVAN_RAIDERS_SITE
     alert: STR_CARAVAN_RAIDERS
@@ -1173,14 +1294,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 15
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    civilians: 0
+    terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -1255,14 +1370,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 15
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    civilians: 0
+    terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -1314,14 +1423,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 15
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    civilians: 0
+    terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -1378,13 +1481,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 15
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    terrains: *TerrorTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -1453,19 +1550,162 @@ alienDeployments:
             - STR_MOLOTOV_COCTAIL
             - STR_WEAPON_CRATE
 
+  - type: STR_RAIDERS_VS_CHURCH_BATTLE_SITE
+    alert: STR_TERROR_CHURCH
+    width: 50
+    length: 50
+    height: 4
+    civilians: 8
+    terrains: *BattleTerrains
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [24, 240]
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_WEAPON_CRATE
+          -
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_GUNPOWDER_GRENADE
+            - STR_WEAPON_CRATE
+          - 
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_MOLOTOV_COCTAIL
+            - STR_WEAPON_CRATE
+
+  - type: STR_RAIDERS_VS_ORDER_BATTLE_SITE
+    alert: STR_TERROR_ORDER
+    width: 50
+    length: 50
+    height: 4
+    civilians: 8
+    terrains: *BattleTerrains
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [24, 240]
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          -
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE            
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_WEAPON_CRATE
+          -
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_WEAPON_CRATE
+          -
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_MOLOTOV_COCTAIL
+            - STR_WEAPON_CRATE
+
   - type: STR_CARAVAN_ORDER_SITE
     alert: STR_CARAVAN_ORDER
     width: 50
     length: 50
     height: 4
     civilians: 15
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -1542,13 +1782,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 15
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -1582,13 +1816,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 15
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -1641,13 +1869,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 15
-    terrains:
-      - URBAN
-      - URBAN_RUINS
-      - NUKEZONE
-      - NUKECITY_B
-      - NUKECITY
-      - FOREST_TRENCH
+    terrains: *TerrorTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
     duration: [24, 240]
@@ -1715,6 +1937,155 @@ alienDeployments:
             - STR_MOLOTOV_COCTAIL
             - STR_WEAPON_CRATE
 
+  - type: STR_ORDER_VS_RAIDERS_BATTLE_SITE
+    alert: STR_TERROR_RAIDERS
+    width: 50
+    length: 50
+    height: 4
+    civilians: 8
+    terrains: *BattleTerrains
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [24, 240]
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          -
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          - 
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
+            - STR_556MM_RIFLE_CLIP
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_WEAPON_CRATE
+          -
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_GUNPOWDER_GRENADE
+            - STR_WEAPON_CRATE
+          - 
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_MOLOTOV_COCTAIL
+            - STR_WEAPON_CRATE
+
+  - type: STR_ORDER_VS_CHURCH_BATTLE_SITE
+    alert: STR_TERROR_CHURCH
+    width: 50
+    length: 50
+    height: 4
+    civilians: 8
+    terrains: *BattleTerrains
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [24, 240]
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          - 
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          -
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+          - 
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
+            - STR_WEAPON_CRATE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_WEAPON_CRATE
+          -
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_GUNPOWDER_GRENADE
+            - STR_WEAPON_CRATE
+          - 
+            - STR_SPEAR
+            - STR_GUNPOWDER_GRENADE
+            - STR_MOLOTOV_COCTAIL
+            - STR_WEAPON_CRATE
 
   - type: STR_MILLITARY_BASE_SITE
     alert: STR_MILLITARY_BASE

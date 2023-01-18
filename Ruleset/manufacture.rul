@@ -488,7 +488,7 @@ manufacture:
 
 # Armor Repair 
 
-  - name: STR_REPAIR_CORPSE_WASTELANDER_ARMOR
+  - name: STR_CORPSE_WASTELANDER_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
       - STR_WASTELANDER_ARMOR
@@ -502,7 +502,7 @@ manufacture:
     producedItems:
       STR_WASTELANDER_ARMOR: 1
       
-  - name: STR_REPAIR_CORPSE_LEATHER_ARMOR
+  - name: STR_CORPSE_LEATHER_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
       - STR_LEATHER_ARMOR
@@ -516,7 +516,7 @@ manufacture:
     producedItems:
       STR_LEATHER_ARMOR: 1
       
-  - name: STR_REPAIR_CORPSE_HAZMAT_ARMOR
+  - name: STR_CORPSE_HAZMAT_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
       - STR_HAZMAT_ARMOR
@@ -530,7 +530,7 @@ manufacture:
     producedItems:
       STR_HAZMAT_ARMOR: 1
       
-  - name: STR_REPAIR_CORPSE_HAZMAT_ACID_ARMOR
+  - name: STR_CORPSE_HAZMAT_ACID_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
       - STR_HAZMAT_ACID_ARMOR
@@ -544,7 +544,7 @@ manufacture:
     producedItems:
       STR_HAZMAT_ACID_ARMOR: 1
       
-  - name: STR_REPAIR_CORPSE_POWER_ARMOR
+  - name: STR_CORPSE_POWER_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
       - STR_POWER_ARMOR
@@ -557,7 +557,7 @@ manufacture:
     producedItems:
       STR_POWER_ARMOR: 1
  
-  - name: STR_REPAIR_CORPSE_HANDCRAFTED_POWER_ARMOR
+  - name: STR_CORPSE_HANDCRAFTED_POWER_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
       - STR_HANDCRAFTED_POWER_ARMOR
@@ -571,7 +571,7 @@ manufacture:
     producedItems:
       STR_HANDCRAFTED_POWER_ARMOR: 1
       
-  - name: STR_REPAIR_CORPSE_PROTOTYPE_POWER_ARMOR
+  - name: STR_CORPSE_PROTOTYPE_POWER_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
       - STR_PROTOTYPE_POWER_ARMOR

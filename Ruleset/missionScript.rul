@@ -1,4 +1,4 @@
-﻿missionScripts:
+missionScripts:
   - delete: recon
   - delete: invasion
   - delete: researchRetaliation
@@ -365,6 +365,62 @@
     researchTriggers:
       STR_FACTION_CHURCH: true
 
+  - type: raiderBattle1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_RAIDERS_VS_CHURCH_BATTLE: 100
+    regionWeights:
+      0:
+        STR_RAIDERS_VS_CHURCH_BATTLE_SITE_REGION: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_RAIDERS: true
+
+  - type: raidersBattle2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_RAIDERS_VS_ORDER_BATTLE: 100
+    regionWeights:
+      0:
+        STR_RAIDERS_VS_ORDER_BATTLE_SITE_REGION: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_RAIDERS: true
+
+  - type: churchBattle1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CHURCH_VS_ORDER_BATTLE: 100
+    regionWeights:
+      0:
+        STR_CHURCH_VS_ORDER_BATTLE_SITE_REGION: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_CHURCH: true
+
+  - type: churchBattle2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CHURCH_VS_RAIDERS_BATTLE: 100
+    regionWeights:
+      0:
+        STR_CHURCH_VS_RAIDERS_BATTLE_SITE_REGION: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_CHURCH: true
+
   - type: orderCaravan1
     missionWeights:
       # 0 is just for safety
@@ -463,7 +519,6 @@
     researchTriggers:
       STR_FACTION_RAIDERS: true
 
-
   - type: orderTerror2
     missionWeights:
       # 0 is just for safety
@@ -477,6 +532,34 @@
     startDelay: 0
     researchTriggers:
       STR_FACTION_CHURCH: true
+
+  - type: orderBattle1
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_ORDER_VS_CHURCH_BATTLE: 100
+    regionWeights:
+      0:
+        STR_ORDER_VS_CHURCH_BATTLE_SITE_REGION: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_ORDER: true
+
+  - type: orderBattle2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_ORDER_VS_RAIDERS_BATTLE: 100
+    regionWeights:
+      0:
+        STR_ORDER_VS_RAIDERS_BATTLE_SITE_REGION: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 0
+    researchTriggers:
+      STR_FACTION_ORDER: true
 
   # - type: feralGhoul
   #   missionWeights:
@@ -499,11 +582,11 @@
     regionWeights:
       0:
         STR_MILLITARY_BASE_REGION: 100
-    firstMonth: 0
+    firstMonth: 6
     executionOdds: 100
     startDelay: 0
-    researchTriggers:
-     STR_ENEMY_MUTANTS: true
+    #researchTriggers:
+     #STR_ENEMY_MUTANTS: true
 
   - type: lab
     missionWeights:
@@ -513,11 +596,11 @@
     regionWeights:
       0:
         STR_MILLITARY_BASE_REGION: 100
-    firstMonth: 0
+    firstMonth: 6
     executionOdds: 100
     startDelay: 0
-    researchTriggers:
-     STR_ENEMY_MUTANTS: true
+    #researchTriggers:
+     #STR_ENEMY_MUTANTS: true
 
 
 
