@@ -46,7 +46,7 @@ alienDeployments:
       - VILLAGE 
       - CULTA 
       - FOREST 
-      - MOUNTAIN 
+      - MOUNT 
       - DESERT
       - NUKEZONE
       - FOREST_TRENCH
@@ -344,7 +344,7 @@ alienDeployments:
       - FOREST_TRENCH
       - FOREST 
       - CULTA
-      - MOUNTAIN 
+      - MOUNT 
       - DESERT
     alertBackground: BACK03.SCR
     markerName: STR_PATROL_MUTANT_SITE_MARKER_NAME
@@ -424,7 +424,7 @@ alienDeployments:
       - NUKEZONE
       - FOREST_TRENCH
       - FOREST 
-      - MOUNTAIN 
+      - MOUNT 
       - DESERT
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_MUTANT_SITE_MARKER_NAME
@@ -1135,7 +1135,11 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 8
+    civilians: 0 # no random civilians
+    civiliansByType:
+      STR_CHURCH_BATTLE_LEADER_NPC: 2
+      STR_CHURCH_RIFLEMAN_NPC: 4
+      STR_CHURCH_CQB_NPC: 4
     terrains: &BattleTerrains
       - URBAN
       - URBAN_RUINS
@@ -1203,12 +1207,16 @@ alienDeployments:
             - STR_SPEAR
             - STR_WEAPON_CRATE
           -
-            - STR_SPEAR
+            - STR_SPEAR 
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
             - STR_GUNPOWDER_GRENADE
             - STR_GUNPOWDER_GRENADE
             - STR_WEAPON_CRATE
           - 
             - STR_SPEAR
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
             - STR_GUNPOWDER_GRENADE
             - STR_MOLOTOV_COCTAIL
             - STR_WEAPON_CRATE
@@ -1218,7 +1226,11 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 8
+    civilians: 0 # no random civilians
+    civiliansByType:
+      STR_CHURCH_BATTLE_LEADER_NPC: 2
+      STR_CHURCH_RIFLEMAN_NPC: 4
+      STR_CHURCH_CQB_NPC: 4
     terrains: *BattleTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
@@ -1517,17 +1529,17 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
             - STR_WEAPON_CRATE
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
+            - STR_SHAMBLER
+            - STR_PREWAR_SHOTGUN_SHELLS
             - STR_WEAPON_CRATE
           - 
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
-            - STR_308_RIFLE_CLIP
+            - STR_SHAMBLER
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_PREWAR_SHOTGUN_SHELLS
             - STR_WEAPON_CRATE
       - alienRank: 5
         lowQty: 4
@@ -1540,12 +1552,16 @@ alienDeployments:
             - STR_SPEAR
             - STR_WEAPON_CRATE
           -
-            - STR_SPEAR
+            - STR_SPEAR 
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
             - STR_GUNPOWDER_GRENADE
             - STR_GUNPOWDER_GRENADE
             - STR_WEAPON_CRATE
           - 
             - STR_SPEAR
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
             - STR_GUNPOWDER_GRENADE
             - STR_MOLOTOV_COCTAIL
             - STR_WEAPON_CRATE
@@ -1555,7 +1571,11 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 8
+    civilians: 0 # no random civilians
+    civiliansByType:
+      STR_RAIDERS_BATTLE_LEADER_NPC: 2
+      STR_RAIDERS_RIFLEMAN_NPC: 4
+      STR_RAIDERS_CQB_NPC: 4
     terrains: *BattleTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
@@ -1630,7 +1650,11 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 8
+    civilians: 0 # no random civilians
+    civiliansByType:
+      STR_RAIDERS_BATTLE_LEADER_NPC: 2
+      STR_RAIDERS_RIFLEMAN_NPC: 4
+      STR_RAIDERS_CQB_NPC: 4
     terrains: *BattleTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
@@ -1741,17 +1765,17 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_PIPE_RIFLE
-            - STR_10MM
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
             - STR_STIMULANT_HERB
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
             - STR_STIMULANT_HERB
           - 
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
-            - STR_308_RIFLE_CLIP
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_BANDAGE
             - STR_STIMULANT_HERB
       - alienRank: 5
         lowQty: 4
@@ -1761,7 +1785,7 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_PREWAR_SMG
+            - STR_10MM_PISTOL
             - STR_10MM
             - STR_10MM
             - STR_WEAPON_CRATE
@@ -1771,9 +1795,9 @@ alienDeployments:
             - STR_PREWAR_SHOTGUN_SHELLS
             - STR_WEAPON_CRATE
           - 
-            - STR_BASTARD
-            - STR_556MM_RIFLE_CLIP
-            - STR_556MM_RIFLE_CLIP
+            - STR_BOZAR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_WEAPON_CRATE
 
   - type: STR_SMALL_PATROL_ORDER_SITE
@@ -1795,8 +1819,8 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
+            - STR_10MM_PISTOL
+            - STR_10MM
             - STR_BANDAGE
             - STR_WEAPON_CRATE
           -
@@ -1829,18 +1853,19 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
             - STR_BANDAGE
             - STR_WEAPON_CRATE
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
             - STR_BANDAGE
             - STR_WEAPON_CRATE
           - 
-            - STR_PREWAR_SERVICE_RIFLE
-            - STR_762MM_RIFLE_MAG
+            - STR_BOZAR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_BANDAGE
             - STR_WEAPON_CRATE    
       - alienRank: 5
@@ -1851,8 +1876,9 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
             - STR_BANDAGE
           -
             - STR_PREWAR_SMG
@@ -1861,6 +1887,7 @@ alienDeployments:
           - 
             - STR_PREWAR_SHOTGUN
             - STR_PREWAR_SHOTGUN_SHELLS 
+            - STR_PREWAR_SHOTGUN_SHELLS
             - STR_BANDAGE
 
   - type: STR_TERROR_ORDER_SITE
@@ -1882,14 +1909,15 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
-            - STR_STIMPAK
-            - STR_WEAPON_CRATE
-          - 
             - STR_PREWAR_SERVICE_RIFLE
             - STR_762MM_RIFLE_MAG
             - STR_762MM_RIFLE_MAG
+            - STR_STIMPAK
+            - STR_WEAPON_CRATE
+          - 
+            - STR_BOZAR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_STIMPAK
             - STR_WEAPON_CRATE
           -
@@ -1924,8 +1952,8 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_PREWAR_SMG
-            - STR_10MM_SMG
+            - STR_10MM_PISTOL
+            - STR_10MM
             - STR_WEAPON_CRATE
           -
             - STR_PREWAR_SMG
@@ -1942,7 +1970,11 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 8
+    civilians: 0 # no random civilians
+    civiliansByType:
+      STR_ORDER_BATTLE_LEADER_NPC: 2
+      STR_ORDER_RIFLEMAN_NPC: 4
+      STR_ORDER_CQB_NPC: 4
     terrains: *BattleTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
@@ -1979,8 +2011,9 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_10MM
             - STR_WEAPON_CRATE
           -
             - STR_HUNTING_RIFLE
@@ -2002,12 +2035,16 @@ alienDeployments:
             - STR_SPEAR
             - STR_WEAPON_CRATE
           -
-            - STR_SPEAR
+            - STR_SPEAR 
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
             - STR_GUNPOWDER_GRENADE
             - STR_GUNPOWDER_GRENADE
             - STR_WEAPON_CRATE
           - 
             - STR_SPEAR
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
             - STR_GUNPOWDER_GRENADE
             - STR_MOLOTOV_COCTAIL
             - STR_WEAPON_CRATE
@@ -2017,7 +2054,11 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 8
+    civilians: 0 # no random civilians
+    civiliansByType:
+      STR_ORDER_BATTLE_LEADER_NPC: 2
+      STR_ORDER_RIFLEMAN_NPC: 4
+      STR_ORDER_CQB_NPC: 4
     terrains: *BattleTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
@@ -2098,6 +2139,71 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [24, 240]
     data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_BANDAGE
+            - STR_WEAPON_CRATE
+          -
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_BANDAGE
+            - STR_WEAPON_CRATE
+          - 
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_AMMUNITION_CRATE    
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_DMR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
+            - STR_BANDAGE
+          -
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_WEAPON_CRATE
+          - 
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_AMMUNITION_CRATE
+
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_DMR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
+            - STR_BANDAGE
+          -
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_BANDAGE
+          - 
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_2MM_EC_GAUSS_ROUNDS
       - alienRank: 4
         lowQty: 3
         highQty: 6
@@ -2111,14 +2217,36 @@ alienDeployments:
             - STR_308_RIFLE_CLIP
             - STR_WEAPON_CRATE
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
-            - STR_308_RIFLE_CLIP
+            - STR_BOZAR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_WEAPON_CRATE
           - 
             - STR_MINIGUN
             - STR_7.62MM_MINIGUN
             - STR_AMMUNITION_CRATE
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 3
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_BANDAGE
+          -
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_BANDAGE
+          - 
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_BANDAGE
 
   - type: STR_LAB_SITE
     alert: STR_LAB
@@ -2131,6 +2259,71 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [24, 240]
     data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_BANDAGE
+            - STR_WEAPON_CRATE
+          -
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_BANDAGE
+            - STR_WEAPON_CRATE
+          - 
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_AMMUNITION_CRATE    
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_DMR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
+            - STR_BANDAGE
+          -
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_WEAPON_CRATE
+          - 
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_AMMUNITION_CRATE
+
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_DMR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
+            - STR_BANDAGE
+          -
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_BANDAGE
+          - 
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_2MM_EC_GAUSS_ROUNDS
       - alienRank: 4
         lowQty: 3
         highQty: 6
@@ -2144,14 +2337,36 @@ alienDeployments:
             - STR_308_RIFLE_CLIP
             - STR_WEAPON_CRATE
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
-            - STR_308_RIFLE_CLIP
+            - STR_BOZAR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_WEAPON_CRATE
           - 
             - STR_MINIGUN
             - STR_7.62MM_MINIGUN
             - STR_AMMUNITION_CRATE
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 3
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_BANDAGE
+          -
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_BANDAGE
+          - 
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_BANDAGE
 
   - type: STR_PREPPERSSHELTER_SITE
     alert: STR_PREPPERSSHELTER
@@ -2164,6 +2379,71 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [24, 240]
     data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_BANDAGE
+            - STR_WEAPON_CRATE
+          -
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_BANDAGE
+            - STR_WEAPON_CRATE
+          - 
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_AMMUNITION_CRATE    
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_DMR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
+            - STR_BANDAGE
+          -
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
+            - STR_WEAPON_CRATE
+          - 
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_AMMUNITION_CRATE
+
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_DMR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
+            - STR_BANDAGE
+          -
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_BANDAGE
+          - 
+            - STR_GAUSS_RIFLE
+            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_2MM_EC_GAUSS_ROUNDS
       - alienRank: 4
         lowQty: 3
         highQty: 6
@@ -2177,14 +2457,36 @@ alienDeployments:
             - STR_308_RIFLE_CLIP
             - STR_WEAPON_CRATE
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
-            - STR_308_RIFLE_CLIP
+            - STR_BOZAR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_WEAPON_CRATE
           - 
             - STR_MINIGUN
             - STR_7.62MM_MINIGUN
             - STR_AMMUNITION_CRATE
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 3
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_BANDAGE
+          -
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_BANDAGE
+          - 
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_BANDAGE
         
   - type: STR_TEST_SITE
     alert: STR_TEST

@@ -1,4 +1,4 @@
-﻿units:
+units:
 
   - delete: STR_TANK_CANNON
  
@@ -238,8 +238,8 @@
     standHeight: 22
     kneelHeight: 14
     value: 60
-    intelligence: 5
-    aggression: 1
+    intelligence: 3
+    aggression: 9
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -264,8 +264,8 @@
     standHeight: 22
     kneelHeight: 14
     value: 60
-    intelligence: 5
-    aggression: 1
+    intelligence: 4
+    aggression: 8
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -291,7 +291,7 @@
     kneelHeight: 14
     value: 60
     intelligence: 5
-    aggression: 1
+    aggression: 8
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -300,9 +300,9 @@
     race: STR_LOST_MUTANT
     rank: STR_LIVE_LOST_MUTANT
     stats:
-      tu: 64
+      tu: 60
       stamina: 90
-      health: 40
+      health: 30
       bravery: 90
       reactions: 52
       firing: 61
@@ -317,7 +317,7 @@
     kneelHeight: 14
     value: 60
     intelligence: 5
-    aggression: 1
+    aggression: 6
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -325,25 +325,25 @@
   - type: STR_MUTANT_ANGRY
     race: STR_LOST_MUTANT
     rank: STR_LIVE_LOST_MUTANT
-    stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+    stats: &MutantStrongStats
+      tu: 45
+      stamina: 50
+      health: 140
+      bravery: 110
+      reactions: 30
+      firing: 50
+      throwing: 60
+      strength: 70
       psiStrength: 40
       psiSkill: 0
-      melee: 25
+      melee: 75
       mana: 80
     armor: STR_MUTANT_STRONG_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
     intelligence: 5
-    aggression: 1
+    aggression: 9
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -368,7 +368,7 @@
     standHeight: 22
     kneelHeight: 14
     value: 60
-    intelligence: 5
+    intelligence: 10
     aggression: 1
     sniper: 75
     spotter: 2
@@ -377,25 +377,13 @@
   - type: STR_MUTANT_COMMANDER
     race: STR_MUTANT
     rank: STR_LIVE_MUTANT
-    stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
-      psiStrength: 40
-      psiSkill: 0
-      melee: 25
-      mana: 80
+    stats: *MutantStrongStats
     armor: STR_MUTANT_STRONG_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
     intelligence: 5
-    aggression: 1
+    aggression: 8
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -403,25 +391,13 @@
   - type: STR_MUTANT_LEADER
     race: STR_MUTANT
     rank: STR_LIVE_MUTANT
-    stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
-      psiStrength: 40
-      psiSkill: 0
-      melee: 25
-      mana: 80
+    stats: *MutantStrongStats
     armor: STR_MUTANT_STRONG_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
     intelligence: 5
-    aggression: 1
+    aggression: 6
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -429,23 +405,23 @@
   - type: STR_MUTANT_SOLDIER
     race: STR_MUTANT
     rank: STR_LIVE_MUTANT
-    stats:
-      tu: 64
+    stats: &MutantWeakStats
+      tu: 60
       stamina: 90
-      health: 40
+      health: 60
       bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      reactions: 40
+      firing: 50
+      throwing: 60
+      strength: 60
       psiStrength: 40
       psiSkill: 0
-      melee: 25
+      melee: 65
       mana: 80
     armor: STR_MUTANT_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 20
     intelligence: 5
     aggression: 1
     sniper: 75
@@ -455,23 +431,11 @@
   - type: STR_MUTANT_RECRUIT
     race: STR_MUTANT
     rank: STR_LIVE_MUTANT
-    stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
-      psiStrength: 40
-      psiSkill: 0
-      melee: 25
-      mana: 80
+    stats: *MutantWeakStats
     armor: STR_MUTANT_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 10
     intelligence: 5
     aggression: 1
     sniper: 75
@@ -481,15 +445,15 @@
   - type: STR_GHOUL_RECRUIT
     race: STR_GHOUL
     rank: STR_LIVE_GHOUL
-    stats:
-      tu: 64
+    stats: &GhoulStats
+      tu: 50
       stamina: 90
-      health: 40
-      bravery: 90
+      health: 110
+      bravery: 60
       reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      firing: 40
+      throwing: 50
+      strength: 40
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -497,9 +461,9 @@
     armor: STR_GHOUL_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 30
     intelligence: 5
-    aggression: 1
+    aggression: 3
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -508,14 +472,14 @@
     race: STR_GHOUL
     rank: STR_LIVE_GHOUL
     stats:
-      tu: 64
+      tu: 60
       stamina: 90
-      health: 40
-      bravery: 90
+      health: 110
+      bravery: 60
       reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      firing: 60
+      throwing: 50
+      strength: 50
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -523,7 +487,7 @@
     armor: STR_GHOUL_SOLDIER_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 40
     intelligence: 5
     aggression: 1
     sniper: 75
@@ -534,14 +498,14 @@
     race: STR_GHOUL
     rank: STR_LIVE_GHOUL
     stats:
-      tu: 64
+      tu: 65
       stamina: 90
-      health: 40
-      bravery: 90
+      health: 110
+      bravery: 100
       reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      firing: 45
+      throwing: 50
+      strength: 40
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -560,14 +524,14 @@
     race: STR_GHOUL
     rank: STR_LIVE_GHOUL
     stats:
-      tu: 64
+      tu: 80
       stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      health: 110
+      bravery: 80
+      reactions: 55
+      firing: 55
+      throwing: 50
+      strength: 40
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -576,7 +540,7 @@
     standHeight: 22
     kneelHeight: 14
     value: 60
-    intelligence: 5
+    intelligence: 8
     aggression: 1
     sniper: 75
     spotter: 2
@@ -585,15 +549,15 @@
   - type: STR_CHURCH_BISHOP
     race: STR_CHURCH
     rank: STR_LIVE_CHURCH
-    stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+    stats: &ChurchHighRankedStats
+      tu: 65
+      stamina: 50
+      health: 60
+      bravery: 50
+      reactions: 70
+      firing: 50
+      throwing: 60
+      strength: 40
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -602,7 +566,7 @@
     standHeight: 22
     kneelHeight: 14
     value: 60
-    intelligence: 5
+    intelligence: 8
     aggression: 1
     sniper: 75
     spotter: 2
@@ -611,23 +575,11 @@
   - type: STR_CHURCH_PRIEST
     race: STR_CHURCH
     rank: STR_LIVE_CHURCH
-    stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
-      psiStrength: 40
-      psiSkill: 0
-      melee: 25
-      mana: 80
+    stats: *ChurchHighRankedStats
     armor: STR_CHURCH_PRIEST_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 50
     intelligence: 5
     aggression: 1
     sniper: 75
@@ -637,23 +589,23 @@
   - type: STR_CHURCH_EXORCIST
     race: STR_CHURCH
     rank: STR_LIVE_CHURCH
-    stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+    stats: &ChurchCombatantStats
+      tu: 65
+      stamina: 50
+      health: 80
+      bravery: 100
+      reactions: 60
+      firing: 70
+      throwing: 60
+      strength: 55
       psiStrength: 40
       psiSkill: 0
-      melee: 25
+      melee: 50
       mana: 80
-    armor: STR_CHURCH_FOLLOWER_ARMOR
+    armor: STR_PROTOTYPE_POWER_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 30
     intelligence: 5
     aggression: 1
     sniper: 75
@@ -664,22 +616,22 @@
     race: STR_CHURCH
     rank: STR_LIVE_CHURCH
     stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      tu: 65
+      stamina: 50
+      health: 60
+      bravery: 120
+      reactions: 60
+      firing: 40
+      throwing: 60
+      strength: 50
       psiStrength: 40
       psiSkill: 0
-      melee: 25
+      melee: 80
       mana: 80
     armor: STR_CHURCH_FOLLOWER_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 15
     intelligence: 5
     aggression: 1
     sniper: 75
@@ -690,24 +642,24 @@
     race: STR_RAIDERS
     rank: STR_LIVE_RAIDERS
     stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      tu: 70
+      stamina: 110
+      health: 55
+      bravery: 60
+      reactions: 40
+      firing: 30
+      throwing: 80
+      strength: 60
       psiStrength: 40
       psiSkill: 0
-      melee: 25
+      melee: 90
       mana: 80
     armor: STR_RAIDER_PUNK_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
-    intelligence: 5
-    aggression: 1
+    value: 35
+    intelligence: 2
+    aggression: 9
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -715,18 +667,18 @@
   - type: STR_RAIDERS_COMMANDER
     race: STR_RAIDERS
     rank: STR_LIVE_RAIDERS
-    stats:
-      tu: 64
+    stats: &RaiderLeaderStats
+      tu: 65
       stamina: 90
       health: 40
       bravery: 90
-      reactions: 52
-      firing: 61
+      reactions: 50
+      firing: 60
       throwing: 68
-      strength: 49
+      strength: 45
       psiStrength: 40
       psiSkill: 0
-      melee: 25
+      melee: 50
       mana: 80
     armor: STR_HANDCRAFTED_POWER_ARMOR
     standHeight: 22
@@ -741,23 +693,11 @@
   - type: STR_RAIDERS_LEADER
     race: STR_RAIDERS
     rank: STR_LIVE_RAIDERS
-    stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
-      psiStrength: 40
-      psiSkill: 0
-      melee: 25
-      mana: 80
+    stats: *RaiderLeaderStats
     armor: STR_RAIDER_LEADER_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 50
     intelligence: 5
     aggression: 1
     sniper: 75
@@ -767,25 +707,25 @@
   - type: STR_RAIDERS_RAIDER
     race: STR_RAIDERS
     rank: STR_LIVE_RAIDERS
-    stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+    stats: &RaiderGruntStats
+      tu: 50
+      stamina: 45
+      health: 35
+      bravery: 50
+      reactions: 30
+      firing: 65
+      throwing: 50
+      strength: 45
       psiStrength: 40
       psiSkill: 0
-      melee: 25
+      melee: 56
       mana: 80
     armor: STR_RAIDER_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
-    intelligence: 5
-    aggression: 1
+    value: 20
+    intelligence: 3
+    aggression: 8
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -794,14 +734,14 @@
     race: STR_ORDER
     rank: STR_LIVE_ORDER
     stats:
-      tu: 64
+      tu: 70
       stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      health: 50
+      bravery: 120
+      reactions: 50
+      firing: 85
+      throwing: 60
+      strength: 55
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -811,7 +751,7 @@
     kneelHeight: 14
     value: 60
     intelligence: 5
-    aggression: 1
+    aggression: 4
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -820,14 +760,14 @@
     race: STR_ORDER
     rank: STR_LIVE_ORDER
     stats:
-      tu: 64
+      tu: 70
       stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      health: 50
+      bravery: 80
+      reactions: 50
+      firing: 80
+      throwing: 60
+      strength: 50
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -835,7 +775,7 @@
     armor: STR_PREPPER_LEADER_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 40
     intelligence: 5
     aggression: 1
     sniper: 75
@@ -846,14 +786,14 @@
     race: STR_ORDER
     rank: STR_LIVE_ORDER
     stats:
-      tu: 64
-      stamina: 90
-      health: 40
+      tu: 60
+      stamina: 80
+      health: 50
       bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      reactions: 70
+      firing: 65
+      throwing: 60
+      strength: 50
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -861,9 +801,9 @@
     armor: STR_ORDER_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 25
     intelligence: 5
-    aggression: 1
+    aggression: 6
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -872,14 +812,14 @@
     race: STR_ORDER
     rank: STR_LIVE_ORDER
     stats:
-      tu: 64
-      stamina: 90
-      health: 40
+      tu: 60
+      stamina: 100
+      health: 50
       bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      reactions: 80
+      firing: 70
+      throwing: 60
+      strength: 50
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -887,9 +827,9 @@
     armor: STR_ORDER_SOLDIER_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 35
     intelligence: 5
-    aggression: 1
+    aggression: 5
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -905,24 +845,24 @@
     race: STR_PREPPER
     rank: STR_LIVE_PREPPER
     stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      tu: 60
+      stamina: 100
+      health: 70
+      bravery: 100
+      reactions: 50
+      firing: 70
+      throwing: 60
+      strength: 50
       psiStrength: 40
       psiSkill: 0
       melee: 25
       mana: 80
-    armor: STR_PREPPER_LEADER_ARMOR
+    armor: STR_PROTOTYPE_POWER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 60
     intelligence: 5
-    aggression: 1
+    aggression: 3
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -931,14 +871,14 @@
     race: STR_PREPPER
     rank: STR_LIVE_PREPPER
     stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      tu: 60
+      stamina: 100
+      health: 70
+      bravery: 100
+      reactions: 40
+      firing: 55
+      throwing: 60
+      strength: 50
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -946,9 +886,9 @@
     armor: STR_PREPPER_LEADER_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
-    intelligence: 5
-    aggression: 1
+    value: 50
+    intelligence: 8
+    aggression: 3
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -957,14 +897,14 @@
     race: STR_PREPPER
     rank: STR_LIVE_PREPPER
     stats:
-      tu: 64
+      tu: 65
       stamina: 90
-      health: 40
+      health: 65
       bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      reactions: 50
+      firing: 65
+      throwing: 60
+      strength: 55
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -972,9 +912,9 @@
     armor: STR_PREPPER_SOLDIER_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
-    intelligence: 5
-    aggression: 1
+    value: 30
+    intelligence: 8
+    aggression: 2
     sniper: 75
     spotter: 2
     canSurrender: true
@@ -983,14 +923,14 @@
     race: STR_PREPPER
     rank: STR_LIVE_PREPPER
     stats:
-      tu: 64
-      stamina: 90
-      health: 40
-      bravery: 90
-      reactions: 52
-      firing: 61
-      throwing: 68
-      strength: 49
+      tu: 50
+      stamina: 80
+      health: 60
+      bravery: 80
+      reactions: 50
+      firing: 55
+      throwing: 60
+      strength: 50
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -998,9 +938,380 @@
     armor: STR_PREPPER_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
-    value: 60
+    value: 20
+    intelligence: 8
+    aggression: 3
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+
+##########################
+##### ALLIED NPCS #######
+########################
+
+# Raiders
+
+  - type: STR_RAIDERS_BATTLE_LEADER_NPC
+    race: STR_ALLIED
+    rank: STR_LIVE_RAIDERS
+    stats: *RaiderLeaderStats
+    armor: STR_HANDCRAFTED_POWER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 50
     intelligence: 5
     aggression: 1
     sniper: 75
     spotter: 2
-    canSurrender: true
+    canSurrender: false 
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      -
+        - STR_PULSE_RIFLE
+        - STR_CELL_PULSE_RIFLE
+        - STR_CELL_PULSE_RIFLE
+        - STR_STIMPAK
+      -
+        - STR_SHAMBLER
+        - STR_PREWAR_SHOTGUN_SHELLS
+        - STR_PREWAR_SHOTGUN_SHELLS
+        - STR_STIMPAK
+      -
+        - STR_MINIGUN
+        - STR_7.62MM_MINIGUN
+        - STR_7.62MM_MINIGUN
+        - STR_BANDAGE
+
+  - type: STR_RAIDERS_RIFLEMAN_NPC
+    race: STR_ALLIED
+    rank: STR_LIVE_RAIDERS
+    stats: *RaiderGruntStats
+    armor: STR_RAIDER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    intelligence: 3
+    aggression: 8
+    sniper: 75
+    spotter: 2
+    canSurrender: false
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      -
+        - STR_PIPE_RIFLE
+        - STR_10MM
+        - STR_10MM
+        - STR_STIMULANT_HERB
+      -
+        - STR_PIPE_RIFLE
+        - STR_10MM
+        - STR_10MM
+        - STR_HEALING_HERB
+      -
+        - STR_BASTARD
+        - STR_556MM_RIFLE_MAG
+        - STR_556MM_RIFLE_MAG
+        - STR_BANDAGE
+
+  - type: STR_RAIDERS_CQB_NPC
+    race: STR_ALLIED
+    rank: STR_LIVE_RAIDERS
+    stats:
+      tu: 70
+      stamina: 110
+      health: 55
+      bravery: 60
+      reactions: 40
+      firing: 30
+      throwing: 80
+      strength: 60
+      psiStrength: 40
+      psiSkill: 0
+      melee: 90
+      mana: 80
+    armor: STR_RAIDER_PUNK_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 35
+    intelligence: 2
+    aggression: 9
+    sniper: 75
+    spotter: 2
+    canSurrender: false 
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      -
+        - STR_SHAMBLER
+        - STR_PREWAR_SHOTGUN_SHELLS
+        - STR_PREWAR_SHOTGUN_SHELLS
+        - STR_BANDAGE
+      -
+        - STR_MAKESHIFT_PISTOL
+        - STR_10MM
+        - STR_10MM
+        - STR_STIMULANT_HERB
+      -
+        - STR_STONE_HAMMER
+        - STR_STIMULANT_HERB
+        - STR_STIMPAK
+        - STR_BANDAGE
+
+# Church of Apocalypse
+
+  - type: STR_CHURCH_BATTLE_LEADER_NPC
+    race: STR_ALLIED
+    rank: STR_LIVE_CHURCH
+    stats: *ChurchCombatantStats
+    armor: STR_PROTOTYPE_POWER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: false 
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      -
+        - STR_PLASMA_GUN
+        - STR_PLASMA_CARTRIDGE
+        - STR_PLASMA_CARTRIDGE
+        - STR_BANDAGE
+      -
+        - STR_LASER_RIFLE
+        - STR_MICROFUSION_CELLS
+        - STR_MICROFUSION_CELLS
+        - STR_STIMPAK
+      -
+        - STR_BOZAR
+        - STR_556MM_RIFLE_MAG
+        - STR_556MM_RIFLE_MAG
+        - STR_BANDAGE
+
+  - type: STR_CHURCH_RIFLEMAN_NPC
+    race: STR_ALLIED
+    rank: STR_LIVE_CHURCH
+    stats:
+      tu: 65
+      stamina: 50
+      health: 60
+      bravery: 120
+      reactions: 60
+      firing: 40
+      throwing: 60
+      strength: 50
+      psiStrength: 40
+      psiSkill: 0
+      melee: 80
+      mana: 80
+    armor: STR_CHURCH_FOLLOWER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: false 
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      -
+        - STR_HUNTING_RIFLE
+        - STR_308_RIFLE_CLIP
+        - STR_308_RIFLE_CLIP
+        - STR_BANDAGE
+      -
+        - STR_HUNTING_RIFLE
+        - STR_308_RIFLE_CLIP
+        - STR_308_RIFLE_CLIP
+        - STR_STIMPAK
+      -
+        - STR_PIPE_RIFLE
+        - STR_10MM
+        - STR_10MM
+        - STR_BANDAGE
+
+  - type: STR_CHURCH_CQB_NPC
+    race: STR_ALLIED
+    rank: STR_LIVE_CHURCH
+    stats:
+      tu: 65
+      stamina: 50
+      health: 60
+      bravery: 120
+      reactions: 60
+      firing: 40
+      throwing: 60
+      strength: 50
+      psiStrength: 40
+      psiSkill: 0
+      melee: 80
+      mana: 80
+    armor: STR_CHURCH_FOLLOWER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: false
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      -
+        - STR_SPEAR
+        - STR_EDIBLE_MUSHROOM
+        - STR_STIMULANT_HERB
+        - STR_STIMPAK
+      -
+        - STR_10MM_PISTOL
+        - STR_10MM
+        - STR_10MM
+        - STR_STIMPAK
+      -
+        - STR_SPEAR
+        - STR_STIMPAK
+        - STR_STIMPAK
+        - STR_BANDAGE
+
+
+# The Order
+
+  - type: STR_ORDER_BATTLE_LEADER_NPC
+    race: STR_ALLIED
+    rank: STR_LIVE_ORDER
+    stats:
+      tu: 70
+      stamina: 90
+      health: 50
+      bravery: 120
+      reactions: 50
+      firing: 85
+      throwing: 60
+      strength: 55
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_POWER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    intelligence: 5
+    aggression: 4
+    sniper: 75
+    spotter: 2
+    canSurrender: false 
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      -
+        - STR_MINIGUN
+        - STR_7.62MM_MINIGUN
+        - STR_7.62MM_MINIGUN
+        - STR_BANDAGE
+      -
+        - STR_LASER_GATLING
+        - STR_MICROFUSION_CELLS
+        - STR_MICROFUSION_CELLS
+        - STR_STIMPAK
+      -
+        - STR_BOZAR
+        - STR_556MM_RIFLE_MAG
+        - STR_556MM_RIFLE_MAG
+        - STR_BANDAGE
+
+  - type: STR_ORDER_RIFLEMAN_NPC
+    race: STR_ALLIED
+    rank: STR_LIVE_ORDER
+    stats:
+      tu: 60
+      stamina: 100
+      health: 50
+      bravery: 90
+      reactions: 80
+      firing: 70
+      throwing: 60
+      strength: 50
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_ORDER_SOLDIER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 35
+    intelligence: 5
+    aggression: 5
+    sniper: 75
+    spotter: 2
+    canSurrender: false
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      -
+        - STR_PREWAR_SERVICE_RIFLE
+        - STR_762MM_RIFLE_MAG
+        - STR_762MM_RIFLE_MAG
+        - STR_BANDAGE
+      -
+        - STR_LASER_RIFLE
+        - STR_MICROFUSION_CELLS
+        - STR_MICROFUSION_CELLS
+        - STR_STIMPAK
+      -
+        - STR_PREWAR_SERVICE_RIFLE
+        - STR_762MM_RIFLE_MAG
+        - STR_762MM_RIFLE_MAG
+        - STR_BANDAGE
+        
+  - type: STR_ORDER_CQB_NPC
+    race: STR_ALLIED
+    rank: STR_LIVE_ORDER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 50
+      bravery: 90
+      reactions: 70
+      firing: 65
+      throwing: 60
+      strength: 50
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      mana: 80
+    armor: STR_ORDER_RECRUIT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    intelligence: 5
+    aggression: 6
+    sniper: 75
+    spotter: 2
+    canSurrender: false 
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      -
+        - STR_10MM_PISTOL
+        - STR_10MM
+        - STR_10MM
+        - STR_BANDAGE
+      -
+        - STR_PREWAR_SMG
+        - STR_10MM_SMG
+        - STR_10MM_SMG
+        - STR_STIMPAK
+      -
+        - STR_PREWAR_SHOTGUN
+        - STR_PREWAR_SHOTGUN_SHELLS
+        - STR_PREWAR_SHOTGUN_SHELLS
+        - STR_BANDAGE

@@ -956,6 +956,30 @@ items:
     invWidth: 1
     invHeight: 3
 
+  - type: STR_SHAMBLER
+    size: 0.2
+    costSell: 5000
+    weight: 8
+    bigSprite: 740
+    floorSprite: 740
+    handSprite: 740
+    bulletSprite: 3
+    fireSound: 4
+    compatibleAmmo:
+      - STR_PREWAR_SHOTGUN_SHELLS
+    accuracyCloseQuarters: 100
+    accuracySnap: 110
+    accuracyAimed: 160
+    tuSnap: 32
+    tuAimed: 60
+    aimRange: 12
+    snapRange: 8
+    dropoff: 6
+    shotgunChoke: 70
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
 
 #   ____   ____  _____  _        ___  _____
 #  |    \ |    ||     || |      /  _]/ ___/
@@ -1108,6 +1132,82 @@ items:
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
 
+  - type: STR_GAUSS_RIFLE
+    size: 0.2
+    #costBuy: 3000
+    costSell: 5000
+    weight: 7
+    bigSprite: 880
+    floorSprite: 880
+    handSprite: 880
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_2MM_EC_GAUSS_ROUNDS
+    accuracyAuto: 45
+    accuracySnap: 65
+    accuracyAimed: 80
+    tuAuto: 35
+    tuSnap: 20
+    tuAimed: 40
+    #autoShots: 5
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    #requiresBuy: [STR_SETTLERS]
+
+  - type: STR_PLASMA_GUN
+    size: 0.2
+    #costBuy: 3000
+    costSell: 12250
+    weight: 4
+    bigSprite: 920
+    floorSprite: 920
+    handSprite: 920
+    bulletSprite: 7
+    fireSound: 4
+    compatibleAmmo:
+      - STR_PLASMA_CARTRIDGE
+    accuracySnap: 70
+    accuracyAimed: 110
+    confAimed:
+      spendPerShot: 3 # 10x battery consumption for 2x power
+    confSnap:
+      spendPerShot: 3
+    tuSnap: 40
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    #requiresBuy: [STR_SETTLERS]
+
+  - type: STR_PREWAR_SERVICE_RIFLE
+    size: 0.2
+    #costBuy: 3000
+    costSell: 5000
+    weight: 7
+    bigSprite: 880
+    floorSprite: 880
+    handSprite: 880
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_556MM_RIFLE_MAG
+    accuracyAuto: 45
+    accuracySnap: 65
+    accuracyAimed: 80
+    tuAuto: 35
+    tuSnap: 20
+    tuAimed: 40
+    #autoShots: 5
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    #requiresBuy: [STR_SETTLERS]
+
     #heavy weapons
 
   - type: STR_MINIGUN
@@ -1132,8 +1232,50 @@ items:
     invWidth: 2
     invHeight: 3
 
+  - type: STR_BOZAR
+    size: 0.2
+    costSell: 20000
+    weight: 30
+    bigSprite: 820
+    floorSprite: 820
+    handSprite: 820
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_556MM_RIFLE_MAG
+    accuracyAuto: 20
+    bulletSpeed: 150
+    confAuto:
+      followProjectiles: false
+    tuAuto: 25
+    autoShots: 5
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
 
-
+  - type: STR_LASER_GATLING
+    size: 0.2
+    #costBuy: 3000
+    costSell: 12250
+    weight: 4
+    bigSprite: 920
+    floorSprite: 920
+    handSprite: 920
+    bulletSprite: 7
+    fireSound: 4
+    compatibleAmmo:
+      - STR_MICROFUSION_CELLS
+    accuracyAuto: 30
+    confAuto:
+      spendPerShot: 1 # 10x battery consumption for 2x power 
+    autoShots: 10
+    tuAuto: 40
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    #requiresBuy: [STR_SETTLERS]
 
 
 
@@ -1145,6 +1287,28 @@ items:
 #  |  |  |  |\    |  |  |  |     ||     \    |
 #  |__| |____|\___|  |__|   \___/ |_____|\___|
 #                                             
+
+  - type: STR_10MM_PISTOL
+    size: 0.2
+    #costBuy: 3000
+    costSell: 5000
+    weight: 4
+    bigSprite: 670
+    floorSprite: 670
+    handSprite: 670
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_10MM
+    accuracySnap: 40
+    accuracyAimed: 80
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    #requiresBuy: [STR_SETTLERS]
 
   - type: STR_MAKESHIFT_PISTOL
     size: 0.2
@@ -1401,6 +1565,22 @@ items:
     floorSprite: 910
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 13
+    power: 45
+    damageType: 1
+    clipSize: 45
+    battleType: 2
+    #requiresBuy: [STR_SETTLERS]
+
+  - type: STR_556MM_RIFLE_MAG
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 6
+    bigSprite: 910
+    floorSprite: 910
+    hitSound: 22
+    hitAnimation: 26
     bulletSpeed: 10
     power: 45
     damageType: 1
@@ -1445,6 +1625,44 @@ items:
     #requiresBuy: [STR_SETTLERS]
     vaporColorSurface: 9
     vaporDensitySurface: 5
+
+  - type: STR_PLASMA_CARTRIDGE
+    size: 0.1
+    costBuy: 10000
+    costSell: 8050
+    weight: 6
+    bigSprite: 930
+    floorSprite: 930
+    hitSound: 22
+    hitAnimation: 26
+    bulletSpeed: 15
+    power: 40
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: false
+      ToArmorPre: 0.4
+    damageType: 5
+    clipSize: 100
+    battleType: 2
+    #requiresBuy: [STR_SETTLERS]
+    vaporColorSurface: 2
+    vaporDensitySurface: 5
+
+  - type: STR_2MM_EC_GAUSS_ROUNDS
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 6
+    bigSprite: 890
+    floorSprite: 890
+    hitSound: 22
+    hitAnimation: 26
+    bulletSpeed: 10
+    power: 80
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    #requiresBuy: [STR_SETTLERS]
 
 #    ____  ____   ___ ___   ___   ____    _____
 #   /    ||    \ |   |   | /   \ |    \  / ___/
