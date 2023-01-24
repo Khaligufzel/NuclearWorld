@@ -1,4 +1,51 @@
 soldiers:
+  - type: STR_PLAYER_UNIT
+    #costBuy: 40000
+    costSalary: 40000
+    minStats:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 100
+      reactions: 30
+      firing: 60
+      throwing: 50
+      strength: 40
+      psiStrength: 0
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 100
+      stamina: 90
+      health: 60
+      bravery: 100
+      reactions: 60
+      firing: 80
+      throwing: 80
+      strength: 60
+      psiStrength: 100
+      psiSkill: 16
+      melee: 50
+    statCaps:
+      tu: 120
+      stamina: 150
+      health: 100
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_JUMPSUIT_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    soldierNames:
+      - PlayerUnitNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
   - type: STR_SOLDIER
     costBuy: 40000
     costSalary: 20000

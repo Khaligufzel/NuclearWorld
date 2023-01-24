@@ -1,0 +1,63 @@
+lookWeights:
+  - 25
+  - 25
+  - 25
+  - 25
+maleFirst:
+  - The Shelter's
+  - The Refuge's
+  - The Refugees'
+  - The Survivors'
+  - The Chosen
+  - The Selected
+  - The Best
+  - The Few
+  - The Handpicked
+  - The Excellent
+  - The Brave
+  - The Incomparable
+  - The Sole
+  - The Lone
+  - The Only
+  - The Incorruptible 
+maleLast:
+  - Leader
+  - Overseer
+  - Protector
+  - Ace
+  - Champion
+  - Paladin
+  - Defender
+  - Envoy
+  - Knight
+  - Guardian
+  - Warrior
+  - Colonel
+  - Captain
+  - Major
+  - Commander
+  - General
+  - Taskmaster
+  - Quartermaster
+  - Master
+
+femaleLast:
+  - Leader
+  - Overseer
+  - Protector
+  - Angel
+  - Valkyrie
+  - Huntress
+  - Defender
+  - Saviour
+  - Prophet
+  - Guardian
+  - Mother
+  - Colonel
+  - Captain
+  - Major
+  - Commander
+  - General
+  - Taskmaster
+  - Envoy
+  - Lady
