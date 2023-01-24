@@ -422,7 +422,7 @@ items:
     size: 0.1
     bigSprite: 460
     floorSprite: 460
-    invHeight: 2
+    invHeight: 1
     invWidth: 2
     battleType: 0
     costSell: 15000
@@ -495,6 +495,16 @@ items:
     transferTime: 48
     categories: [STR_GOODS, STR_VALUABLES]
 
+  - type: STR_MEDICAL_CRATE
+    size: 0.2
+    bigSprite: 530
+    floorSprite: 530
+    invHeight: 2
+    invWidth: 2
+    battleType: 0
+    costSell: 30000
+    transferTime: 48
+    categories: [STR_GOODS, STR_VALUABLES]
 #     ___   ___   __ __  ____  ____  ___ ___    ___  ____   ______ 
 #    /  _] /   \ |  |  ||    ||    \|   |   |  /  _]|    \ |      |
 #   /  [_ |     ||  |  | |  | |  o  ) _   _ | /  [_ |  _  ||      |

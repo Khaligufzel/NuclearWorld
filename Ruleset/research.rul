@@ -694,6 +694,14 @@ research:
     unlocks:
       - "STR_PREWAR_SHOTGUN_SHELLS"
 
+  - name: STR_SHAMBLER
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - "STR_PREWAR_SHOTGUN_SHELLS"
+
   - name: STR_CROSSBOW
     cost: 5
     points: 50
@@ -701,6 +709,14 @@ research:
     destroyItem: false
     unlocks:
       - "STR_CROSSBOW_BELTS"
+
+  - name: STR_REVOLVER
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - "STR_REVOLVER_CLIP"
 
   - name: STR_SLINGSHOT
     cost: 5
@@ -718,6 +734,46 @@ research:
     destroyItem: false
     unlocks:
       - "STR_10MM"
+
+  - name: STR_10MM_PISTOL
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - STR_10MM
+
+  - name: STR_BASTARD
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - STR_556MM_RIFLE_CLIP
+
+  - name: STR_DMR
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - STR_556MM_RIFLE_MAG
+
+  - name: STR_BOZAR
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - STR_556MM_RIFLE_MAG
+
+  - name: STR_PREWAR_SERVICE_RIFLE
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - STR_762MM_RIFLE_MAG
 
   - name: STR_HUNTING_RIFLE
     cost: 5
@@ -742,6 +798,54 @@ research:
     destroyItem: false
     unlocks:
       - "STR_10MM_SMG"
+
+  - name: STR_LASER_RIFLE
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - STR_MICROFUSION_CELLS
+
+  - name: STR_LASER_GATLING
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - STR_MICROFUSION_CELLS
+
+  - name: STR_PULSE_RIFLE
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - STR_CELL_PULSE_RIFLE
+
+  - name: STR_GAUSS_RIFLE
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - STR_2MM_EC_GAUSS_ROUNDS
+
+  - name: STR_PLASMA_GUN
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - STR_PLASMA_CARTRIDGE
+
+  - name: STR_MINIGUN
+    cost: 5
+    points: 50
+    needItem: true
+    destroyItem: false
+    unlocks:
+      - STR_7.62MM_MINIGUN
 
   - name: STR_WOODEN_CLUB
     cost: 5
@@ -779,14 +883,21 @@ research:
     cost: 0
     points: 0
     dependencies:
-      - "STR_PIPE_RIFLE"
+      - STR_PIPE_RIFLE
+      - STR_10MM_PISTOL
 
   - name: STR_10MM_SMG
     cost: 0
     points: 0
     dependencies:
       - "STR_PREWAR_SMG"      
-      
+
+  - name: STR_REVOLVER_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_REVOLVER
+
   - name: STR_BOW_ARROWS
     cost: 0
     points: 0
@@ -803,7 +914,8 @@ research:
     cost: 0
     points: 0
     dependencies:
-      - "STR_PREWAR_SHOTGUN"
+      - STR_PREWAR_SHOTGUN
+      - STR_SHAMBLER
 
   - name: STR_STONES
     cost: 0
@@ -816,6 +928,56 @@ research:
     points: 0
     dependencies:
       - "STR_HUNTING_RIFLE"
+
+  - name: STR_556MM_RIFLE_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_BASTARD
+
+  - name: STR_556MM_RIFLE_MAG
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_DMR
+      - STR_BOZAR
+
+  - name: STR_762MM_RIFLE_MAG
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PREWAR_SERVICE_RIFLE
+
+  - name: STR_MICROFUSION_CELLS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_LASER_GATLING
+      - STR_LASER_RIFLE
+
+  - name: STR_CELL_PULSE_RIFLE
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PULSE_RIFLE
+
+  - name: STR_2MM_EC_GAUSS_ROUNDS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GAUSS_RIFLE
+
+  - name: STR_PLASMA_CARTRIDGE
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PLASMA_GUN
+
+  - name: STR_7.62MM_MINIGUN
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MINIGUN
 
     #armors
   - name: STR_BASIC_PROTECTION

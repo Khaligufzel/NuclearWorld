@@ -277,21 +277,21 @@ ufopaedia:
       - STR_BASIC_STIMULANT
 
   - id: STR_EDIBLE_MUSHROOM
-    type_id: 8
-    text: STR_EDIBLEMUSHROOM_UFOPAEDIA
+    type_id: 4
+    text: STR_EDIBLE_MUSHROOM_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
       - STR_EDIBLE_MUSHROOM
 
   - id: STR_STIMULANT_HERB
-    type_id: 8
+    type_id: 4
     text: STR_STIMULANT_HERB_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
       - STR_STIMULANT_HERB
 
   - id: STR_HEALING_HERB
-    type_id: 8
+    type_id: 4
     text: STR_HEALING_HERB_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
@@ -340,63 +340,63 @@ ufopaedia:
       - STR_SPECIALIZED_ARMOR
 
   - id: STR_ANIMAL_SKIN
-    type_id: 8
+    type_id: 4
     text: STR_ANIMAL_SKIN_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
       - STR_ANIMAL_SKIN
 
   - id: STR_IRON_SCRAPS
-    type_id: 8
+    type_id: 4
     text: STR_IRON_SCRAPS_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
       - STR_IRON_SCRAPS
 
   - id: STR_BAG_OF_MONEY
-    type_id: 8
+    type_id: 4
     text: STR_BAG_OF_MONEY_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
       - STR_BAG_OF_MONEY
 
   - id: STR_POUCH_OF_MONEY
-    type_id: 8
+    type_id: 4
     text: STR_POUCH_OF_MONEY_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
       - STR_POUCH_OF_MONEY
 
   - id: STR_GOLD_INGOT
-    type_id: 8
+    type_id: 4
     text: STR_GOLD_INGOT_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
       - STR_GOLD_INGOT
 
   - id: STR_CARAVAN_CRATE
-    type_id: 8
+    type_id: 4
     text: STR_CARAVAN_CRATE_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
       - STR_CARAVAN_CRATE
 
   - id: STR_WEAPON_CRATE
-    type_id: 8
+    type_id: 4
     text: STR_WEAPON_CRATE_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
       - STR_WEAPON_CRATE
 
-  - id: STR_AMMUNITION_UC_CRATE
-    type_id: 8
-    text: STR_AMMUNITION_UC_CRATE_UFOPAEDIA
+  - id: STR_AMMUNITION_CRATE
+    type_id: 4
+    text: STR_AMMUNITION_CRATE_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
-      - STR_AMMUNITION_UC_CRATE
+      - STR_AMMUNITION_CRATE
 
   - id: STR_VALUABLES_CRATE
-    type_id: 8
+    type_id: 4
     text: STR_VALUABLES_CRATE_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
@@ -465,6 +465,13 @@ ufopaedia:
     requires:
       - STR_STONE_HAMMER
 
+  - id: STR_WOODEN_CLUB
+    type_id: 4
+    text: STR_WOODEN_CLUB_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
+    requires:
+      - STR_WOODEN_CLUB
+
   - id: STR_BOW
     type_id: 4
     text: STR_BOW_UFOPAEDIA
@@ -493,6 +500,13 @@ ufopaedia:
     requires:
       - STR_PREWAR_SHOTGUN
 
+  - id: STR_SHAMBLER
+    type_id: 4
+    text: STR_SHAMBLER_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
+    requires:
+      - STR_SHAMBLER
+
   - id: STR_PREWAR_SMG
     type_id: 4
     text: STR_PREWAR_SMG_UFOPAEDIA
@@ -507,26 +521,19 @@ ufopaedia:
     requires:
       - STR_MAKESHIFT_PISTOL
 
-  - id: STR_PIPE_RIFLE
+  - id: STR_10MM_PISTOL
     type_id: 4
-    text: STR_PIPE_RIFLE_UFOPAEDIA
+    text: STR_10MM_PISTOL_UFOPAEDIA
     section: STR_EQUIPMENT_UC
     requires:
-      - STR_PIPE_RIFLE
+      - STR_10MM_PISTOL
 
-  - id: STR_HUNTING_RIFLE
+  - id: STR_REVOLVER
     type_id: 4
-    text: STR_HUNTING_RIFLE_UFOPAEDIA
+    text: STR_REVOLVER_UFOPAEDIA
     section: STR_EQUIPMENT_UC
     requires:
-      - STR_HUNTING_RIFLE
-
-  - id: STR_WOODEN_CLUB
-    type_id: 4
-    text: STR_WOODEN_CLUB_UFOPAEDIA
-    section: STR_EQUIPMENT_UC
-    requires:
-      - STR_WOODEN_CLUB
+      - STR_REVOLVER
 
   - id: STR_GUNPOWDER_GRENADE
     type_id: 4
@@ -549,6 +556,20 @@ ufopaedia:
     requires:
       - STR_PREWAR_SERVICE_RIFLE
 
+  - id: STR_PIPE_RIFLE
+    type_id: 4
+    text: STR_PIPE_RIFLE_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
+    requires:
+      - STR_PIPE_RIFLE
+
+  - id: STR_HUNTING_RIFLE
+    type_id: 4
+    text: STR_HUNTING_RIFLE_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
+    requires:
+      - STR_HUNTING_RIFLE
+
   - id: STR_BASTARD
     type_id: 4
     text: STR_BASTARD_UFOPAEDIA
@@ -569,6 +590,41 @@ ufopaedia:
     section: STR_EQUIPMENT_UC
     requires:
       - STR_PULSE_RIFLE
+
+  - id: STR_GAUSS_RIFLE
+    type_id: 4
+    text: STR_GAUSS_RIFLE_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
+    requires:
+      - STR_GAUSS_RIFLE
+
+  - id: STR_PLASMA_GUN
+    type_id: 4
+    text: STR_PLASMA_GUN_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
+    requires:
+      - STR_PLASMA_GUN
+
+  - id: STR_MINIGUN
+    type_id: 4
+    text: STR_MINIGUN_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
+    requires:
+      - STR_MINIGUN
+
+  - id: STR_LASER_GATLING
+    type_id: 4
+    text: STR_LASER_GATLING_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
+    requires:
+      - STR_LASER_GATLING
+
+  - id: STR_BOZAR
+    type_id: 4
+    text: STR_BOZAR_UFOPAEDIA
+    section: STR_EQUIPMENT_UC
+    requires:
+      - STR_BOZAR
 
   #Corpses
   - id: STR_MUTANT_CORPSE
@@ -670,6 +726,20 @@ ufopaedia:
     requires:
       - STR_10MM
 
+  - id: STR_10MM_SMG
+    type_id: 4
+    text: STR_10MM_SMG_UFOPAEDIA
+    section: STR_AMMUNITION_UC
+    requires:
+      - STR_10MM_SMG
+
+  - id: STR_REVOLVER_CLIP
+    type_id: 4
+    text: STR_REVOLVER_CLIP_UFOPAEDIA
+    section: STR_AMMUNITION_UC
+    requires:
+      - STR_REVOLVER_CLIP
+
   - id: STR_BOW_ARROWS
     type_id: 4
     text: STR_BOW_ARROWS_UFOPAEDIA
@@ -705,19 +775,19 @@ ufopaedia:
     requires:
       - STR_308_RIFLE_CLIP
 
-  - id: STR_10MM_SMG
-    type_id: 4
-    text: STR_10MM_SMG_UFOPAEDIA
-    section: STR_AMMUNITION_UC
-    requires:
-      - STR_10MM_SMG
-
   - id: STR_556MM_RIFLE_CLIP
     type_id: 4
     text: STR_556MM_RIFLE_CLIP_UFOPAEDIA
     section: STR_AMMUNITION_UC
     requires:
       - STR_556MM_RIFLE_CLIP
+
+  - id: STR_556MM_RIFLE_MAG
+    type_id: 4
+    text: STR_556MM_RIFLE_MAG_UFOPAEDIA
+    section: STR_AMMUNITION_UC
+    requires:
+      - STR_556MM_RIFLE_MAG
 
   - id: STR_762MM_RIFLE_MAG
     type_id: 4
@@ -733,6 +803,33 @@ ufopaedia:
     requires:
       - STR_MICROFUSION_CELLS
 
+  - id: STR_CELL_PULSE_RIFLE
+    type_id: 4
+    text: STR_CELL_PULSE_RIFLE_UFOPAEDIA
+    section: STR_AMMUNITION_UC
+    requires:
+      - STR_CELL_PULSE_RIFLE
+
+  - id: STR_2MM_EC_GAUSS_ROUNDS
+    type_id: 4
+    text: STR_2MM_EC_GAUSS_ROUNDS_UFOPAEDIA
+    section: STR_AMMUNITION_UC
+    requires:
+      - STR_2MM_EC_GAUSS_ROUNDS
+
+  - id: STR_PLASMA_CARTRIDGE
+    type_id: 4
+    text: STR_PLASMA_CARTRIDGE_UFOPAEDIA
+    section: STR_AMMUNITION_UC
+    requires:
+      - STR_PLASMA_CARTRIDGE
+
+  - id: STR_7.62MM_MINIGUN
+    type_id: 4
+    text: STR_7.62MM_MINIGUN_UFOPAEDIA
+    section: STR_AMMUNITION_UC
+    requires:
+      - STR_7.62MM_MINIGUN
 ##############################
 ######### VEHICLES ##########
 ############################
