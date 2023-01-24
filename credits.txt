@@ -1,13 +1,15 @@
 Khaligufzel- lead dev, lore and code
-FilipH321- weapon sprites
-Luke83- Nuclear Terrain, maps and code; Hybrid globe design
-efrenespartano- compilation of assets for units, armor sprite creator, backgrounds, code support
-wolwerin- Hazmat Armor, arrow bulletSprite sprites
-_Brain322-  Prototype Armor, Pre-War Pistol sprites
-Solarius Scorch- template for most enemy units spritesheets and inventories
+FilipH321- weapon sprites (Gunpowder Grenade, Molotov Cocktail, PreWar Service Rifle, Hunting Rifle, PreWar Shotgun, Minigun, PreWar SMG)
+Luke83- Nuclear Terrains, maps and code; Hybrid globe design
+efrenespartano- compilation of assets for units, armor sprite creator, backgrounds, weapons (Laser Rifle, Bastard, Shambler, Hammer, Bozar, Gauss Rifle, Laser Gatling, Plasma Rifle, Spear) code support
+wolwerin- Hazmat Armor, Handcrafted Armor, arrow bulletSprite sprites
+_Brain322-  Prototype Armor, weapon sprites (Pre-War Pistol, DMR, Makeshift Pistol, Pipe Rifle, Revolver, Shiv) 
+Solarius Scorch- template for most enemy units spritesheets and inventories, weapon sprites (Bow, Crossbow), boxes sprites
 Ryskeliini- gasmask sprite used by Player armors
 aarond707- OST music
 XOps- Muton Berzerker sprite (used to make Mutants)
-neike60: UI original sprites, adapted to OXC format
+neike60: UI original sprites, adapted to OXC format by efrenespartano
+Wilhan Rahmat- original Herbs sprites
+robin- Order Gasmask sprites
 
 Feel free to add yourself here!
