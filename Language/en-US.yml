@@ -1198,7 +1198,7 @@ en-US:
   STR_762MM_RIFLE_MAG: "7.62mm Rifle Mag"
   STR_LASER_RIFLE: "Laser Rifle"
   STR_LASER_GATLING: "Laser Gatling"
-  STR_MICROFUSION_CELL: "Micro-Fusion Cell"
+  STR_MICROFUSION_CELLS: "Micro-Fusion Cell"
   STR_BASTARD: "Makeshift Automatic Gun"
   STR_556MM_RIFLE_CLIP: "5.45mm Rifle Open Clip"
   STR_556MM_RIFLE_MAG: "5.56mm Rifle Mag"
@@ -1309,6 +1309,10 @@ en-US:
   STR_GAUSS_RIFLE_UFOPAEDIA: "German-made G72 heavy weapon, uses electromagnetism to propel tiny ultra-dense slugs at ludicrous speeds. Easily breaks through armor and other hard stuff, like terrain."
   STR_2MM_EC_GAUSS_ROUNDS_UFOPAEDIA: "Very very small solid slug made of a mix between tungsten and other unknown materials, it's surprisingly heavy of its size. The slug is propelled with such force, it cleanly penetrates anything in its path."
   STR_PLASMA_GUN_UFOPAEDIA: "Shooting molten metal at range may sound nasty, the actual results are even better! By unleashing a powerful super-hot plasma bolt, the R72 can melt steel and flesh alike. It is said sometimes the unfortunate victim just vanishes."
+  STR_MINIGUN: "Minigun"
+  STR_MINIGUN_UFOPAEDIA: "Ultimate lead delivery system, you can put a large amount of bullets into one unfortunate enemy with little efforts. Very heavy, very expensive... very fun to use."
+  STR_REVOLVER: "Revolver"
+  STR_REVOLVER_UFOPAEDIA: "Powerful handgun, has strong recoil and kicks like a mule."
   
   STR_WANDERER_SITE: "Wanderer Activity"
   STR_WANDERER_SITE_BRIEFING: "Local Settlers told us about a group of fried-brains causing troubles near their village, and asked us to take care of the matter. Proceed swift and shortly to dispose of the poor lads."
@@ -1407,6 +1411,7 @@ en-US:
   STR_WANDERER_ENGINEER: "Wanderer Engineer "
   STR_WANDERER_MEDIC: "Wanderer Medic"
   
+  STR_FERAL_GHOUL: "Feral Ghouls"
   STR_GHOUL_LOST: "Lost Ghoul"
   STR_GHOUL_WILD: "Wild Ghoul"
   STR_GHOUL_FERAL: "Feral Ghoul"
@@ -1428,6 +1433,7 @@ en-US:
   STR_GHOUL_WILD_CORPSE: "Wild Ghoul Corpse"
   STR_GHOUL_LOST_CORPSE: "Lost Ghoul Corpse"
   
+  STR_LOST_MUTANT: "Lost Mutants"
   STR_MUTANT_LOST: "Lost Mutant"
   STR_MUTANT_ANGRY: "Insane Mutant"
   STR_MUTANT_PROPHET: "Chosen Mutant"
@@ -1453,6 +1459,9 @@ en-US:
   
   STR_CHURCH_FOLLOWER_CORPSE: "Church Low Ranking Corpse"
   STR_CHURCH_PRIEST_CORPSE: "Church High Ranking Corpse"
+  STR_CHURCH_BATTLE_LEADER_NPC: "Church Exorcist Envoy"
+  STR_CHURCH_RIFLEMAN_NPC: "Church Ranged Purger"
+  STR_CHURCH_CQB_NPC: "Church Melee Purger"
   
   STR_RAIDERS: "Raiders"
   STR_RAIDERS_PUNK: "Raider Punk"
@@ -1466,6 +1475,9 @@ en-US:
   STR_RAIDER_CORPSE: "Raider Corpse"
   STR_RAIDER_PUNK_CORPSE: "Armored Raider Corpse"
   STR_RAIDER_LEADER_CORPSE: "Raider Leader Corpse"
+  STR_RAIDERS_BATTLE_LEADER_NPC: "Raiders' Top Guy"
+  STR_RAIDERS_RIFLEMAN_NPC: "Raider Huntsman"
+  STR_RAIDERS_CQB_NPC: "Raider Thug"
   
   STR_ORDER: "The Order"
   STR_ORDER_COMMANDER: "Order Colonel"
@@ -1477,6 +1489,9 @@ en-US:
   
   STR_ORDER_RECRUIT_CORPSE: "Conscript Gear Corpse"
   STR_ORDER_SOLDIER_CORPSE: "Soldier Battledress Corpse"
+  STR_ORDER_BATTLE_LEADER_NPC: "Order Field Officer"
+  STR_ORDER_RIFLEMAN_NPC: "Order Rifleman"
+  STR_ORDER_CQB_NPC: "Order Stormtrooper"
   
   STR_PREPPER: "Prepper Survivalists "
   STR_PREPPER_COMMANDER: "Prepper Overseer"
@@ -1496,7 +1511,28 @@ en-US:
   STR_LARGE_CARAVAN: "TACTICAL CARAVAN"
   STR_LARGE_CARAVAN_UFOPEDIA: "Old but still reliable, the Humvee offers protection and a bit of comfort"
   STR_CONVOY: "CONVOY CARAVAN"
-  STR_CONVOY_UFOPEDIA: "A big, repurposed truck transports more soldiers and more equipment"
+  STR_CONVOY_UFOPEDIA: "A big, repurposed truck. Transports more soldiers and more equipment"
+  
+  STR_MELEE_WEAPONS: "Melee Weapons"
+  STR_BOWS_CROSSBOWS: "Bows & Crossbows"
+  STR_RIFLES: "Rifles"
+  STR_PISTOLS: "Pistols"
+  STR_SHOTGUNS: "Shotguns"
+  STR_SMGS: "Submachine Guns"
+  STR_HEAVY_WEAPONS: "Heavy Weapons"
+  STR_ENERGY_WEAPONS: "Energy Weapons"
+  STR_LONG_RANGE: "Long-range Weapons"
+  STR_SHORT_RANGE: "Short-range Weapons"
+  STR_MAKESHIFT: "Makeshift Equipment"
+  STR_EQUIPMENT: "Equipment"
+  STR_HEALTH_ITEMS: "Health Items"
+  STR_GOODS: "Goods"
+  STR_AMMUNITION: "Ammunition "
+  STR_ARMORS: "Armors"
+  STR_OTHER: "Other items"
+  STR_VALUABLES: "Valuables"
+  STR_THROWABLES: "Throwables"
+  STR_UNPACKING: "Unpacking"
   
   
   

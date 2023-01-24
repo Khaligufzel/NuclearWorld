@@ -310,6 +310,29 @@ items:
 #                                      
 
   - type: STR_EDIBLE_MUSHROOM
+    categories: [STR_GOODS, STR_HEALTH_ITEMS]
+    battleType: 6
+    bigSprite: 760 #400
+    floorSprite: 760 #400
+    invHeight: 1
+    invWidth: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitActionName: STR_EAT
+    medikitType: 3
+    painKiller: 1
+    costUse:
+      time: 15
+      energy: -15
+      morale: -15
+      health: -5
+    costThrow:
+      time: 10
+    flatThrow:
+      time: true
+    invWidth: 2
+    invHeight: 1
+    experienceTrainingMode: 21
     size: 0.1
     costSell: 500
     transferTime: 48
@@ -318,59 +341,165 @@ items:
     size: 0.1
     costSell: 250
     transferTime: 48
+    battleType: 6
+    bigSprite: 760 #410
+    floorSprite: 760 #410
+    invHeight: 1
+    invWidth: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitActionName: STR_EAT
+    medikitType: 3
+    painKiller: 1
+    costUse:
+      time: 35
+      health: -25
+    costThrow:
+      time: 10
+    flatThrow:
+      time: true
+    invWidth: 2
+    invHeight: 1
+    experienceTrainingMode: 21
+    categories: [STR_GOODS, STR_HEALTH_ITEMS]
 
   - type: STR_STIMULANT_HERB
     size: 0.1
     costSell: 250
     transferTime: 48
+    battleType: 6
+    bigSprite: 760 # 420
+    floorSprite: 760 # 420
+    invHeight: 1
+    invWidth: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitActionName: STR_EAT
+    medikitType: 3
+    painKiller: 1
+    costUse:
+      time: 35
+      energy: -25
+      morale: -25
+    costThrow:
+      time: 10
+    flatThrow:
+      time: true
+    invWidth: 2
+    invHeight: 1
+    experienceTrainingMode: 21
+    categories: [STR_GOODS, STR_HEALTH_ITEMS]
 
 
   - type: STR_ANIMAL_SKIN
     size: 0.1
+    bigSprite: 430
+    floorSprite: 430
+    invHeight: 2
+    invWidth: 2
+    battleType: 0
     costSell: 1000
     transferTime: 48
+    categories: [STR_GOODS, STR_OTHER]
 
   - type: STR_IRON_SCRAPS
     size: 0.1
+    bigSprite: 440
+    floorSprite: 440
+    invHeight: 2
+    invWidth: 2
+    battleType: 0
     costSell: 250
     transferTime: 48
+    categories: [STR_GOODS, STR_OTHER]
 
   - type: STR_BAG_OF_MONEY
     size: 0.1
+    bigSprite: 480 # 450
+    floorSprite: 480 # 450
+    invHeight: 2
+    invWidth: 2
+    battleType: 0
     costSell: 40000
     transferTime: 48
+    categories: [STR_GOODS, STR_VALUABLES]
 
   - type: STR_POUCH_OF_MONEY
     size: 0.1
+    bigSprite: 480 # 460
+    floorSprite: 480 # 460
+    invHeight: 2
+    invWidth: 2
+    battleType: 0
     costSell: 15000
     transferTime: 48
+    categories: [STR_GOODS, STR_VALUABLES]
 
   - type: STR_GOLD_INGOT
     size: 0.1
+    bigSprite: 470
+    floorSprite: 470
+    invHeight: 1
+    invWidth: 2
+    battleType: 0
     costSell: 100000
     transferTime: 48
+    categories: [STR_GOODS, STR_VALUABLES]
 
   - type: STR_CARAVAN_CRATE
     size: 0.2
+    bigSprite: 480
+    floorSprite: 480
+    invHeight: 2
+    invWidth: 2
+    battleType: 0
     costSell: 10000
     transferTime: 48
+    categories: [STR_GOODS, STR_VALUABLES]
 
   - type: STR_WEAPON_CRATE
     size: 0.2
+    bigSprite: 490
+    floorSprite: 490
+    invHeight: 2
+    invWidth: 2
+    battleType: 0
     costSell: 10000
     transferTime: 48
+    categories: [STR_GOODS, STR_VALUABLES]
 
   - type: STR_AMMUNITION_CRATE
     size: 0.2
+    bigSprite: 500
+    floorSprite: 500
+    invHeight: 2
+    invWidth: 2
+    battleType: 0
     costSell: 10000
     transferTime: 48
+    categories: [STR_GOODS, STR_VALUABLES]
 
   - type: STR_VALUABLES_CRATE
     size: 0.2
+    bigSprite: 510
+    floorSprite: 510
+    invHeight: 2
+    invWidth: 2
+    battleType: 0
     costSell: 10000
     transferTime: 48
- 
+    categories: [STR_GOODS, STR_VALUABLES]
 
+  - type: STR_HIGH_TECH_CRATE
+    size: 0.2
+    bigSprite: 520
+    floorSprite: 520
+    invHeight: 2
+    invWidth: 2
+    battleType: 0
+    costSell: 30000
+    transferTime: 48
+    categories: [STR_GOODS, STR_VALUABLES]
 
 #     ___   ___   __ __  ____  ____  ___ ___    ___  ____   ______ 
 #    /  _] /   \ |  |  ||    ||    \|   |   |  /  _]|    \ |      |
@@ -402,6 +531,7 @@ items:
     energyRecovery: 10
     tuUse: 10
     flatRate: true
+    categories: [STR_GOODS, STR_HEALTH_ITEMS]
 
   - type: STR_STIMPAK
     size: 0.1
@@ -422,6 +552,7 @@ items:
     energyRecovery: 10
     tuUse: 10
     flatRate: true
+    categories: [STR_GOODS, STR_HEALTH_ITEMS]
 
   - type: STR_MEGA_STIMPAK
     size: 0.1
@@ -442,6 +573,7 @@ items:
     energyRecovery: 10
     tuUse: 10
     flatRate: true
+    categories: [STR_GOODS, STR_HEALTH_ITEMS]
 
   - type: STR_BASIC_STIMULANT
     size: 0.1
@@ -462,6 +594,7 @@ items:
     energyRecovery: 20
     tuUse: 10
     flatRate: true
+    categories: [STR_GOODS, STR_HEALTH_ITEMS]
 
 
 #      __   ___   ____   ____    _____   ___  _____
@@ -733,6 +866,7 @@ items:
     skillApplied: true
     clipSize: -1
     requiresBuy: [STR_SETTLERS]
+    categories: [STR_MELEE_WEAPONS, STR_SHORT_RANGE]
 
   - type: STR_WOODEN_CLUB
     size: 0.1
@@ -754,6 +888,7 @@ items:
     skillApplied: true
     clipSize: -1
     requiresBuy: [STR_SETTLERS]
+    categories: [STR_MELEE_WEAPONS, STR_SHORT_RANGE]
 
   - type: STR_STONE_HAMMER
     size: 0.1
@@ -770,11 +905,12 @@ items:
     tuMelee: 30
     battleType: 3
     twoHanded: true
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     skillApplied: true
     clipSize: -1
     requiresBuy: [STR_SETTLERS]
+    categories: [STR_MELEE_WEAPONS, STR_SHORT_RANGE]
 
   - type: STR_SPEAR
     size: 0.1
@@ -791,11 +927,12 @@ items:
     tuMelee: 30
     battleType: 3
     twoHanded: true
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     skillApplied: true
     clipSize: -1
     requiresBuy: [STR_SETTLERS]
+    categories: [STR_MELEE_WEAPONS, STR_SHORT_RANGE]
 
 
 #   ______  __ __  ____   ___   __    __   ____  ____   _        ___  _____
@@ -821,6 +958,7 @@ items:
     fuseType: -2
     invWidth: 1
     invHeight: 2
+    categories: [STR_THROWABLES, STR_SHORT_RANGE]
 
   - type: STR_MOLOTOV_COCTAIL
     size: 0.1
@@ -836,6 +974,7 @@ items:
     fuseType: -2
     invWidth: 1
     invHeight: 2
+    categories: [STR_THROWABLES, STR_SHORT_RANGE]
 
 #   ____    ___   __    __  _____              
 #  |    \  /   \ |  |__|  |/ ___/              
@@ -876,6 +1015,7 @@ items:
     invWidth: 1
     invHeight: 3
     requiresBuy: [STR_SETTLERS]
+    categories: [STR_BOWS_CROSSBOWS, STR_MAKESHIFT]
 
   - type: STR_CROSSBOW
     size: 0.2
@@ -898,15 +1038,16 @@ items:
     invWidth: 1
     invHeight: 3
     requiresBuy: [STR_SETTLERS]
+    categories: [STR_BOWS_CROSSBOWS, STR_LONG_RANGE]
 
   - type: STR_SLINGSHOT
     size: 0.2
     costBuy: 100
     costSell: 50
     weight: 2
-    bigSprite: 650
-    floorSprite: 650
-    handSprite: 650
+    bigSprite: 730
+    floorSprite: 730
+    handSprite: 730
     bulletSprite: 2
     fireSound: 4
     compatibleAmmo:
@@ -920,6 +1061,7 @@ items:
     invWidth: 1
     invHeight: 2
     requiresBuy: [STR_SETTLERS]
+    categories: [STR_SHORT_RANGE, STR_MAKESHIFT]
 
 
 #    _____ __ __   ___   ______   ____  __ __  ____   _____
@@ -947,39 +1089,42 @@ items:
     accuracyAimed: 160
     tuSnap: 32
     tuAimed: 60
-    aimRange: 12
-    snapRange: 8
+    aimRange: 18
+    snapRange: 12
     dropoff: 6
     shotgunChoke: 70
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
+    categories: [STR_SHOTGUNS, STR_SHORT_RANGE]
 
   - type: STR_SHAMBLER
     size: 0.2
     costSell: 5000
     weight: 8
-    bigSprite: 740
-    floorSprite: 740
-    handSprite: 740
+    bigSprite: 940
+    floorSprite: 940
+    handSprite: 940
     bulletSprite: 3
     fireSound: 4
     compatibleAmmo:
       - STR_PREWAR_SHOTGUN_SHELLS
     accuracyCloseQuarters: 100
-    accuracySnap: 110
-    accuracyAimed: 160
-    tuSnap: 32
-    tuAimed: 60
+    accuracySnap: 80
+    accuracyAimed: 105
+    tuSnap: 20
+    tuAimed: 30
     aimRange: 12
     snapRange: 8
     dropoff: 6
-    shotgunChoke: 70
+    tuReload: 45
+    shotgunChoke: 50
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
+    categories: [STR_SHOTGUNS, STR_SHORT_RANGE, STR_MAKESHIFT]
 
 #   ____   ____  _____  _        ___  _____
 #  |    \ |    ||     || |      /  _]/ ___/
@@ -1011,6 +1156,7 @@ items:
     invWidth: 1
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_RIFLES, STR_MAKESHIFT, STR_LONG_RANGE]
 
   - type: STR_HUNTING_RIFLE
     size: 0.2
@@ -1033,6 +1179,7 @@ items:
     invWidth: 1
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_RIFLES, STR_LONG_RANGE]
 
   - type: STR_BASTARD
     size: 0.2
@@ -1058,6 +1205,7 @@ items:
     invWidth: 1
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_RIFLES, STR_SMGS, STR_MAKESHIFT]
 
   - type: STR_PREWAR_SERVICE_RIFLE
     size: 0.2
@@ -1083,6 +1231,7 @@ items:
     invWidth: 1
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_RIFLES, STR_LONG_RANGE]
 
   - type: STR_PULSE_RIFLE
     size: 0.2
@@ -1105,6 +1254,7 @@ items:
     invWidth: 1
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_RIFLES, STR_ENERGY_WEAPONS]
 
   - type: STR_LASER_RIFLE
     size: 0.2
@@ -1131,6 +1281,7 @@ items:
     invWidth: 1
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_RIFLES, STR_ENERGY_WEAPONS]
 
   - type: STR_GAUSS_RIFLE
     size: 0.2
@@ -1156,6 +1307,7 @@ items:
     invWidth: 1
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_RIFLES, STR_ENERGY_WEAPONS, STR_LONG_RANGE]
 
   - type: STR_PLASMA_GUN
     size: 0.2
@@ -1182,31 +1334,31 @@ items:
     invWidth: 1
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_RIFLES, STR_ENERGY_WEAPONS, STR_SHORT_RANGE]
 
-  - type: STR_PREWAR_SERVICE_RIFLE
+  - type: STR_DMR
     size: 0.2
     #costBuy: 3000
     costSell: 5000
     weight: 7
-    bigSprite: 880
-    floorSprite: 880
-    handSprite: 880
+    bigSprite: 950
+    floorSprite: 950
+    handSprite: 950
     bulletSprite: 2
     fireSound: 4
     compatibleAmmo:
       - STR_556MM_RIFLE_MAG
-    accuracyAuto: 45
-    accuracySnap: 65
-    accuracyAimed: 80
-    tuAuto: 35
-    tuSnap: 20
-    tuAimed: 40
+    accuracySnap: 75
+    accuracyAimed: 95
+    tuSnap: 15
+    tuAimed: 35
     #autoShots: 5
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_RIFLES, STR_LONG_RANGE]
 
     #heavy weapons
 
@@ -1231,6 +1383,7 @@ items:
     twoHanded: true
     invWidth: 2
     invHeight: 3
+    categories: [STR_HEAVY_WEAPONS]
 
   - type: STR_BOZAR
     size: 0.2
@@ -1253,6 +1406,7 @@ items:
     twoHanded: true
     invWidth: 2
     invHeight: 3
+    categories: [STR_HEAVY_WEAPONS]
 
   - type: STR_LASER_GATLING
     size: 0.2
@@ -1276,6 +1430,7 @@ items:
     invWidth: 1
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_HEAVY_WEAPONS, STR_ENERGY_WEAPONS]
 
 
 
@@ -1290,18 +1445,18 @@ items:
 
   - type: STR_10MM_PISTOL
     size: 0.2
-    #costBuy: 3000
-    costSell: 5000
+    costBuy: 9000
+    costSell: 8000
     weight: 4
-    bigSprite: 670
-    floorSprite: 670
-    handSprite: 670
+    bigSprite: 970
+    floorSprite: 970
+    handSprite: 970
     bulletSprite: 2
     fireSound: 4
     compatibleAmmo:
       - STR_10MM
-    accuracySnap: 40
-    accuracyAimed: 80
+    accuracySnap: 60
+    accuracyAimed: 90
     tuSnap: 30
     tuAimed: 60
     battleType: 1
@@ -1309,6 +1464,7 @@ items:
     invWidth: 1
     invHeight: 2
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_PISTOLS, STR_SHORT_RANGE]
 
   - type: STR_MAKESHIFT_PISTOL
     size: 0.2
@@ -1331,6 +1487,7 @@ items:
     invWidth: 1
     invHeight: 2
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_PISTOLS, STR_SHORT_RANGE, STR_MAKESHIFT]
 
   - type: STR_REVOLVER
     size: 0.2
@@ -1353,6 +1510,7 @@ items:
     invWidth: 1
     invHeight: 2
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_PISTOLS, STR_SHORT_RANGE]
 
   - type: STR_PREWAR_SMG
     size: 0.2
@@ -1377,6 +1535,7 @@ items:
     invWidth: 1
     invHeight: 3
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_SMGS, STR_SHORT_RANGE]
 
 
 
@@ -1406,6 +1565,7 @@ items:
     invHeight: 1
     vaporColorSurface: 12
     vaporDensitySurface: 5
+    categories: [STR_AMMUNITION, STR_ENERGY_WEAPONS, STR_RIFLES]
 
   - type: STR_7.62MM_MINIGUN
     size: 1
@@ -1422,7 +1582,7 @@ items:
     battleType: 2
     invWidth: 2
     invHeight: 1
-
+    categories: [STR_AMMUNITION, STR_HEAVY_WEAPONS]
 
   - type: STR_PREWAR_SHOTGUN_SHELLS
     size: 0.05
@@ -1439,6 +1599,7 @@ items:
     shotgunBehavior: 1
     shotgunSpread: 25
     shotgunPellets: 5
+    categories: [STR_AMMUNITION, STR_SHOTGUNS, STR_MAKESHIFT]
     
   - type: STR_BOW_ARROWS
     size: 0.1
@@ -1457,6 +1618,7 @@ items:
     invWidth: 1
     invHeight: 2
     requiresBuy: [STR_SETTLERS]
+    categories: [STR_AMMUNITION, STR_BOWS_CROSSBOWS, STR_MAKESHIFT]
 
   - type: STR_CROSSBOW_BELTS
     size: 0.1
@@ -1475,6 +1637,7 @@ items:
     invWidth: 1
     invHeight: 2
     requiresBuy: [STR_SETTLERS]
+    categories: [STR_AMMUNITION, STR_BOWS_CROSSBOWS]
 
   - type: STR_STONES
     size: 0.1
@@ -1492,6 +1655,7 @@ items:
     invWidth: 1
     invHeight: 1
     requiresBuy: [STR_SETTLERS]
+    categories: [STR_AMMUNITION, STR_MAKESHIFT]
 
   - type: STR_10MM
     size: 0.1
@@ -1508,6 +1672,7 @@ items:
     clipSize: 8
     battleType: 2
     requiresBuy: [STR_SETTLERS]
+    categories: [STR_AMMUNITION, STR_PISTOLS, STR_RIFLES, STR_MAKESHIFT]
 
   - type: STR_REVOLVER_CLIP
     size: 0.1
@@ -1522,7 +1687,7 @@ items:
     damageType: 1
     clipSize: 6
     battleType: 2
-
+    categories: [STR_AMMUNITION, STR_PISTOLS]
 
   - type: STR_308_RIFLE_CLIP
     size: 0.1
@@ -1539,6 +1704,7 @@ items:
     clipSize: 5
     battleType: 2
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_LONG_RANGE]
 
   - type: STR_10MM_SMG
     size: 0.1
@@ -1555,6 +1721,7 @@ items:
     clipSize: 30
     battleType: 2
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_AMMUNITION, STR_SHORT_RANGE, STR_SMGS]
 
   - type: STR_556MM_RIFLE_CLIP
     size: 0.1
@@ -1568,17 +1735,20 @@ items:
     bulletSpeed: 13
     power: 45
     damageType: 1
+    invHeight: 1
+    invWidth: 2
     clipSize: 45
     battleType: 2
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_SMGS, STR_MAKESHIFT]
 
   - type: STR_556MM_RIFLE_MAG
     size: 0.1
     costBuy: 200
     costSell: 150
     weight: 6
-    bigSprite: 910
-    floorSprite: 910
+    bigSprite: 960
+    floorSprite: 960
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
@@ -1587,6 +1757,7 @@ items:
     clipSize: 30
     battleType: 2
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_HEAVY_WEAPONS, STR_LONG_RANGE]
 
   - type: STR_762MM_RIFLE_MAG
     size: 0.1
@@ -1603,6 +1774,7 @@ items:
     clipSize: 20
     battleType: 2
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_LONG_RANGE]
 
   - type: STR_MICROFUSION_CELLS
     size: 0.1
@@ -1625,6 +1797,7 @@ items:
     #requiresBuy: [STR_SETTLERS]
     vaporColorSurface: 9
     vaporDensitySurface: 5
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_HEAVY_WEAPONS, STR_ENERGY_WEAPONS, STR_LONG_RANGE]
 
   - type: STR_PLASMA_CARTRIDGE
     size: 0.1
@@ -1647,6 +1820,7 @@ items:
     #requiresBuy: [STR_SETTLERS]
     vaporColorSurface: 2
     vaporDensitySurface: 5
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_ENERGY_WEAPONS, STR_SHORT_RANGE]
 
   - type: STR_2MM_EC_GAUSS_ROUNDS
     size: 0.1
@@ -1663,6 +1837,7 @@ items:
     clipSize: 20
     battleType: 2
     #requiresBuy: [STR_SETTLERS]
+    categories: [STR_AMMUNITION, STR_ENERGY_WEAPONS, STR_RIFLES, STR_LONG_RANGE]
 
 #    ____  ____   ___ ___   ___   ____    _____
 #   /    ||    \ |   |   | /   \ |    \  / ___/

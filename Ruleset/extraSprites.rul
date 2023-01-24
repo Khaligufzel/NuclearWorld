@@ -5,12 +5,26 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
+      #400: Resources/Items/bigob_EdibleMushroom.png
+      #410: Resources/Items/bigob_HealingHerb.png
+      #420: Resources/Items/bigob_StimulantHerb.png
+      430: Resources/Items/bigob_AnimalSkin.png
+      440: Resources/Items/bigob_IronScraps.png
+     # 450: Resources/Items/bigob_MoneyBag.png
+     # 460: Resources/Items/bigob_MoneyPouch.png
+      470: Resources/Items/bigob_GoldInglot.png
+      480: Resources/Items/bigob_CaravanCrate.png
+      490: Resources/Items/bigob_WeaponCrate.png 
+      500: Resources/Items/bigob_AmmunitionCrate.png
+      510: Resources/Items/bigob_ValuablesCrate.png 
+      520: Resources/Items/bigob_HighTechCrate.png
+     # 530: Resources/Items/bigobTechScraps.png
       602: Resources/Weapons/Melee/bigob_Shiv.png
       610: Resources/Weapons/Melee/bigob_Hammer.png
       620: Resources/Weapons/Melee/bigob_Spear.png
       630: Resources/Weapons/Melee/bigob_WoodenClub.png
       640: Resources/Weapons/Ranged/bigob_Bow.png
-      650: Resources/Weapons/Ranged/bigob_Crossbow.png
+      650: Resources/Weapons/Ranged/bigob_Crossbow.gif
       660: Resources/Weapons/Ranged/bigob_PipeRifle.png
       670: Resources/Weapons/Ranged/bigob_MakeshiftPistol.png
       680: Resources/Weapons/Ammunition/bigob_Quiver.png
@@ -39,6 +53,11 @@ extraSprites:
       910: Resources/Weapons/Ammunition/bigob_556mmRifleClip.png
       920: Resources/Weapons/Ranged/bigob_LaserRifle.png
       930: Resources/Weapons/Ammunition/bigob_MicrofusionCell.png
+      940: Resources/Weapons/Ranged/bigob_Shambler.png
+      950: Resources/Weapons/Ranged/bigob_DMR.png
+      960: Resources/Weapons/Ammunition/bigob_556mmRifleMag.png
+      970: Resources/Weapons/Ranged/bigob_10mmPistol.png
+      
 
 #################
 #### ARMORS ####
@@ -93,6 +112,20 @@ extraSprites:
 
   - type: FLOOROB.PCK
     files:
+      #400: Resources/Items/floorob_EdibleMushroom.png
+      #410: Resources/Items/floorob_HealingHerb.png
+      #420: Resources/Items/floorob_StimulantHerb.png
+      430: Resources/Items/floorob_AnimalSkin.png
+      440: Resources/Items/floorob_IronScraps.png
+     # 450: Resources/Items/floorob_MoneyBag.png
+     # 460: Resources/Items/floorob_MoneyPouch.png
+      470: Resources/Items/floorob_GoldInglot.png
+      480: Resources/Items/floorob_CaravanCrate.png
+      490: Resources/Items/floorob_WeaponCrate.png 
+      500: Resources/Items/floorob_AmmunitionCrate.png
+      510: Resources/Items/floorob_ValuablesCrate.png 
+      520: Resources/Items/floorob_HighTechCrate.png
+     # 530: Resources/Items/floorobTechScraps.png    
       602: Resources/Weapons/Melee/floorob_Shiv.png
       610: Resources/Weapons/Melee/floorob_Hammer.png
       620: Resources/Weapons/Melee/floorob_Spear.png
@@ -127,6 +160,10 @@ extraSprites:
       910: Resources/Weapons/Ammunition/floorob_556mmRifleClip.png
       920: Resources/Weapons/Ranged/floorob_LaserRifle.png
       930: Resources/Weapons/Ammunition/floorob_MicrofusionCell.png
+      940: Resources/Weapons/Ranged/floorob_Shambler.png
+      950: Resources/Weapons/Ranged/floorob_DMR.png
+      960: Resources/Weapons/Ammunition/floorob_556mmRifleMag.png
+      970: Resources/Weapons/Ranged/floorob_10mmPistol.png
 
 #################
 #### ARMORS ####
@@ -206,6 +243,9 @@ extraSprites:
       880: Resources/Weapons/Ranged/handob_FNFAL.png
       900: Resources/Weapons/Ranged/handob_Bastard.png
       920: Resources/Weapons/Ranged/handob_LaserRifle.png
+      940: Resources/Weapons/Ranged/handob_Shambler.png
+      950: Resources/Weapons/Ranged/handob_DMR.png
+      970: Resources/Weapons/Ranged/handob_10mmPistol.png
 
 
 ##########################################

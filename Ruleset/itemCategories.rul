@@ -1,11 +1,22 @@
-﻿itemCategories:
+itemCategories:
   - type: STR_MELEE_WEAPONS
-  - type: STR_BOWS/CROSSBOWS
+  - type: STR_BOWS_CROSSBOWS
   - type: STR_RIFLES
+  - type: STR_PISTOLS
+  - type: STR_SHOTGUNS
+  - type: STR_SMGS
+  - type: STR_HEAVY_WEAPONS
+  - type: STR_ENERGY_WEAPONS  
+  - type: STR_LONG_RANGE
+  - type: STR_SHORT_RANGE
+  - type: STR_MAKESHIFT
   - type: STR_EQUIPMENT
+  - type: STR_HEALTH_ITEMS
+  - type: STR_GOODS  
   - type: STR_AMMUNITION
   - type: STR_ARMORS
   - type: STR_OTHER
+  - type: STR_VALUABLES
   - type: STR_THROWABLES
   - type: STR_UNPACKING
 
