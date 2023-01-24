@@ -5,13 +5,13 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      #400: Resources/Items/bigob_EdibleMushroom.png
-      #410: Resources/Items/bigob_HealingHerb.png
-      #420: Resources/Items/bigob_StimulantHerb.png
+      400: Resources/Items/bigob_EdibleMushroom.png
+      410: Resources/Items/bigob_HealingHerb.png
+      420: Resources/Items/bigob_StimulantHerb.png
       430: Resources/Items/bigob_AnimalSkin.png
       440: Resources/Items/bigob_IronScraps.png
-     # 450: Resources/Items/bigob_MoneyBag.png
-     # 460: Resources/Items/bigob_MoneyPouch.png
+      450: Resources/Items/bigob_MoneyBag.png
+      460: Resources/Items/bigob_MoneyPouch.png
       470: Resources/Items/bigob_GoldInglot.png
       480: Resources/Items/bigob_CaravanCrate.png
       490: Resources/Items/bigob_WeaponCrate.png 
@@ -112,13 +112,13 @@ extraSprites:
 
   - type: FLOOROB.PCK
     files:
-      #400: Resources/Items/floorob_EdibleMushroom.png
-      #410: Resources/Items/floorob_HealingHerb.png
-      #420: Resources/Items/floorob_StimulantHerb.png
+      400: Resources/Items/floorob_EdibleMushroom.png
+      410: Resources/Items/floorob_HealingHerb.png
+      420: Resources/Items/floorob_StimulantHerb.png
       430: Resources/Items/floorob_AnimalSkin.png
       440: Resources/Items/floorob_IronScraps.png
-     # 450: Resources/Items/floorob_MoneyBag.png
-     # 460: Resources/Items/floorob_MoneyPouch.png
+      450: Resources/Items/floorob_MoneyBag.png
+      460: Resources/Items/floorob_MoneyPouch.png
       470: Resources/Items/floorob_GoldInglot.png
       480: Resources/Items/floorob_CaravanCrate.png
       490: Resources/Items/floorob_WeaponCrate.png 

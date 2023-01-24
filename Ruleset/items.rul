@@ -330,8 +330,6 @@ items:
       time: 10
     flatThrow:
       time: true
-    invWidth: 2
-    invHeight: 1
     experienceTrainingMode: 21
     size: 0.1
     costSell: 500
@@ -342,8 +340,8 @@ items:
     costSell: 250
     transferTime: 48
     battleType: 6
-    bigSprite: 760 #410
-    floorSprite: 760 #410
+    bigSprite: 410
+    floorSprite: 410
     invHeight: 1
     invWidth: 1
     isConsumable: true
@@ -358,8 +356,6 @@ items:
       time: 10
     flatThrow:
       time: true
-    invWidth: 2
-    invHeight: 1
     experienceTrainingMode: 21
     categories: [STR_GOODS, STR_HEALTH_ITEMS]
 
@@ -368,8 +364,8 @@ items:
     costSell: 250
     transferTime: 48
     battleType: 6
-    bigSprite: 760 # 420
-    floorSprite: 760 # 420
+    bigSprite: 420
+    floorSprite: 420
     invHeight: 1
     invWidth: 1
     isConsumable: true
@@ -385,8 +381,6 @@ items:
       time: 10
     flatThrow:
       time: true
-    invWidth: 2
-    invHeight: 1
     experienceTrainingMode: 21
     categories: [STR_GOODS, STR_HEALTH_ITEMS]
 
@@ -415,8 +409,8 @@ items:
 
   - type: STR_BAG_OF_MONEY
     size: 0.1
-    bigSprite: 480 # 450
-    floorSprite: 480 # 450
+    bigSprite: 450
+    floorSprite: 450
     invHeight: 2
     invWidth: 2
     battleType: 0
@@ -426,8 +420,8 @@ items:
 
   - type: STR_POUCH_OF_MONEY
     size: 0.1
-    bigSprite: 480 # 460
-    floorSprite: 480 # 460
+    bigSprite: 460
+    floorSprite: 460
     invHeight: 2
     invWidth: 2
     battleType: 0
@@ -1012,7 +1006,7 @@ items:
     tuAimed: 60
     battleType: 1
     twoHanded: true
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     requiresBuy: [STR_SETTLERS]
     categories: [STR_BOWS_CROSSBOWS, STR_MAKESHIFT]
@@ -1092,6 +1086,7 @@ items:
     aimRange: 18
     snapRange: 12
     dropoff: 6
+    tuLoad: 30
     shotgunChoke: 70
     battleType: 1
     twoHanded: true
@@ -1118,7 +1113,7 @@ items:
     aimRange: 12
     snapRange: 8
     dropoff: 6
-    tuReload: 45
+    tuLoad: 45
     shotgunChoke: 50
     battleType: 1
     twoHanded: true
