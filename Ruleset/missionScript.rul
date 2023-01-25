@@ -614,6 +614,17 @@ missionScripts:
     #researchTriggers:
      #STR_ENEMY_MUTANTS: true
 
+  - type: bountyHunting
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_BOUNTY_HUNTING: 100
+    targetBaseOdds: 100
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 21750
+    researchTriggers:
+     STR_BOUNTY_HUNTING: true
 
   - type: startResearch
     missionWeights:

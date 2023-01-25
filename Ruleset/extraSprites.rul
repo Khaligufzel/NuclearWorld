@@ -18,7 +18,15 @@ extraSprites:
       500: Resources/Items/bigob_AmmunitionCrate.png
       510: Resources/Items/bigob_ValuablesCrate.png 
       520: Resources/Items/bigob_HighTechCrate.png
-     # 530: Resources/Items/bigobTechScraps.png
+      530: Resources/Items/bigob_MedicalContainer.png
+
+      540: Resources/Weapons/Ranged/bigob_GaussRifle.png
+      550: Resources/Weapons/Ranged/bigob_Bozar.png
+      560: Resources/Weapons/Ranged/bigob_LaserGatling.png
+      570: Resources/Weapons/Ranged/bigob_PlasmaGun.png
+      580: Resources/Weapons/Ammunition/bigob_2mmEC.png
+      590: Resources/Weapons/Ammunition/bigob_PlasmaCartridge.png
+
       602: Resources/Weapons/Melee/bigob_Shiv.png
       610: Resources/Weapons/Melee/bigob_Hammer.png
       620: Resources/Weapons/Melee/bigob_Spear.png
@@ -125,7 +133,15 @@ extraSprites:
       500: Resources/Items/floorob_AmmunitionCrate.png
       510: Resources/Items/floorob_ValuablesCrate.png 
       520: Resources/Items/floorob_HighTechCrate.png
-     # 530: Resources/Items/floorobTechScraps.png    
+      530: Resources/Items/floorob_MedicalContainer.png  
+
+      540: Resources/Weapons/Ranged/floorob_GaussRifle.png
+      550: Resources/Weapons/Ranged/floorob_Bozar.png
+      560: Resources/Weapons/Ranged/floorob_LaserGatling.png
+      570: Resources/Weapons/Ranged/floorob_PlasmaGun.png
+      580: Resources/Weapons/Ammunition/floorob_2mmEC.png
+      590: Resources/Weapons/Ammunition/floorob_PlasmaCartridge.png
+
       602: Resources/Weapons/Melee/floorob_Shiv.png
       610: Resources/Weapons/Melee/floorob_Hammer.png
       620: Resources/Weapons/Melee/floorob_Spear.png
@@ -223,6 +239,11 @@ extraSprites:
     subX: 32
     subY: 40
     files:
+
+      540: Resources/Weapons/Ranged/handob_GaussRifle.png
+      550: Resources/Weapons/Ranged/handob_Bozar.png
+      560: Resources/Weapons/Ranged/handob_LaserGatling.png
+      570: Resources/Weapons/Ranged/handob_PlasmaGun.png
       602: Resources/Weapons/Melee/handob_Shiv.png
       610: Resources/Weapons/Melee/handob_Hammer.png
       620: Resources/Weapons/Melee/handob_Spear.png
@@ -841,6 +862,23 @@ extraSprites:
     subY: 3
     files:
       385: Resources/BulletSprites/Arrow_bullet.png #11
+      420: Resources/BulletSprites/Ballistic_Bullet.png #12
+      455: Resources/BulletSprites/Plasma_Bullet.png #13
+      490: Resources/BulletSprites/RedLaser_Bullet.png #14
+      525: Resources/BulletSprites/Gauss_Bullet.png #15
+      560: Resources/BulletSprites/Electric_Bullet.png #16
+
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      56: Resources/AlienArmouryExpanded/Bullets/toxic_hit.gif
+      110: Resources/HitAnimations/Ballistic_Hit.png
+      120: Resources/HitAnimations/Gauss_Hit.png
+      130: Resources/HitAnimations/Electric_Hit.png
+      140: Resources/HitAnimations/RedLaser_Hit.png
 
 ##########################################
 ########### USER INTERFACE ###############

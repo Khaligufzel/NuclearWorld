@@ -312,8 +312,8 @@ items:
   - type: STR_EDIBLE_MUSHROOM
     categories: [STR_GOODS, STR_HEALTH_ITEMS]
     battleType: 6
-    bigSprite: 760 #400
-    floorSprite: 760 #400
+    bigSprite: 400
+    floorSprite: 400
     invHeight: 1
     invWidth: 1
     isConsumable: true
@@ -1198,7 +1198,7 @@ items:
     bigSprite: 900
     floorSprite: 900
     handSprite: 900
-    bulletSprite: 2
+    bulletSprite: 12
     fireSound: 4
     compatibleAmmo:
       - STR_556MM_RIFLE_CLIP
@@ -1224,7 +1224,7 @@ items:
     bigSprite: 880
     floorSprite: 880
     handSprite: 880
-    bulletSprite: 2
+    bulletSprite: 12
     fireSound: 4
     compatibleAmmo:
       - STR_762MM_RIFLE_MAG
@@ -1250,7 +1250,7 @@ items:
     bigSprite: 840
     floorSprite: 840
     handSprite: 840
-    bulletSprite: 5
+    bulletSprite: 16
     fireSound: 4
     compatibleAmmo:
       - STR_CELL_PULSE_RIFLE
@@ -1273,7 +1273,7 @@ items:
     bigSprite: 920
     floorSprite: 920
     handSprite: 920
-    bulletSprite: 7
+    bulletSprite: 14
     fireSound: 4
     compatibleAmmo:
       - STR_MICROFUSION_CELLS
@@ -1297,10 +1297,10 @@ items:
     #costBuy: 3000
     costSell: 50000
     weight: 7
-    bigSprite: 880
-    floorSprite: 880
-    handSprite: 880
-    bulletSprite: 2
+    bigSprite: 540
+    floorSprite: 540
+    handSprite: 540
+    bulletSprite: 15
     fireSound: 4
     compatibleAmmo:
       - STR_2MM_EC_GAUSS_ROUNDS
@@ -1323,10 +1323,10 @@ items:
     costBuy: 27000
     costSell: 22250
     weight: 4
-    bigSprite: 920
-    floorSprite: 920
-    handSprite: 920
-    bulletSprite: 7
+    bigSprite: 570
+    floorSprite: 570
+    handSprite: 570
+    bulletSprite: 13
     fireSound: 4
     compatibleAmmo:
       - STR_PLASMA_CARTRIDGE
@@ -1353,7 +1353,7 @@ items:
     bigSprite: 950
     floorSprite: 950
     handSprite: 950
-    bulletSprite: 2
+    bulletSprite: 12
     fireSound: 4
     compatibleAmmo:
       - STR_556MM_RIFLE_MAG
@@ -1378,7 +1378,7 @@ items:
     bigSprite: 820
     floorSprite: 820
     handSprite: 820
-    bulletSprite: 2
+    bulletSprite: 12
     fireSound: 4
     compatibleAmmo:
       - STR_7.62MM_MINIGUN
@@ -1399,9 +1399,9 @@ items:
     costBuy: 18500
     costSell: 16000
     weight: 30
-    bigSprite: 820
-    floorSprite: 820
-    handSprite: 820
+    bigSprite: 550
+    floorSprite: 550
+    handSprite: 550
     bulletSprite: 2
     fireSound: 4
     compatibleAmmo:
@@ -1424,10 +1424,10 @@ items:
     costBuy: 37000
     costSell: 32250
     weight: 4
-    bigSprite: 920
-    floorSprite: 920
-    handSprite: 920
-    bulletSprite: 7
+    bigSprite: 560
+    floorSprite: 560
+    handSprite: 560
+    bulletSprite: 14
     fireSound: 4
     compatibleAmmo:
       - STR_MICROFUSION_CELLS
@@ -1748,7 +1748,7 @@ items:
     bigSprite: 910
     floorSprite: 910
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: 110
     bulletSpeed: 13
     power: 45
     damageType: 1
@@ -1767,7 +1767,7 @@ items:
     bigSprite: 960
     floorSprite: 960
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: 110
     bulletSpeed: 10
     power: 45
     damageType: 1
@@ -1784,7 +1784,7 @@ items:
     bigSprite: 890
     floorSprite: 890
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: 110
     bulletSpeed: 10
     power: 52
     damageType: 1
@@ -1801,7 +1801,7 @@ items:
     bigSprite: 930
     floorSprite: 930
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: 140
     bulletSpeed: 15
     power: 40
     damageAlter:
@@ -1821,8 +1821,8 @@ items:
     costBuy: 10000
     costSell: 9050
     weight: 4
-    bigSprite: 930
-    floorSprite: 930
+    bigSprite: 590
+    floorSprite: 590
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 15
@@ -1844,10 +1844,10 @@ items:
     #costBuy: 200
     costSell: 18000
     weight: 10
-    bigSprite: 890
-    floorSprite: 890
+    bigSprite: 580
+    floorSprite: 580
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: 120
     bulletSpeed: 10
     power: 80
     damageType: 1
