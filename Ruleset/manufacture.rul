@@ -143,7 +143,7 @@ manufacture:
 #                                              
 
   - name: STR_BOW
-    category: STR_BOWS/CROSSBOWS
+    category: STR_BOWS_CROSSBOWS
     requiresBaseFunc: [WORKSHOP] 
     requires:
       - "STR_BASIC_WEAPONS"          
@@ -152,7 +152,7 @@ manufacture:
     cost: 0
 
   - name: STR_CROSSBOW
-    category: STR_BOWS/CROSSBOWS
+    category: STR_BOWS_CROSSBOWS
     requiresBaseFunc: [WORKSHOP] 
     requires:
       - "STR_BASIC_WEAPONS"          
@@ -280,21 +280,20 @@ manufacture:
 #  |  |  ||  .  \|   |   ||     ||  .  \ \    |
 #  |__|__||__|\_||___|___| \___/ |__|\_|  \___|
 #                                              
+  - name: STR_LEATHER_ARMOR
+    category: STR_ARMORS
+    requiresBaseFunc: [WORKSHOP]
+    requires:
+      - "STR_BASIC_PROTECTION" 
+    space: 1
+    time: 100
+    cost: 0
 
   - name: STR_WASTELANDER_ARMOR
     category: STR_ARMORS
     requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_BASIC_PROTECTION"
-    space: 1
-    time: 100
-    cost: 0
-
-  - name: STR_LEATHER_ARMOR
-    category: STR_ARMORS
-    requiresBaseFunc: [WORKSHOP]
-    requires:
-      - "STR_BASIC_PROTECTION_II" 
+      - "STR_BASIC_PROTECTION_II"
     space: 1
     time: 100
     cost: 0
@@ -394,6 +393,35 @@ manufacture:
           STR_EDIBLE_MUSHROOM: 5
           STR_POUCH_OF_MONEY: 10
           STR_BANDAGE: 10
+      -
+        - 20
+        - STR_IRON_SCRAPS: 5
+          STR_EDIBLE_MUSHROOM: 5
+          STR_POUCH_OF_MONEY: 10
+          STR_BANDAGE: 10
+          STR_10MM_PISTOL: 6
+          STR_10MM: 12
+      -
+        - 20
+        - STR_IRON_SCRAPS: 5
+          STR_EDIBLE_MUSHROOM: 5
+          STR_POUCH_OF_MONEY: 10
+          STR_BASTARD: 10
+          STR_556MM_RIFLE_CLIP: 20
+          STR_SHAMBLER: 6
+          STR_PREWAR_SHOTGUN_SHELLS: 12
+      -
+        - 20
+        - STR_IRON_SCRAPS: 5
+          STR_EDIBLE_MUSHROOM: 5
+          STR_POUCH_OF_MONEY: 10
+          STR_HANDCRAFTED_POWER_ARMOR: 1
+      -
+        - 20
+        - STR_IRON_SCRAPS: 5
+          STR_EDIBLE_MUSHROOM: 5
+          STR_POUCH_OF_MONEY: 10
+          STR_LEATHER_ARMOR: 5
 
   - name: STR_WEAPON_CRATE
     category: STR_UNPACKING   
@@ -411,6 +439,10 @@ manufacture:
       -       
         - 20
         - STR_MAKESHIFT_PISTOL: 2
+          STR_10MM: 4
+      -       
+        - 20
+        - STR_10MM_PISTOL: 2
           STR_10MM: 4
       -
         - 20
@@ -436,7 +468,22 @@ manufacture:
       -
         - 20
         - STR_MOLOTOV_COCTAIL: 2
-
+      -
+        - 20
+        - STR_PREWAR_SERVICE_RIFLE: 1
+          STR_762MM_RIFLE_MAG: 2
+      -
+        - 20
+        - STR_BASTARD: 1
+          STR_556MM_RIFLE_CLIP: 2
+      -
+        - 20
+        - STR_SHAMBLER: 1
+          STR_PREWAR_SHOTGUN_SHELLS: 2
+      -
+        - 20
+        - STR_REVOLVER: 1
+          STR_REVOLVER_CLIP: 2
 
   - name: STR_AMMUNITION_CRATE
     category: STR_UNPACKING   
@@ -466,6 +513,21 @@ manufacture:
       -
         - 20
         - STR_PREWAR_SHOTGUN_SHELLS: 4   
+      -
+        - 10
+        - STR_2MM_EC_GAUSS_ROUNDS: 2   
+      -
+        - 10
+        - STR_MICROFUSION_CELLS: 2   
+      -
+        - 10
+        - STR_PLASMA_CARTRIDGE: 2  
+      -
+        - 20
+        - STR_556MM_RIFLE_MAG: 4  
+      -
+        - 20
+        - STR_556MM_RIFLE_CLIP: 4 
 
   - name: STR_VALUABLES_CRATE
     category: STR_UNPACKING   
@@ -486,6 +548,61 @@ manufacture:
         - 20
         - STR_GOLD_INGOT: 1
 
+  - name: STR_HIGH_TECH_CRATE
+    category: STR_UNPACKING   
+    space: 1
+    time: 24
+    cost: 0
+    producedItems: {} # empty
+    requiredItems:
+        STR_HIGH_TECH_CRATE: 1
+    randomProducedItems:
+      -
+        - 20
+        - STR_GAUSS_RIFLE: 1
+          STR_2MM_EC_GAUSS_ROUNDS: 2
+      -       
+        - 20
+        - STR_PLASMA_GUN: 1
+          STR_PLASMA_CARTRIDGE: 2
+      -
+        - 20
+        - STR_LASER_RIFLE: 1
+          STR_MICROFUSION_CELLS: 2
+      -
+        - 20
+        - STR_LASER_GATLING: 1
+          STR_MICROFUSION_CELLS: 2
+      -
+        - 20
+        - STR_PULSE_RIFLE: 1
+          STR_CELL_PULSE_RIFLE: 2
+      -
+        - 10
+        - STR_POWER_ARMOR: 1
+      -
+        - 10
+        - STR_PROTOTYPE_POWER_ARMOR: 1
+
+  - name: STR_MEDICAL_CRATE
+    category: STR_UNPACKING   
+    space: 1
+    time: 1
+    cost: 0
+    producedItems: {} # empty
+    requiredItems:
+        STR_MEDICAL_CRATE: 1
+    randomProducedItems:
+      -
+        - 20
+        - STR_STIMPAK: 10
+      -       
+        - 20
+        - STR_MEGA_STIMPAK: 10
+      -
+        - 20
+        - STR_BANDAGE: 20
+          STR_HEALING_HERB: 20
 # Armor Repair 
 
   - name: STR_CORPSE_WASTELANDER_ARMOR

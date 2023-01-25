@@ -416,7 +416,7 @@ alienDeployments:
   - type: STR_CARAVAN_MUTANT_SITE
     alert: STR_CARAVAN_MUTANT_SITE_MARKER_NAME
     missionBountyItem: STR_CARAVAN_CRATE
-    missionBountyItemCount: 3
+    missionBountyItemCount: 4
     width: 50
     length: 50
     height: 4
@@ -451,7 +451,7 @@ alienDeployments:
             - STR_762MM_RIFLE_MAG
             - STR_762MM_RIFLE_MAG
             - STR_WEAPON_CRATE
-            - STR_WEAPON_CRATE
+            - STR_MEDICAL_CRATE
       - alienRank: 3
         lowQty: 3
         highQty: 3
@@ -463,20 +463,20 @@ alienDeployments:
             - STR_PIPE_RIFLE
             - STR_10MM
             - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
+            - STR_MEDICAL_CRATE
           -
             - STR_PIPE_RIFLE
             - STR_10MM
             - STR_10MM
             - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
+            - STR_MEDICAL_CRATE
           - 
             - STR_PIPE_RIFLE
             - STR_10MM
             - STR_10MM
             - STR_10MM
             - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
+            - STR_MEDICAL_CRATE
       - alienRank: 5
         lowQty: 4
         highQty: 8
@@ -661,6 +661,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    missionBountyItem: STR_CARAVAN_CRATE
+    missionBountyItemCount: 4
     terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_SITE
@@ -1728,6 +1730,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    missionBountyItem: STR_CARAVAN_CRATE
+    missionBountyItemCount: 3
     civilians: 15
     terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
@@ -2133,6 +2137,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    missionBountyItem: STR_HIGH_TECH_CRATE
+    missionBountyItemCount: 2
     terrains:
       - MILLITARYBASE
     alertBackground: BACK03.SCR
@@ -2253,6 +2259,8 @@ alienDeployments:
     width: 40
     length: 40
     height: 4
+    missionBountyItem: STR_HIGH_TECH_CRATE
+    missionBountyItemCount: 4
     terrains:
       - LAB
     alertBackground: BACK03.SCR
@@ -2526,6 +2534,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 3
+    missionBountyItem: STR_POUCH_OF_MONEY
+    missionBountyItemCount: 1
     terrains:
       - VILLAGE 
       - CULTA 
