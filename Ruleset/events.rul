@@ -1,4 +1,4 @@
-﻿# events:
+events:
 #   - name: STR_TEST_EVENT1
 #     description: STR_TEST_DESCRIPTION1
 #     background: BACK13.SCR
@@ -23,3 +23,28 @@
 # #    interruptResearch: XXX
 #     timer: 2700
 #     timerRandom: 150
+
+  - name: STR_STORY_1_EVENT
+    description: STR_STORY_1_EVENT_DESCRIPTION
+    background: BACK01.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA]
+    points: 100
+    city: true
+    timer: 180
+    timerRandom: 15000
+
+  - name: STR_STORY_2_EVENT
+    description: STR_STORY_2_EVENT_DESCRIPTION
+    background: BACK15.SCR
+    points: 100
+    city: false
+    timer: 180
+    timerRandom: 23500
+    
+  - name: STR_STORY_3_EVENT
+    description: STR_STORY_3_EVENT_DESCRIPTION
+    background: BACK02.SCR
+    points: 100
+    city: false
+    timer: 180
+    timerRandom: 13500

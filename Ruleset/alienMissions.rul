@@ -429,6 +429,19 @@ alienMissions:
         timer: 0
         objective: true
 
+  - type: STR_FINAL_ONSLAUGHT
+    points: 50
+    objective: 3
+    spawnZone: 4 #Mission zone for alien base 
+    raceWeights:
+      0:
+        STR_FERAL_MUTANT_HORDE: 100
+    waves:
+      - ufo: STR_FINAL_ONSLAUGHT_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
 
   - type: STR_ALIEN_RESEARCH
     points: 0

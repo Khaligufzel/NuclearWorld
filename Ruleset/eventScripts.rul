@@ -1,4 +1,4 @@
-﻿# eventScripts:
+eventScripts:
 #   - type: STR_TEST_EVENT_SCRIPT
 #     eventWeights:
 #       0:
@@ -20,3 +20,30 @@
 #     executionOdds: 100
 #     minDifficulty: 0
 #     maxDifficulty: 4
+
+  - type: STR_STORY_1_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_STORY_1_EVENT
+    firstMonth: 6
+    lastMonth: 7
+    minDifficulty: 0
+    maxDifficulty: 4
+    executionOdds: 100
+
+  - type: STR_STORY_2_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_STORY_2_EVENT
+    firstMonth: 8
+    lastMonth: 9
+    minDifficulty: 0
+    maxDifficulty: 4
+    executionOdds: 100
+
+  - type: STR_STORY_3_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_STORY_3_EVENT
+    firstMonth: 11
+    lastMonth: 12
+    minDifficulty: 0
+    maxDifficulty: 4
+    executionOdds: 100

@@ -1,4 +1,4 @@
-﻿alienRaces:
+alienRaces:
   #- delete: STR_SECTOID
   #- delete: STR_FLOATER
   - delete: STR_SNAKEMAN
@@ -12,6 +12,15 @@
       - STR_GHOUL_SOLDIER
       - STR_WANDERER_ENGINEER
       - STR_GHOUL_RECRUIT
+
+  - id: STR_FERAL_MUTANT_HORDE
+    members:
+      - STR_MUTANT_PROPHET
+      - STR_MUTANT_ANGRY
+      - STR_MUTANT_LOST
+      - STR_GHOUL_LOST
+      - STR_MUTANT_ANGRY
+      - STR_GHOUL_FERAL
 
   - id: STR_WANDERER
     members:

@@ -52,7 +52,7 @@ alienDeployments:
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
     markerName: STR_WANDERER_SITE_MARKER_NAME
-    duration: [8, 36]
+    duration: [48, 72]
     data:
       - alienRank: 0
         lowQty: 1
@@ -2520,4 +2520,212 @@ alienDeployments:
             - STR_MINIGUN
             - STR_7.62MM_MINIGUN
             - STR_AMMUNITION_CRATE
-    
+
+  - type: STR_BOUNTY_HUNTING_SITE
+    alert: STR_BOUNTY_HUNTING_SITE_ALERT
+    width: 50
+    length: 50
+    height: 3
+    terrains:
+      - VILLAGE 
+      - CULTA 
+      - FOREST 
+      - MOUNT 
+      - DESERT
+      - NUKEZONE
+      - FOREST_TRENCH
+    alertBackground: BACK03.SCR
+    markerName: STR_BOUNTY_HUNTING_SITE_MARKER_NAME
+    duration: [48, 72]
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_10MM_PISTOL
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_10MM
+            - STR_POUCH_OF_MONEY
+          - 
+            - STR_REVOLVER
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
+            - STR_BAG_OF_MONEY
+          - 
+            - STR_REVOLVER
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
+            - STR_BAG_OF_MONEY
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          - 
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_10MM_SMG        
+          -
+            - STR_BOZAR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
+          - 
+            - STR_MINIGUN
+            - STR_7.62MM_MINIGUN
+
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+          - 
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_10MM_SMG
+          - 
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_PREWAR_SHOTGUN_SHELLS
+
+
+  - type: STR_FINAL_ONSLAUGHT_SITE
+    alert: STR_FINAL_ONSLAUGHT_SITE_ALERT
+    width: 50
+    length: 50
+    height: 4
+    finalDestination: true
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    winCutscene: winGame 
+    civiliansByType:
+      STR_ORDER_BATTLE_LEADER_NPC: 1
+      STR_CHURCH_BATTLE_LEADER_NPC: 2
+      STR_ORDER_RIFLEMAN_NPC: 4
+      STR_RAIDERS_CQB_NPC: 4
+    terrains:
+      - URBAN
+      - URBAN_RUINS
+      - NUKEZONE
+      - NUKECITY_B
+      - NUKECITY
+      - FOREST_TRENCH
+      - CULTA 
+    alertBackground: BACK03.SCR
+    markerName: STR_FINAL_ONSLAUGHT_SITE_MARKER_NAME
+    duration: [720, 1080]
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_MINIGUN
+            - STR_7.62MM_MINIGUN
+          - 
+            - STR_MINIGUN
+            - STR_7.62MM_MINIGUN
+          - 
+            - STR_MINIGUN
+            - STR_7.62MM_MINIGUN
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_LASER_GATLING
+            - STR_MICROFUSION_CELLS
+          - 
+            - STR_LASER_GATLING
+            - STR_MICROFUSION_CELLS
+          - 
+            - STR_LASER_GATLING
+            - STR_MICROFUSION_CELLS
+      - alienRank: 2
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        extraQty: 3      
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_STONE_HAMMER
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 3
+        lowQty: 5
+        highQty: 8
+        dQty: 0
+        extraQty: 3      
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SHIV
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_WOODEN_CLUB
+            - STR_EDIBLE_MUSHROOM
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        extraQty: 3      
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+          - 
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+          - 
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+      - alienRank: 5
+        lowQty: 5
+        highQty: 8
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
+          - 
+            - STR_SPEAR
+            - STR_EDIBLE_MUSHROOM
