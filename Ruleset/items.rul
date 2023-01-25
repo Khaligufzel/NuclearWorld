@@ -1079,6 +1079,7 @@ items:
 
   - type: STR_PREWAR_SHOTGUN
     size: 0.2
+    costBuy: 7500
     costSell: 5000
     weight: 8
     bigSprite: 740
@@ -1103,11 +1104,13 @@ items:
     invWidth: 1
     invHeight: 3
     categories: [STR_SHOTGUNS, STR_SHORT_RANGE]
+    requiresBuy: [STR_FACTION_ORDER]
 
   - type: STR_SHAMBLER
     size: 0.2
-    costSell: 5000
-    weight: 8
+    costBuy: 4500
+    costSell: 3000
+    weight: 12
     bigSprite: 940
     floorSprite: 940
     handSprite: 940
@@ -1130,6 +1133,7 @@ items:
     invWidth: 1
     invHeight: 3
     categories: [STR_SHOTGUNS, STR_SHORT_RANGE, STR_MAKESHIFT]
+    requiresBuy: [STR_FACTION_RAIDERS]
 
 #   ____   ____  _____  _        ___  _____
 #  |    \ |    ||     || |      /  _]/ ___/
@@ -1142,7 +1146,7 @@ items:
 
   - type: STR_PIPE_RIFLE
     size: 0.2
-    #costBuy: 3000
+    costBuy: 3000
     costSell: 2250
     weight: 8
     bigSprite: 660
@@ -1160,14 +1164,14 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_SETTLERS]
     categories: [STR_RIFLES, STR_MAKESHIFT, STR_LONG_RANGE]
 
   - type: STR_HUNTING_RIFLE
     size: 0.2
-    #costBuy: 3000
+    costBuy: 6000
     costSell: 5000
-    weight: 8
+    weight: 7
     bigSprite: 750
     floorSprite: 750
     handSprite: 750
@@ -1183,13 +1187,13 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_CHURCH]
     categories: [STR_RIFLES, STR_LONG_RANGE]
 
   - type: STR_BASTARD
     size: 0.2
-    #costBuy: 3000
-    costSell: 5000
+    costBuy: 6500
+    costSell: 5600
     weight: 6
     bigSprite: 900
     floorSprite: 900
@@ -1209,14 +1213,14 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_RAIDERS]
     categories: [STR_RIFLES, STR_SMGS, STR_MAKESHIFT]
 
   - type: STR_PREWAR_SERVICE_RIFLE
     size: 0.2
-    #costBuy: 3000
-    costSell: 5000
-    weight: 7
+    costBuy: 12000
+    costSell: 10000
+    weight: 10
     bigSprite: 880
     floorSprite: 880
     handSprite: 880
@@ -1235,13 +1239,13 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_ORDER]
     categories: [STR_RIFLES, STR_LONG_RANGE]
 
   - type: STR_PULSE_RIFLE
     size: 0.2
     #costBuy: 3000
-    costSell: 2250
+    costSell: 42500
     weight: 8
     bigSprite: 840
     floorSprite: 840
@@ -1263,8 +1267,8 @@ items:
 
   - type: STR_LASER_RIFLE
     size: 0.2
-    #costBuy: 3000
-    costSell: 12250
+    costBuy: 23000
+    costSell: 20250
     weight: 4
     bigSprite: 920
     floorSprite: 920
@@ -1285,13 +1289,13 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_ORDER]
     categories: [STR_RIFLES, STR_ENERGY_WEAPONS]
 
   - type: STR_GAUSS_RIFLE
     size: 0.2
     #costBuy: 3000
-    costSell: 5000
+    costSell: 50000
     weight: 7
     bigSprite: 880
     floorSprite: 880
@@ -1316,8 +1320,8 @@ items:
 
   - type: STR_PLASMA_GUN
     size: 0.2
-    #costBuy: 3000
-    costSell: 12250
+    costBuy: 27000
+    costSell: 22250
     weight: 4
     bigSprite: 920
     floorSprite: 920
@@ -1338,13 +1342,13 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_CHURCH]
     categories: [STR_RIFLES, STR_ENERGY_WEAPONS, STR_SHORT_RANGE]
 
   - type: STR_DMR
     size: 0.2
     #costBuy: 3000
-    costSell: 5000
+    costSell: 15000
     weight: 7
     bigSprite: 950
     floorSprite: 950
@@ -1369,7 +1373,7 @@ items:
 
   - type: STR_MINIGUN
     size: 0.2
-    costSell: 20000
+    costSell: 30000
     weight: 30
     bigSprite: 820
     floorSprite: 820
@@ -1392,7 +1396,8 @@ items:
 
   - type: STR_BOZAR
     size: 0.2
-    costSell: 20000
+    costBuy: 18500
+    costSell: 16000
     weight: 30
     bigSprite: 820
     floorSprite: 820
@@ -1412,11 +1417,12 @@ items:
     invWidth: 2
     invHeight: 3
     categories: [STR_HEAVY_WEAPONS]
+    requiresBuy: [STR_FACTION_CHURCH]
 
   - type: STR_LASER_GATLING
     size: 0.2
-    #costBuy: 3000
-    costSell: 12250
+    costBuy: 37000
+    costSell: 32250
     weight: 4
     bigSprite: 920
     floorSprite: 920
@@ -1434,7 +1440,7 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_ORDER]
     categories: [STR_HEAVY_WEAPONS, STR_ENERGY_WEAPONS]
 
 
@@ -1452,7 +1458,7 @@ items:
     size: 0.2
     costBuy: 9000
     costSell: 8000
-    weight: 4
+    weight: 6
     bigSprite: 970
     floorSprite: 970
     handSprite: 970
@@ -1468,12 +1474,12 @@ items:
     twoHanded: false
     invWidth: 1
     invHeight: 2
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_SETTLERS]
     categories: [STR_PISTOLS, STR_SHORT_RANGE]
 
   - type: STR_MAKESHIFT_PISTOL
     size: 0.2
-    #costBuy: 3000
+    costBuy: 3000
     costSell: 5000
     weight: 4
     bigSprite: 670
@@ -1491,14 +1497,14 @@ items:
     twoHanded: false
     invWidth: 1
     invHeight: 2
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_SETTLERS]
     categories: [STR_PISTOLS, STR_SHORT_RANGE, STR_MAKESHIFT]
 
   - type: STR_REVOLVER
     size: 0.2
-    #costBuy: 3000
+    costBuy: 7000
     costSell: 5000
-    weight: 5
+    weight: 7
     bigSprite: 870
     floorSprite: 870
     handSprite: 870
@@ -1514,13 +1520,13 @@ items:
     twoHanded: false
     invWidth: 1
     invHeight: 2
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_RAIDERS]
     categories: [STR_PISTOLS, STR_SHORT_RANGE]
 
   - type: STR_PREWAR_SMG
     size: 0.2
-    #costBuy: 3000
-    costSell: 5000
+    costBuy: 18000
+    costSell: 15000
     weight: 4
     bigSprite: 700
     floorSprite: 700
@@ -1539,7 +1545,7 @@ items:
     twoHanded: false
     invWidth: 1
     invHeight: 3
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_ORDER]
     categories: [STR_SMGS, STR_SHORT_RANGE]
 
 
@@ -1574,6 +1580,7 @@ items:
 
   - type: STR_7.62MM_MINIGUN
     size: 1
+    costBuy: 3500
     costSell: 2000
     weight: 15
     bigSprite: 830
@@ -1588,11 +1595,13 @@ items:
     invWidth: 2
     invHeight: 1
     categories: [STR_AMMUNITION, STR_HEAVY_WEAPONS]
+    requiresBuy: [STR_FACTION_ORDER]
 
   - type: STR_PREWAR_SHOTGUN_SHELLS
     size: 0.05
-    costSell: 30
-    weight: 3
+    costBuy: 1400
+    costSell: 1200
+    weight: 5
     bigSprite: 810
     floorSprite: 810
     hitSound: 13
@@ -1605,6 +1614,7 @@ items:
     shotgunSpread: 25
     shotgunPellets: 5
     categories: [STR_AMMUNITION, STR_SHOTGUNS, STR_MAKESHIFT]
+    requiresBuy: [STR_FACTION_ORDER]
     
   - type: STR_BOW_ARROWS
     size: 0.1
@@ -1681,7 +1691,8 @@ items:
 
   - type: STR_REVOLVER_CLIP
     size: 0.1
-    costSell: 150
+    costBuy: 900
+    costSell: 700
     weight: 3
     bigSprite: 860
     floorSprite: 860
@@ -1693,6 +1704,7 @@ items:
     clipSize: 6
     battleType: 2
     categories: [STR_AMMUNITION, STR_PISTOLS]
+    requiresBuy: [STR_FACTION_RAIDERS]
 
   - type: STR_308_RIFLE_CLIP
     size: 0.1
@@ -1708,13 +1720,13 @@ items:
     damageType: 1
     clipSize: 5
     battleType: 2
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_CHURCH]
     categories: [STR_AMMUNITION, STR_RIFLES, STR_LONG_RANGE]
 
   - type: STR_10MM_SMG
     size: 0.1
-    costBuy: 200
-    costSell: 150
+    costBuy: 600
+    costSell: 550
     weight: 3
     bigSprite: 2
     floorSprite: 2
@@ -1725,13 +1737,13 @@ items:
     damageType: 1
     clipSize: 30
     battleType: 2
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_ORDER]
     categories: [STR_AMMUNITION, STR_SHORT_RANGE, STR_SMGS]
 
   - type: STR_556MM_RIFLE_CLIP
     size: 0.1
-    costBuy: 200
-    costSell: 150
+    costBuy: 1000
+    costSell: 1500
     weight: 6
     bigSprite: 910
     floorSprite: 910
@@ -1744,13 +1756,13 @@ items:
     invWidth: 2
     clipSize: 45
     battleType: 2
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_RAIDERS]
     categories: [STR_AMMUNITION, STR_RIFLES, STR_SMGS, STR_MAKESHIFT]
 
   - type: STR_556MM_RIFLE_MAG
     size: 0.1
-    costBuy: 200
-    costSell: 150
+    costBuy: 1200
+    costSell: 1500
     weight: 6
     bigSprite: 960
     floorSprite: 960
@@ -1761,13 +1773,13 @@ items:
     damageType: 1
     clipSize: 30
     battleType: 2
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_CHURCH]
     categories: [STR_AMMUNITION, STR_RIFLES, STR_HEAVY_WEAPONS, STR_LONG_RANGE]
 
   - type: STR_762MM_RIFLE_MAG
     size: 0.1
-    costBuy: 200
-    costSell: 150
+    costBuy: 2000
+    costSell: 1800
     weight: 6
     bigSprite: 890
     floorSprite: 890
@@ -1778,13 +1790,13 @@ items:
     damageType: 1
     clipSize: 20
     battleType: 2
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_ORDER]
     categories: [STR_AMMUNITION, STR_RIFLES, STR_LONG_RANGE]
 
   - type: STR_MICROFUSION_CELLS
     size: 0.1
-    costBuy: 10000
-    costSell: 8050
+    costBuy: 15000
+    costSell: 14050
     weight: 6
     bigSprite: 930
     floorSprite: 930
@@ -1799,7 +1811,7 @@ items:
     damageType: 4
     clipSize: 100
     battleType: 2
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_ORDER]
     vaporColorSurface: 9
     vaporDensitySurface: 5
     categories: [STR_AMMUNITION, STR_RIFLES, STR_HEAVY_WEAPONS, STR_ENERGY_WEAPONS, STR_LONG_RANGE]
@@ -1807,8 +1819,8 @@ items:
   - type: STR_PLASMA_CARTRIDGE
     size: 0.1
     costBuy: 10000
-    costSell: 8050
-    weight: 6
+    costSell: 9050
+    weight: 4
     bigSprite: 930
     floorSprite: 930
     hitSound: 22
@@ -1822,16 +1834,16 @@ items:
     damageType: 5
     clipSize: 100
     battleType: 2
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_CHURCH]
     vaporColorSurface: 2
     vaporDensitySurface: 5
     categories: [STR_AMMUNITION, STR_RIFLES, STR_ENERGY_WEAPONS, STR_SHORT_RANGE]
 
   - type: STR_2MM_EC_GAUSS_ROUNDS
     size: 0.1
-    costBuy: 200
-    costSell: 150
-    weight: 6
+    #costBuy: 200
+    costSell: 18000
+    weight: 10
     bigSprite: 890
     floorSprite: 890
     hitSound: 22
