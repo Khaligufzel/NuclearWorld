@@ -1314,7 +1314,7 @@ items:
     battleType: 1
     twoHanded: true
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
     #requiresBuy: [STR_SETTLERS]
     categories: [STR_RIFLES, STR_ENERGY_WEAPONS, STR_LONG_RANGE]
 
@@ -1414,7 +1414,7 @@ items:
     autoShots: 5
     battleType: 1
     twoHanded: true
-    invWidth: 2
+    invWidth: 1
     invHeight: 3
     categories: [STR_HEAVY_WEAPONS]
     requiresBuy: [STR_FACTION_CHURCH]
@@ -1438,7 +1438,7 @@ items:
     tuAuto: 40
     battleType: 1
     twoHanded: true
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     requiresBuy: [STR_FACTION_ORDER]
     categories: [STR_HEAVY_WEAPONS, STR_ENERGY_WEAPONS]
