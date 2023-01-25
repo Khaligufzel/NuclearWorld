@@ -158,6 +158,25 @@ globe:
       deployments:
          STR_LAB: 100
 
+    - id: -31 
+      deployments:
+         STR_RAIDERS_VS_CHURCH_BATTLE_SITE: 100
+    - id: -32 
+      deployments:
+         STR_RAIDERS_VS_ORDER_BATTLE_SITE: 100
+    - id: -33 
+      deployments:
+         STR_CHURCH_VS_ORDER_BATTLE_SITE: 100
+    - id: -34
+      deployments:
+         STR_CHURCH_VS_RAIDERS_BATTLE_SITE: 100
+    - id: -35 
+      deployments:
+         STR_ORDER_VS_CHURCH_BATTLE_SITE: 100
+    - id: -36 
+      deployments:
+         STR_ORDER_VS_RAIDERS_BATTLE_SITE: 100
+
 ##################################
   polygons:
     - - 13
