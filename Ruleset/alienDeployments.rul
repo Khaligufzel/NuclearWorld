@@ -38,7 +38,7 @@ alienDeployments:
 #             - STR_MIND_PROBE
 
   - type: STR_WANDERER_SITE
-    alert: STR_WANDERER
+    alert: STR_WANDERER_SITE_ALERT
     width: 50
     length: 50
     height: 3
@@ -152,7 +152,7 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
 
   - type: STR_FERAL_GHOUL_SITE
-    alert: STR_FERAL_GHOUL_SITE_MARKER_NAME
+    alert: STR_FERAL_GHOUL_SITE_ALERT
     width: 50
     length: 50
     height: 4
@@ -265,7 +265,7 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
 
   - type: STR_LOST_MUTANT_SITE
-    alert: STR_LOST_MUTANT_SITE_MARKER_NAME
+    alert: STR_LOST_MUTANT_SITE_ALERT
     width: 50
     length: 50
     height: 4
@@ -331,7 +331,7 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
 
   - type: STR_PATROL_MUTANT_SITE
-    alert: STR_PATROL_MUTANT_SITE_MARKER_NAME
+    alert: STR_PATROL_MUTANT_SITE_ALERT
     width: 50
     length: 50
     height: 4
@@ -414,9 +414,9 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_CARAVAN_MUTANT_SITE
-    alert: STR_CARAVAN_MUTANT_SITE_MARKER_NAME
+    alert: STR_CARAVAN_MUTANT_SITE_ALERT
     missionBountyItem: STR_CARAVAN_CRATE
-    missionBountyItemCount: 4
+    missionBountyItemCount: 3
     width: 50
     length: 50
     height: 4
@@ -451,7 +451,7 @@ alienDeployments:
             - STR_762MM_RIFLE_MAG
             - STR_762MM_RIFLE_MAG
             - STR_WEAPON_CRATE
-            - STR_MEDICAL_CRATE
+            - STR_WEAPON_CRATE
       - alienRank: 3
         lowQty: 3
         highQty: 3
@@ -463,20 +463,20 @@ alienDeployments:
             - STR_PIPE_RIFLE
             - STR_10MM
             - STR_EDIBLE_MUSHROOM
-            - STR_MEDICAL_CRATE
+            - STR_WEAPON_CRATE
           -
             - STR_PIPE_RIFLE
             - STR_10MM
             - STR_10MM
             - STR_EDIBLE_MUSHROOM
-            - STR_MEDICAL_CRATE
+            - STR_WEAPON_CRATE
           - 
             - STR_PIPE_RIFLE
             - STR_10MM
             - STR_10MM
             - STR_10MM
             - STR_EDIBLE_MUSHROOM
-            - STR_MEDICAL_CRATE
+            - STR_WEAPON_CRATE
       - alienRank: 5
         lowQty: 4
         highQty: 8
@@ -500,7 +500,7 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_RAID_MUTANT_SITE
-    alert: STR_RAID_MUTANT
+    alert: STR_RAID_MUTANT_SITE_ALERT
     width: 50
     length: 50
     height: 4
@@ -508,7 +508,7 @@ alienDeployments:
       - NUKECITY_B
       - NUKECITY
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_RAID_MUTANT_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -582,13 +582,13 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_PATROL_GHOUL_SITE
-    alert: STR_PATROL_GHOUL
+    alert: STR_PATROL_GHOUL_SITE_ALERT
     width: 50
     length: 50
     height: 4
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_PATROL_GHOUL_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -657,15 +657,13 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_CARAVAN_GHOUL_SITE
-    alert: STR_CARAVAN_GHOUL
+    alert: STR_CARAVAN_GHOUL_SITE_ALERT
     width: 50
     length: 50
     height: 4
-    missionBountyItem: STR_CARAVAN_CRATE
-    missionBountyItemCount: 4
     terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_CARAVAN_GHOUL_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -737,13 +735,13 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_RAID_GHOUL_SITE
-    alert: STR_RAID_GHOUL
+    alert: STR_RAID_GHOUL_SITE_ALERT
     width: 50
     length: 50
     height: 4
     terrains: *RaidTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_RAID_GHOUL_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 0
@@ -864,7 +862,7 @@ alienDeployments:
             - STR_WEAPON_CRATE    
 
   - type: STR_CARAVAN_CHURCH_SITE
-    alert: STR_CARAVAN_CHURCH
+    alert: STR_CARAVAN_CHURCH_SITE_ALERT
     missionBountyItem: STR_CARAVAN_CRATE
     missionBountyItemCount: 3
     width: 50
@@ -873,7 +871,7 @@ alienDeployments:
     civilians: 0
     terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_CARAVAN_CHURCH_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -941,14 +939,14 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_SMALL_PATROL_CHURCH_SITE
-    alert: STR_SMALL_PATROL_CHURCH
+    alert: STR_SMALL_PATROL_CHURCH_SITE_ALERT
     width: 50
     length: 50
     height: 4
     civilians: 0
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_SMALL_PATROL_CHURCH_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 4
@@ -998,14 +996,14 @@ alienDeployments:
             - STR_AMMUNITION_CRATE
 
   - type: STR_MEDIUM_PATROL_CHURCH_SITE
-    alert: STR_MEDIUM_PATROL_CHURCH
+    alert: STR_MEDIUM_PATROL_CHURCH_SITE_ALERT
     width: 50
     length: 50
     height: 4
     civilians: 0
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_MEDIUM_PATROL_CHURCH_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 4
@@ -1025,9 +1023,9 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
           - 
-            - STR_PREWAR_SHOTGUN
-            - STR_PREWAR_SHOTGUN_SHELLS
-            - STR_PREWAR_SHOTGUN_SHELLS 
+            - STR_PLASMA_GUN
+            - STR_PLASMA_CARTRIDGE
+            - STR_PLASMA_CARTRIDGE 
             - STR_WEAPON_CRATE
       - alienRank: 5
         lowQty: 3
@@ -1053,7 +1051,7 @@ alienDeployments:
             - STR_AMMUNITION_CRATE  
 
   - type: STR_TERROR_CHURCH_SITE
-    alert: STR_TERROR_CHURCH
+    alert: STR_TERROR_CHURCH_SITE_ALERT
     width: 50
     length: 50
     height: 4
@@ -1065,7 +1063,7 @@ alienDeployments:
       - NUKECITY_B
       - CULTA
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_TERROR_CHURCH_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -1076,12 +1074,13 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_PIPE_RIFLE
-            - STR_10MM
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
             - STR_STIMPAK
             - STR_WEAPON_CRATE
           -
             - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
             - STR_308_RIFLE_CLIP
             - STR_STIMPAK
             - STR_WEAPON_CRATE
@@ -1133,7 +1132,7 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_CHURCH_VS_RAIDERS_BATTLE_SITE
-    alert: STR_TERROR_RAIDERS
+    alert: STR_CHURCH_VS_RAIDERS_BATTLE_SITE_ALERT
     width: 50
     length: 50
     height: 4
@@ -1152,7 +1151,7 @@ alienDeployments:
       - CULTA 
       - FOREST
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_CHURCH_VS_RAIDERS_BATTLE_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -1224,7 +1223,7 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_CHURCH_VS_ORDER_BATTLE_SITE
-    alert: STR_TERROR_ORDER
+    alert: STR_CHURCH_VS_ORDER_BATTLE_SITE_ALERT
     width: 50
     length: 50
     height: 4
@@ -1235,7 +1234,7 @@ alienDeployments:
       STR_CHURCH_CQB_NPC: 4
     terrains: *BattleTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_CHURCH_VS_ORDER_BATTLE_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -1246,8 +1245,9 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
             - STR_STIMPAK
             - STR_WEAPON_CRATE
           - 
@@ -1302,7 +1302,7 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_CARAVAN_RAIDERS_SITE
-    alert: STR_CARAVAN_RAIDERS
+    alert: STR_CARAVAN_RAIDERS_SITE
     missionBountyItem: STR_CARAVAN_CRATE
     missionBountyItemCount: 3
     width: 50
@@ -1311,7 +1311,7 @@ alienDeployments:
     civilians: 0
     terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_CARAVAN_RAIDERS_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -1380,14 +1380,14 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_SMALL_PATROL_RAIDERS_SITE
-    alert: STR_SMALL_PATROL_RAIDERS
+    alert: STR_SMALL_PATROL_RAIDERS_SITE_ALERT
     width: 50
     length: 50
     height: 4
     civilians: 0
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_SMALL_PATROL_RAIDERS_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 4
@@ -1433,14 +1433,14 @@ alienDeployments:
             - STR_AMMUNITION_CRATE
 
   - type: STR_MEDIUM_PATROL_RAIDERS_SITE
-    alert: STR_MEDIUM_PATROL_RAIDERS
+    alert: STR_MEDIUM_PATROL_RAIDERS_SITE_ALERT
     width: 50
     length: 50
     height: 4
     civilians: 0
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_MEDIUM_PATROL_RAIDERS_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 4
@@ -1490,14 +1490,14 @@ alienDeployments:
 
 
   - type: STR_TERROR_RAIDERS_SITE
-    alert: STR_TERROR_RAIDERS
+    alert: STR_TERROR_RAIDERS_SITE_ALERT
     width: 50
     length: 50
     height: 4
     civilians: 15
     terrains: *TerrorTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_TERROR_RAIDERS_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -1569,7 +1569,7 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_RAIDERS_VS_CHURCH_BATTLE_SITE
-    alert: STR_TERROR_CHURCH
+    alert: STR_RAIDERS_VS_CHURCH_BATTLE_SITE_ALERT
     width: 50
     length: 50
     height: 4
@@ -1580,7 +1580,7 @@ alienDeployments:
       STR_RAIDERS_CQB_NPC: 4
     terrains: *BattleTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_RAIDERS_VS_CHURCH_BATTLE_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -1591,19 +1591,20 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_PIPE_RIFLE
-            - STR_10MM
+            - STR_HUNTING_RIFLE
+            - STR_308_RIFLE_CLIP
             - STR_STIMPAK
             - STR_WEAPON_CRATE
           -
             - STR_HUNTING_RIFLE
             - STR_308_RIFLE_CLIP
+            - STR_308_RIFLE_CLIP
             - STR_STIMPAK
             - STR_WEAPON_CRATE
           - 
-            - STR_PREWAR_SERVICE_RIFLE
-            - STR_762MM_RIFLE_MAG
-            - STR_762MM_RIFLE_MAG
+            - STR_PLASMA_GUN
+            - STR_PLASMA_CARTRIDGE
+            - STR_PLASMA_CARTRIDGE
             - STR_STIMPAK
             - STR_WEAPON_CRATE
       - alienRank: 3
@@ -1648,7 +1649,7 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_RAIDERS_VS_ORDER_BATTLE_SITE
-    alert: STR_TERROR_ORDER
+    alert: STR_RAIDERS_VS_ORDER_BATTLE_SITE_ALERT
     width: 50
     length: 50
     height: 4
@@ -1659,7 +1660,7 @@ alienDeployments:
       STR_RAIDERS_CQB_NPC: 4
     terrains: *BattleTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_RAIDERS_VS_ORDER_BATTLE_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -1670,8 +1671,9 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
+            - STR_PREWAR_SERVICE_RIFLE
+            - STR_762MM_RIFLE_MAG
+            - STR_762MM_RIFLE_MAG
             - STR_STIMPAK
             - STR_WEAPON_CRATE
           - 
@@ -1726,16 +1728,14 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_CARAVAN_ORDER_SITE
-    alert: STR_CARAVAN_ORDER
+    alert: STR_CARAVAN_ORDER_SITE_ALERT
     width: 50
     length: 50
     height: 4
-    missionBountyItem: STR_CARAVAN_CRATE
-    missionBountyItemCount: 3
     civilians: 15
     terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_CARAVAN_ORDER_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -1805,14 +1805,14 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_SMALL_PATROL_ORDER_SITE
-    alert: STR_SMALL_PATROL_ORDER
+    alert: STR_SMALL_PATROL_ORDER_SITE_ALERT
     width: 50
     length: 50
     height: 4
     civilians: 15
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_SMALL_PATROL_ORDER_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 4
@@ -1839,14 +1839,14 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_MEDIUM_PATROL_ORDER_SITE
-    alert: STR_MEDIUM_PATROL_ORDER
+    alert: STR_MEDIUM_PATROL_ORDER_SITE
     width: 50
     length: 50
     height: 4
     civilians: 15
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_SMALL_PATROL_ORDER_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 4
@@ -1895,14 +1895,14 @@ alienDeployments:
             - STR_BANDAGE
 
   - type: STR_TERROR_ORDER_SITE
-    alert: STR_TERROR_ORDER
+    alert: STR_TERROR_ORDER_SITE_ALERT
     width: 50
     length: 50
     height: 4
     civilians: 15
     terrains: *TerrorTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_TERROR_ORDER_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -1970,7 +1970,7 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_ORDER_VS_RAIDERS_BATTLE_SITE
-    alert: STR_TERROR_RAIDERS
+    alert: STR_ORDER_VS_RAIDERS_BATTLE_SITE_ALERT
     width: 50
     length: 50
     height: 4
@@ -2054,7 +2054,7 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_ORDER_VS_CHURCH_BATTLE_SITE
-    alert: STR_TERROR_CHURCH
+    alert: STR_ORDER_VS_CHURCH_BATTLE_SITE_ALERT
     width: 50
     length: 50
     height: 4
@@ -2065,7 +2065,7 @@ alienDeployments:
       STR_ORDER_CQB_NPC: 4
     terrains: *BattleTerrains
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_ORDER_VS_CHURCH_BATTLE_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 1
@@ -2086,9 +2086,9 @@ alienDeployments:
             - STR_STIMPAK
             - STR_WEAPON_CRATE
           - 
-            - STR_PREWAR_SERVICE_RIFLE
-            - STR_762MM_RIFLE_MAG
-            - STR_762MM_RIFLE_MAG
+            - STR_PLASMA_GUN
+            - STR_PLASMA_CARTRIDGE
+            - STR_PLASMA_CARTRIDGE
             - STR_STIMPAK
             - STR_WEAPON_CRATE
       - alienRank: 3
@@ -2133,16 +2133,14 @@ alienDeployments:
             - STR_WEAPON_CRATE
 
   - type: STR_MILLITARY_BASE_SITE
-    alert: STR_MILLITARY_BASE
+    alert: STR_MILLITARY_BASE_SITE_ALERT
     width: 50
     length: 50
     height: 4
-    missionBountyItem: STR_HIGH_TECH_CRATE
-    missionBountyItemCount: 2
     terrains:
       - MILLITARYBASE
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_MILLITARY_BASE_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 0
@@ -2178,12 +2176,12 @@ alienDeployments:
             - STR_DMR
             - STR_556MM_RIFLE_MAG
             - STR_556MM_RIFLE_MAG
-            - STR_BANDAGE
+            - STR_MEGA_STIMPAK
           -
             - STR_PREWAR_SERVICE_RIFLE
             - STR_762MM_RIFLE_MAG
             - STR_762MM_RIFLE_MAG
-            - STR_WEAPON_CRATE
+            - STR_MEGA_STIMPAK
           - 
             - STR_GAUSS_RIFLE
             - STR_2MM_EC_GAUSS_ROUNDS
@@ -2201,15 +2199,17 @@ alienDeployments:
             - STR_DMR
             - STR_556MM_RIFLE_MAG
             - STR_556MM_RIFLE_MAG
-            - STR_BANDAGE
+            - STR_MEGA_STIMPAK
           -
             - STR_LASER_RIFLE
             - STR_MICROFUSION_CELLS
-            - STR_BANDAGE
+            - STR_MICROFUSION_CELLS
+            - STR_MEGA_STIMPAK
           - 
             - STR_GAUSS_RIFLE
             - STR_2MM_EC_GAUSS_ROUNDS
             - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_MEGA_STIMPAK
       - alienRank: 4
         lowQty: 3
         highQty: 6
@@ -2255,16 +2255,14 @@ alienDeployments:
             - STR_BANDAGE
 
   - type: STR_LAB_SITE
-    alert: STR_LAB
+    alert: STR_LAB_SITE_ALERT
     width: 40
     length: 40
     height: 4
-    missionBountyItem: STR_HIGH_TECH_CRATE
-    missionBountyItemCount: 4
     terrains:
       - LAB
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_LAB_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 0
@@ -2377,14 +2375,14 @@ alienDeployments:
             - STR_BANDAGE
 
   - type: STR_PREPPERSSHELTER_SITE
-    alert: STR_PREPPERSSHELTER
+    alert: STR_PREPPERSSHELTER_SITE
     width: 50
     length: 50
     height: 2
     terrains:
       - PREPPERSSHELTER
     alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
+    markerName: STR_PREPPERSSHELTER_SITE_MARKER_NAME
     duration: [24, 240]
     data:
       - alienRank: 0
@@ -2534,8 +2532,6 @@ alienDeployments:
     width: 50
     length: 50
     height: 3
-    missionBountyItem: STR_POUCH_OF_MONEY
-    missionBountyItemCount: 1
     terrains:
       - VILLAGE 
       - CULTA 
@@ -2587,17 +2583,14 @@ alienDeployments:
           - 
             - STR_PREWAR_SMG
             - STR_10MM_SMG
-            - STR_10MM_SMG
-            - STR_POUCH_OF_MONEY     
+            - STR_10MM_SMG        
           -
             - STR_BOZAR
             - STR_556MM_RIFLE_MAG
             - STR_556MM_RIFLE_MAG
-            - STR_BAG_OF_MONEY
           - 
             - STR_MINIGUN
             - STR_7.62MM_MINIGUN
-            - STR_BAG_OF_MONEY
 
       - alienRank: 2
         lowQty: 2
