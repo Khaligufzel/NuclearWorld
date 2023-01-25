@@ -891,9 +891,9 @@ alienDeployments:
             - STR_308_RIFLE_CLIP
             - STR_VALUABLES_CRATE
           - 
-            - STR_PREWAR_SERVICE_RIFLE
-            - STR_762MM_RIFLE_MAG
-            - STR_762MM_RIFLE_MAG
+            - STR_PLASMA_GUN
+            - STR_PLASMA_CARTRIDGE
+            - STR_PLASMA_CARTRIDGE
             - STR_WEAPON_CRATE
             - STR_VALUABLES_CRATE
       - alienRank: 3
@@ -1084,9 +1084,9 @@ alienDeployments:
             - STR_STIMPAK
             - STR_WEAPON_CRATE
           - 
-            - STR_PREWAR_SERVICE_RIFLE
-            - STR_762MM_RIFLE_MAG
-            - STR_762MM_RIFLE_MAG
+            - STR_PLASMA_GUN
+            - STR_PLASMA_CARTRIDGE
+            - STR_PLASMA_CARTRIDGE
             - STR_STIMPAK
             - STR_WEAPON_CRATE
       - alienRank: 3
@@ -2577,14 +2577,17 @@ alienDeployments:
           - 
             - STR_PREWAR_SMG
             - STR_10MM_SMG
-            - STR_10MM_SMG        
+            - STR_10MM_SMG
+            - STR_POUCH_OF_MONEY     
           -
             - STR_BOZAR
             - STR_556MM_RIFLE_MAG
             - STR_556MM_RIFLE_MAG
+            - STR_BAG_OF_MONEY
           - 
             - STR_MINIGUN
             - STR_7.62MM_MINIGUN
+            - STR_BAG_OF_MONEY
 
       - alienRank: 2
         lowQty: 2

@@ -429,6 +429,24 @@ alienMissions:
         timer: 0
         objective: true
 
+  - type: STR_BOUNTY_HUNTING
+    points: 100
+    objective: 3
+    spawnZone: 4 #Mission zone for alien base 
+    raceWeights:
+      0:
+        STR_RAIDERS: 50
+        STR_CHURCH: 20
+        STR_MUTANT: 15
+        STR_GHOUL: 15
+        STR_ORDER: 10
+    waves:
+      - ufo: STR_BOUNTY_HUNTING_SITE # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
   - type: STR_FINAL_ONSLAUGHT
     points: 50
     objective: 3
