@@ -1192,9 +1192,9 @@ en-US:
   STR_SHAMBLER: "Makeshift Assault Shotgun"
   STR_GAUSS_RIFLE: "Gauss Rifle"
   STR_2MM_EC_GAUSS_ROUNDS: "2mm EC Slugs"
-  STR_PLASMA_GUN: "Plasma Rifle"
+  STR_PLASMA_GUN: "Plasma Gun"
   STR_PLASMA_CARTRIDGE: "Plasma Cartridge"
-  STR_BOZAR: "Bozar Machine Gun"
+  STR_BOZAR: "Bozar Light Machine Gun"
   STR_DMR: "Designated Marksman Rifle"
 
   #APOCAPAEDIA
@@ -1295,7 +1295,7 @@ en-US:
   STR_556MM_RIFLE_MAG_UFOPAEDIA: "A more conventional approach on the storage of 5.56mm rifle rounds, the sturdy box magazine helps in quickly reloading any rifle where its used."
   STR_GAUSS_RIFLE_UFOPAEDIA: "German-made G72 heavy weapon, uses electromagnetism to propel tiny ultra-dense slugs at ludicrous speeds. Easily breaks through armor and other hard stuff, like terrain."
   STR_2MM_EC_GAUSS_ROUNDS_UFOPAEDIA: "Very very small solid slug made of a mix between tungsten and other unknown materials, it's surprisingly heavy of its size. The slug is propelled with such force, it cleanly penetrates anything in its path."
-  STR_PLASMA_GUN_UFOPAEDIA: "Shooting superhot gas at range may sound nasty, the actual results are even better! By unleashing a powerful super-hot plasma bolt, the R72 can melt steel and flesh alike. It is said sometimes the unfortunate victim just vanishes."
+  STR_PLASMA_GUN_UFOPAEDIA: "Shooting superhot gas at range may sound nasty, the actual results are even better! By unleashing a powerful plasma bolt, the R92 can melt steel and flesh alike. It is said sometimes the unfortunate victim just vanishes. Adapted from the old industrial Plasma Caster, upgraded with better handling and polymer furniture."
   STR_PLASMA_CARTRIDGE_UFOPAEDIA: "A nice, green glowing gas container. Be careful, this gas won't make you laugh... unless you consider fun to melt your enemies, in that case is super fun!"
   STR_MINIGUN: "Minigun"
   STR_MINIGUN_UFOPAEDIA: "Ultimate lead delivery system, you can put a large amount of bullets into one unfortunate enemy with little efforts. So heavy, so expensive... so satisfying to use."
