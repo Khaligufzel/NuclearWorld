@@ -312,6 +312,7 @@ items:
   - type: STR_EDIBLE_MUSHROOM
     categories: [STR_GOODS, STR_HEALTH_ITEMS]
     battleType: 6
+    weight: 1
     bigSprite: 400
     floorSprite: 400
     invHeight: 1
@@ -387,6 +388,7 @@ items:
 
   - type: STR_ANIMAL_SKIN
     size: 0.1
+    weight: 4
     bigSprite: 430
     floorSprite: 430
     invHeight: 2
@@ -398,6 +400,7 @@ items:
 
   - type: STR_IRON_SCRAPS
     size: 0.1
+    weight: 7
     bigSprite: 440
     floorSprite: 440
     invHeight: 2
@@ -409,6 +412,7 @@ items:
 
   - type: STR_BAG_OF_MONEY
     size: 0.1
+    weight: 5
     bigSprite: 450
     floorSprite: 450
     invHeight: 2
@@ -420,6 +424,7 @@ items:
 
   - type: STR_POUCH_OF_MONEY
     size: 0.1
+    weight: 3
     bigSprite: 460
     floorSprite: 460
     invHeight: 1
@@ -431,6 +436,7 @@ items:
 
   - type: STR_GOLD_INGOT
     size: 0.1
+    weight: 3
     bigSprite: 470
     floorSprite: 470
     invHeight: 1
@@ -442,6 +448,7 @@ items:
 
   - type: STR_CARAVAN_CRATE
     size: 0.2
+    weight: 20
     bigSprite: 480
     floorSprite: 480
     invHeight: 2
@@ -453,6 +460,7 @@ items:
 
   - type: STR_WEAPON_CRATE
     size: 0.2
+    weight: 15
     bigSprite: 490
     floorSprite: 490
     invHeight: 2
@@ -464,6 +472,7 @@ items:
 
   - type: STR_AMMUNITION_CRATE
     size: 0.2
+    weight: 15
     bigSprite: 500
     floorSprite: 500
     invHeight: 2
@@ -475,6 +484,7 @@ items:
 
   - type: STR_VALUABLES_CRATE
     size: 0.2
+    weight: 12
     bigSprite: 510
     floorSprite: 510
     invHeight: 2
@@ -486,6 +496,7 @@ items:
 
   - type: STR_HIGH_TECH_CRATE
     size: 0.2
+    weight: 20
     bigSprite: 520
     floorSprite: 520
     invHeight: 2
@@ -497,6 +508,7 @@ items:
 
   - type: STR_MEDICAL_CRATE
     size: 0.2
+    weight: 10
     bigSprite: 530
     floorSprite: 530
     invHeight: 2
@@ -854,19 +866,25 @@ items:
     size: 0.1
     costBuy: 1260
     costSell: 945
-    weight: 6
+    weight: 4
     bigSprite: 602
     floorSprite: 602
     handSprite: 602
     meleeSound: 54
     power: 30
     damageType: 7
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      ToWound: 0.2
+      ToTime: 0.3
     accuracyMelee: 130
     tuMelee: 30
     battleType: 3
     twoHanded: false
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
     skillApplied: true
     clipSize: -1
     requiresBuy: [STR_SETTLERS]
@@ -883,6 +901,12 @@ items:
     meleeSound: 54
     power: 30
     damageType: 6
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      ToStun: 0.4
+      ToTime: 0.3
     accuracyMelee: 130
     tuMelee: 30
     battleType: 3
@@ -903,10 +927,16 @@ items:
     floorSprite: 610
     handSprite: 610
     meleeSound: 54
-    power: 40
+    power: 60
     damageType: 6
-    accuracyMelee: 130
-    tuMelee: 30
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      ToWound: 0.8
+      ToTime: 0.5
+    accuracyMelee: 45
+    tuMelee: 45
     battleType: 3
     twoHanded: true
     invWidth: 2
@@ -927,10 +957,16 @@ items:
     meleeSound: 54
     power: 40
     damageType: 7
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.3
+      ToWound: 0.2
+      ToTime: 0.3
     accuracyMelee: 130
     tuMelee: 30
     battleType: 3
-    twoHanded: true
+    twoHanded: false
     invWidth: 2
     invHeight: 3
     skillApplied: true
@@ -1014,6 +1050,7 @@ items:
     tuAuto: 0
     tuSnap: 40
     tuAimed: 60
+    arcingShot: true
     battleType: 1
     twoHanded: true
     invWidth: 2
@@ -1574,8 +1611,13 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 1
-    vaporColorSurface: 12
-    vaporDensitySurface: 5
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: false
+      ToArmorPre: 0.3
+      ToWound: 0.2
+   # vaporColorSurface: 12
+    #vaporDensitySurface: 5
     categories: [STR_AMMUNITION, STR_ENERGY_WEAPONS, STR_RIFLES]
 
   - type: STR_7.62MM_MINIGUN
@@ -1589,6 +1631,11 @@ items:
     hitAnimation: 26
     bulletSpeed: 14
     power: 30
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.3
+      ToWound: 0.2
     damageType: 1
     clipSize: 120
     battleType: 2
@@ -1608,7 +1655,12 @@ items:
     hitAnimation: 26
     power: 15
     damageType: 1
-    clipSize: 5
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      ToWound: 0.4
+    clipSize: 6
     battleType: 2
     shotgunBehavior: 1
     shotgunSpread: 25
@@ -1628,6 +1680,12 @@ items:
     bulletSprite: 11
     power: 30
     damageType: 1
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      ToWound: 0.2
+      ToTime: 0.3
     clipSize: 6
     battleType: 2
     invWidth: 1
@@ -1647,6 +1705,12 @@ items:
     bulletSprite: 11
     power: 40
     damageType: 1
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.3
+      ToWound: 0.2
+      ToTime: 0.3
     clipSize: 6
     battleType: 2
     invWidth: 1
@@ -1665,6 +1729,12 @@ items:
     hitAnimation: 26
     power: 20
     damageType: 1
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      ToStun: 0.5
+      ToTime: 0.3
     clipSize: 6
     battleType: 6
     invWidth: 1
@@ -1684,6 +1754,11 @@ items:
     hitAnimation: 26
     power: 30
     damageType: 1
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      ToWound: 0.1
     clipSize: 8
     battleType: 2
     requiresBuy: [STR_SETTLERS]
@@ -1716,7 +1791,13 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
-    power: 32
+    power: 42
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.3
+      ToWound: 0.2
+      ToTime: 0.0
     damageType: 1
     clipSize: 5
     battleType: 2
@@ -1735,6 +1816,12 @@ items:
     bulletSpeed: 8
     power: 30
     damageType: 1
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      ToWound: 0.2
+      ToTime: 0.0
     clipSize: 30
     battleType: 2
     requiresBuy: [STR_FACTION_ORDER]
@@ -1750,8 +1837,14 @@ items:
     hitSound: 22
     hitAnimation: 110
     bulletSpeed: 13
-    power: 45
+    power: 43
     damageType: 1
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.4
+      ToWound: 0.2
+      ToTime: 0.0
     invHeight: 1
     invWidth: 2
     clipSize: 45
@@ -1771,6 +1864,12 @@ items:
     bulletSpeed: 10
     power: 45
     damageType: 1
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      ToWound: 0.2
+      ToStun: 0.1
     clipSize: 30
     battleType: 2
     requiresBuy: [STR_FACTION_CHURCH]
@@ -1786,7 +1885,13 @@ items:
     hitSound: 22
     hitAnimation: 110
     bulletSpeed: 10
-    power: 52
+    power: 48
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.4
+      ToWound: 0.6
+      ToStun: 0.1
     damageType: 1
     clipSize: 20
     battleType: 2
@@ -1807,7 +1912,7 @@ items:
     damageAlter:
       RandomType: 7
       IgnoreOverKill: false
-      ToArmorPre: 0.4
+      ToArmorPre: 0.5
     damageType: 4
     clipSize: 100
     battleType: 2
@@ -1826,13 +1931,13 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 15
-    power: 40
+    power: 50
     damageAlter:
       RandomType: 7
       IgnoreOverKill: false
-      ToArmorPre: 0.4
+      ToArmorPre: 0.3
     damageType: 5
-    clipSize: 100
+    clipSize: 15
     battleType: 2
     requiresBuy: [STR_FACTION_CHURCH]
     vaporColorSurface: 2
@@ -1849,8 +1954,14 @@ items:
     hitSound: 22
     hitAnimation: 120
     bulletSpeed: 10
-    power: 80
+    power: 70
     damageType: 1
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: true
+      ToArmorPre: 0.8
+      ToWound: 0.1
+      ToStun: 0.1
     clipSize: 20
     battleType: 2
     #requiresBuy: [STR_SETTLERS]
