@@ -87,8 +87,8 @@ alienDeployments:
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
       - alienRank: 2
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 2
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -103,8 +103,8 @@ alienDeployments:
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
       - alienRank: 3
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 2
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -119,8 +119,8 @@ alienDeployments:
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
       - alienRank: 4
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 2
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -135,8 +135,8 @@ alienDeployments:
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
       - alienRank: 5
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 2
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -200,8 +200,8 @@ alienDeployments:
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
       - alienRank: 2
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 2
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -216,8 +216,8 @@ alienDeployments:
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
       - alienRank: 3
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 2
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -232,8 +232,8 @@ alienDeployments:
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
       - alienRank: 4
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 2
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -248,8 +248,8 @@ alienDeployments:
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
       - alienRank: 5
-        lowQty: 3
-        highQty: 6
+        lowQty: 1
+        highQty: 2
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -298,8 +298,8 @@ alienDeployments:
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
       - alienRank: 2
-        lowQty: 3
-        highQty: 6
+        lowQty: 1
+        highQty: 2
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -314,8 +314,8 @@ alienDeployments:
             - STR_WOODEN_CLUB
             - STR_EDIBLE_MUSHROOM
       - alienRank: 5
-        lowQty: 5
-        highQty: 8
+        lowQty: 2
+        highQty: 5
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -373,9 +373,9 @@ alienDeployments:
             - STR_WEAPON_CRATE
             - STR_WEAPON_CRATE
       - alienRank: 4
-        lowQty: 3
-        highQty: 3
-        dQty: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -394,8 +394,8 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
+        lowQty: 2
+        highQty: 4
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -453,9 +453,9 @@ alienDeployments:
             - STR_WEAPON_CRATE
             - STR_WEAPON_CRATE
       - alienRank: 3
-        lowQty: 3
+        lowQty: 2
         highQty: 3
-        dQty: 3
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -479,8 +479,8 @@ alienDeployments:
             - STR_WEAPON_CRATE
       - alienRank: 5
         lowQty: 4
-        highQty: 8
-        dQty: 1
+        highQty: 6
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -560,8 +560,8 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
+        lowQty: 2
+        highQty: 4
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -713,8 +713,8 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
+        lowQty: 3
+        highQty: 5
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -792,8 +792,8 @@ alienDeployments:
             - STR_VALUABLES_CRATE
             
       - alienRank: 3
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 3
         dQty: 2
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -816,8 +816,8 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
       - alienRank: 3
-        lowQty: 3
-        highQty: 3
+        lowQty: 1
+        highQty: 2
         dQty: 3
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -840,8 +840,8 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE            
       - alienRank: 5
-        lowQty: 3
-        highQty: 6
+        lowQty: 2
+        highQty: 4
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -897,7 +897,7 @@ alienDeployments:
             - STR_WEAPON_CRATE
             - STR_VALUABLES_CRATE
       - alienRank: 3
-        lowQty: 3
+        lowQty: 1
         highQty: 3
         dQty: 1
         extraQty: 0        
@@ -917,9 +917,9 @@ alienDeployments:
             - STR_308_RIFLE_CLIP
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
-        dQty: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -950,7 +950,7 @@ alienDeployments:
     duration: [24, 240]
     data:
       - alienRank: 4
-        lowQty: 2
+        lowQty: 1
         highQty: 3
         dQty: 1
         extraQty: 0        
@@ -973,9 +973,9 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
             - STR_AMMUNITION_CRATE  
       - alienRank: 5
-        lowQty: 3
+        lowQty: 2
         highQty: 3
-        dQty: 3
+        dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -984,9 +984,9 @@ alienDeployments:
             - STR_10MM
             - STR_WEAPON_CRATE
           -
-            - STR_MAKESHIFT_PISTOL
-            - STR_10MM
-            - STR_10MM
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
           - 
@@ -1008,7 +1008,7 @@ alienDeployments:
     data:
       - alienRank: 4
         lowQty: 2
-        highQty: 6
+        highQty: 4
         dQty: 2
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -1028,20 +1028,21 @@ alienDeployments:
             - STR_PLASMA_CARTRIDGE 
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 3
-        highQty: 6
-        dQty: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 2
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
             - STR_MAKESHIFT_PISTOL
             - STR_10MM
+            - STR_10MM           
             - STR_WEAPON_CRATE
           -
-            - STR_MAKESHIFT_PISTOL
-            - STR_10MM
-            - STR_10MM
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
           - 
@@ -1091,7 +1092,7 @@ alienDeployments:
             - STR_STIMPAK
             - STR_WEAPON_CRATE
       - alienRank: 3
-        lowQty: 3
+        lowQty: 1
         highQty: 3
         dQty: 1
         extraQty: 0        
@@ -1111,22 +1112,28 @@ alienDeployments:
             - STR_308_RIFLE_CLIP
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
+        lowQty: 2
+        highQty: 4
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
             - STR_SPEAR
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
             - STR_WEAPON_CRATE
           -
             - STR_SPEAR
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
             - STR_GUNPOWDER_GRENADE
             - STR_GUNPOWDER_GRENADE
             - STR_WEAPON_CRATE
           - 
             - STR_SPEAR
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
             - STR_GUNPOWDER_GRENADE
             - STR_MOLOTOV_COCTAIL
             - STR_WEAPON_CRATE
@@ -1199,7 +1206,7 @@ alienDeployments:
             - STR_WEAPON_CRATE
       - alienRank: 5
         lowQty: 4
-        highQty: 8
+        highQty: 6
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -1240,7 +1247,7 @@ alienDeployments:
       - alienRank: 1
         lowQty: 1
         highQty: 2
-        dQty: 1
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -1262,10 +1269,10 @@ alienDeployments:
             - STR_STIMPAK
             - STR_WEAPON_CRATE            
       - alienRank: 3
-        lowQty: 3
-        highQty: 3
-        dQty: 1
-        extraQty: 0        
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        extraQty: 1      
         percentageOutsideUfo: 70
         itemSets:
           -
@@ -1281,10 +1288,10 @@ alienDeployments:
             - STR_PREWAR_SHOTGUN_SHELLS
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
-        dQty: 1
-        extraQty: 0        
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        extraQty: 2        
         percentageOutsideUfo: 70
         itemSets:
           -
@@ -1318,7 +1325,7 @@ alienDeployments:
         lowQty: 1
         highQty: 2
         dQty: 1
-        extraQty: 0        
+        extraQty: 1        
         percentageOutsideUfo: 70
         itemSets:
           -
@@ -1332,15 +1339,15 @@ alienDeployments:
             - STR_STIMULANT_HERB
             - STR_VALUABLES_CRATE
           - 
-            - STR_PREWAR_SERVICE_RIFLE
-            - STR_762MM_RIFLE_MAG
-            - STR_762MM_RIFLE_MAG
+            - STR_PULSE_RIFLE
+            - STR_CELL_PULSE_RIFLE
+            - STR_CELL_PULSE_RIFLE
             - STR_WEAPON_CRATE
             - STR_VALUABLES_CRATE
       - alienRank: 3
         lowQty: 3
-        highQty: 3
-        dQty: 1
+        highQty: 5
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -1391,10 +1398,10 @@ alienDeployments:
     duration: [24, 240]
     data:
       - alienRank: 4
-        lowQty: 3
+        lowQty: 2
         highQty: 3
-        dQty: 3
-        extraQty: 0        
+        dQty: 0
+        extraQty: 2        
         percentageOutsideUfo: 70
         itemSets:
           -
@@ -1412,8 +1419,8 @@ alienDeployments:
             - STR_EDIBLE_MUSHROOM
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 3
-        highQty: 3
+        lowQty: 2
+        highQty: 4
         dQty: 3
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -1446,8 +1453,8 @@ alienDeployments:
       - alienRank: 4
         lowQty: 3
         highQty: 6
-        dQty: 3
-        extraQty: 0        
+        dQty: 1
+        extraQty: 2
         percentageOutsideUfo: 70
         itemSets:
           -
@@ -1468,7 +1475,7 @@ alienDeployments:
       - alienRank: 5
         lowQty: 4
         highQty: 8
-        dQty: 3
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -1518,14 +1525,14 @@ alienDeployments:
             - STR_STIMPAK
             - STR_WEAPON_CRATE
           - 
-            - STR_BASTARD
-            - STR_556MM_RIFLE_CLIP
-            - STR_556MM_RIFLE_CLIP
+            - STR_PULSE_RIFLE
+            - STR_CELL_PULSE_RIFLE
+            - STR_CELL_PULSE_RIFLE
             - STR_STIMPAK
             - STR_WEAPON_CRATE
       - alienRank: 3
-        lowQty: 3
-        highQty: 3
+        lowQty: 2
+        highQty: 4
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -1608,9 +1615,9 @@ alienDeployments:
             - STR_STIMPAK
             - STR_WEAPON_CRATE
       - alienRank: 3
-        lowQty: 3
+        lowQty: 2
         highQty: 3
-        dQty: 1
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -1628,8 +1635,8 @@ alienDeployments:
             - STR_308_RIFLE_CLIP
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
+        lowQty: 2
+        highQty: 5
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -1666,7 +1673,7 @@ alienDeployments:
       - alienRank: 1
         lowQty: 1
         highQty: 2
-        dQty: 1
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -1688,7 +1695,7 @@ alienDeployments:
             - STR_STIMPAK
             - STR_WEAPON_CRATE            
       - alienRank: 3
-        lowQty: 3
+        lowQty: 1
         highQty: 3
         dQty: 1
         extraQty: 0        
@@ -1707,9 +1714,9 @@ alienDeployments:
             - STR_PREWAR_SHOTGUN_SHELLS
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
-        dQty: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -1741,28 +1748,28 @@ alienDeployments:
       - alienRank: 1
         lowQty: 1
         highQty: 2
-        dQty: 1
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
             - STR_PREWAR_SERVICE_RIFLE
             - STR_762MM_RIFLE_MAG
-            - STR_BANDAGE
+            - STR_STIMPAK
             - STR_VALUABLES_CRATE
           -
-            - STR_PREWAR_SERVICE_RIFLE
-            - STR_762MM_RIFLE_MAG
-            - STR_BANDAGE
-            - STR_VALUABLES_CRATE
-          - 
             - STR_LASER_RIFLE
             - STR_MICROFUSION_CELLS
-            - STR_BANDAGE
+            - STR_MEGA_STIMPAK
+            - STR_VALUABLES_CRATE
+          - 
+            - STR_LASER_GATLING
+            - STR_MICROFUSION_CELLS
+            - STR_MEGA_STIMPAK
             - STR_WEAPON_CRATE
             - STR_VALUABLES_CRATE
       - alienRank: 3
-        lowQty: 3
+        lowQty: 1
         highQty: 3
         dQty: 1
         extraQty: 0        
@@ -1782,8 +1789,8 @@ alienDeployments:
             - STR_BANDAGE
             - STR_STIMULANT_HERB
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
+        lowQty: 2
+        highQty: 4
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -1816,14 +1823,15 @@ alienDeployments:
     duration: [24, 240]
     data:
       - alienRank: 4
-        lowQty: 3
+        lowQty: 1
         highQty: 3
-        dQty: 3
-        extraQty: 0        
+        dQty: 0
+        extraQty: 1
         percentageOutsideUfo: 70
         itemSets:
           -
             - STR_10MM_PISTOL
+            - STR_10MM
             - STR_10MM
             - STR_BANDAGE
             - STR_WEAPON_CRATE
@@ -1833,8 +1841,8 @@ alienDeployments:
             - STR_BANDAGE
             - STR_WEAPON_CRATE
           - 
-            - STR_PREWAR_SMG
-            - STR_10MM_SMG
+            - STR_BOZAR
+            - STR_556MM_RIFLE_MAG
             - STR_BANDAGE
             - STR_WEAPON_CRATE
 
@@ -1850,9 +1858,9 @@ alienDeployments:
     duration: [24, 240]
     data:
       - alienRank: 4
-        lowQty: 3
-        highQty: 3
-        dQty: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -1873,10 +1881,10 @@ alienDeployments:
             - STR_BANDAGE
             - STR_WEAPON_CRATE    
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
-        dQty: 3
-        extraQty: 0        
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        extraQty: 1   
         percentageOutsideUfo: 70
         itemSets:
           -
@@ -1930,8 +1938,8 @@ alienDeployments:
             - STR_STIMPAK
             - STR_WEAPON_CRATE            
       - alienRank: 3
-        lowQty: 3
-        highQty: 3
+        lowQty: 1
+        highQty: 2
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -1949,8 +1957,8 @@ alienDeployments:
             - STR_PREWAR_SHOTGUN_SHELLS
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
+        lowQty: 2
+        highQty: 4
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -2008,8 +2016,8 @@ alienDeployments:
             - STR_STIMPAK
             - STR_WEAPON_CRATE
       - alienRank: 3
-        lowQty: 3
-        highQty: 3
+        lowQty: 2
+        highQty: 4
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -2029,9 +2037,9 @@ alienDeployments:
             - STR_308_RIFLE_CLIP
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
-        dQty: 1
+        lowQty: 3
+        highQty: 6
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2092,8 +2100,8 @@ alienDeployments:
             - STR_STIMPAK
             - STR_WEAPON_CRATE
       - alienRank: 3
-        lowQty: 3
-        highQty: 3
+        lowQty: 2
+        highQty: 4
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -2112,8 +2120,8 @@ alienDeployments:
             - STR_308_RIFLE_CLIP
             - STR_WEAPON_CRATE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
+        lowQty: 3
+        highQty: 6
         dQty: 1
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -2137,6 +2145,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    missionBountyItem: STR_HIGH_TECH_CRATE
+    missionBountyItemCount: 3
     terrains:
       - MILLITARYBASE
     alertBackground: BACK03.SCR
@@ -2168,7 +2178,7 @@ alienDeployments:
       - alienRank: 1
         lowQty: 1
         highQty: 2
-        dQty: 2
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2191,7 +2201,7 @@ alienDeployments:
       - alienRank: 3
         lowQty: 2
         highQty: 4
-        dQty: 2
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2211,9 +2221,9 @@ alienDeployments:
             - STR_2MM_EC_GAUSS_ROUNDS
             - STR_MEGA_STIMPAK
       - alienRank: 4
-        lowQty: 3
-        highQty: 6
-        dQty: 9
+        lowQty: 1
+        highQty: 3
+        dQty: 2
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2259,6 +2269,8 @@ alienDeployments:
     width: 40
     length: 40
     height: 4
+    missionBountyItem: STR_HIGH_TECH_CRATE
+    missionBountyItemCount: 6
     terrains:
       - LAB
     alertBackground: BACK03.SCR
@@ -2379,6 +2391,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 2
+    missionBountyItem: STR_HIGH_TECH_CRATE
+    missionBountyItemCount: 3
     terrains:
       - PREPPERSSHELTER
     alertBackground: BACK03.SCR
