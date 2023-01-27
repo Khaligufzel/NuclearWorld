@@ -335,6 +335,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    chronoTrigger: 0
+    turnLimit: 10
     terrains: &PatrolTerrains
       - URBAN
       - URBAN_RUINS
@@ -420,6 +422,9 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    chronoTrigger: 0
+    turnLimit: 12
+    customUfo: STR_CARAVAN_CHURCH_UFO
     terrains: &CaravanTerrains
       - NUKEZONE
       - FOREST_TRENCH
@@ -586,6 +591,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    chronoTrigger: 0
+    turnLimit: 10
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_PATROL_GHOUL_SITE_MARKER_NAME
@@ -661,7 +668,10 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    chronoTrigger: 0
+    turnLimit: 12
     terrains: *CaravanTerrains
+    customUfo: STR_CARAVAN_RAIDERS_UFO
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_GHOUL_SITE_MARKER_NAME
     duration: [24, 240]
@@ -869,7 +879,10 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
+    chronoTrigger: 0
+    turnLimit: 12
     terrains: *CaravanTerrains
+    customUfo: STR_CARAVAN_CHURCH_UFO
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_CHURCH_SITE_MARKER_NAME
     duration: [24, 240]
@@ -1001,6 +1014,8 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
+    chronoTrigger: 0
+    turnLimit: 10
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_MEDIUM_PATROL_CHURCH_SITE_MARKER_NAME
@@ -1316,7 +1331,10 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
+    chronoTrigger: 0
+    turnLimit: 12
     terrains: *CaravanTerrains
+    customUfo: STR_CARAVAN_RAIDERS_UFO
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_RAIDERS_SITE_MARKER_NAME
     duration: [24, 240]
@@ -1445,6 +1463,8 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
+    chronoTrigger: 0
+    turnLimit: 10
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_MEDIUM_PATROL_RAIDERS_SITE_MARKER_NAME
@@ -1739,8 +1759,11 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 15
+    civilians: 0
+    chronoTrigger: 0
+    turnLimit: 12
     terrains: *CaravanTerrains
+    customUfo: STR_CARAVAN_ORDER_UFO
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_ORDER_SITE_MARKER_NAME
     duration: [24, 240]
@@ -1816,7 +1839,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 15
+    civilians: 0
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_SMALL_PATROL_ORDER_SITE_MARKER_NAME
@@ -1851,7 +1874,9 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 15
+    chronoTrigger: 0
+    turnLimit: 10
+    civilians: 0
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_SMALL_PATROL_ORDER_SITE_MARKER_NAME
