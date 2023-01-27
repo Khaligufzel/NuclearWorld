@@ -132,6 +132,7 @@ ufopaedia:
     #image_id: MEDAL_CARREER_KILLS_CPAL
     text: STR_OUTSIDE_UFOPAEDIA
     #text_width: 0
+    section: STR_JOURNAL
     requires:
       - STR_OUTSIDE
     #listOrder: 360110
@@ -142,104 +143,6 @@ ufopaedia:
     section: STR_JOURNAL
     requires:
       - STR_WHAT_HAPPENED
-
-  - id: STR_SETTLERS
-    type_id: 8
-    text: STR_SETTLERS_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_SETTLERS
-
-  - id: STR_PREPPERS
-    type_id: 8
-    text: STR_PREPPERS_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_PREPPERS
-
-  - id: STR_CITIZENS
-    type_id: 8
-    text: STR_CITIZENS_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_CITIZENS
-
-  - id: STR_RECRUITABLE_WORKERS
-    type_id: 8
-    text: STR_RECRUITABLE_WORKERS_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_RECRUITABLE_WORKERS
-
-  - id: STR_ALLY_OR_ENEMY
-    type_id: 8
-    text: STR_ALLY_OR_ENEMY_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_ALLY_OR_ENEMY
-
-  - id: STR_FACTION_CHURCH
-    type_id: 8
-    text: STR_FACTION_CHURCH_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_FACTION_CHURCH
-
-  - id: STR_FACTION_RAIDERS
-    type_id: 8
-    text: STR_FACTION_RAIDERS_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_FACTION_RAIDERS
-
-  - id: STR_FACTION_ORDER
-    type_id: 8
-    text: STR_FACTION_ORDER_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_FACTION_ORDER
-
-  - id: STR_FACTION_MUTANTS
-    type_id: 8
-    text: STR_FACTION_MUTANT_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_FACTION_MUTANTS
-
-  - id: STR_ALLY_MUTANTS
-    type_id: 8
-    text: STR_ALLY_MUTANTS_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_ALLY_MUTANTS
-
-  - id: STR_ENEMY_MUTANTS
-    type_id: 8
-    text: STR_ENEMY_MUTANTS_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_ENEMY_MUTANTS
-
-  - id: STR_FACTION_GHOULS
-    type_id: 8
-    text: STR_FACTION_GHOUL_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_FACTION_GHOULS
-
-  - id: STR_ALLY_GHOULS
-    type_id: 8
-    text: STR_ALLY_GHOULS_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_ALLY_GHOULS
-
-  - id: STR_ENEMY_GHOULS
-    type_id: 8
-    text: STR_ENEMY_GHOULS_UFOPAEDIA
-    section: STR_JOURNAL
-    requires:
-      - STR_ENEMY_GHOULS
 
   - id: STR_WHAT_NOW
     type_id: 8
@@ -255,12 +158,26 @@ ufopaedia:
     requires:
       - STR_SKINNING
 
+  - id: STR_ANIMAL_SKIN
+    type_id: 4
+    text: STR_ANIMAL_SKIN_UFOPAEDIA
+    section: STR_KNOWLEDGE
+    requires:
+      - STR_ANIMAL_SKIN
+
   - id: STR_BOUNTY_HUNTING
     type_id: 8
     text: STR_BOUNTY_HUNTING_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
       - STR_BOUNTY_HUNTING
+
+  - id: STR_RECRUITABLE_WORKERS
+    type_id: 8
+    text: STR_RECRUITABLE_WORKERS_UFOPAEDIA
+    section: STR_JOURNAL
+    requires:
+      - STR_RECRUITABLE_WORKERS
 
   - id: STR_BASIC_MEDICINE
     type_id: 8
@@ -339,13 +256,6 @@ ufopaedia:
     requires:
       - STR_SPECIALIZED_ARMOR
 
-  - id: STR_ANIMAL_SKIN
-    type_id: 4
-    text: STR_ANIMAL_SKIN_UFOPAEDIA
-    section: STR_KNOWLEDGE
-    requires:
-      - STR_ANIMAL_SKIN
-
   - id: STR_IRON_SCRAPS
     type_id: 4
     text: STR_IRON_SCRAPS_UFOPAEDIA
@@ -401,9 +311,6 @@ ufopaedia:
     section: STR_KNOWLEDGE
     requires:
       - STR_VALUABLES_CRATE
-
-
-
 
 
 
@@ -627,40 +534,136 @@ ufopaedia:
       - STR_BOZAR
 
   #Corpses
-  - id: STR_MUTANT_CORPSE
-    type_id: 8
-    text: STR_MUTANT_CORPSE_UFOPAEDIA
-    requires:
-      - STR_MUTANT_CORPSE
 
-  - id: STR_GHOUL_CORPSE
-    type_id: 8
-    text: STR_GHOUL_CORPSE_UFOPAEDIA
-    requires:
-      - STR_GHOUL_CORPSE
+
+
 
   #Live enemies
-  - id: STR_HUMAN_RAIDER
-    type_id: 8
-    text: STR_HUMAN_RAIDER_UFOPAEDIA
-    section: STR_WASTELAND_DWELLERS
-    requires:
-      - STR_HUMAN_RAIDER
+  #- id: STR_HUMAN_RAIDER
+  #  type_id: 8
+  #  text: STR_HUMAN_RAIDER_UFOPAEDIA
+  #  section: STR_WASTELAND_DWELLERS
+  #  requires:
+  #    - STR_HUMAN_RAIDER
 
-  - id: STR_GHOUL
+  - id: STR_SETTLERS
     type_id: 8
-    text: STR_GHOUL_UFOPAEDIA
+    text: STR_SETTLERS_UFOPAEDIA
     section: STR_WASTELAND_DWELLERS
     requires:
-      - STR_GHOUL
+      - STR_SETTLERS
+
+  - id: STR_PREPPERS
+    type_id: 8
+    text: STR_PREPPERS_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_PREPPERS
+
+  - id: STR_CITIZENS
+    type_id: 8
+    text: STR_CITIZENS_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_CITIZENS
+
+  - id: STR_ALLY_OR_ENEMY
+    type_id: 8
+    text: STR_ALLY_OR_ENEMY_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_ALLY_OR_ENEMY
+
+  - id: STR_FACTION_CHURCH
+    type_id: 8
+    text: STR_FACTION_CHURCH_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_FACTION_CHURCH
+
+  - id: STR_FACTION_RAIDERS
+    type_id: 8
+    text: STR_FACTION_RAIDERS_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_FACTION_RAIDERS
+
+  - id: STR_FACTION_ORDER
+    type_id: 8
+    text: STR_FACTION_ORDER_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_FACTION_ORDER
 
   - id: STR_MUTANT
     type_id: 8
     text: STR_MUTANT_UFOPAEDIA
     section: STR_WASTELAND_DWELLERS
     requires:
-      - STR_MUTANT
+      - STR_FACTION_MUTANTS
 
+  - id: STR_MUTANT_CORPSE
+    type_id: 8
+    text: STR_MUTANT_CORPSE_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_MUTANT_CORPSE
+
+  - id: STR_FACTION_MUTANTS
+    type_id: 8
+    text: STR_FACTION_MUTANT_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_FACTION_MUTANTS
+
+  - id: STR_ALLY_MUTANTS
+    type_id: 8
+    text: STR_ALLY_MUTANTS_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_ALLY_MUTANTS
+
+  - id: STR_ENEMY_MUTANTS
+    type_id: 8
+    text: STR_ENEMY_MUTANTS_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_ENEMY_MUTANTS
+
+  - id: STR_GHOUL
+    type_id: 8
+    text: STR_GHOUL_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_FACTION_GHOULS
+
+  - id: STR_GHOUL_CORPSE
+    type_id: 8
+    text: STR_GHOUL_CORPSE_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_GHOUL_CORPSE
+
+  - id: STR_FACTION_GHOULS
+    type_id: 8
+    text: STR_FACTION_GHOUL_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_FACTION_GHOULS
+
+  - id: STR_ALLY_GHOULS
+    type_id: 8
+    text: STR_ALLY_GHOULS_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_ALLY_GHOULS
+
+  - id: STR_ENEMY_GHOULS
+    type_id: 8
+    text: STR_ENEMY_GHOULS_UFOPAEDIA
+    section: STR_WASTELAND_DWELLERS
+    requires:
+      - STR_ENEMY_GHOULS
 
   #Armor
 

@@ -635,21 +635,86 @@ research:
   - name: STR_MUTANT_CORPSE
     cost: 10
     points: 50
+    dependencies:
+      - STR_MUTANT_RECRUIT_CORPSE
+      - STR_MUTANT_STRONG_CORPSE
+      - STR_MUTANT_LOST_CORPSE
+  - name: STR_MUTANT_RECRUIT_CORPSE
+    cost: 10
+    points: 50
     needItem: true
     destroyItem: true
+    unlocks:
+      - STR_MUTANT_CORPSE
+  - name: STR_MUTANT_STRONG_CORPSE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MUTANT_CORPSE
+  - name: STR_MUTANT_LOST_CORPSE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MUTANT_CORPSE
 
   - name: STR_GHOUL_CORPSE
     cost: 10
     points: 50
-    needItem: true
-    destroyItem: true
+    dependencies:
+      - STR_GHOUL_RECRUIT_CORPSE
+      - STR_GHOUL_SOLDIER_CORPSE
+      - STR_GHOUL_LEADER_CORPSE
+      - STR_GHOUL_FERAL_CORPSE
+      - STR_GHOUL_LOST_CORPSE
+      - STR_GHOUL_WILD_CORPSE
 
-  - name: STR_HUMAN_RAIDER
+  - name: STR_GHOUL_RECRUIT_CORPSE
     cost: 10
     points: 50
     needItem: true
-    destroyItem: true   
-    
+    destroyItem: true
+    unlocks:
+      - STR_GHOUL_CORPSE
+  - name: STR_GHOUL_SOLDIER_CORPSE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GHOUL_CORPSE
+  - name: STR_GHOUL_LEADER_CORPSE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GHOUL_CORPSE
+  - name: STR_GHOUL_FERAL_CORPSE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GHOUL_CORPSE
+  - name: STR_GHOUL_WILD_CORPSE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GHOUL_CORPSE
+  - name: STR_GHOUL_LOST_CORPSE
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GHOUL_CORPSE
+
   #weapons
   - name: STR_BASIC_WEAPONS
     cost: 10
