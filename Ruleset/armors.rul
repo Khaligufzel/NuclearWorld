@@ -1,4 +1,4 @@
-﻿ 
+ 
 armors:
   - delete: STR_NONE_UC
 
@@ -71,16 +71,16 @@ armors:
     rearArmor: 10
     underArmor: 10
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 0.8 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 1.0 #7 Melee
+      - 1.0 #8 Acid
+      - 0.3 #9 Smoke
     loftempsSet: [ 3 ]
 
   #player soldiers
@@ -98,17 +98,17 @@ armors:
     sideArmor: 25
     rearArmor: 15
     underArmor: 15
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: &LeatherArmorDamageModifier
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 0.7 #2 Incendiary
+      - 0.9 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 0.6 #7 Melee
+      - 1.0 #8 Acid
+      - 0.3 #9 Smoke
     loftempsSet: [ 3 ]
 
 
@@ -126,17 +126,17 @@ armors:
     sideArmor: 35
     rearArmor: 25
     underArmor: 25
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: &MetalArmorDamageModifier
+      - 1.0 #0 None
+      - 0.7 #1 Armor Piercing
+      - 0.7 #2 Incendiary
+      - 0.8 #3 High Explosive
+      - 0.7 #4 Laser
+      - 0.8 #5 Plasma
+      - 1.0 #6 Stun
+      - 0.5 #7 Melee
+      - 1.0 #8 Acid
+      - 0.3 #9 Smoke
     loftempsSet: [ 3 ]
     forcedTorso: 1
     stats:
@@ -163,16 +163,16 @@ armors:
     underArmor: 10
     drawingRoutine: 10
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 0.5 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 0.9 #4 Laser
+      - 0.9 #5 Plasma
+      - 1.0 #6 Stun
+      - 0.8 #7 Melee
+      - 1.0 #8 Acid
+      - 0.0 #9 Smoke
     loftempsSet: [ 3 ]
 
   - type: STR_HAZMAT_ACID_ARMOR
@@ -191,16 +191,16 @@ armors:
     underArmor: 10
     drawingRoutine: 10
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 0.5 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 0.9 #4 Laser
+      - 0.9 #5 Plasma
+      - 1.0 #6 Stun
+      - 0.9 #7 Melee
+      - 0.0 #8 Acid
+      - 0.0 #9 Smoke
     loftempsSet: [ 3 ]
     forcedTorso: 1
 
@@ -217,16 +217,16 @@ armors:
     drawingRoutine: 0
     movementType: 1
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+      - 1.0 #0 None
+      - 0.5 #1 Armor Piercing
+      - 0.8 #2 Incendiary
+      - 0.7 #3 High Explosive
+      - 0.6 #4 Laser
+      - 0.8 #5 Plasma
+      - 0.8 #6 Stun
+      - 0.5 #7 Melee
+      - 0.5 #8 Acid
+      - 0.1 #9 Smoke
     loftempsSet: [ 3 ]
     forcedTorso: 1
     stats:
@@ -248,16 +248,16 @@ armors:
     rearArmor: 50
     underArmor: 50
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+      - 1.0 #0 None
+      - 0.5 #1 Armor Piercing
+      - 0.8 #2 Incendiary
+      - 0.5 #3 High Explosive
+      - 0.6 #4 Laser
+      - 0.7 #5 Plasma
+      - 0.8 #6 Stun
+      - 0.5 #7 Melee
+      - 0.5 #8 Acid
+      - 0.1 #9 Smoke
     loftempsSet: [ 3 ]
     forcedTorso: 1
     stats:
@@ -278,16 +278,16 @@ armors:
     rearArmor: 40
     underArmor: 50
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+      - 1.0 #0 None
+      - 0.5 #1 Armor Piercing
+      - 0.8 #2 Incendiary
+      - 0.7 #3 High Explosive
+      - 0.7 #4 Laser
+      - 0.8 #5 Plasma
+      - 0.8 #6 Stun
+      - 0.4 #7 Melee
+      - 0.5 #8 Acid
+      - 0.1 #9 Smoke
     loftempsSet: [ 3 ]
     forcedTorso: 1
     stats:
@@ -309,17 +309,17 @@ armors:
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: &GhoulArmorDamageModifier
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 0.8 #2 Incendiary
+      - 1.3 #3 High Explosive
+      - 1.2 #4 Laser
+      - 0.8 #5 Plasma
+      - 0.8 #6 Stun
+      - 0.8 #7 Melee
+      - 0.0 #8 Acid
+      - 0.1 #9 Smoke
     loftempsSet: [ 3 ]
   - type: STR_GHOUL_SOLDIER_ARMOR
     spriteSheet: GHOUL_SOLDIER.PCK
@@ -331,17 +331,7 @@ armors:
     sideArmor: 25
     rearArmor: 20
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: *MetalArmorDamageModifier
     loftempsSet: [ 3 ]
   - type: STR_GHOUL_LEADER_ARMOR
     spriteSheet: GHOUL_LEADER.PCK
@@ -353,17 +343,7 @@ armors:
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: *LeatherArmorDamageModifier
     loftempsSet: [ 3 ]
   - type: STR_GHOUL_FERAL_ARMOR
     spriteSheet: GHOUL_FERAL.PCK
@@ -375,17 +355,17 @@ armors:
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: &FeralGhoulDamageModifier
+      - 1.0 #0 None
+      - 1.2 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.3 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.5 #6 Stun
+      - 1.5 #7 Melee
+      - 0.5 #8 Acid
+      - 1.0 #9 Smoke
     loftempsSet: [ 3 ]
   - type: STR_GHOUL_WILD_ARMOR
     spriteSheet: GHOUL_WILD.PCK
@@ -397,17 +377,7 @@ armors:
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: *FeralGhoulDamageModifier
     loftempsSet: [ 3 ]
   - type: STR_GHOUL_LOST_ARMOR
     spriteSheet: GHOUL_LOST.PCK
@@ -419,17 +389,7 @@ armors:
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: *FeralGhoulDamageModifier
     loftempsSet: [ 3 ]
 
   - type: STR_MUTANT_RECRUIT_ARMOR
@@ -442,17 +402,17 @@ armors:
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: 
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 1.2 #2 Incendiary
+      - 1.2 #3 High Explosive
+      - 1.4 #4 Laser
+      - 0.7 #5 Plasma
+      - 0.8 #6 Stun
+      - 1.1 #7 Melee
+      - 0.2 #8 Acid
+      - 0.1 #9 Smoke
     loftempsSet: [ 3 ]
   - type: STR_MUTANT_STRONG_ARMOR
     spriteSheet: MUTANT_STRONG.PCK
@@ -460,21 +420,21 @@ armors:
     corpseBattle:
       - STR_MUTANT_STRONG_CORPSE
     #storeItem: STR_HAZMAT_ACID_ARMOR
-    frontArmor: 15
-    sideArmor: 10
-    rearArmor: 5
+    frontArmor: 25
+    sideArmor: 25
+    rearArmor: 20
     underArmor: 5
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+      - 1.0 #0 None
+      - 0.7 #1 Armor Piercing
+      - 1.0 #2 Incendiary
+      - 1.1 #3 High Explosive
+      - 1.2 #4 Laser
+      - 0.6 #5 Plasma
+      - 0.6 #6 Stun
+      - 1.1 #7 Melee
+      - 0.1 #8 Acid
+      - 0.1 #9 Smoke
     loftempsSet: [ 3 ]
   - type: STR_MUTANT_LOST_ARMOR
     spriteSheet: MUTANT_LOST.PCK
@@ -487,16 +447,16 @@ armors:
     rearArmor: 5
     underArmor: 5
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 1.2 #2 Incendiary
+      - 1.2 #3 High Explosive
+      - 1.5 #4 Laser
+      - 0.8 #5 Plasma
+      - 0.8 #6 Stun
+      - 1.5 #7 Melee
+      - 0.2 #8 Acid
+      - 0.1 #9 Smoke
     loftempsSet: [ 3 ]
 
   - type: STR_ORDER_RECRUIT_ARMOR
@@ -509,17 +469,17 @@ armors:
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: &BallisticArmorDamageModifier
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 1.0 #2 Incendiary
+      - 0.8 #3 High Explosive
+      - 0.8 #4 Laser
+      - 0.9 #5 Plasma
+      - 0.8 #6 Stun
+      - 0.6 #7 Melee
+      - 1.0 #8 Acid
+      - 0.3 #9 Smoke
     loftempsSet: [ 3 ]
   - type: STR_ORDER_SOLDIER_ARMOR
     spriteSheet: ORDER_SOLDIER.PCK
@@ -531,17 +491,7 @@ armors:
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: *BallisticArmorDamageModifier
     loftempsSet: [ 3 ]
 
   - type: STR_CHURCH_FOLLOWER_ARMOR
@@ -554,17 +504,17 @@ armors:
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: &ChurchRobesDamageModifier
+      - 1.0 #0 None
+      - 1.2 #1 Armor Piercing
+      - 1.2 #2 Incendiary
+      - 1.2 #3 High Explosive
+      - 1.0 #4 Laser
+      - 0.8 #5 Plasma
+      - 0.8 #6 Stun
+      - 1.1 #7 Melee
+      - 0.8 #8 Acid
+      - 0.5 #9 Smoke
     loftempsSet: [ 3 ]
   - type: STR_CHURCH_PRIEST_ARMOR
     spriteSheet: CHURCH_PRIEST.PCK
@@ -577,7 +527,7 @@ armors:
     rearArmor: 5
     underArmor: 5
     drawingRoutine: 4
-    damageModifier:
+    damageModifier: *ChurchRobesDamageModifier
       - 1.0
       - 1.0
       - 0.8
@@ -600,17 +550,7 @@ armors:
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: *BallisticArmorDamageModifier
     loftempsSet: [ 3 ]
   - type: STR_RAIDER_PUNK_ARMOR
     spriteSheet: RAIDER_PUNK.PCK
@@ -618,21 +558,11 @@ armors:
     corpseBattle:
       - STR_RAIDER_PUNK_CORPSE
     #storeItem: STR_HAZMAT_ACID_ARMOR
-    frontArmor: 15
-    sideArmor: 10
-    rearArmor: 5
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 15
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: *MetalArmorDamageModifier
     loftempsSet: [ 3 ]
   - type: STR_RAIDER_LEADER_ARMOR
     spriteSheet: RAIDER_LEADER.PCK
@@ -640,21 +570,11 @@ armors:
     corpseBattle:
       - STR_RAIDER_LEADER_CORPSE
     #storeItem: STR_HAZMAT_ACID_ARMOR
-    frontArmor: 15
+    frontArmor: 30
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: *LeatherArmorDamageModifier
     loftempsSet: [ 3 ]
 
   - type: STR_PREPPER_RECRUIT_ARMOR
@@ -668,16 +588,16 @@ armors:
     rearArmor: 5
     underArmor: 5
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 1.2 #2 Incendiary
+      - 1.2 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.8 #6 Stun
+      - 1.1 #7 Melee
+      - 1.0 #8 Acid
+      - 1.0 #9 Smoke
     loftempsSet: [ 3 ]
   - type: STR_PREPPER_SOLDIER_ARMOR
     spriteSheet: PREPPER_SOLDIER.PCK
@@ -685,22 +605,13 @@ armors:
     corpseBattle:
       - STR_PREPPER_SOLDIER_CORPSE
     #storeItem: STR_HAZMAT_ACID_ARMOR
-    frontArmor: 15
+    frontArmor: 20
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
     drawingRoutine: 0
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: *LeatherArmorDamageModifier
+
     loftempsSet: [ 3 ]
   - type: STR_PREPPER_LEADER_ARMOR
     spriteSheet: PREPPER_LEADER.PCK
@@ -708,19 +619,9 @@ armors:
     corpseBattle:
       - STR_PREPPER_LEADER_CORPSE
     #storeItem: STR_HAZMAT_ACID_ARMOR
-    frontArmor: 15
-    sideArmor: 10
-    rearArmor: 5
+    frontArmor: 30
+    sideArmor: 15
+    rearArmor: 25
     underArmor: 5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
+    damageModifier: *BallisticArmorDamageModifier
     loftempsSet: [ 3 ]
