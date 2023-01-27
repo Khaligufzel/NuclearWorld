@@ -1,6 +1,6 @@
 Khaligufzel- lead dev, lore and code
 FilipH321- weapon sprites (Gunpowder Grenade, Molotov Cocktail, PreWar Service Rifle, Hunting Rifle, PreWar Shotgun, Minigun, PreWar SMG)
-Luke83- Nuclear Terrains, maps and code; Hybrid globe design
+Luke83- Nuclear Terrains maps and code; Caravans terrains; Hybrid globe design
 efrenespartano- compilation of assets for units, armor sprite creator, backgrounds, weapons (Laser Rifle, Bastard, Shambler, Hammer, Bozar, Gauss Rifle, Laser Gatling, Plasma Rifle, Spear) code support
 wolwerin- Hazmat Armor, Handcrafted Armor, arrow bulletSprite sprites
 _Brain322-  Prototype Armor, weapon sprites (Pre-War Pistol, DMR, Makeshift Pistol, Pipe Rifle, Revolver, Shiv) 

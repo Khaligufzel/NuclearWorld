@@ -874,7 +874,6 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      56: Resources/AlienArmouryExpanded/Bullets/toxic_hit.gif
       110: Resources/HitAnimations/Ballistic_Hit.png
       120: Resources/HitAnimations/Gauss_Hit.png
       130: Resources/HitAnimations/Electric_Hit.png

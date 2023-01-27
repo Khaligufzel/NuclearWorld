@@ -1,7 +1,7 @@
 name: "NuclearWorld: A Post Nuclear Strategy Game"
 version: "0.1"
-author: "Khaligufzel, Filip-H, efrenespartano, Dr Spaceman, Shiunsai"
-description: "For testing"
+author: "Khaligufzel, Filip-H, efrenespartano, Dr Spaceman, Shiunsai & Luke83"
+description: "The War changed everything. Now it is our job to improvise, adapt and survive in the Wasteland!"
 id: NuclearWorld
 master: xcom1
 isMaster: true
