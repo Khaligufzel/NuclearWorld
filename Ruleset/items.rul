@@ -1351,7 +1351,7 @@ items:
     battleType: 1
     twoHanded: true
     invWidth: 1
-    invHeight: 2
+    invHeight: 3
     #requiresBuy: [STR_SETTLERS]
     categories: [STR_RIFLES, STR_ENERGY_WEAPONS, STR_LONG_RANGE]
 
