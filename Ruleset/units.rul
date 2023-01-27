@@ -222,12 +222,12 @@ units:
     race: STR_FERAL_GHOUL
     rank: STR_LIVE_GHOUL_FERAL
     stats:
-      tu: 64
-      stamina: 90
+      tu: 100
+      stamina: 150
       health: 40
       bravery: 90
-      reactions: 52
-      firing: 61
+      reactions: 10
+      firing: 10
       throwing: 68
       strength: 49
       psiStrength: 40
@@ -248,12 +248,12 @@ units:
     race: STR_FERAL_GHOUL
     rank: STR_LIVE_GHOUL_FERAL
     stats:
-      tu: 64
+      tu: 90
       stamina: 90
-      health: 40
+      health: 30
       bravery: 90
-      reactions: 52
-      firing: 61
+      reactions: 30
+      firing: 25
       throwing: 68
       strength: 49
       psiStrength: 40
@@ -274,12 +274,12 @@ units:
     race: STR_FERAL_GHOUL
     rank: STR_LIVE_GHOUL_FERAL
     stats:
-      tu: 64
-      stamina: 90
-      health: 40
+      tu: 80
+      stamina: 80
+      health: 20
       bravery: 90
-      reactions: 52
-      firing: 61
+      reactions: 20
+      firing: 20
       throwing: 68
       strength: 49
       psiStrength: 40
@@ -300,14 +300,14 @@ units:
     race: STR_LOST_MUTANT
     rank: STR_LIVE_LOST_MUTANT
     stats:
-      tu: 60
-      stamina: 90
+      tu: 40
+      stamina: 30
       health: 30
       bravery: 90
-      reactions: 52
+      reactions: 30
       firing: 61
       throwing: 68
-      strength: 49
+      strength: 40
       psiStrength: 40
       psiSkill: 0
       melee: 25
@@ -327,7 +327,7 @@ units:
     rank: STR_LIVE_LOST_MUTANT
     stats: &MutantStrongStats
       tu: 45
-      stamina: 50
+      stamina: 25
       health: 140
       bravery: 110
       reactions: 30
@@ -352,7 +352,7 @@ units:
     race: STR_LOST_MUTANT
     rank: STR_LIVE_LOST_MUTANT
     stats:
-      tu: 64
+      tu: 60
       stamina: 90
       health: 40
       bravery: 90
@@ -406,9 +406,9 @@ units:
     race: STR_MUTANT
     rank: STR_LIVE_MUTANT
     stats: &MutantWeakStats
-      tu: 60
-      stamina: 90
-      health: 60
+      tu: 50
+      stamina: 30
+      health: 35
       bravery: 90
       reactions: 40
       firing: 50
@@ -447,8 +447,8 @@ units:
     rank: STR_LIVE_GHOUL
     stats: &GhoulStats
       tu: 50
-      stamina: 90
-      health: 110
+      stamina: 40
+      health: 60
       bravery: 60
       reactions: 52
       firing: 40
@@ -472,9 +472,9 @@ units:
     race: STR_GHOUL
     rank: STR_LIVE_GHOUL
     stats:
-      tu: 60
-      stamina: 90
-      health: 110
+      tu: 50
+      stamina: 50
+      health: 70
       bravery: 60
       reactions: 52
       firing: 60
@@ -499,8 +499,8 @@ units:
     rank: STR_LIVE_GHOUL
     stats:
       tu: 65
-      stamina: 90
-      health: 110
+      stamina: 40
+      health: 90
       bravery: 100
       reactions: 52
       firing: 45
@@ -524,9 +524,9 @@ units:
     race: STR_GHOUL
     rank: STR_LIVE_GHOUL
     stats:
-      tu: 80
-      stamina: 90
-      health: 110
+      tu: 60
+      stamina: 50
+      health: 80
       bravery: 80
       reactions: 55
       firing: 55
@@ -646,7 +646,7 @@ units:
       stamina: 110
       health: 55
       bravery: 60
-      reactions: 40
+      reactions: 30
       firing: 30
       throwing: 80
       strength: 60
