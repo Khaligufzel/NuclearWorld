@@ -335,8 +335,6 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    chronoTrigger: 0
-    turnLimit: 10
     terrains: &PatrolTerrains
       - URBAN
       - URBAN_RUINS
@@ -422,9 +420,6 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    chronoTrigger: 0
-    turnLimit: 12
-    customUfo: STR_CARAVAN_CHURCH_UFO
     terrains: &CaravanTerrains
       - NUKEZONE
       - FOREST_TRENCH
@@ -591,8 +586,6 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    chronoTrigger: 0
-    turnLimit: 10
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_PATROL_GHOUL_SITE_MARKER_NAME
@@ -668,10 +661,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    chronoTrigger: 0
-    turnLimit: 12
     terrains: *CaravanTerrains
-    customUfo: STR_CARAVAN_RAIDERS_UFO
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_GHOUL_SITE_MARKER_NAME
     duration: [24, 240]
@@ -879,10 +869,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
-    chronoTrigger: 0
-    turnLimit: 12
     terrains: *CaravanTerrains
-    customUfo: STR_CARAVAN_CHURCH_UFO
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_CHURCH_SITE_MARKER_NAME
     duration: [24, 240]
@@ -1014,8 +1001,6 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
-    chronoTrigger: 0
-    turnLimit: 10
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_MEDIUM_PATROL_CHURCH_SITE_MARKER_NAME
@@ -1331,10 +1316,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
-    chronoTrigger: 0
-    turnLimit: 12
     terrains: *CaravanTerrains
-    customUfo: STR_CARAVAN_RAIDERS_UFO
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_RAIDERS_SITE_MARKER_NAME
     duration: [24, 240]
@@ -1463,8 +1445,6 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
-    chronoTrigger: 0
-    turnLimit: 10
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_MEDIUM_PATROL_RAIDERS_SITE_MARKER_NAME
@@ -1759,11 +1739,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 0
-    chronoTrigger: 0
-    turnLimit: 12
+    civilians: 15
     terrains: *CaravanTerrains
-    customUfo: STR_CARAVAN_ORDER_UFO
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_ORDER_SITE_MARKER_NAME
     duration: [24, 240]
@@ -1839,7 +1816,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    civilians: 0
+    civilians: 15
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_SMALL_PATROL_ORDER_SITE_MARKER_NAME
@@ -1874,9 +1851,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
-    chronoTrigger: 0
-    turnLimit: 10
-    civilians: 0
+    civilians: 15
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_SMALL_PATROL_ORDER_SITE_MARKER_NAME
@@ -2181,7 +2156,7 @@ alienDeployments:
       - alienRank: 0
         lowQty: 1
         highQty: 2
-        dQty: 1
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2224,8 +2199,8 @@ alienDeployments:
             - STR_AMMUNITION_CRATE
 
       - alienRank: 3
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 3
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
@@ -2267,9 +2242,9 @@ alienDeployments:
             - STR_7.62MM_MINIGUN
             - STR_AMMUNITION_CRATE
       - alienRank: 5
-        lowQty: 3
-        highQty: 6
-        dQty: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2348,9 +2323,9 @@ alienDeployments:
             - STR_AMMUNITION_CRATE
 
       - alienRank: 3
-        lowQty: 2
-        highQty: 4
-        dQty: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2368,9 +2343,9 @@ alienDeployments:
             - STR_2MM_EC_GAUSS_ROUNDS
             - STR_2MM_EC_GAUSS_ROUNDS
       - alienRank: 4
-        lowQty: 3
-        highQty: 6
-        dQty: 9
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2389,9 +2364,9 @@ alienDeployments:
             - STR_7.62MM_MINIGUN
             - STR_AMMUNITION_CRATE
       - alienRank: 5
-        lowQty: 3
-        highQty: 6
-        dQty: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2449,7 +2424,7 @@ alienDeployments:
       - alienRank: 1
         lowQty: 1
         highQty: 2
-        dQty: 2
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2472,7 +2447,7 @@ alienDeployments:
       - alienRank: 3
         lowQty: 2
         highQty: 4
-        dQty: 2
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2490,9 +2465,9 @@ alienDeployments:
             - STR_2MM_EC_GAUSS_ROUNDS
             - STR_2MM_EC_GAUSS_ROUNDS
       - alienRank: 4
-        lowQty: 3
-        highQty: 6
-        dQty: 9
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
@@ -2511,9 +2486,9 @@ alienDeployments:
             - STR_7.62MM_MINIGUN
             - STR_AMMUNITION_CRATE
       - alienRank: 5
-        lowQty: 3
-        highQty: 6
-        dQty: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
