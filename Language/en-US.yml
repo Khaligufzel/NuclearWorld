@@ -1393,7 +1393,7 @@ en-US:
   STR_TERROR_RAIDERS_SITE_MARKER_NAME: "RAIDER ACTIVITY-{0}"
   STR_RAIDERS_VS_ORDER_BATTLE_SITE: "Raiders' assault on The Order"
   STR_RAIDERS_VS_ORDER_BATTLE_SITE_BRIEFING: "Our gang friends ask us for help in pillaging one of the Order outposts. The guys in black have nice loot, so this is an opportunity to grab some good stuff for us. Let's give our lads a hand!"
-  STR_RAIDERS_VS_ORDER_BATTLE_ALERT: "Raiders attacking The Order"
+  STR_RAIDERS_VS_ORDER_BATTLE_SITE_ALERT: "Raiders attacking The Order"
   STR_RAIDERS_VS_ORDER_BATTLE_SITE_MARKER_NAME: "RAIDER ACTIVITY-{0}"
   STR_RAIDERS_VS_CHURCH_BATTLE_SITE: "Raiders' assault on the Church"
   STR_RAIDERS_VS_CHURCH_BATTLE_SITE_BRIEFING: "Our pals at the nearby gang ask us to lend a hand on raiding the cultist freaks. They have some decent stuff, so we could grab some for us as well. Let's kick some asses!"

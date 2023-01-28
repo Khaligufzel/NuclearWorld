@@ -961,14 +961,17 @@ extraSprites:
 
   - type: BASEBITS.PCK
     files:
-      133: Resources/Vehicles/Motorcycle_Basebits.png
-      134: Resources/Vehicles/Humvee_Basebits.png
+      132: Resources/Vehicles/Motorcycle_Basebits.png
+      133: Resources/Vehicles/Humvee_Basebits.png
+      134: Resources/Vehicles/TransportTruck_Basebits.png
   - type: INTICON.PCK
     files:
-      100: Resources/Vehicles/Motorcycle_Minimised.png
-      111: Resources/Vehicles/Motorcycle_Dogfight.png
-      101: Resources/Vehicles/Humvee_minimised.png
-      112: Resources/Vehicles/Humvee_dogfight.png
+      99: Resources/Vehicles/Motorcycle_Minimised.png
+      110: Resources/Vehicles/Motorcycle_Dogfight.png
+      100: Resources/Vehicles/Humvee_Minimised.png
+      111: Resources/Vehicles/Humvee_Dogfight.png
+      101: Resources/Vehicles/TransportTruck_Minimised.png
+      112: Resources/Vehicles/TransportTruck_Dogfight.png
 
   - type: MOTORCYCLE_UFOPEDIA
     singleImage: true
@@ -982,3 +985,25 @@ extraSprites:
     height: 200
     files:
       0: Resources/Vehicles/HUMVEE_UFOPEDIA.PNG
+  - type: TRANSPORT_TRUCK_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/TRANSPORT_TRUCK_UFOPEDIA.PNG
+
+  - delete: GlobeMarkers
+  - type: GlobeMarkers
+    width: 63
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      0: Resources/GlobeMarkers/BaseGlobeMarkers.png
+  - type: GlobeMarkers # ignoreDuplicate
+    width: 105
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      9: Resources/GlobeMarkers/CraftGlobeMarkers.png
