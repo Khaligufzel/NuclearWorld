@@ -37,11 +37,24 @@ alienDeployments:
 #             - STR_HEAVY_PLASMA_CLIP
 #             - STR_MIND_PROBE
 
+#markerIcon: 13 # Wanderers
+#markerIcon: 14 # Ghouls
+#markerIcon: 15 # Mutants
+#markerIcon: 16 # Church
+#markerIcon: 17 # Raiders
+#markerIcon: 18 # Order
+#markerIcon: 19 # Preppers
+#markerIcon: 20 # Citizens
+#markerIcon: 21 # Military Base
+#markerIcon: 22 # Lab
+#markerIcon: 23 # Bounty
+
   - type: STR_WANDERER_SITE
     alert: STR_WANDERER_SITE_ALERT
     width: 50
     length: 50
     height: 3
+    markerIcon: 13 # Wanderers
     terrains:
       - VILLAGE 
       - CULTA 
@@ -155,6 +168,7 @@ alienDeployments:
     alert: STR_FERAL_GHOUL_SITE_ALERT
     width: 50
     length: 50
+    markerIcon: 14 # Ghouls
     height: 4
     terrains:
       - URBAN
@@ -269,6 +283,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 15 # Mutants
     terrains:
       - URBAN
       - URBAN_RUINS
@@ -335,6 +350,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 15 # Mutants
     terrains: &PatrolTerrains
       - URBAN
       - URBAN_RUINS
@@ -420,6 +436,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 15 # Mutants
     terrains: &CaravanTerrains
       - NUKEZONE
       - FOREST_TRENCH
@@ -504,6 +521,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 15 # Mutants
     terrains: &RaidTerrains
       - NUKECITY_B
       - NUKECITY
@@ -586,6 +604,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 14 # Ghouls
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_PATROL_GHOUL_SITE_MARKER_NAME
@@ -661,6 +680,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 14 # Ghouls
     terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_GHOUL_SITE_MARKER_NAME
@@ -739,6 +759,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 14 # Ghouls
     terrains: *RaidTerrains
     alertBackground: BACK03.SCR
     markerName: STR_RAID_GHOUL_SITE_MARKER_NAME
@@ -869,6 +890,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
+    markerIcon: 16 # Church
     terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_CHURCH_SITE_MARKER_NAME
@@ -944,6 +966,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
+    markerIcon: 16 # Church
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_SMALL_PATROL_CHURCH_SITE_MARKER_NAME
@@ -1001,6 +1024,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
+    markerIcon: 16 # Church
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_MEDIUM_PATROL_CHURCH_SITE_MARKER_NAME
@@ -1057,6 +1081,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 15
+    markerIcon: 16 # Church
     terrains: &TerrorTerrains
       - VILLAGE
       - URBAN
@@ -1143,6 +1168,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 16 # Church
     civilians: 0 # no random civilians
     civiliansByType:
       STR_CHURCH_BATTLE_LEADER_NPC: 2
@@ -1234,6 +1260,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 16 # Church
     civilians: 0 # no random civilians
     civiliansByType:
       STR_CHURCH_BATTLE_LEADER_NPC: 2
@@ -1315,6 +1342,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 17 # Raiders
     civilians: 0
     terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
@@ -1392,6 +1420,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
+    markerIcon: 17 # Raiders
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_SMALL_PATROL_RAIDERS_SITE_MARKER_NAME
@@ -1445,6 +1474,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 0
+    markerIcon: 17 # Raiders
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_MEDIUM_PATROL_RAIDERS_SITE_MARKER_NAME
@@ -1502,6 +1532,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 15
+    markerIcon: 17 # Raiders
     terrains: *TerrorTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_RAIDERS_SITE_MARKER_NAME
@@ -1580,6 +1611,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 17 # Raiders
     civilians: 0 # no random civilians
     civiliansByType:
       STR_RAIDERS_BATTLE_LEADER_NPC: 2
@@ -1660,6 +1692,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 17 # Raiders
     civilians: 0 # no random civilians
     civiliansByType:
       STR_RAIDERS_BATTLE_LEADER_NPC: 2
@@ -1740,6 +1773,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 15
+    markerIcon: 18 # Order
     terrains: *CaravanTerrains
     alertBackground: BACK03.SCR
     markerName: STR_CARAVAN_ORDER_SITE_MARKER_NAME
@@ -1817,6 +1851,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 15
+    markerIcon: 18 # Order
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_SMALL_PATROL_ORDER_SITE_MARKER_NAME
@@ -1852,6 +1887,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 15
+    markerIcon: 18 # Order
     terrains: *PatrolTerrains
     alertBackground: BACK03.SCR
     markerName: STR_SMALL_PATROL_ORDER_SITE_MARKER_NAME
@@ -1908,6 +1944,7 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 15
+    markerIcon: 18 # Order
     terrains: *TerrorTerrains
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_ORDER_SITE_MARKER_NAME
@@ -1982,6 +2019,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 18 # Order
     civilians: 0 # no random civilians
     civiliansByType:
       STR_ORDER_BATTLE_LEADER_NPC: 2
@@ -2066,6 +2104,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 18 # Order
     civilians: 0 # no random civilians
     civiliansByType:
       STR_ORDER_BATTLE_LEADER_NPC: 2
@@ -2145,6 +2184,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 21 # Military Base
+    unlockedResearch: STR_CONVOY
     missionBountyItem: STR_HIGH_TECH_CRATE
     missionBountyItemCount: 3
     terrains:
@@ -2269,6 +2310,8 @@ alienDeployments:
     width: 40
     length: 40
     height: 4
+    markerIcon: 22 # Lab
+    unlockedResearch: STR_CONVOY
     missionBountyItem: STR_HIGH_TECH_CRATE
     missionBountyItemCount: 6
     terrains:
@@ -2391,6 +2434,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 2
+    markerIcon: 19 # Preppers
     missionBountyItem: STR_HIGH_TECH_CRATE
     missionBountyItemCount: 3
     terrains:
@@ -2546,6 +2590,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 3
+    markerIcon: 23 # Bounty
     terrains:
       - VILLAGE 
       - CULTA 
@@ -2632,6 +2677,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    markerIcon: 15 # Mutants
     finalDestination: true
     loseCutscene: loseGame
     abortCutscene: loseGame

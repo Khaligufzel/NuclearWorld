@@ -848,7 +848,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 150
       width: 205
       height: 80
     image_id: MOTORCYCLE_UFOPEDIA
@@ -864,9 +864,29 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 150
       width: 205
       height: 80
     image_id: HUMVEE_UFOPEDIA
+    requires:
+      - STR_LARGE_CARAVAN
+  - id: STR_CONVOY
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_CONVOY_UFOPEDIA
+    #listOrder: 2
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 150
+      width: 205
+      height: 80
+    image_id: TRANSPORT_TRUCK_UFOPEDIA
+    requires:
+      - STR_CONVOY
 
     

@@ -1105,3 +1105,14 @@ research:
     points: 50
     needItem: true
 
+  - name: STR_LARGE_CARAVAN
+    cost: 80
+    points: 50
+    dependencies:
+      - STR_WHAT_NOW
+
+  - name: STR_CONVOY
+    cost: 10
+    points: 50
+    needItem: true
+
