@@ -1,0 +1,101 @@
+#######################
+##### CHANGELOG ######
+#####################
+
+January 28th, 2023
+
+> Added terrains, by Luke83 & efrenespartano 
+    - Dry Forest
+    - Wasteland
+    - Wasteland Settlement
+    - Forgotten Structure
+    - City Ruins
+> Geoscape changes:
+    - New textures and Country names, by efrenespartano    
+> Added backgrounds for all menus and UI, by efrenespartano
+> Major balance overhauling on alienDeployments, alienMissions, units, armors and items, by efrenespartano
+> Added vehicles, by bulletdesigner & Cirius:
+    - Recon Dispatch
+    - Tactical Vehicle
+    - Transport Truck
+> Special missions:
+    - Bounty Hunting
+> Faction missions:
+    - Battles vs other factions
+> Added new player unit:
+    - Player Unit
+> Added armors, by efrenespartano, wolwerin & _Brain322
+    - Leather Armor
+    - Wastelander Armor
+    - Hazmar Armor
+    - Anti-Acid Armor
+    - T-71 Powered Armor
+    - X-T Prototype Power Armor
+    - Mk.1 Handcrafted Power Armor
+> New sprites on all units, by efrenespartano, _Brain322, Solarius Scorch, wolwerin & robin
+> New sprites on weapons, by efrenespartano, _Brain322:
+    - Pipe Rifle
+    - Makeshift Pistol
+    - Bow
+    - Crossbow
+    - Spear
+    - Shiv
+    - Stone Hammer
+    - Revolver
+> New sprites on items, by efrenespartano, Solarius Scorch & Wilhan Rahmat
+    - Misc items
+    - Crates
+    - Edible Mushroom
+    - Healing & Stimulant Herbs
+> Added weapons, by efrenespartano, _Brain322
+    - Pre-War Service Rifle
+    - Gauss Rifle
+    - Plasma Gun
+    - Laser Rifle
+    - Laser Gatling
+    - Bozar
+    - Makeshift Automatic Gun
+    - Makeshift Assault Shotgun
+    - Pre-War Pistol
+    - DMR
+
+#############################
+
+May 10st, 2021
+
+> Added terrains, by Khaligufzel:
+    - Military Base
+    - Lab
+    - Prepper Shelter
+    - Village
+> Geoscape changes, by Shiunsai:
+    - Added toxic ocean and shading
+> Special missions, by Khaligufzel:
+    - Wanderer/Feral Ghoul/Lost Mutant Sites, Mutant/Ghoul Caravan, Patrol, Raid
+> Faction missions, by Khaligufzel:
+    - Church/Raiders/Order Small Patrol, Medium Patrol, Caravan, Terror
+> Added Caravan crates and Crates with valuables as mission rewards
+> Added music, by drspaceman:
+    - GMGEO1
+    - GMGEO2
+    - GMDEFEND
+> Added items, by Khaligufzel & FilipH321:
+    - Stimpak
+    - Mega Stimpak
+    - Bandage
+    - Stimulant
+> Added weapons, by Khaligufzel & FilipH321:
+    - Minigun
+    - Pre-War SMG
+    - Pre-War Shotgun
+    - Bow
+    - Crossbow
+    - Wooden club
+    - Shiv
+    - Spear
+    - Molotov Cocktail
+    - Slingshot
+    - Pipe Rifle
+    - Hunting Rifle
+    - Makeshift Pistol
+    - Pulse Rifle
