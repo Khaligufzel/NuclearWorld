@@ -2590,6 +2590,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 3
+    missionBountyItem: STR_BAG_OF_MONEY
+    missionBountyItemCount: 2
     markerIcon: 23 # Bounty
     terrains:
       - VILLAGE 
@@ -2623,7 +2625,7 @@ alienDeployments:
             - STR_REVOLVER_CLIP
             - STR_REVOLVER_CLIP
             - STR_REVOLVER_CLIP
-            - STR_BAG_OF_MONEY
+            - STR_POUCH_OF_MONEY
           - 
             - STR_REVOLVER
             - STR_REVOLVER
@@ -2631,7 +2633,7 @@ alienDeployments:
             - STR_REVOLVER_CLIP
             - STR_REVOLVER_CLIP
             - STR_REVOLVER_CLIP
-            - STR_BAG_OF_MONEY
+            - STR_POUCH_OF_MONEY
       - alienRank: 1
         lowQty: 1
         highQty: 2
