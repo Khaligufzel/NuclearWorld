@@ -12,6 +12,7 @@ alienRaces:
       - STR_GHOUL_SOLDIER
       - STR_WANDERER_ENGINEER
       - STR_GHOUL_RECRUIT
+      - STR_GHOUL_FERAL
 
   - id: STR_FERAL_MUTANT_HORDE
     members:
@@ -29,6 +30,7 @@ alienRaces:
       - STR_WANDERER_SOLDIER
       - STR_WANDERER_ENGINEER
       - STR_WANDERER_MEDIC
+      - STR_WANDERER_SOLDIER
 
   - id: STR_FERAL_GHOUL
     members:
