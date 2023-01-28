@@ -528,16 +528,6 @@ armors:
     underArmor: 5
     drawingRoutine: 4
     damageModifier: *ChurchRobesDamageModifier
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
     loftempsSet: [ 3 ]
 
   - type: STR_RAIDER_ARMOR
