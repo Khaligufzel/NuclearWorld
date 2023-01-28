@@ -620,6 +620,10 @@ terrains:
       - FRNITURE
     script: MILLITARYBASE
     mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
       - name: MBASE01
         width: 20
         length: 20
@@ -654,6 +658,10 @@ terrains:
       - XBASE2
     script: LAB
     mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
       - name: LAB01
         width: 30
         length: 30

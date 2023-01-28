@@ -28,6 +28,7 @@
    - type: MILLITARYBASE
      commands:
      - type: addCraft
+       groups: 1
     # - type: addUFO
     #  - type: addLine
     #    label: 1
@@ -53,6 +54,7 @@
    - type: LAB
      commands:
      - type: addCraft
+       groups: 1
     # - type: addUFO
     #  - type: addLine
     #    label: 1
