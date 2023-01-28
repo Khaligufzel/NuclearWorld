@@ -27,7 +27,7 @@ January 28th, 2023: v0.1
 > Added armors, by efrenespartano, wolwerin & _Brain322
     - Leather Armor
     - Wastelander Armor
-    - Hazmar Armor
+    - Hazmat Armor
     - Anti-Acid Armor
     - T-71 Powered Armor
     - X-T Prototype Power Armor
