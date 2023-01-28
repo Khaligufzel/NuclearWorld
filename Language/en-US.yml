@@ -1548,11 +1548,11 @@ en-US:
   STR_PREPPER_SOLDIER_CORPSE: "Rebel Corpse"
   STR_PREPPER_LEADER_CORPSE: "Tactical Battledress Corpse"
   
-  STR_CARAVAN: "RECON CARAVAN"
+  STR_CARAVAN: "RECON DISPATCH"
   STR_CARAVAN_UFOPEDIA: "Fast and easy to maintain, the rugged motorcycles are our primary transport means."
-  STR_LARGE_CARAVAN: "TACTICAL CARAVAN"
+  STR_LARGE_CARAVAN: "TACTICAL VEHICLE"
   STR_LARGE_CARAVAN_UFOPEDIA: "Old but still reliable, the Humvee offers protection and a bit of comfort"
-  STR_CONVOY: "CONVOY CARAVAN"
+  STR_CONVOY: "CONVOY"
   STR_CONVOY_UFOPEDIA: "A big, repurposed truck. Transports more soldiers and more equipment"
   
   STR_MELEE_WEAPONS: "Melee Weapons"
