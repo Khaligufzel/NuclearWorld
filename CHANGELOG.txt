@@ -2,7 +2,7 @@
 ##### CHANGELOG ######
 #####################
 
-January 28th, 2023
+January 28th, 2023: v0.1
 
 > Added terrains, by Luke83 & efrenespartano 
     - Dry Forest
@@ -61,7 +61,7 @@ January 28th, 2023
 
 #############################
 
-May 10st, 2021
+May 10st, 2021: v0.1
 
 > Added terrains, by Khaligufzel:
     - Military Base
