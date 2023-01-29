@@ -1,4 +1,4 @@
-﻿crafts:
+crafts:
 
     - delete: STR_SKYRANGER
     - delete: STR_LIGHTNING
@@ -96,7 +96,7 @@
       damageMax: 150
       speedMax: 100
       accel: 1
-      soldiers: 2
+      soldiers: 12
       pilots: 1
       vehicles: 0
       costSell: 50000
