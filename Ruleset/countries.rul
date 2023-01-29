@@ -1,4 +1,4 @@
-﻿countries:
+countries:
   - delete: STR_USA
   - delete: STR_RUSSIA
   - delete: STR_UK
@@ -17,7 +17,8 @@
   - delete: STR_CANADA
 
   - type: STR_USA
-    fundingBase: 100
+    fundingBase: 110
+    fundingCap: 200
     labelLon: 260
     labelLat: -40.5
     areas:
@@ -32,7 +33,8 @@
       - [219, 224, -60.4, -57] #Alaska Juneau Box 1
       - [224, 230, -58.5, -54] #Alaska Juneau Box 2
   - type: STR_RUSSIA
-    fundingBase: 100
+    fundingBase: 80
+    fundingCap: 180
     labelLon: 69
     labelLat: -64
     areas:
@@ -46,7 +48,8 @@
       - [32.5, 38.3, -46.75, -42] #Sevastopol Area
       - [141, 146, -54, -45.6] #Sakhalin
   - type: STR_UK
-    fundingBase: 100
+    fundingBase: 66
+    fundingCap: 170
     labelLon: 358
     labelLat: -53.625
     areas:
@@ -55,7 +58,8 @@
       - [354, 354.6, -36.3, -36] #Gibraltar
       - [299.22, 302.33, 51.16, 52.66] #Falkland Islands
   - type: STR_FRANCE
-    fundingBase: 100
+    fundingBase: 80
+    fundingCap: 180
     labelLon: 2.5
     labelLat: -46.5
     areas:
@@ -64,13 +68,15 @@
       - [163.6, 167, 19.9, 22.71] #New Caledonia - E of Australia
       - [304, 308, -6.8, -2.6] #French Guiana - N of Brazil   
   - type: STR_GERMANY
-    fundingBase: 100
+    fundingBase: 120 
+    fundingCap: 250
     labelLon: 8.64
     labelLat: -51.5
     areas:
       - [6, 15, -55, -47.5] #Central Germany
   - type: STR_ITALY
-    fundingBase: 100
+    fundingBase: 45
+    fundingCap: 140
     labelLon: 12.5
     labelLat: -43.875
     areas:
@@ -80,7 +86,8 @@
       - [13.34, 15.5, -37, -36.4] #Bottom of Sicily
       - [7.7, 10.33, -41.3, -38.4] #Sardinia
   - type: STR_SPAIN
-    fundingBase: 100
+    fundingBase: 40
+    fundingCap: 170
     labelLon: 355.5
     labelLat: -42.625
     areas:
@@ -94,7 +101,8 @@
       - [352.32, 359.1, -37.6, -36.11] #Southern Part of Spain
       - [1.92, 3.7, -40.17, -39] #Maiorca
   - type: STR_CHINA
-    fundingBase: 100
+    fundingBase: 60
+    fundingCap: 150
     labelLon: 100
     labelLat: -35
     areas:
@@ -107,7 +115,8 @@
       - [122.13, 130.48, -49.40, -41] #Central Manchuria
       - [108, 113, -22, -17.9] #Southern China near Hainan and Hainan Island
   - type: STR_JAPAN
-    fundingBase: 100
+    fundingBase: 48
+    fundingCap: 148
     labelLon: 138
     labelLat: -38.25
     areas:
@@ -115,7 +124,8 @@
       - [138, 147, -46, -40]
       - [129, 130, -34.2, -31.95]
   - type: STR_INDIA
-    fundingBase: 100
+    fundingBase: 32
+    fundingCap: 175
     labelLon: 80
     labelLat: -24
     areas:
@@ -124,7 +134,8 @@
       - [85, 89, -27, -18]
       - [68, 70, -23.81, -21.27]
   - type: STR_BRAZIL
-    fundingBase: 100
+    fundingBase: 40
+    fundingCap: 135
     labelLon: 305
     labelLat: 10
     areas:
@@ -138,34 +149,39 @@
       - [304, 316, 24, 26.3] #Southern Brazil 1
       - [303.78, 312, 26.3, 33] #Southern Brazil 2
   - type: STR_AUSTRALIA
-    fundingBase: 100
+    fundingBase: 50
+    fundingCap: 150
     labelLon: 135
     labelLat: 25
     areas:
       - [110, 156, 10, 40] #Main Body of Australia
       - [144, 149, 40, 44.3] #Tasmania
   - type: STR_POLAND
-    fundingBase: 100
+    fundingBase: 48
+    fundingCap: 149
     labelLon: 18.8
     labelLat: -53.2
     areas:
       - [15, 19, -55, -50] #Western Poland
       - [19, 24, -54.52, -49.25] #Eastern Poland
   - type: STR_SOUTH_AFRICA
-    fundingBase: 100
+    fundingBase: 25
+    fundingCap: 125
     labelLon: 17.5
     labelLat: 30
     areas:
       - [15, 25, 26, 35]
       - [25, 33, 22, 35]
   - type: STR_EGYPT
-    fundingBase: 100
+    fundingBase: 30
+    fundingCap: 149
     labelLon: 29
     labelLat: -27
     areas:
       - [25, 35, -32, -22]
   - type: STR_CANADA
-    fundingBase: 100
+    fundingBase: 60
+    fundingCap: 180
     labelLon: 260
     labelLat: -54
     areas:
@@ -181,33 +197,38 @@
       - [293.5, 298, -45, -43.2] #Newfoundland 1
       - [305, 307.89, -49.37, -46.77] #Newfoundland 2
   - type: STR_CUBA
-    fundingBase: 100
+    fundingBase: 59
+    fundingCap: 109
     labelLon: 282
     labelLat: -21.2
     areas:
       - [274, 286, -24, -19]
   - type: STR_MONGOLIA
-    fundingBase: 100
+    fundingBase: 20
+    fundingCap: 100
     labelLon: 100
     labelLat: -49
     areas:
       - [89, 118, -50.5, -45] #North Mongolia
       - [93.5, 112, -45, -42.5] #South Mongolia
   - type: STR_NEW_ZEALAND
-    fundingBase: 100
+    fundingBase: 100 
+    fundingCap: 200
     labelLon: 171
     labelLat: 43
     areas:
       - [164, 177.2, 40, 47] #New Zealand 1
       - [172, 179, 33.5, 40] #New Zealand 2
   - type: STR_ICELAND
-    fundingBase: 100
+    fundingBase: 20
+    fundingCap: 80
     labelLon: 341
     labelLat: -66
     areas:
       - [334, 347.5, -67, -63] #Iceland
   - type: STR_PORTUGAL
-    fundingBase: 100
+    fundingBase: 45
+    fundingCap: 102
     labelLon: 351.5
     labelLat: -40
     areas:
@@ -217,13 +238,15 @@
       - [350.2, 352.411, -39, -37.6] #Southern Portugal with Lisbon
       - [350.8, 352.32, -37.6, -36.8] #Southernmost Portugal
   - type: STR_NIGERIA
-    fundingBase: 100
+    fundingBase: 60
+    fundingCap: 120
     labelLon: 7.5
     labelLat: -10
     areas:
       - [3, 14, -14, -4]
   - type: STR_MEXICO
-    fundingBase: 100
+    fundingBase: 70
+    fundingCap: 120
     labelLon: 256
     labelLat: -25
     areas:
@@ -233,6 +256,7 @@
       - [263, 273, -21.5, -15] #Yukatan
   - type: STR_INDONESIA
     fundingBase: 100
+    fundingCap: 180
     labelLon: 127
     labelLat: -1
     areas:
@@ -240,14 +264,16 @@
       - [99.5, 116, -0.8, 10] #Borneo, Java & Sumatra
       - [94, 100.7, -6, 0] #North Borneo
   - type: STR_IRELAND
-    fundingBase: 100
+    fundingBase: 25
+    fundingCap: 180
     labelLon: 350.5
     labelLat: -52
     areas:
       - [349, 353.9, -53.93, -51] #Main Ireland
       - [349.5, 352, -55, -53.93] #Donegal
   - type: STR_UKRAINE
-    fundingBase: 100
+    fundingBase: 40
+    fundingCap: 120
     labelLon: 34
     labelLat: -48.3
     areas:
@@ -256,20 +282,23 @@
       - [34, 38.3, -50.35, -44.2] #Eastern Ukraine
       - [22.2, 24, -49.25, -48] #Western Podole
   - type: STR_TURKEY
-    fundingBase: 100
+    fundingBase: 50
+    fundingCap: 85
     labelLon: 38
     labelLat: -40
     areas:
       - [26, 45, -42, -35.5] #Central Turkey
       - [32.5, 34.5, -35.8, -34.9] #Turkish Cyprus
   - type: STR_ISRAEL
-    fundingBase: 100
+    fundingBase: 20
+    fundingCap: 100
     labelLon: 34.7
     labelLat: -32.9
     areas:
       - [33.5, 36, -34, -29] #Israel
   - type: STR_ARGENTINA
     fundingBase: 100
+    fundingCap: 120
     labelLon: 296
     labelLat: 31
     areas:
@@ -277,7 +306,8 @@
       - [288, 298, 39, 52] #Patagonia
       - [291.5, 295.5, 52.5, 55.5] #Ziemia Ognista
   - type: STR_IRAN
-    fundingBase: 100
+    fundingBase: 40
+    fundingCap: 80
     labelLon: 57
     labelLat: -33
     areas:
@@ -287,20 +317,23 @@
       - [57, 62, -38.5, -25] #Eastern Iran
   - type: STR_FINLAND
     fundingBase: 100
+    fundingCap: 159
     labelLon: 26
     labelLat: -63
     areas:
       - [20.5, 31, -70, -61.5] #Central Finland
       - [19.5, 28.5, -61.5, -59.5] #Helsinki area
   - type: STR_LIBIA
-    fundingBase: 100
+    fundingBase: 20
+    fundingCap: 80
     labelLon: 17
     labelLat: -27
     areas:
       - [10, 25, -34, -22] #Main Libia
       - [21.5, 25, -22, -20] #Sudan border
   - type: STR_SOUTH_KOREA
-    fundingBase: 100
+    fundingBase: 70
+    fundingCap: 130
     labelLon: 126.5
     labelLat: -35
     areas:
