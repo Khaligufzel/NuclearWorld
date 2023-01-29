@@ -10,8 +10,10 @@ January 28th, 2023: v0.1
     - Wasteland Settlement
     - Forgotten Structure
     - City Ruins
-> Geoscape changes:
-    - New textures and Country names, by efrenespartano    
+> Geoscape changes, by efrenespartano:
+    - New textures and Country names 
+    - Balanced country funding to reflect a post-War reduced economy 
+    - Balanced base facility maintenance costs 
 > Added backgrounds for all menus and UI, by efrenespartano
 > Major balance overhauling on alienDeployments, alienMissions, units, armors and items, by efrenespartano
 > Added vehicles, by bulletdesigner & Cirius:
