@@ -677,28 +677,28 @@ ufopaedia:
     text: STR_LEATHER_ARMOR_UFOPAEDIA
     section: STR_OUTFITS
     requires:
-      - STR_LEATHER_ARMOR
+      - STR_BASIC_PROTECTION
 
   - id: STR_WASTELANDER_ARMOR
     type_id: 5
     text: STR_WASTELANDER_ARMOR_UFOPAEDIA
     section: STR_OUTFITS
     requires:
-      - STR_WASTELANDER_ARMOR
+      - STR_BASIC_PROTECTION_II
 
   - id: STR_HAZMAT_ARMOR
     type_id: 5
     text: STR_HAZMAT_ARMOR_UFOPAEDIA
     section: STR_OUTFITS
     requires:
-      - STR_HAZMAT_ARMOR
+      - STR_SPECIALIZED_ARMOR
 
   - id: STR_HAZMAT_ACID_ARMOR
     type_id: 5
     text: STR_HAZMAT_ACID_ARMOR_UFOPAEDIA
     section: STR_OUTFITS
     requires:
-      - STR_HAZMAT_ACID_ARMOR
+      - STR_SPECIALIZED_ARMOR
 
   - id: STR_POWER_ARMOR
     type_id: 5
