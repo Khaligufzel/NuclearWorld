@@ -22,8 +22,11 @@ startingBase:
       x: 3
       y: 3
     - type: STR_ALIEN_CONTAINMENT
-      x: 5
-      y: 5
+      x: 4
+      y: 3
+    - type: STR_WORKSHOP
+      x: 4
+      y: 4
 
   crafts:
     - type: STR_CARAVAN
@@ -45,5 +48,3 @@ startingBase:
     STR_10MM: 16
     STR_PREWAR_SHOTGUN: 2
     STR_PREWAR_SHOTGUN_SHELLS: 16
-    STR_CARAVAN_CRATE: 10
-    STR_WEAPON_CRATE: 10

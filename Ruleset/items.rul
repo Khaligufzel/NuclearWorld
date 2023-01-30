@@ -1131,9 +1131,9 @@ items:
     accuracyAimed: 160
     tuSnap: 32
     tuAimed: 60
-    aimRange: 18
-    snapRange: 12
-    dropoff: 6
+    aimRange: 9
+    snapRange: 6
+    dropoff: 8
     tuLoad: 30
     shotgunChoke: 70
     battleType: 1
@@ -1653,7 +1653,7 @@ items:
     floorSprite: 810
     hitSound: 13
     hitAnimation: 26
-    power: 15
+    power: 10
     damageType: 1
     damageAlter:
       RandomType: 7
