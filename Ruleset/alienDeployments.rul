@@ -1548,7 +1548,7 @@ alienDeployments:
     alertBackground: BACK03.SCR
     markerName: STR_TERROR_RAIDERS_SITE_MARKER_NAME
     duration: [24, 240]
-    data:
+    data: &RaidersTerrorData
       - alienRank: 1
         lowQty: 1
         highQty: 2
@@ -2808,3 +2808,15 @@ alienDeployments:
           - 
             - STR_SPEAR
             - STR_EDIBLE_MUSHROOM
+            
+  - type: STR_RAID_OCCUPATION_SITE
+    alert: STR_RAID_OCCUPATION_SITE_ALERT
+    width: 50
+    length: 50
+    height: 5
+    markerIcon: 17 # Raiders
+    terrains: *RaidTerrains
+    alertBackground: BACK03.SCR
+    markerName: STR_RAID_OCCUPATION_SITE_MARKER_NAME
+    duration: [240, 720]
+    data: *RaidersTerrorData
