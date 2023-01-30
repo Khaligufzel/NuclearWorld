@@ -268,9 +268,35 @@ manufacture:
     requires:
       - "STR_DRILL"     
     space: 1
-    time: 5
+    time: 24
     cost: 0
-
+    randomProducedItems:
+      -
+        - 50
+        - STR_IRON_SCRAPS: 5
+      -       
+        - 30
+        - STR_IRON_SCRAPS: 10
+      -
+        - 20
+        - STR_IRON_SCRAPS: 20
+  - name: STR_ANIMAL_SKIN
+    category: STR_OTHER
+    requires:
+      - STR_SKINNING    
+    space: 1
+    time: 12
+    cost: 0
+    randomProducedItems:
+      -
+        - 50
+        - STR_ANIMAL_SKIN: 3
+      -       
+        - 30
+        - STR_ANIMAL_SKIN: 5
+      -
+        - 20
+          STR_ANIMAL_SKIN: 8
 
 #    ____  ____   ___ ___   ___   ____    _____
 #   /    ||    \ |   |   | /   \ |    \  / ___/
@@ -285,8 +311,11 @@ manufacture:
     requiresBaseFunc: [WORKSHOP]
     requires:
       - "STR_BASIC_PROTECTION" 
-    space: 1
-    time: 100
+    requiredItems:
+      STR_ANIMAL_SKIN: 2
+      STR_IRON_SCRAPS: 2
+    space: 3
+    time: 50
     cost: 0
 
   - name: STR_WASTELANDER_ARMOR
@@ -294,9 +323,12 @@ manufacture:
     requiresBaseFunc: [WORKSHOP]
     requires:
       - "STR_BASIC_PROTECTION_II"
-    space: 1
-    time: 100
+    space: 4
+    time: 65
     cost: 0
+    requiredItems:
+      STR_ANIMAL_SKIN: 3
+      STR_IRON_SCRAPS: 4
 
   - name: STR_HAZMAT_ARMOR
     category: STR_ARMORS
@@ -304,8 +336,11 @@ manufacture:
     requires:
       - "STR_SPECIALIZED_ARMOR" 
     space: 1
-    time: 100
+    time: 144
     cost: 0
+    requiredItems:
+      STR_ANIMAL_SKIN: 10
+      STR_IRON_SCRAPS: 3
 
   - name: STR_HAZMAT_ACID_ARMOR
     category: STR_ARMORS
@@ -313,8 +348,11 @@ manufacture:
     requires:
       - "STR_SPECIALIZED_ARMOR" 
     space: 1
-    time: 100
+    time: 144
     cost: 0
+    requiredItems:
+      STR_ANIMAL_SKIN: 12
+      STR_IRON_SCRAPS: 4
 
 
 #   ______  __ __  ____   ___   __    __   ____  ____   _        ___  _____
@@ -357,7 +395,7 @@ manufacture:
   - name: STR_CARAVAN_CRATE
     category: STR_UNPACKING   
     space: 1
-    time: 1
+    time: 72
     cost: 0
     producedItems: {} # empty
     requiredItems:
@@ -426,7 +464,7 @@ manufacture:
   - name: STR_WEAPON_CRATE
     category: STR_UNPACKING   
     space: 1
-    time: 1
+    time: 24
     cost: 0
     producedItems: {} # empty
     requiredItems:
@@ -488,7 +526,7 @@ manufacture:
   - name: STR_AMMUNITION_CRATE
     category: STR_UNPACKING   
     space: 1
-    time: 1
+    time: 12
     cost: 0
     producedItems: {} # empty
     requiredItems:
@@ -532,7 +570,7 @@ manufacture:
   - name: STR_VALUABLES_CRATE
     category: STR_UNPACKING   
     space: 1
-    time: 1
+    time: 72
     cost: 0
     producedItems: {} # empty
     requiredItems:
@@ -551,7 +589,7 @@ manufacture:
   - name: STR_HIGH_TECH_CRATE
     category: STR_UNPACKING   
     space: 1
-    time: 24
+    time: 144
     cost: 0
     producedItems: {} # empty
     requiredItems:
@@ -587,7 +625,7 @@ manufacture:
   - name: STR_MEDICAL_CRATE
     category: STR_UNPACKING   
     space: 1
-    time: 1
+    time: 12
     cost: 0
     producedItems: {} # empty
     requiredItems:
@@ -604,39 +642,39 @@ manufacture:
         - STR_BANDAGE: 20
           STR_HEALING_HERB: 20
 # Armor Repair 
-
-  - name: STR_CORPSE_WASTELANDER_ARMOR
-    category: STR_PERSONAL_ARMOR
-    requires:
-      - STR_WASTELANDER_ARMOR
-    space: 5
-    time: 50
-    cost: 500
-    requiredItems:
-      STR_CORPSE_WASTELANDER_ARMOR: 1
-      STR_ANIMAL_SKIN: 3
-      STR_IRON_SCRAPS: 4
-    producedItems:
-      STR_WASTELANDER_ARMOR: 1
-      
   - name: STR_CORPSE_LEATHER_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
-      - STR_LEATHER_ARMOR
-    space: 5
-    time: 50
-    cost: 500
+      - STR_BASIC_PROTECTION
+    space: 2
+    time: 20
+    cost: 200
     requiredItems:
       STR_CORPSE_LEATHER_ARMOR: 1
       STR_ANIMAL_SKIN: 2
       STR_IRON_SCRAPS: 1
     producedItems:
       STR_LEATHER_ARMOR: 1
+
+  - name: STR_CORPSE_WASTELANDER_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_BASIC_PROTECTION_II
+    space: 3
+    time: 30
+    cost: 300
+    requiredItems:
+      STR_CORPSE_WASTELANDER_ARMOR: 1
+      STR_ANIMAL_SKIN: 2
+      STR_IRON_SCRAPS: 3
+    producedItems:
+      STR_WASTELANDER_ARMOR: 1
+     
       
   - name: STR_CORPSE_HAZMAT_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
-      - STR_HAZMAT_ARMOR
+      - STR_SPECIALIZED_ARMOR
     space: 5
     time: 50
     cost: 500
@@ -650,7 +688,7 @@ manufacture:
   - name: STR_CORPSE_HAZMAT_ACID_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
-      - STR_HAZMAT_ACID_ARMOR
+      - STR_SPECIALIZED_ARMOR
     space: 5
     time: 50
     cost: 500
@@ -665,9 +703,9 @@ manufacture:
     category: STR_PERSONAL_ARMOR
     requires:
       - STR_POWER_ARMOR
-    space: 5
-    time: 50
-    cost: 500
+    space: 8
+    time: 100
+    cost: 800
     requiredItems:
       STR_CORPSE_POWER_ARMOR: 1
       STR_IRON_SCRAPS: 30
@@ -692,9 +730,9 @@ manufacture:
     category: STR_PERSONAL_ARMOR
     requires:
       - STR_PROTOTYPE_POWER_ARMOR
-    space: 5
-    time: 50
-    cost: 500
+    space: 6
+    time: 60
+    cost: 600
     requiredItems:
       STR_CORPSE_PROTOTYPE_POWER_ARMOR: 1
       STR_IRON_SCRAPS: 20
