@@ -304,29 +304,40 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_SPEAR
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
           - 
-            - STR_SHIV
+            - STR_PIPE_RIFLE
+            - STR_10MM
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
           - 
-            - STR_WOODEN_CLUB
+            - STR_BASTARD
+            - STR_556MM_RIFLE_CLIP
             - STR_EDIBLE_MUSHROOM
       - alienRank: 2
-        lowQty: 1
-        highQty: 2
+        lowQty: 2
+        highQty: 4
         dQty: 0
         extraQty: 0        
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_SPEAR
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
           - 
-            - STR_SHIV
+            - STR_MAKESHIFT_PISTOL
+            - STR_10MM
+            - STR_10MM
             - STR_EDIBLE_MUSHROOM
           - 
-            - STR_WOODEN_CLUB
+            - STR_SHAMBLER
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_PREWAR_SHOTGUN_SHELLS
             - STR_EDIBLE_MUSHROOM
       - alienRank: 5
         lowQty: 2
