@@ -2,7 +2,7 @@
 ##### CHANGELOG ######
 #####################
 
-Date TBD, 2023: v0.3
+Date TBD, 2023: v0.2.1
 
 > Overall fixes & additions, by Khaligufzel & efrenespartano
     - Removed random jail from the starting base 
