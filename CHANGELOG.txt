@@ -11,7 +11,7 @@ Date TBD, 2023: v0.2.1
     - Added Animal Skin manufacturing project, available after Skinning research
     - Added crafting ingredients on Armor manufacturing projects
     - Removed armor unique topics, now Pedia pages and Manufacturing recipes projects appear after their parent research topics. 
-
+    - Added missing strings and Pedia report for Organics facility
 > Item balance, by efrenespartano & Khaligufzel:   
     - Pre-War Shotgun nerfed 
     - Removed auto shots from Gauss Rifle, buffed accuracy, increased TU cost,
@@ -26,6 +26,7 @@ Date TBD, 2023: v0.2.1
     - In order to get those sites, now you have to research three long timed topics
     - Enabled Prepper Shelter sites on the Geoscape
 > Mission balance:
+    - Delayed story events and final mission beyond first year
     - Reduced appearance of Gauss weapons
 
 
