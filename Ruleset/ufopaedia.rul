@@ -351,6 +351,13 @@ ufopaedia:
     requires:
       - STR_DRILL
 
+  - id: STR_FARM
+    type_id: 6
+    text: STR_FARM_UFOPAEDIA
+    section: STR_SHELTER_FACILITIES
+    requires:
+      - STR_DRILL
+
   #Equipment
   - id: STR_STIMPAK
     type_id: 4
