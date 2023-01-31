@@ -2,7 +2,8 @@
 ##### CHANGELOG ######
 #####################
 
-Date TBD, 2023: v0.2
+Date TBD, 2023: v0.3
+
 > Balance fixes, by Khaligufzel & efrenespartano
     - Removed random jail from the starting base 
     - Added one workshop to the starting base 
@@ -11,9 +12,15 @@ Date TBD, 2023: v0.2
     - Added Animal Skin manufacturing project, available after Skinning research
     - Added crafting ingredients on Armor manufacturing projects
     - Removed armor unique topics, now Pedia pages and Manufacturing recipes projects appear after their parent research topics. 
+> Geoscape changes, by efrenespartano:
+    - Military Base and Lab have now a 50% chance to appear, instead of always
+    - In order to get those sites, now you have to research three long timed topics
+    - Enabled Prepper Shelter sites on the Geoscape
+> Mission balance:
+    - Reduced appearance of Gauss weapons
 
 
-January 28th, 2023: v0.1
+January 28th, 2023: v0.2
 
 > Added terrains, by Luke83 & efrenespartano 
     - Dry Forest
