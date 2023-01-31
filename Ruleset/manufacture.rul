@@ -618,6 +618,10 @@ manufacture:
       -
         - 10
         - STR_PROTOTYPE_POWER_ARMOR: 1
+      -
+        - 10
+        - STR_GAUSS_RIFLE: 1
+        - STR_2MM_EC_GAUSS_ROUNDS: 1
 
   - name: STR_MEDICAL_CRATE
     category: STR_UNPACKING   
