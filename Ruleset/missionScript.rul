@@ -582,11 +582,11 @@ missionScripts:
     regionWeights:
       0:
         STR_MILLITARY_BASE_REGION: 100
-    firstMonth: 6
-    executionOdds: 100
+    #firstMonth: 6
+    executionOdds: 50
     startDelay: 21750
-    #researchTriggers:
-     #STR_ENEMY_MUTANTS: true
+    researchTriggers:
+     STR_RAIDING_PREPPERS_SITES: true
 
   - type: lab
     missionWeights:
@@ -595,12 +595,26 @@ missionScripts:
         STR_LAB: 100
     regionWeights:
       0:
-        STR_MILLITARY_BASE_REGION: 100
-    firstMonth: 6
+        STR_LAB_REGION: 100
+    #firstMonth: 6
+    executionOdds: 50
+    startDelay: 43500
+    researchTriggers:
+     STR_RAIDING_PREPPERS_SITES: true
+
+  - type: prepperShelter
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_PREPPER_SHELTER: 100
+    regionWeights:
+      0:
+        STR_PREPPER_SHELTER_REGION: 100
+    #firstMonth: 6
     executionOdds: 100
     startDelay: 43500
-    #researchTriggers:
-     #STR_ENEMY_MUTANTS: true
+    researchTriggers:
+     STR_RAIDING_PREPPERS_SITES: true
 
   - type: finalOnslaught
     missionWeights:

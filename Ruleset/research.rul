@@ -301,10 +301,22 @@ research:
       - STR_OUTSIDE
 
   - name: STR_PREPPERS
-    cost: 10
+    cost: 15
     points: 50
     dependencies:
       - STR_SETTLERS
+
+  - name: STR_LOCATING_PREPPERS_SITES
+    cost: 30
+    points: 60
+    dependencies:
+      - STR_PREPPERS
+
+  - name: STR_RAIDING_PREPPERS_SITES
+    cost: 60
+    points: 100
+    dependencies:
+      - STR_PREPPERS
 
   - name: STR_CITIZENS
     cost: 10

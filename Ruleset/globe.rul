@@ -157,6 +157,9 @@ globe:
     - id: -25 
       deployments:
          STR_LAB: 100
+    - id: -25 
+      deployments:
+         STR_PREPPERSSHELTER_SITE: 100
 
     - id: -31 
       deployments:

@@ -2441,7 +2441,7 @@ alienDeployments:
             - STR_BANDAGE
 
   - type: STR_PREPPERSSHELTER_SITE
-    alert: STR_PREPPERSSHELTER_SITE
+    alert: STR_PREPPERSSHELTER_SITE_ALERT
     width: 50
     length: 50
     height: 2

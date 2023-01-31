@@ -151,6 +151,21 @@ ufopaedia:
     requires:
       - STR_WHAT_NOW
 
+
+  - id: STR_LOCATING_PREPPERS_SITES
+    type_id: 8
+    text: STR_LOCATING_PREPPERS_SITES_UFOPAEDIA
+    section: STR_JOURNAL
+    requires:
+      - STR_LOCATING_PREPPERS_SITES
+
+  - id: STR_RAIDING_PREPPERS_SITES
+    type_id: 8
+    text: STR_RAIDING_PREPPERS_SITES_UFOPAEDIA
+    section: STR_JOURNAL
+    requires:
+      - STR_RAIDING_PREPPERS_SITES
+
   - id: STR_SKINNING
     type_id: 8
     text: STR_SKINNING_UFOPAEDIA
@@ -559,6 +574,7 @@ ufopaedia:
     section: STR_WASTELAND_DWELLERS
     requires:
       - STR_PREPPERS
+
 
   - id: STR_CITIZENS
     type_id: 8
