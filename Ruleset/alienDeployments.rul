@@ -2213,14 +2213,14 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_LASER_RIFLE
-            - STR_MICROFUSION_CELLS
-            - STR_BANDAGE
+            - STR_BOZAR
+            - STR_556MM_RIFLE_CLIP
+            - STR_556MM_RIFLE_CLIP
             - STR_WEAPON_CRATE
           -
-            - STR_GAUSS_RIFLE
-            - STR_2MM_EC_GAUSS_ROUNDS
-            - STR_BANDAGE
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_STIMPAK
             - STR_WEAPON_CRATE
           - 
             - STR_GAUSS_RIFLE
@@ -2245,9 +2245,9 @@ alienDeployments:
             - STR_762MM_RIFLE_MAG
             - STR_MEGA_STIMPAK
           - 
-            - STR_GAUSS_RIFLE
-            - STR_2MM_EC_GAUSS_ROUNDS
-            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_LASER_GATLING
+            - STR_MICROFUSION_CELLS
+            - STR_MEGA_STIMPAK
             - STR_AMMUNITION_CRATE
 
       - alienRank: 3
@@ -2280,9 +2280,9 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
-            - STR_308_RIFLE_CLIP
+            - STR_DMR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_WEAPON_CRATE
           -
             - STR_BOZAR
@@ -2339,14 +2339,14 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_LASER_RIFLE
-            - STR_MICROFUSION_CELLS
-            - STR_BANDAGE
+            - STR_BOZAR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_WEAPON_CRATE
           -
             - STR_GAUSS_RIFLE
             - STR_2MM_EC_GAUSS_ROUNDS
-            - STR_BANDAGE
+            - STR_2MM_EC_GAUSS_ROUNDS
             - STR_WEAPON_CRATE
           - 
             - STR_GAUSS_RIFLE
@@ -2371,9 +2371,9 @@ alienDeployments:
             - STR_762MM_RIFLE_MAG
             - STR_WEAPON_CRATE
           - 
-            - STR_GAUSS_RIFLE
-            - STR_2MM_EC_GAUSS_ROUNDS
-            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_BOZAR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_AMMUNITION_CRATE
 
       - alienRank: 3
@@ -2393,9 +2393,9 @@ alienDeployments:
             - STR_MICROFUSION_CELLS
             - STR_BANDAGE
           - 
-            - STR_GAUSS_RIFLE
-            - STR_2MM_EC_GAUSS_ROUNDS
-            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
+            - STR_MEGA_STIMPAK
       - alienRank: 4
         lowQty: 2
         highQty: 4
@@ -2404,9 +2404,9 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
-            - STR_308_RIFLE_CLIP
+            - STR_DMR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_WEAPON_CRATE
           -
             - STR_BOZAR
@@ -2435,9 +2435,9 @@ alienDeployments:
             - STR_10MM
             - STR_BANDAGE
           - 
-            - STR_10MM_PISTOL
-            - STR_10MM
-            - STR_10MM
+            - STR_DMR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_BANDAGE
 
   - type: STR_PREPPERSSHELTER_SITE
@@ -2516,8 +2516,8 @@ alienDeployments:
             - STR_MICROFUSION_CELLS
             - STR_BANDAGE
           - 
-            - STR_GAUSS_RIFLE
-            - STR_2MM_EC_GAUSS_ROUNDS
+            - STR_LASER_RIFLE
+            - STR_MICROFUSION_CELLS
             - STR_2MM_EC_GAUSS_ROUNDS
       - alienRank: 4
         lowQty: 2
@@ -2527,9 +2527,9 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
-            - STR_308_RIFLE_CLIP
+            - STR_DMR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_WEAPON_CRATE
           -
             - STR_BOZAR
@@ -2558,9 +2558,9 @@ alienDeployments:
             - STR_10MM
             - STR_BANDAGE
           - 
-            - STR_10MM_PISTOL
-            - STR_10MM
-            - STR_10MM
+            - STR_DMR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
             - STR_BANDAGE
         
   - type: STR_TEST_SITE

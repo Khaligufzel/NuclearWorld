@@ -296,7 +296,7 @@ manufacture:
         - STR_ANIMAL_SKIN: 5
       -
         - 20
-          STR_ANIMAL_SKIN: 8
+        -  STR_ANIMAL_SKIN: 8
 
 #    ____  ____   ___ ___   ___   ____    _____
 #   /    ||    \ |   |   | /   \ |    \  / ___/
@@ -550,10 +550,7 @@ manufacture:
         - STR_308_RIFLE_CLIP: 4
       -
         - 20
-        - STR_PREWAR_SHOTGUN_SHELLS: 4   
-      -
-        - 10
-        - STR_2MM_EC_GAUSS_ROUNDS: 2   
+        - STR_PREWAR_SHOTGUN_SHELLS: 4     
       -
         - 10
         - STR_MICROFUSION_CELLS: 2   
@@ -597,8 +594,8 @@ manufacture:
     randomProducedItems:
       -
         - 20
-        - STR_GAUSS_RIFLE: 1
-          STR_2MM_EC_GAUSS_ROUNDS: 2
+        - STR_LASER_RIFLE: 1
+          STR_MICROFUSION_CELLS: 2
       -       
         - 20
         - STR_PLASMA_GUN: 1
