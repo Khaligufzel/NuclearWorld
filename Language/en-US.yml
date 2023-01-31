@@ -1095,6 +1095,7 @@ en-US:
   MAP_NUKECITY: "Forgotten Structure"
   MAP_FOREST_TRENCH: "Dry Forest"
 
+  STR_PLAYER_UNIT: "The Player"
   STR_OUTSIDE: "Outside world"
   STR_WHAT_HAPPENED: "What happened?"
   STR_SETTLERS: "Settlers of the new world"
@@ -1121,6 +1122,7 @@ en-US:
   STR_WORKSHOP: "Workshop facility"
   STR_BIOLAB: "Biolab facility"
   STR_DRILL: "Drill facility"
+  STR_FARM: "Organics facility"
   STR_BASIC_MEDICINE: "Basic medicine"
   STR_BASIC_STIMULANT: "Basic stimulant"
   STR_STIMPAK: "Stimpak"
@@ -1162,7 +1164,8 @@ en-US:
   STR_CORPSE_POWER_ARMOR: "Disabled Powered Armor"
   STR_CORPSE_HANDCRAFTED_POWER_ARMOR: "Partially destroyed HC Power Armor"
   STR_CORPSE_PROTOTYPE_POWER_ARMOR: "Wrecked Prototype Power Armor"
-
+  STR_BURST: "Burst"
+  STR_BURST_SHORT: "Burst (x{0})"
   STR_10MM: "10mm Ammunition"
   STR_BOW_ARROWS: "Bow Arrows"
   STR_CROSSBOW_BELTS: "Crossbow Bolts"
@@ -1235,6 +1238,7 @@ en-US:
   STR_WORKSHOP_UFOPAEDIA: "Thanks to this facility we will be able to craft weapons, equipment and other important resources on our own."
   STR_BIOLAB_UFOPAEDIA: "We can now build a facility where making medicine and drugs is going to be way easier."
   STR_DRILL_UFOPAEDIA: "With some duck-tape, glue, oil, strings and iron scrapes we managed do make a huge drill. We can now mine iron and maybe- in the future other resources."
+  STR_FARM_UFOPAEDIA: "A special place to grow mushrooms, herbs and other green stuff. Equipped with hydroponics system, nourishing supplies and someone willing to talk to plants."
   STR_BASIC_MEDICINE_UFOPAEDIA: "Our scientics made a huge step towards keeping us alive. We are able to make basic medicine now."
   STR_BASIC_STIMULANT_UFOPAEDIA: "Researchers had a lot of fun probably making stimulants and drugs for rest of us, but- progress is progress. We can produce now basic stimulants and drugs."
   STR_STIMPAK_UFOPAEDIA: "An autoinjector full of morphine and other substances. Basic, but effective way to keep our soldiers alive during combat."
