@@ -4,14 +4,23 @@
 
 Date TBD, 2023: v0.3
 
-> Balance fixes, by Khaligufzel & efrenespartano
+> Overall fixes & additions, by Khaligufzel & efrenespartano
     - Removed random jail from the starting base 
     - Added one workshop to the starting base 
-    - Pre-War Shotgun nerfed
     - Drills now produce random amounts of Iron Scraps each 24 hours.
     - Added Animal Skin manufacturing project, available after Skinning research
     - Added crafting ingredients on Armor manufacturing projects
     - Removed armor unique topics, now Pedia pages and Manufacturing recipes projects appear after their parent research topics. 
+
+> Item balance, by efrenespartano & Khaligufzel:   
+    - Pre-War Shotgun nerfed 
+    - Removed auto shots from Gauss Rifle, buffed accuracy, increased TU cost,
+    - Buffed Bozar accuracy and reload times
+    - Buffed Laser Rifle TU use, slightly buffed accuracy 
+    - Nerfed Plasma Gun accuracy, slightly improved TU cost 
+    - Added custom fire mode "Burst" (three shot snap) to Pre-War SMG, Bozar and Bastard   
+    - Made Makeshift Pistol faster to fire 
+    - Slightly ncreased Pre-War Pistol accuracy 
 > Geoscape changes, by efrenespartano:
     - Military Base and Lab have now a 50% chance to appear, instead of always
     - In order to get those sites, now you have to research three long timed topics
