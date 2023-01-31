@@ -1242,6 +1242,12 @@ items:
     accuracyAuto: 20
     accuracySnap: 25
     accuracyAimed: 40
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
     tuAuto: 25
     tuSnap: 15
     tuAimed: 30
@@ -1314,14 +1320,14 @@ items:
     fireSound: 4
     compatibleAmmo:
       - STR_MICROFUSION_CELLS
-    accuracySnap: 70
+    accuracySnap: 85
     accuracyAimed: 110
     confAimed:
-      spendPerShot: 3 # 10x battery consumption for 2x power
+      spendPerShot: 3 
     confSnap:
       spendPerShot: 3
-    tuSnap: 40
-    tuAimed: 80
+    tuSnap: 25
+    tuAimed: 45
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -1341,12 +1347,10 @@ items:
     fireSound: 4
     compatibleAmmo:
       - STR_2MM_EC_GAUSS_ROUNDS
-    accuracyAuto: 45
-    accuracySnap: 65
-    accuracyAimed: 80
-    tuAuto: 35
-    tuSnap: 20
-    tuAimed: 40
+    accuracySnap: 75
+    accuracyAimed: 120
+    tuSnap: 40
+    tuAimed: 60
     #autoShots: 5
     battleType: 1
     twoHanded: true
@@ -1367,14 +1371,10 @@ items:
     fireSound: 4
     compatibleAmmo:
       - STR_PLASMA_CARTRIDGE
-    accuracySnap: 70
-    accuracyAimed: 110
-    confAimed:
-      spendPerShot: 3 # 10x battery consumption for 2x power
-    confSnap:
-      spendPerShot: 3
+    accuracySnap: 60
+    accuracyAimed: 90
     tuSnap: 40
-    tuAimed: 80
+    tuAimed: 60
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -1396,7 +1396,7 @@ items:
       - STR_556MM_RIFLE_MAG
     accuracySnap: 75
     accuracyAimed: 95
-    tuSnap: 15
+    tuSnap: 20
     tuAimed: 35
     #autoShots: 5
     battleType: 1
@@ -1435,7 +1435,7 @@ items:
     size: 0.2
     costBuy: 18500
     costSell: 16000
-    weight: 30
+    weight: 12
     bigSprite: 550
     floorSprite: 550
     handSprite: 550
@@ -1443,11 +1443,20 @@ items:
     fireSound: 4
     compatibleAmmo:
       - STR_556MM_RIFLE_MAG
-    accuracyAuto: 20
-    bulletSpeed: 150
+    accuracyAuto: 50
+    accuracySnap: 70
+    tuLoad: 10
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    bulletSpeed: 20
     confAuto:
       followProjectiles: false
-    tuAuto: 25
+    tuAuto: 40
+    tuSnap: 30
     autoShots: 5
     battleType: 1
     twoHanded: true
@@ -1460,7 +1469,7 @@ items:
     size: 0.2
     costBuy: 37000
     costSell: 32250
-    weight: 4
+    weight: 10
     bigSprite: 560
     floorSprite: 560
     handSprite: 560
@@ -1503,7 +1512,7 @@ items:
     fireSound: 4
     compatibleAmmo:
       - STR_10MM
-    accuracySnap: 60
+    accuracySnap: 65
     accuracyAimed: 90
     tuSnap: 30
     tuAimed: 60
@@ -1528,8 +1537,8 @@ items:
       - STR_10MM
     accuracySnap: 40
     accuracyAimed: 80
-    tuSnap: 30
-    tuAimed: 60
+    tuSnap: 20
+    tuAimed: 40
     battleType: 1
     twoHanded: false
     invWidth: 1
@@ -1553,6 +1562,7 @@ items:
     accuracyAimed: 80
     tuSnap: 30
     tuAimed: 60
+    tuLoad: 30
     battleType: 1
     twoHanded: false
     invWidth: 1
@@ -1573,11 +1583,18 @@ items:
     compatibleAmmo:
       - STR_10MM_SMG
     accuracyAuto: 25
-    accuracySnap: 30
+    accuracySnap: 35
     accuracyAimed: 60
     tuAuto: 45
     tuSnap: 30
     tuAimed: 60
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    autoShots: 5
     battleType: 1
     twoHanded: false
     invWidth: 1
