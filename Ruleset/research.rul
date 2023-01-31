@@ -316,7 +316,7 @@ research:
     cost: 60
     points: 100
     dependencies:
-      - STR_PREPPERS
+      - STR_LOCATING_PREPPERS_SITES
 
   - name: STR_CITIZENS
     cost: 10
