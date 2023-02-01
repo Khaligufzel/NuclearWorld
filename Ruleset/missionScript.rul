@@ -29,9 +29,9 @@ missionScripts:
     regionWeights:
       0:
         STR_WANDERER_SITE_REGION: 100
-    randomDelay: 10875
-    startDelay: 10080
-    executionOdds: 100
+    randomDelay: 43500
+    startDelay: 20
+    executionOdds: 40
     firstMonth: 0
 
   - type: feralGhoul
@@ -42,9 +42,9 @@ missionScripts:
     regionWeights:
       0:
         STR_FERAL_GHOUL_SITE_REGION: 100
-    randomDelay: 5437
-    startDelay: 10080
-    executionOdds: 100
+    randomDelay: 43500
+    startDelay: 20
+    executionOdds: 40
     firstMonth: 0
 
   - type: lostMutant
@@ -55,9 +55,9 @@ missionScripts:
     regionWeights:
       0:
         STR_LOST_MUTANT_SITE_REGION: 100
-    randomDelay: 10875
-    startDelay: 10080
-    executionOdds: 100
+    randomDelay: 43500
+    startDelay: 20
+    executionOdds: 40
     firstMonth: 0
 
   - type: mutantPatrol
@@ -70,8 +70,8 @@ missionScripts:
         STR_PATROL_MUTANT_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
-    randomDelay: 5437
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
      STR_ENEMY_MUTANTS: true
 
@@ -85,8 +85,8 @@ missionScripts:
         STR_CARAVAN_MUTANT_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
      STR_ENEMY_MUTANTS: true
 
@@ -101,7 +101,7 @@ missionScripts:
     firstMonth: 0
     executionOdds: 100
     randomDelay: 43500
-    startDelay: 10080
+    startDelay: 20
     researchTriggers:
      STR_ENEMY_MUTANTS: true
 
@@ -115,8 +115,8 @@ missionScripts:
         STR_PATROL_GHOUL_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
-    randomDelay: 5437
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
      STR_ENEMY_GHOULS: true
 
@@ -130,8 +130,8 @@ missionScripts:
         STR_CARAVAN_GHOUL_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 100
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
      STR_ENEMY_GHOULS: true
 
@@ -146,7 +146,7 @@ missionScripts:
     firstMonth: 0
     executionOdds: 100
     randomDelay: 43500
-    startDelay: 10080
+    startDelay: 20
     researchTriggers:
       STR_ENEMY_GHOULS: true
 
@@ -160,8 +160,8 @@ missionScripts:
         STR_CARAVAN_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_RAIDERS: true
 
@@ -175,8 +175,8 @@ missionScripts:
         STR_CARAVAN_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_ORDER: true
 
@@ -190,8 +190,8 @@ missionScripts:
         STR_SMALL_PATROL_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 65
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_ORDER: true
 
@@ -205,8 +205,8 @@ missionScripts:
         STR_SMALL_PATROL_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 65
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_RAIDERS: true
 
@@ -220,8 +220,8 @@ missionScripts:
         STR_MEDIUM_PATROL_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_RAIDERS: true
 
@@ -235,8 +235,8 @@ missionScripts:
         STR_MEDIUM_PATROL_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_ORDER: true
 
@@ -250,8 +250,8 @@ missionScripts:
         STR_TERROR_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 25
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_ORDER: true
 
@@ -265,8 +265,8 @@ missionScripts:
         STR_TERROR_CHURCH_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 25
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_RAIDERS: true
 
@@ -280,8 +280,8 @@ missionScripts:
         STR_CARAVAN_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_CHURCH: true
 
@@ -295,8 +295,8 @@ missionScripts:
         STR_CARAVAN_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_ORDER: true
 
@@ -310,8 +310,8 @@ missionScripts:
         STR_SMALL_PATROL_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 65
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_ORDER: true
 
@@ -325,8 +325,8 @@ missionScripts:
         STR_SMALL_PATROL_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 65
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_CHURCH: true
 
@@ -340,8 +340,8 @@ missionScripts:
         STR_MEDIUM_PATROL_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_CHURCH: true
 
@@ -355,8 +355,8 @@ missionScripts:
         STR_MEDIUM_PATROL_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_ORDER: true
 
@@ -370,8 +370,8 @@ missionScripts:
         STR_TERROR_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 25
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_ORDER: true
 
@@ -385,8 +385,8 @@ missionScripts:
         STR_TERROR_RAIDERS_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 25
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_CHURCH: true
 
@@ -399,9 +399,9 @@ missionScripts:
       0:
         STR_RAIDERS_VS_CHURCH_BATTLE_SITE_REGION: 100
     firstMonth: 0
-    executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    executionOdds: 60
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_RAIDERS: true
 
@@ -414,9 +414,9 @@ missionScripts:
       0:
         STR_RAIDERS_VS_ORDER_BATTLE_SITE_REGION: 100
     firstMonth: 0
-    executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    executionOdds: 60
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_RAIDERS: true
 
@@ -429,9 +429,9 @@ missionScripts:
       0:
         STR_CHURCH_VS_ORDER_BATTLE_SITE_REGION: 100
     firstMonth: 0
-    executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    executionOdds: 60
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_CHURCH: true
 
@@ -444,9 +444,9 @@ missionScripts:
       0:
         STR_CHURCH_VS_RAIDERS_BATTLE_SITE_REGION: 100
     firstMonth: 0
-    executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    executionOdds: 60
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_CHURCH: true
 
@@ -460,8 +460,8 @@ missionScripts:
         STR_CARAVAN_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_CHURCH: true
 
@@ -475,8 +475,8 @@ missionScripts:
         STR_CARAVAN_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_RAIDERS: true
 
@@ -490,8 +490,8 @@ missionScripts:
         STR_SMALL_PATROL_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 65
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_RAIDERS: true
 
@@ -505,8 +505,8 @@ missionScripts:
         STR_SMALL_PATROL_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 65
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_CHURCH: true
 
@@ -520,8 +520,8 @@ missionScripts:
         STR_MEDIUM_PATROL_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_CHURCH: true
 
@@ -535,8 +535,8 @@ missionScripts:
         STR_MEDIUM_PATROL_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 50
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_RAIDERS: true
 
@@ -550,8 +550,8 @@ missionScripts:
         STR_TERROR_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 25
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_RAIDERS: true
 
@@ -565,8 +565,8 @@ missionScripts:
         STR_TERROR_ORDER_SITE_REGION: 100
     firstMonth: 0
     executionOdds: 25
-    randomDelay: 10875
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_CHURCH: true
 
@@ -579,9 +579,9 @@ missionScripts:
       0:
         STR_ORDER_VS_CHURCH_BATTLE_SITE_REGION: 100
     firstMonth: 0
-    executionOdds: 50
-    randomDelay: 10875
-    startDelay: 10080
+    executionOdds: 65
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_ORDER: true
 
@@ -594,9 +594,9 @@ missionScripts:
       0:
         STR_ORDER_VS_RAIDERS_BATTLE_SITE_REGION: 100
     firstMonth: 0
-    executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    executionOdds: 60
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
       STR_FACTION_ORDER: true
 
@@ -623,8 +623,8 @@ missionScripts:
         STR_MILLITARY_BASE_REGION: 100
     #firstMonth: 6
     executionOdds: 50
-    randomDelay: 21750
-    startDelay: 10080
+    randomDelay: 43500
+    startDelay: 20
     researchTriggers:
      STR_RAIDING_PREPPERS_SITES: true
 
@@ -639,7 +639,7 @@ missionScripts:
     #firstMonth: 6
     executionOdds: 50
     randomDelay: 43500
-    startDelay: 10080
+    startDelay: 20
     researchTriggers:
      STR_RAIDING_PREPPERS_SITES: true
 
@@ -654,7 +654,7 @@ missionScripts:
     #firstMonth: 6
     executionOdds: 100
     randomDelay: 43500
-    startDelay: 10080
+    startDelay: 20
     researchTriggers:
      STR_RAIDING_PREPPERS_SITES: true
 
@@ -667,7 +667,7 @@ missionScripts:
     firstMonth: 18
     executionOdds: 100
     randomDelay: 43500
-    startDelay: 10080
+    startDelay: 20
     #researchTriggers:
      #STR_ENEMY_MUTANTS: true
 
