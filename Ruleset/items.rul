@@ -541,8 +541,12 @@ items:
     painKiller: 0
     heal: 1
     stimulant: 0
+    heal: 1
     woundRecovery: 1
-    healthRecovery: 3
+    healthRecovery: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 1 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
     stunRecovery: 4
     energyRecovery: 10
     tuUse: 10
@@ -551,7 +555,7 @@ items:
 
   - type: STR_STIMPAK
     size: 0.1
-    costSell: 500
+    costSell: 1000
     transferTime: 48
     weight: 3
     bigSprite: 770
@@ -562,6 +566,9 @@ items:
     painKiller: 0
     heal: 1
     stimulant: 0
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 1 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
     woundRecovery: 2
     healthRecovery: 6
     stunRecovery: 4
@@ -583,6 +590,9 @@ items:
     painKiller: 0
     heal: 1
     stimulant: 0
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 1 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
     woundRecovery: 3
     healthRecovery: 9
     stunRecovery: 4
@@ -607,6 +617,9 @@ items:
     woundRecovery: 1
     healthRecovery: 3
     stunRecovery: 10
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 12#change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
     energyRecovery: 20
     tuUse: 10
     flatRate: true
