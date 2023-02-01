@@ -337,7 +337,7 @@ research:
       - STR_SETTLERS
 
   - name: STR_FACTION_CHURCH
-    cost: 10
+    cost: 25
     points: 50
     dependencies:
       - STR_ALLY_OR_ENEMY
@@ -345,8 +345,14 @@ research:
     unlocks:
       - STR_WHAT_NOW
 
+  - name: STR_FACTION_CHURCH_LOYALTY
+    cost: 50
+    points: 50
+    dependencies:
+      - STR_FACTION_CHURCH
+
   - name: STR_FACTION_RAIDERS
-    cost: 10
+    cost: 20
     points: 50
     dependencies:
       - STR_ALLY_OR_ENEMY
@@ -354,14 +360,26 @@ research:
     unlocks:
       - STR_WHAT_NOW
 
+  - name: STR_FACTION_RAIDERS_LOYALTY
+    cost: 30
+    points: 50
+    dependencies:
+      - STR_FACTION_RAIDERS
+
   - name: STR_FACTION_ORDER
-    cost: 10
+    cost: 35
     points: 50
     dependencies:
       - STR_ALLY_OR_ENEMY
     disables: [STR_FACTION_RAIDERS, STR_FACTION_CHURCH]
     unlocks:
       - STR_WHAT_NOW
+
+  - name: STR_FACTION_ORDER_LOYALTY
+    cost: 70
+    points: 50
+    dependencies:
+      - STR_FACTION_ORDER
 
   - name: STR_WANDERER_SOLDIER
     cost: 10
