@@ -31,7 +31,7 @@ missionScripts:
         STR_WANDERER_SITE_REGION: 100
     randomDelay: 43500
     startDelay: 20
-    executionOdds: 40
+    executionOdds: 60
     firstMonth: 0
 
   - type: feralGhoul
@@ -44,7 +44,7 @@ missionScripts:
         STR_FERAL_GHOUL_SITE_REGION: 100
     randomDelay: 43500
     startDelay: 20
-    executionOdds: 40
+    executionOdds: 50
     firstMonth: 0
 
   - type: lostMutant
