@@ -619,7 +619,7 @@ items:
     stunRecovery: 10
     isConsumable: true
     medikitTargetSelf: true
-    medikitType: 12#change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
+    medikitType: 2 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
     energyRecovery: 20
     tuUse: 10
     flatRate: true
