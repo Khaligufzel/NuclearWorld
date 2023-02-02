@@ -362,7 +362,7 @@ items:
 
   - type: STR_STIMULANT_HERB
     size: 0.1
-    costSell: 250
+    costSell: 800
     transferTime: 48
     battleType: 6
     bigSprite: 420
@@ -406,7 +406,7 @@ items:
     invHeight: 2
     invWidth: 2
     battleType: 0
-    costSell: 250
+    costSell: 800
     transferTime: 48
     categories: [STR_GOODS, STR_OTHER]
 
@@ -466,7 +466,7 @@ items:
     invHeight: 2
     invWidth: 2
     battleType: 0
-    costSell: 10000
+    costSell: 20000
     transferTime: 48
     categories: [STR_GOODS, STR_VALUABLES]
 
@@ -478,7 +478,7 @@ items:
     invHeight: 2
     invWidth: 2
     battleType: 0
-    costSell: 10000
+    costSell: 5000
     transferTime: 48
     categories: [STR_GOODS, STR_VALUABLES]
 
@@ -490,7 +490,7 @@ items:
     invHeight: 2
     invWidth: 2
     battleType: 0
-    costSell: 10000
+    costSell: 2000
     transferTime: 48
     categories: [STR_GOODS, STR_VALUABLES]
 
@@ -514,7 +514,7 @@ items:
     invHeight: 2
     invWidth: 2
     battleType: 0
-    costSell: 30000
+    costSell: 10000
     transferTime: 48
     categories: [STR_GOODS, STR_VALUABLES]
 #     ___   ___   __ __  ____  ____  ___ ___    ___  ____   ______ 
@@ -528,8 +528,8 @@ items:
 
   - type: STR_BANDAGE
     size: 0.1
-    costBuy: 500
-    costSell: 250
+    costBuy: 100
+    costSell: 100
     transferTime: 48
     requiresBuy: [STR_SETTLERS]
     weight: 1
@@ -555,7 +555,7 @@ items:
 
   - type: STR_STIMPAK
     size: 0.1
-    costSell: 1000
+    costSell: 500
     transferTime: 48
     weight: 3
     bigSprite: 770
@@ -566,9 +566,6 @@ items:
     painKiller: 0
     heal: 1
     stimulant: 0
-    isConsumable: true
-    medikitTargetSelf: true
-    medikitType: 1 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
     woundRecovery: 2
     healthRecovery: 6
     stunRecovery: 4
@@ -590,9 +587,6 @@ items:
     painKiller: 0
     heal: 1
     stimulant: 0
-    isConsumable: true
-    medikitTargetSelf: true
-    medikitType: 1 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
     woundRecovery: 3
     healthRecovery: 9
     stunRecovery: 4
@@ -617,9 +611,6 @@ items:
     woundRecovery: 1
     healthRecovery: 3
     stunRecovery: 10
-    isConsumable: true
-    medikitTargetSelf: true
-    medikitType: 2 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
     energyRecovery: 20
     tuUse: 10
     flatRate: true
@@ -905,8 +896,8 @@ items:
 
   - type: STR_WOODEN_CLUB
     size: 0.1
-    costBuy: 1260
-    costSell: 945
+    costBuy: 100
+    costSell: 95
     weight: 6
     bigSprite: 630
     floorSprite: 630
@@ -933,8 +924,8 @@ items:
 
   - type: STR_STONE_HAMMER
     size: 0.1
-    costBuy: 1260
-    costSell: 945
+    costBuy: 2500
+    costSell: 1900
     weight: 6
     bigSprite: 610
     floorSprite: 610
@@ -999,7 +990,7 @@ items:
 
   - type: STR_GUNPOWDER_GRENADE
     size: 0.1
-    costSell: 240
+    costSell: 800
     weight: 3
     bigSprite: 720
     handSprite: 720
@@ -1015,7 +1006,7 @@ items:
 
   - type: STR_MOLOTOV_COCTAIL
     size: 0.1
-    costSell: 240
+    costSell: 500
     weight: 3
     bigSprite: 710
     handSprite: 710
@@ -1073,8 +1064,8 @@ items:
 
   - type: STR_CROSSBOW
     size: 0.2
-    costBuy: 3000
-    costSell: 2250
+    costBuy: 4000
+    costSell: 3250
     weight: 8
     bigSprite: 650
     floorSprite: 650
@@ -1154,11 +1145,11 @@ items:
     invWidth: 1
     invHeight: 3
     categories: [STR_SHOTGUNS, STR_SHORT_RANGE]
-    requiresBuy: [STR_FACTION_ORDER]
+    requiresBuy: [STR_SETTLERS]
 
   - type: STR_SHAMBLER
     size: 0.2
-    costBuy: 4500
+    costBuy: 5000
     costSell: 3000
     weight: 12
     bigSprite: 940
@@ -1300,8 +1291,8 @@ items:
 
   - type: STR_PULSE_RIFLE
     size: 0.2
-    #costBuy: 3000
-    costSell: 42500
+    costBuy: 30000
+    costSell: 29500
     weight: 8
     bigSprite: 840
     floorSprite: 840
@@ -1318,13 +1309,13 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    #requiresBuy: [STR_SETTLERS]
+    requiresBuy: [STR_FACTION_RAIDERS_LOYALTY]
     categories: [STR_RIFLES, STR_ENERGY_WEAPONS]
 
   - type: STR_LASER_RIFLE
     size: 0.2
-    costBuy: 23000
-    costSell: 20250
+    costBuy: 54000
+    costSell: 53250
     weight: 4
     bigSprite: 920
     floorSprite: 920
@@ -1345,13 +1336,13 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    requiresBuy: [STR_FACTION_ORDER]
+    requiresBuy: [STR_FACTION_ORDER_LOYALTY]
     categories: [STR_RIFLES, STR_ENERGY_WEAPONS]
 
   - type: STR_GAUSS_RIFLE
     size: 0.2
     #costBuy: 3000
-    costSell: 50000
+    costSell: 80000
     weight: 7
     bigSprite: 540
     floorSprite: 540
@@ -1374,8 +1365,8 @@ items:
 
   - type: STR_PLASMA_GUN
     size: 0.2
-    costBuy: 27000
-    costSell: 22250
+    costBuy: 78000
+    costSell: 75250
     weight: 4
     bigSprite: 570
     floorSprite: 570
@@ -1392,7 +1383,7 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    requiresBuy: [STR_FACTION_CHURCH]
+    requiresBuy: [STR_FACTION_CHURCH_LOYALTY]
     categories: [STR_RIFLES, STR_ENERGY_WEAPONS, STR_SHORT_RANGE]
 
   - type: STR_DMR
@@ -1423,7 +1414,8 @@ items:
 
   - type: STR_MINIGUN
     size: 0.2
-    costSell: 30000
+    costBuy: 80000
+    costSell: 90000
     weight: 30
     bigSprite: 820
     floorSprite: 820
@@ -1442,6 +1434,7 @@ items:
     twoHanded: true
     invWidth: 2
     invHeight: 3
+    requiresBuy: [STR_FACTION_ORDER_LOYALTY]
     categories: [STR_HEAVY_WEAPONS]
 
   - type: STR_BOZAR
@@ -1476,12 +1469,12 @@ items:
     invWidth: 1
     invHeight: 3
     categories: [STR_HEAVY_WEAPONS]
-    requiresBuy: [STR_FACTION_CHURCH]
+    requiresBuy: [STR_FACTION_CHURCH_LOYALTY]
 
   - type: STR_LASER_GATLING
     size: 0.2
-    costBuy: 37000
-    costSell: 32250
+    costBuy: 57000
+    costSell: 52250
     weight: 10
     bigSprite: 560
     floorSprite: 560
@@ -1499,7 +1492,7 @@ items:
     twoHanded: true
     invWidth: 2
     invHeight: 3
-    requiresBuy: [STR_FACTION_ORDER]
+    requiresBuy: [STR_FACTION_ORDER_LOYALTY]
     categories: [STR_HEAVY_WEAPONS, STR_ENERGY_WEAPONS]
 
 
@@ -1628,7 +1621,8 @@ items:
 
   - type: STR_CELL_PULSE_RIFLE
     size: 1
-    costSell: 2000
+    requiresBuy: [STR_FACTION_RAIDERS_LOYALTY]
+    costSell: 12000
     weight: 3
     bigSprite: 850
     floorSprite: 850
@@ -1652,8 +1646,8 @@ items:
 
   - type: STR_7.62MM_MINIGUN
     size: 1
-    costBuy: 3500
-    costSell: 2000
+    costBuy: 6000
+    costSell: 8000
     weight: 15
     bigSprite: 830
     floorSprite: 830
@@ -1725,8 +1719,8 @@ items:
 
   - type: STR_CROSSBOW_BELTS
     size: 0.1
-    costBuy: 200
-    costSell: 150
+    costBuy: 1000
+    costSell: 1500
     weight: 6
     bigSprite: 680
     floorSprite: 680
@@ -1796,8 +1790,8 @@ items:
 
   - type: STR_REVOLVER_CLIP
     size: 0.1
-    costBuy: 900
-    costSell: 700
+    costBuy: 1200
+    costSell: 1150
     weight: 3
     bigSprite: 860
     floorSprite: 860
@@ -1813,8 +1807,8 @@ items:
 
   - type: STR_308_RIFLE_CLIP
     size: 0.1
-    costBuy: 200
-    costSell: 150
+    costBuy: 2500
+    costSell: 2300
     weight: 3
     bigSprite: 800
     floorSprite: 800
@@ -1826,7 +1820,7 @@ items:
       RandomType: 7
       IgnoreOverKill: true
       ToArmorPre: 0.3
-      ToWound: 0.2
+      ToWound: 0.1
       ToTime: 0.0
     damageType: 1
     clipSize: 5
@@ -1836,8 +1830,8 @@ items:
 
   - type: STR_10MM_SMG
     size: 0.1
-    costBuy: 600
-    costSell: 550
+    costBuy: 1700
+    costSell: 1650
     weight: 3
     bigSprite: 2
     floorSprite: 2
@@ -1897,8 +1891,8 @@ items:
     damageAlter:
       RandomType: 7
       IgnoreOverKill: true
-      ToArmorPre: 0.1
-      ToWound: 0.2
+      ToArmorPre: 0.3
+      ToWound: 0.1
       ToStun: 0.1
     clipSize: 30
     battleType: 2
@@ -1907,8 +1901,8 @@ items:
 
   - type: STR_762MM_RIFLE_MAG
     size: 0.1
-    costBuy: 2000
-    costSell: 1800
+    costBuy: 2500
+    costSell: 2400
     weight: 6
     bigSprite: 890
     floorSprite: 890
@@ -1920,7 +1914,7 @@ items:
       RandomType: 7
       IgnoreOverKill: true
       ToArmorPre: 0.4
-      ToWound: 0.6
+      ToWound: 0.5
       ToStun: 0.1
     damageType: 1
     clipSize: 20
@@ -1930,8 +1924,8 @@ items:
 
   - type: STR_MICROFUSION_CELLS
     size: 0.1
-    costBuy: 15000
-    costSell: 14050
+    costBuy: 45000
+    costSell: 44050
     weight: 6
     bigSprite: 930
     floorSprite: 930
@@ -1942,7 +1936,7 @@ items:
     damageAlter:
       RandomType: 7
       IgnoreOverKill: false
-      ToArmorPre: 0.5
+      ToArmorPre: 0.6
     damageType: 4
     clipSize: 100
     battleType: 2
@@ -1953,8 +1947,8 @@ items:
 
   - type: STR_PLASMA_CARTRIDGE
     size: 0.1
-    costBuy: 10000
-    costSell: 9050
+    costBuy: 55000
+    costSell: 49050
     weight: 4
     bigSprite: 590
     floorSprite: 590
@@ -1977,7 +1971,7 @@ items:
   - type: STR_2MM_EC_GAUSS_ROUNDS
     size: 0.1
     #costBuy: 200
-    costSell: 18000
+    costSell: 60000
     weight: 10
     bigSprite: 580
     floorSprite: 580
@@ -2026,7 +2020,7 @@ items:
     size: 0.5
     costSell: 80000
     requires:
-      - STR_WASTELANDER_ARMOR
+      - STR_BASIC_PROTECTION_II
 
   - type: STR_CORPSE_WASTELANDER_ARMOR
     name: STR_CORPSE
@@ -2044,7 +2038,7 @@ items:
     size: 0.5
     costSell: 80000
     requires:
-      - STR_LEATHER_ARMOR
+      - STR_BASIC_PROTECTION
 
   - type: STR_CORPSE_LEATHER_ARMOR
     name: STR_CORPSE
