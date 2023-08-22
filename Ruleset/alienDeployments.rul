@@ -1,4 +1,4 @@
-alienDeployments:
+﻿alienDeployments:
   - delete: STR_SMALL_SCOUT
   - delete: STR_MEDIUM_SCOUT
 #  - delete: STR_LARGE_SCOUT
@@ -66,6 +66,8 @@ alienDeployments:
     alertBackground: BACK03.SCR
     markerName: STR_WANDERER_SITE_MARKER_NAME
     duration: [48, 72]
+    missionBountyItem: STR_CARAVAN_CRATE
+    missionBountyItemCount: 2
     data:
       - alienRank: 0
         lowQty: 1
@@ -180,6 +182,8 @@ alienDeployments:
     alertBackground: BACK03.SCR
     markerName: STR_FERAL_GHOUL_SITE_MARKER_NAME
     duration: [24, 240]
+    missionBountyItem: STR_CARAVAN_CRATE
+    missionBountyItemCount: 5
     data:
       - alienRank: 0
         lowQty: 1
@@ -295,6 +299,8 @@ alienDeployments:
     alertBackground: BACK03.SCR
     markerName: STR_LOST_MUTANT_SITE_MARKER_NAME
     duration: [24, 240]
+    missionBountyItem: STR_CARAVAN_CRATE
+    missionBountyItemCount: 5
     data:
       - alienRank: 0
         lowQty: 1
@@ -376,6 +382,8 @@ alienDeployments:
     alertBackground: BACK03.SCR
     markerName: STR_PATROL_MUTANT_SITE_MARKER_NAME
     duration: [24, 240]
+    missionBountyItem: STR_WEAPON_CRATE
+    missionBountyItemCount: 3
     data:
       - alienRank: 1
         lowQty: 1
@@ -387,18 +395,14 @@ alienDeployments:
           -
             - STR_PIPE_RIFLE
             - STR_10MM
-            - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
+            - STR_EDIBLE_MUSHROOM            
           -
             - STR_HUNTING_RIFLE
-            - STR_308_RIFLE_CLIP
-            - STR_WEAPON_CRATE
+            - STR_308_RIFLE_CLIP            
           - 
             - STR_HUNTING_RIFLE
             - STR_308_RIFLE_CLIP
             - STR_308_RIFLE_CLIP
-            - STR_WEAPON_CRATE
-            - STR_WEAPON_CRATE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -409,17 +413,14 @@ alienDeployments:
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
           -
             - STR_BOW
             - STR_BOW_ARROWS
             - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
           - 
             - STR_CROSSBOW
             - STR_CROSSBOW_BELTS
             - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
       - alienRank: 5
         lowQty: 2
         highQty: 4
@@ -430,15 +431,12 @@ alienDeployments:
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
           -
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
           - 
             - STR_STONE_HAMMER
             - STR_EDIBLE_MUSHROOM
-            - STR_WEAPON_CRATE
 
   - type: STR_CARAVAN_MUTANT_SITE
     alert: STR_CARAVAN_MUTANT_SITE_ALERT

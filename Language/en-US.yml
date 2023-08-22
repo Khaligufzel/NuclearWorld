@@ -579,7 +579,7 @@ en-US:
   STR_LARGE_RADAR_SYSTEM: "Large Radar System"
   STR_MISSILE_DEFENSES: "Missile Defenses"
   STR_GENERAL_STORES: "General Stores"
-  STR_ALIEN_CONTAINMENT: "Alien Containment"
+  STR_ALIEN_CONTAINMENT: "Jail"
   STR_LASER_DEFENSES: "Laser Defenses"
   STR_PLASMA_DEFENSES: "Plasma Defenses"
   STR_FUSION_BALL_DEFENSES: "Fusion Ball Defenses"

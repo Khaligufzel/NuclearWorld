@@ -453,7 +453,6 @@ manufacture:
         - STR_IRON_SCRAPS: 5
           STR_EDIBLE_MUSHROOM: 5
           STR_POUCH_OF_MONEY: 10
-          STR_HANDCRAFTED_POWER_ARMOR: 1
       -
         - 20
         - STR_IRON_SCRAPS: 5
@@ -637,7 +636,7 @@ manufacture:
         - STR_STIMPAK: 10
       -       
         - 20
-        - STR_MEGA_STIMPAK: 10
+        - STR_MEGA_STIMPAK: 5
       -
         - 20
         - STR_BANDAGE: 20

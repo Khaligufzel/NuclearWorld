@@ -2,6 +2,23 @@
 ##### CHANGELOG ######
 #####################
 
+Date TBD, 2023: v0.3.0
+
+> Text changes
+    - Changed Alien Containment name to Jail
+
+> Balance
+    - Removed random Power Armor drop from Caravan Crates
+    - Some mission now rewards crates, the more difficult mission the better crates. Doing for example Wanderers mission is not pointless anymore
+
+> Apocapaedia:
+    
+
+
+
+
+
+
 Date TBD, 2023: v0.2.1
 
 > Overall fixes & additions, by Khaligufzel & efrenespartano
