@@ -2,6 +2,7 @@ facilities:
 
   - delete: STR_SMALL_RADAR_SYSTEM
   - delete: STR_LARGE_RADAR_SYSTEM
+  - delete: STR_MISSILE_DEFENSES
 
   - type: STR_ACCESS_LIFT
     spriteShape: 2
