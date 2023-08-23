@@ -405,60 +405,60 @@ manufacture:
         - 20
         - STR_IRON_SCRAPS: 5
           STR_EDIBLE_MUSHROOM: 5
-          STR_PIPE_RIFLE: 4
-          STR_10MM: 20
+          STR_PIPE_RIFLE: 1
+          STR_10MM: 2
       -       
         - 20
         - STR_IRON_SCRAPS: 5
           STR_EDIBLE_MUSHROOM: 5
           STR_MAKESHIFT_PISTOL: 4
-          STR_10MM: 20
+          STR_10MM: 2
       -
         - 20
         - STR_IRON_SCRAPS: 5
           STR_EDIBLE_MUSHROOM: 5
-          STR_PREWAR_SMG: 2
-          STR_10MM_SMG: 4
+          STR_PREWAR_SMG: 1
+          STR_10MM_SMG: 2
           STR_ANIMAL_SKIN: 5
       -
         - 20
         - STR_IRON_SCRAPS: 5
           STR_EDIBLE_MUSHROOM: 5
-          STR_BAG_OF_MONEY: 10
+          STR_BAG_OF_MONEY: 1
       -
         - 20
         - STR_IRON_SCRAPS: 5
           STR_EDIBLE_MUSHROOM: 5
-          STR_POUCH_OF_MONEY: 10
-          STR_BANDAGE: 10
+          STR_POUCH_OF_MONEY: 1
+          STR_BANDAGE: 2
       -
         - 20
         - STR_IRON_SCRAPS: 5
           STR_EDIBLE_MUSHROOM: 5
-          STR_POUCH_OF_MONEY: 10
-          STR_BANDAGE: 10
-          STR_10MM_PISTOL: 6
-          STR_10MM: 12
+          STR_POUCH_OF_MONEY: 1
+          STR_BANDAGE: 2
+          STR_10MM_PISTOL: 1
+          STR_10MM: 1
       -
         - 20
         - STR_IRON_SCRAPS: 5
           STR_EDIBLE_MUSHROOM: 5
-          STR_POUCH_OF_MONEY: 10
-          STR_BASTARD: 10
-          STR_556MM_RIFLE_CLIP: 20
-          STR_SHAMBLER: 6
-          STR_PREWAR_SHOTGUN_SHELLS: 12
+          STR_POUCH_OF_MONEY: 1
+          STR_BASTARD: 1
+          STR_556MM_RIFLE_CLIP: 2
+          STR_SHAMBLER: 1
+          STR_PREWAR_SHOTGUN_SHELLS: 2
       -
         - 20
         - STR_IRON_SCRAPS: 5
           STR_EDIBLE_MUSHROOM: 5
-          STR_POUCH_OF_MONEY: 10
+          STR_POUCH_OF_MONEY: 1
       -
         - 20
         - STR_IRON_SCRAPS: 5
           STR_EDIBLE_MUSHROOM: 5
-          STR_POUCH_OF_MONEY: 10
-          STR_LEATHER_ARMOR: 5
+          STR_POUCH_OF_MONEY: 1
+          STR_LEATHER_ARMOR: 1
 
   - name: STR_WEAPON_CRATE
     category: STR_UNPACKING   
@@ -633,14 +633,14 @@ manufacture:
     randomProducedItems:
       -
         - 20
-        - STR_STIMPAK: 10
+        - STR_STIMPAK: 2
       -       
         - 20
-        - STR_MEGA_STIMPAK: 5
+        - STR_MEGA_STIMPAK: 1
       -
         - 20
-        - STR_BANDAGE: 20
-          STR_HEALING_HERB: 20
+        - STR_BANDAGE: 4
+          STR_HEALING_HERB: 4
 # Armor Repair 
   - name: STR_CORPSE_LEATHER_ARMOR
     category: STR_PERSONAL_ARMOR

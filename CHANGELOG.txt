@@ -10,7 +10,9 @@ Date TBD, 2023: v0.3.0
 > Balance
     - Removed random Power Armor drop from Caravan Crates
     - Some mission now rewards crates, the more difficult mission the better crates. Doing for example Wanderers mission is not pointless anymore
+    - Reduced the amount of items from various crates
 
+    
 > Apocapaedia
     
 
@@ -20,6 +22,7 @@ Date TBD, 2023: v0.3.0
 > General
     - Added/changed a few UI sounds
     - Added/changed a few music tracks
+    - More auto-generated shelter names
 
 
 
