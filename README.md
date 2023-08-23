@@ -31,6 +31,7 @@ drspaceman: initial dev, music tracks
 * neike60: UI original sprites, adapted to OXC format by efrenespartano
 * Wilhan Rahmat- original Herbs sprites
 * robin- Order Gasmask sprites
-* Noyemi-K: reference for UI 
+* Noyemi-K: reference for UI
+* Music by Stringer Bell, Ashot Danielyan, wildsound159, Keyframe Audio, DayFox, Leonid Timachev, Grand_Project and Evgeny Bardyuzha from Pixabay
 
 Feel free to add yourself here!

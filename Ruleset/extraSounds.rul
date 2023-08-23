@@ -1,0 +1,7 @@
+﻿extraSounds:
+  - type: GEO.CAT
+    files:
+      0: SOUND/click.wav
+      1: SOUND/openwindow.wav
+      2: SOUND/openwindow.wav
+      3: SOUND/openwindow.wav

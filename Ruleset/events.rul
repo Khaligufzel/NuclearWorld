@@ -24,6 +24,13 @@ events:
 #     timer: 2700
 #     timerRandom: 150
 
+  - name: STR_TEST_EVENT
+    description: STR_TEST_EVENT_DESCRIPTION
+    background: BACK01.SCR
+    city: false
+    timer: 60
+    timerRandom: 0
+
   - name: STR_STORY_1_EVENT
     description: STR_STORY_1_EVENT_DESCRIPTION
     background: BACK01.SCR

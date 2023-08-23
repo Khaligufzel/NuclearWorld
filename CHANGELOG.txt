@@ -11,12 +11,15 @@ Date TBD, 2023: v0.3.0
     - Removed random Power Armor drop from Caravan Crates
     - Some mission now rewards crates, the more difficult mission the better crates. Doing for example Wanderers mission is not pointless anymore
 
-> Apocapaedia:
+> Apocapaedia
     
 
 > Bug fixes
     - Humvee craft now correctly spawns with 4 soldiers instead of 3
 
+> General
+    - Added/changed a few UI sounds
+    - Added/changed a few music tracks
 
 
 
