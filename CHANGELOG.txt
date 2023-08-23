@@ -14,6 +14,9 @@ Date TBD, 2023: v0.3.0
 > Apocapaedia:
     
 
+> Bug fixes
+    - Humvee craft now correctly spawns with 4 soldiers instead of 3
+
 
 
 
