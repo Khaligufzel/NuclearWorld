@@ -1,4 +1,15 @@
 ﻿ musics:
 
    - type: GMGEO1
+   - type: GMGEO2    
+   - type: GMGEO3
+   - type: GMGEO4
+   - type: GMGEO5
+   - type: GMGEO6
+   - type: GMGEO7
+   - type: GMGEO8
+   - type: GMGEO9
+   - type: GMGEO10
+   - type: GMGEO11
    - type: GMSTORY
+   - type: GMTACTIC
