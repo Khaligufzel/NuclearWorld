@@ -2682,6 +2682,94 @@
             - STR_PREWAR_SHOTGUN_SHELLS
             - STR_PREWAR_SHOTGUN_SHELLS
 
+  - type: STR_RESCUEABLE_SCIENTISTS_SITE
+    alert: STR_RESCUEABLE_SCIENTISTS_SITE_ALERT
+    width: 50
+    length: 50
+    height: 5
+    missionBountyItem: STR_UNTRAINED_SCIENTIST
+    missionBountyItemCount: 1
+    markerIcon: 22 # Lab
+    terrains:
+      - VILLAGE 
+      - CULTA 
+      - FOREST 
+      - MOUNT 
+      - DESERT
+      - NUKEZONE
+      - FOREST_TRENCH
+    alertBackground: BACK03.SCR
+    markerName: STR_RESCUABLE_SCIENTISTS_SITE_MARKER_NAME
+    duration: [48, 72]
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_10MM_PISTOL
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+            - STR_10MM
+            - STR_POUCH_OF_MONEY
+          - 
+            - STR_REVOLVER
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
+            - STR_POUCH_OF_MONEY
+          - 
+            - STR_REVOLVER
+            - STR_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
+            - STR_POUCH_OF_MONEY
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          - 
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_10MM_SMG        
+          -
+            - STR_BOZAR
+            - STR_556MM_RIFLE_MAG
+            - STR_556MM_RIFLE_MAG
+          - 
+            - STR_MINIGUN
+            - STR_7.62MM_MINIGUN
+
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        extraQty: 0        
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_10MM_PISTOL
+            - STR_10MM
+            - STR_10MM
+          - 
+            - STR_PREWAR_SMG
+            - STR_10MM_SMG
+            - STR_10MM_SMG
+          - 
+            - STR_PREWAR_SHOTGUN
+            - STR_PREWAR_SHOTGUN_SHELLS
+            - STR_PREWAR_SHOTGUN_SHELLS
+
 
   - type: STR_FINAL_ONSLAUGHT_SITE
     alert: STR_FINAL_ONSLAUGHT_SITE_ALERT

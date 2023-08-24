@@ -684,6 +684,18 @@ missionScripts:
     researchTriggers:
      STR_BOUNTY_HUNTING: true
 
+  - type: bloodForScientists
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_RESCUEABLE_SCIENTISTS: 100
+    firstMonth: 0
+    executionOdds: 100
+    randomDelay: 43500
+    startDelay: 90
+    researchTriggers:
+      STR_RESCUEABLE_SCIENTISTS: true
+
   - type: startResearch
     missionWeights:
       0:

@@ -19,4 +19,5 @@ itemCategories:
   - type: STR_VALUABLES
   - type: STR_THROWABLES
   - type: STR_UNPACKING
+  - type: STR_UNTRAINED_PERSONNEL
 

@@ -517,6 +517,10 @@ items:
     costSell: 10000
     transferTime: 48
     categories: [STR_GOODS, STR_VALUABLES]
+
+  - type: STR_UNTRAINED_SCIENTIST
+    battleType: 0
+    categories: [STR_UNTRAINED_PERSONNEL]
 #     ___   ___   __ __  ____  ____  ___ ___    ___  ____   ______ 
 #    /  _] /   \ |  |  ||    ||    \|   |   |  /  _]|    \ |      |
 #   /  [_ |     ||  |  | |  | |  o  ) _   _ | /  [_ |  _  ||      |

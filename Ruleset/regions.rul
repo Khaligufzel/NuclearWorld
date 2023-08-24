@@ -1387,6 +1387,13 @@ regions:
         - [74.4, 74.4, -29.6, -29.6, -36]
         - [80.5, 80.5, -8.8, -8.8, -36]
 
+  - type: STR_RESCUEABLE_SCIENTISTS_SITE_REGION
+    areas: 
+      []
+    missionZones: 
+      - - [90.26794, 449.2679, -71.86053, 75.98561]
+
+
 ########################################
 
   - type: STR_NORTH_AMERICA
