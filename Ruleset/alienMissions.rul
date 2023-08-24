@@ -1,4 +1,4 @@
-alienMissions:
+﻿alienMissions:
   - delete: STR_ALIEN_RESEARCH
   - delete: STR_ALIEN_HARVEST
   - delete: STR_ALIEN_ABDUCTION

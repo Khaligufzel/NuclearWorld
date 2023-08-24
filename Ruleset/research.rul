@@ -330,6 +330,12 @@ research:
     dependencies:
       - STR_SETTLERS
 
+  - name: STR_RESCUEABLE_SCIENTISTS
+    cost: 30
+    points: 75
+    dependencies:
+      - STR_RECRUITABLE_WORKERS
+
   - name: STR_ALLY_OR_ENEMY
     cost: 10
     points: 50

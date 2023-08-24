@@ -21,15 +21,15 @@ eventScripts:
 #     minDifficulty: 0
 #     maxDifficulty: 4
 
-  - type: STR_TEST_EVENT_SCRIPT
-    eventWeights:
-      0:
-        STR_TEST_EVENT: 100
-    firstMonth: 0
-    lastMonth: 1
-    executionOdds: 100
-    minDifficulty: 0
-    maxDifficulty: 4
+  # - type: STR_TEST_EVENT_SCRIPT
+  #   eventWeights:
+  #     0:
+  #       STR_TEST_EVENT: 100
+  #   firstMonth: 0
+  #   lastMonth: 1
+  #   executionOdds: 100
+  #   minDifficulty: 0
+  #   maxDifficulty: 4
 
   - type: STR_STORY_1_EVENT_SCRIPT
     oneTimeSequentialEvents:
