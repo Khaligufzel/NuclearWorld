@@ -545,7 +545,6 @@ items:
     painKiller: 0
     heal: 1
     stimulant: 0
-    heal: 1
     woundRecovery: 1
     healthRecovery: 1
     isConsumable: true
