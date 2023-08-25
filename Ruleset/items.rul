@@ -519,7 +519,7 @@ items:
     categories: [STR_GOODS, STR_VALUABLES]
 
   - type: STR_UNTRAINED_SCIENTIST
-    battleType: 0
+    costSell: 10000
     categories: [STR_UNTRAINED_PERSONNEL]
 #     ___   ___   __ __  ____  ____  ___ ___    ___  ____   ______ 
 #    /  _] /   \ |  |  ||    ||    \|   |   |  /  _]|    \ |      |
@@ -573,6 +573,8 @@ items:
     healthRecovery: 6
     stunRecovery: 4
     energyRecovery: 10
+    isConsumable: true
+    medikitTargetSelf: true
     tuUse: 10
     flatRate: true
     categories: [STR_GOODS, STR_HEALTH_ITEMS]
@@ -594,6 +596,8 @@ items:
     healthRecovery: 12
     stunRecovery: 4
     energyRecovery: 10
+    isConsumable: true
+    medikitTargetSelf: true
     tuUse: 10
     flatRate: true
     categories: [STR_GOODS, STR_HEALTH_ITEMS]
@@ -615,6 +619,8 @@ items:
     healthRecovery: 3
     stunRecovery: 10
     energyRecovery: 20
+    isConsumable: true
+    medikitTargetSelf: true
     tuUse: 10
     flatRate: true
     categories: [STR_GOODS, STR_HEALTH_ITEMS]
