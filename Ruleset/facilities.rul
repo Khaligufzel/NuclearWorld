@@ -25,7 +25,7 @@ facilities:
     spriteFacility: 19
     buildCost: 75000
     buildTime: 26
-    monthlyCost: 35000
+    monthlyCost: 20000
     labs: 5
     mapName: XBASE_02
   - type: STR_WORKSHOP
@@ -35,8 +35,8 @@ facilities:
     spriteShape: 1
     spriteFacility: 20
     buildCost: 50000
-    buildTime: 1
-    monthlyCost: 25000
+    buildTime: 15
+    monthlyCost: 10000
     workshops: 5
     mapName: XBASE_03
   - type: STR_GENERAL_STORES
@@ -69,9 +69,9 @@ facilities:
     spriteShape: 9
     spriteFacility: 9
     size: 2
-    buildCost: 20000
+    buildCost: 50000
     buildTime: 25
-    monthlyCost: 1000
+    monthlyCost: 10000
     crafts: 1
     storage: 5 #OXCE bonus because of change in handling craft storage
     storageTiles: [[-1, -1, -1]]
@@ -94,8 +94,8 @@ facilities:
     spriteShape: 1
     spriteFacility: 601
     buildCost: 75000
-    buildTime: 1
-    monthlyCost: 35000
+    buildTime: 26
+    monthlyCost: 15000
     mapName: XBASS_24
     labs: 2
 
@@ -105,8 +105,8 @@ facilities:
     provideBaseFunc: [FARM]
     spriteShape: 1
     spriteFacility: 601
-    buildCost: 75000
-    buildTime: 1
+    buildCost: 15000
+    buildTime: 16
     monthlyCost: 2000
     mapName: XBASS_24
 
@@ -117,6 +117,6 @@ facilities:
     spriteShape: 1
     spriteFacility: 601
     buildCost: 50000
-    buildTime: 1
-    monthlyCost: 2500
+    buildTime: 26
+    monthlyCost: 25000
     mapName: XBASS_24

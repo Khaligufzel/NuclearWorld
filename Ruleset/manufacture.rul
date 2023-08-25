@@ -62,7 +62,7 @@ manufacture:
     requiredItems:
         STR_STIMULANT_HERB: 1 
     space: 1
-    time: 10
+    time: 2
     cost: 0
 
   - name: STR_STIMPAK
@@ -94,7 +94,7 @@ manufacture:
     requires:
       - "STR_BASIC_WEAPONS"      
     space: 1
-    time: 5
+    time: 1
     cost: 0
 
   - name: STR_SPEAR
@@ -103,7 +103,7 @@ manufacture:
     requires:
       - "STR_BASIC_WEAPONS"          
     space: 1
-    time: 10
+    time: 3
     cost: 0
 
   - name: STR_WOODEN_CLUB
@@ -112,7 +112,7 @@ manufacture:
     requires:
       - "STR_BASIC_WEAPONS"     
     space: 1
-    time: 5
+    time: 2
     cost: 0
 
   - name: STR_STONE_HAMMER
@@ -121,7 +121,7 @@ manufacture:
     requires:
       - "STR_BASIC_WEAPONS"     
     space: 1
-    time: 10
+    time: 5
     cost: 0
 
 
@@ -222,7 +222,7 @@ manufacture:
     requires:
       - "STR_GUNPOWDER"         
     space: 1
-    time: 2
+    time: 3
     cost: 0
 
 
@@ -241,7 +241,7 @@ manufacture:
     requires:
       - "STR_EDIBLE_MUSHROOM"     
     space: 1
-    time: 5
+    time: 1
     cost: 0
 
   - name: STR_STIMULANT_HERB
@@ -268,18 +268,10 @@ manufacture:
     requires:
       - "STR_DRILL"     
     space: 1
-    time: 24
+    time: 5
     cost: 0
-    randomProducedItems:
-      -
-        - 50
-        - STR_IRON_SCRAPS: 5
-      -       
-        - 30
-        - STR_IRON_SCRAPS: 10
-      -
-        - 20
-        - STR_IRON_SCRAPS: 20
+
+
   - name: STR_ANIMAL_SKIN
     category: STR_OTHER
     requires:
@@ -287,16 +279,6 @@ manufacture:
     space: 1
     time: 12
     cost: 0
-    randomProducedItems:
-      -
-        - 50
-        - STR_ANIMAL_SKIN: 3
-      -       
-        - 30
-        - STR_ANIMAL_SKIN: 5
-      -
-        - 20
-        -  STR_ANIMAL_SKIN: 8
 
 #    ____  ____   ___ ___   ___   ____    _____
 #   /    ||    \ |   |   | /   \ |    \  / ___/
@@ -395,7 +377,7 @@ manufacture:
   - name: STR_CARAVAN_CRATE
     category: STR_UNPACKING   
     space: 1
-    time: 72
+    time: 24
     cost: 0
     producedItems: {} # empty
     requiredItems:
@@ -566,7 +548,7 @@ manufacture:
   - name: STR_VALUABLES_CRATE
     category: STR_UNPACKING   
     space: 1
-    time: 72
+    time: 24
     cost: 0
     producedItems: {} # empty
     requiredItems:
@@ -574,10 +556,10 @@ manufacture:
     randomProducedItems:
       -
         - 20
-        - STR_POUCH_OF_MONEY: 1
+        - STR_POUCH_OF_MONEY: 3
       -       
         - 20
-        - STR_BAG_OF_MONEY: 1
+        - STR_BAG_OF_MONEY: 2
       -
         - 20
         - STR_GOLD_INGOT: 1

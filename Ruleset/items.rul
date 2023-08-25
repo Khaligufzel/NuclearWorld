@@ -394,7 +394,7 @@ items:
     invHeight: 2
     invWidth: 2
     battleType: 0
-    costSell: 1000
+    costSell: 2200
     transferTime: 48
     categories: [STR_GOODS, STR_OTHER]
 
@@ -533,7 +533,7 @@ items:
   - type: STR_BANDAGE
     size: 0.1
     costBuy: 100
-    costSell: 100
+    costSell: 50
     transferTime: 48
     requiresBuy: [STR_SETTLERS]
     weight: 1
@@ -591,7 +591,7 @@ items:
     heal: 1
     stimulant: 0
     woundRecovery: 3
-    healthRecovery: 9
+    healthRecovery: 12
     stunRecovery: 4
     energyRecovery: 10
     tuUse: 10

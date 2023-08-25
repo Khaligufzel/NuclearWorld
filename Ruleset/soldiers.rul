@@ -1,7 +1,7 @@
 soldiers:
   - type: STR_PLAYER_UNIT
     #costBuy: 40000
-    costSalary: 40000
+    costSalary: 7500
     minStats:
       tu: 80
       stamina: 80
@@ -48,7 +48,7 @@ soldiers:
     deathFemale: [44, 45, 46]
   - type: STR_SOLDIER
     costBuy: 40000
-    costSalary: 20000
+    costSalary: 5000
     minStats:
       tu: 50
       stamina: 40
@@ -88,7 +88,7 @@ soldiers:
     armor: STR_JUMPSUIT_UC
     standHeight: 22
     kneelHeight: 14
-    femaleFrequency: 25
+    femaleFrequency: 50
     soldierNames:
       - SoldierName/
     deathMale: [41, 42, 43]
@@ -96,7 +96,7 @@ soldiers:
 
   - type: STR_SOLDIER_MUTANT
     costBuy: 100000
-    costSalary: 50000
+    costSalary: 10000
     requires:
       - "STR_ALLY_MUTANTS"
     minStats:
@@ -138,7 +138,7 @@ soldiers:
     armor: STR_MUTANT_STRONG_ARMOR
     standHeight: 22
     kneelHeight: 14
-    femaleFrequency: 25
+    femaleFrequency: 50
     soldierNames:
       - SoldierName/
     deathMale: [41, 42, 43]
@@ -146,7 +146,7 @@ soldiers:
 
   - type: STR_SOLDIER_GHOUL
     costBuy: 100000
-    costSalary: 50000
+    costSalary: 10000
     requires:
       - "STR_ALLY_GHOULS"
     minStats:
@@ -188,7 +188,7 @@ soldiers:
     armor: STR_GHOUL_RECRUIT_ARMOR
     standHeight: 22
     kneelHeight: 14
-    femaleFrequency: 25
+    femaleFrequency: 50
     soldierNames:
       - SoldierName/
     deathMale: [41, 42, 43]
