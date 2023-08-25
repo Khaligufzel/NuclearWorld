@@ -301,7 +301,7 @@ research:
       - STR_OUTSIDE
 
   - name: STR_PREPPERS
-    cost: 15
+    cost: 20
     points: 50
     dependencies:
       - STR_SETTLERS
@@ -331,13 +331,13 @@ research:
       - STR_SETTLERS
 
   - name: STR_RESCUEABLE_SCIENTISTS
-    cost: 30
+    cost: 20
     points: 75
     dependencies:
       - STR_RECRUITABLE_WORKERS
 
   - name: STR_ALLY_OR_ENEMY
-    cost: 10
+    cost: 20
     points: 50
     dependencies:
       - STR_SETTLERS
@@ -358,7 +358,7 @@ research:
       - STR_FACTION_CHURCH
 
   - name: STR_FACTION_RAIDERS
-    cost: 20
+    cost: 25
     points: 50
     dependencies:
       - STR_ALLY_OR_ENEMY
@@ -367,13 +367,13 @@ research:
       - STR_WHAT_NOW
 
   - name: STR_FACTION_RAIDERS_LOYALTY
-    cost: 30
+    cost: 50
     points: 50
     dependencies:
       - STR_FACTION_RAIDERS
 
   - name: STR_FACTION_ORDER
-    cost: 35
+    cost: 25
     points: 50
     dependencies:
       - STR_ALLY_OR_ENEMY
@@ -382,7 +382,7 @@ research:
       - STR_WHAT_NOW
 
   - name: STR_FACTION_ORDER_LOYALTY
-    cost: 70
+    cost: 50
     points: 50
     dependencies:
       - STR_FACTION_ORDER
@@ -442,7 +442,7 @@ research:
     destroyItem: true
 
   - name: STR_FACTION_MUTANTS
-    cost: 10
+    cost: 20
     points: 50
     dependencies:
       - "STR_MUTANT_LOST"
@@ -450,14 +450,14 @@ research:
       - "STR_MUTANT_PROPHET"
 
   - name: STR_ALLY_MUTANTS
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_FACTION_MUTANTS
     disables: [STR_ENEMY_MUTANTS]
 
   - name: STR_ENEMY_MUTANTS
-    cost: 10
+    cost: 35
     points: 50
     dependencies:
       - STR_FACTION_MUTANTS
@@ -488,7 +488,7 @@ research:
     destroyItem: true
 
   - name: STR_FACTION_GHOULS
-    cost: 10
+    cost: 20
     points: 50
     dependencies:
       - "STR_GHOUL_LOST"
@@ -496,37 +496,37 @@ research:
       - "STR_GHOUL_FERAL"
 
   - name: STR_ALLY_GHOULS
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_FACTION_GHOULS
     disables: [STR_ENEMY_GHOULS]
 
   - name: STR_ENEMY_GHOULS
-    cost: 10
+    cost: 35
     points: 50
     dependencies:
       - STR_FACTION_GHOULS
     disables: [STR_ALLY_GHOULS]
 
   - name: STR_WHAT_NOW
-    cost: 10
+    cost: 20
     points: 50
 
   - name: STR_SKINNING
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - "STR_WHAT_NOW"
 
   - name: STR_BOUNTY_HUNTING
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - "STR_WHAT_NOW"
 
   - name: "STR_ADVANCED_MEDICINE"
-    cost: 5
+    cost: 50
     points: 50
     dependencies:
       - "STR_HEALING_HERB"
@@ -534,7 +534,7 @@ research:
       - "STR_LAB_EQUIPMENT"
 
   - name: "STR_LAB_EQUIPMENT"
-    cost: 10
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
@@ -551,7 +551,7 @@ research:
     points: 50
 
   - name: STR_DRILL
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - "STR_WORKSHOP"
@@ -570,19 +570,19 @@ research:
       - "STR_STIMULANT_HERB"
 
   - name: STR_STIMPAK
-    cost: 5
+    cost: 50
     points: 50
     dependencies:
       - "STR_HEALING_HERB"
 
   - name: STR_MEGA_STIMPAK
-    cost: 5
+    cost: 100
     points: 50
     dependencies:
       - "STR_ADVANCED_MEDICINE"
 
   - name: STR_BANDAGE
-    cost: 5
+    cost: 10
     points: 50
     needItem: true
     destroyItem: false
@@ -621,46 +621,46 @@ research:
     destroyItem: true
 
   - name: STR_BAG_OF_MONEY
-    cost: 10
+    cost: 5
     points: 50
     needItem: true
     destroyItem: false
 
 
   - name: STR_POUCH_OF_MONEY
-    cost: 10
+    cost: 5
     points: 50
     needItem: true
     destroyItem: false
 
 
   - name: STR_GOLD_INGOT
-    cost: 10
+    cost: 5
     points: 50
     needItem: true
     destroyItem: false
 
   - name: STR_CARAVAN_CRATE
-    cost: 10
+    cost: 5
     points: 50
     needItem: true
     destroyItem: false
 
 
   - name: STR_WEAPON_CRATE
-    cost: 10
+    cost: 5
     points: 50
     needItem: true
     destroyItem: false
 
   - name: STR_AMMUNITION_CRATE
-    cost: 10
+    cost: 5
     points: 50
     needItem: true
     destroyItem: false
 
   - name: STR_VALUABLES_CRATE
-    cost: 10
+    cost: 5
     points: 50
     needItem: true
     destroyItem: false
@@ -788,7 +788,7 @@ research:
       - "STR_BOW_ARROWS"
 
   - name: STR_PREWAR_SHOTGUN
-    cost: 5
+    cost: 15
     points: 50
     needItem: true
     destroyItem: false
@@ -796,7 +796,7 @@ research:
       - "STR_PREWAR_SHOTGUN_SHELLS"
 
   - name: STR_SHAMBLER
-    cost: 5
+    cost: 25
     points: 50
     needItem: true
     destroyItem: false
@@ -829,7 +829,7 @@ research:
 
 
   - name: STR_PIPE_RIFLE
-    cost: 5
+    cost: 10
     points: 50
     needItem: true
     destroyItem: false
@@ -837,7 +837,7 @@ research:
       - "STR_10MM"
 
   - name: STR_10MM_PISTOL
-    cost: 5
+    cost: 15
     points: 50
     needItem: true
     destroyItem: false
@@ -845,7 +845,7 @@ research:
       - STR_10MM
 
   - name: STR_BASTARD
-    cost: 5
+    cost: 10
     points: 50
     needItem: true
     destroyItem: false
@@ -853,7 +853,7 @@ research:
       - STR_556MM_RIFLE_CLIP
 
   - name: STR_DMR
-    cost: 5
+    cost: 25
     points: 50
     needItem: true
     destroyItem: false
@@ -861,7 +861,7 @@ research:
       - STR_556MM_RIFLE_MAG
 
   - name: STR_BOZAR
-    cost: 5
+    cost: 50
     points: 50
     needItem: true
     destroyItem: false
@@ -869,7 +869,7 @@ research:
       - STR_556MM_RIFLE_MAG
 
   - name: STR_PREWAR_SERVICE_RIFLE
-    cost: 5
+    cost: 25
     points: 50
     needItem: true
     destroyItem: false
@@ -877,7 +877,7 @@ research:
       - STR_762MM_RIFLE_MAG
 
   - name: STR_HUNTING_RIFLE
-    cost: 5
+    cost: 15
     points: 50
     needItem: true
     destroyItem: false
@@ -885,7 +885,7 @@ research:
       - "STR_308_RIFLE_CLIP"
 
   - name: STR_MAKESHIFT_PISTOL
-    cost: 5
+    cost: 10
     points: 50
     needItem: true
     destroyItem: false
@@ -893,7 +893,7 @@ research:
       - "STR_10MM"
 
   - name: STR_PREWAR_SMG
-    cost: 5
+    cost: 15
     points: 50
     needItem: true
     destroyItem: false
@@ -901,7 +901,7 @@ research:
       - "STR_10MM_SMG"
 
   - name: STR_LASER_RIFLE
-    cost: 5
+    cost: 50
     points: 50
     needItem: true
     destroyItem: false
@@ -909,7 +909,7 @@ research:
       - STR_MICROFUSION_CELLS
 
   - name: STR_LASER_GATLING
-    cost: 5
+    cost: 100
     points: 50
     needItem: true
     destroyItem: false
@@ -917,7 +917,7 @@ research:
       - STR_MICROFUSION_CELLS
 
   - name: STR_PULSE_RIFLE
-    cost: 5
+    cost: 100
     points: 50
     needItem: true
     destroyItem: false
@@ -925,7 +925,7 @@ research:
       - STR_CELL_PULSE_RIFLE
 
   - name: STR_GAUSS_RIFLE
-    cost: 5
+    cost: 100
     points: 50
     needItem: true
     destroyItem: false
@@ -933,7 +933,7 @@ research:
       - STR_2MM_EC_GAUSS_ROUNDS
 
   - name: STR_PLASMA_GUN
-    cost: 5
+    cost: 100
     points: 50
     needItem: true
     destroyItem: false
@@ -941,7 +941,7 @@ research:
       - STR_PLASMA_CARTRIDGE
 
   - name: STR_MINIGUN
-    cost: 5
+    cost: 150
     points: 50
     needItem: true
     destroyItem: false
@@ -962,13 +962,13 @@ research:
       - "STR_WHAT_NOW"
 
   - name: STR_BASIC_THROWABLES
-    cost: 5
+    cost: 10
     points: 50
     dependencies:
       - "STR_GUNPOWDER"
 
   - name: STR_GUNPOWDER_GRENADE
-    cost: 5
+    cost: 10
     points: 50
     needItem: true
     destroyItem: false
@@ -1095,24 +1095,24 @@ research:
       - "STR_WHAT_NOW"
 
   - name: STR_SPECIALIZED_ARMOR
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - "STR_BASIC_PROTECTION"
       - "STR_WHAT_NOW"
 
   - name: STR_POWER_ARMOR
-    cost: 100
+    cost: 200
     points: 100
     needItem: true
 
   - name: STR_PROTOTYPE_POWER_ARMOR
-    cost: 80
+    cost: 400
     points: 100
     needItem: true
 
   - name: STR_HANDCRAFTED_POWER_ARMOR
-    cost: 50
+    cost: 150
     points: 50
     needItem: true
 
@@ -1123,7 +1123,7 @@ research:
       - STR_WHAT_NOW
 
   - name: STR_CONVOY
-    cost: 10
+    cost: 40
     points: 50
     needItem: true
 
