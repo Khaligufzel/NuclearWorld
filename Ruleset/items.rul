@@ -871,8 +871,8 @@ items:
 
   - type: STR_SHIV
     size: 0.1
-    costBuy: 1260
-    costSell: 945
+    costBuy: 100
+    costSell: 95
     weight: 4
     bigSprite: 602
     floorSprite: 602
@@ -928,7 +928,7 @@ items:
   - type: STR_STONE_HAMMER
     size: 0.1
     costBuy: 2500
-    costSell: 1900
+    costSell: 50
     weight: 6
     bigSprite: 610
     floorSprite: 610
@@ -956,7 +956,7 @@ items:
   - type: STR_SPEAR
     size: 0.1
     costBuy: 1260
-    costSell: 945
+    costSell: 50
     weight: 6
     bigSprite: 620
     floorSprite: 620
@@ -993,7 +993,7 @@ items:
 
   - type: STR_GUNPOWDER_GRENADE
     size: 0.1
-    costSell: 800
+    costSell: 400
     weight: 3
     bigSprite: 720
     handSprite: 720
@@ -1009,7 +1009,7 @@ items:
 
   - type: STR_MOLOTOV_COCTAIL
     size: 0.1
-    costSell: 500
+    costSell: 250
     weight: 3
     bigSprite: 710
     handSprite: 710
@@ -1043,7 +1043,7 @@ items:
   - type: STR_BOW
     size: 0.2
     costBuy: 3000
-    costSell: 2250
+    costSell: 200
     weight: 8
     bigSprite: 640
     floorSprite: 640
@@ -1068,7 +1068,7 @@ items:
   - type: STR_CROSSBOW
     size: 0.2
     costBuy: 4000
-    costSell: 3250
+    costSell: 300
     weight: 8
     bigSprite: 650
     floorSprite: 650
