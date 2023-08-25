@@ -2699,7 +2699,7 @@
       - NUKEZONE
       - FOREST_TRENCH
     alertBackground: BACK03.SCR
-    markerName: STR_RESCUABLE_SCIENTISTS_SITE_MARKER_NAME
+    markerName: STR_RESCUEABLE_SCIENTISTS_MARKER_NAME
     duration: [48, 72]
     data:
       - alienRank: 0
@@ -2894,7 +2894,8 @@
           - 
             - STR_SPEAR
             - STR_EDIBLE_MUSHROOM
-            
+
+
   - type: STR_RAID_OCCUPATION_SITE
     alert: STR_RAID_OCCUPATION_SITE_ALERT
     width: 50

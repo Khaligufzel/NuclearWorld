@@ -1214,6 +1214,10 @@ en-US:
   STR_BOZAR: "Bozar Light Machine Gun"
   STR_DMR: "Designated Marksman Rifle"
 
+  #Personnel
+
+  STR_UNTRAINED_SCIENTIST: "Untrained Scientist"
+
   #APOCAPAEDIA
   #Research
   STR_OUTSIDE_UFOPAEDIA: "Looks like we are not the only survivors. There are settlements outside of our shelter. We managed to get contact with them, they are friendly. We can buy basic resources and equipment from them."
@@ -1456,6 +1460,13 @@ en-US:
   STR_BOUNTY_HUNTING_SITE_BRIEFING: "We have located a rouge VIP and their bodyguard detachment. Their price on their head is quite hefty and they know it, so they won't hesitate to shoot us. Be careful and good hunting! "
   STR_BOUNTY_HUNTING_SITE_ALERT: "Bounty target found"
   STR_BOUNTY_HUNTING_SITE_MARKER_NAME: "BOUNTY HUNTING EXPEDITION-{0}"
+
+  STR_RESCUEABLE_SCIENTISTS_SITE: "Blood for science"
+  STR_RESCUEABLE_SCIENTISTS_SITE_BRIEFING: "The Settlers gave us enemy location. They are willing to send us a scientist if we will be able to defeat them."
+  STR_RESCUEABLE_SCIENTISTS_SITE_ALERT: "Get more scientists"
+  STR_RESCUEABLE_SCIENTISTS_MARKER_NAME: "BLOOD FOR SCIENCE-{0}"
+
+
   STR_FINAL_ONSLAUGHT_SITE: "Final Onslaught"
   STR_FINAL_ONSLAUGHT_SITE_BRIEFING: "Well, this is it. Turns out we're the most prepared faction in the whole Wasteland. At least that's what people say. We gotta take this matter in our hands, the Horde grew incontrollable and we're the only thing stopping them to become the largest threat to the Settlers. This is so serious, even unlikely allies have joined us. We must defeat them here and now."
   STR_FINAL_ONSLAUGHT_SITE_ALERT: "Huge Horde detected en route to our Shelter!"

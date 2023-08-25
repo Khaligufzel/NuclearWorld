@@ -327,6 +327,13 @@ ufopaedia:
     requires:
       - STR_VALUABLES_CRATE
 
+  - id: STR_RESCUEABLE_SCIENTISTS
+    type_id: 8
+    text: STR_RESCUEABLE_SCIENTISTS_UFOPAEDIA
+    section: STR_KNOWLEDGE
+    requires:
+      - STR_RESCUEABLE_SCIENTISTS
+
 
 
   #Facilities
